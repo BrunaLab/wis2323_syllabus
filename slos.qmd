@@ -1,0 +1,83 @@
+---
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+---
+
+```{r}
+library(kableExtra)
+library(tidyverse)
+```
+# Student Learning Objectives 
+<!-- # Student Learning Objectives {.unnumbered} -->
+
+B = Biological Sciences, Q2 = Quest 2
+
+```{r}
+slo1a<- c("CONTENT")
+slo1b<- c("Students demonstrate competence in the terminology, concepts, theories, and methodologies used within the discipline(s)")
+slo1c<-c("(1) Describe the evolutionary and ecological factors underlying the distribution of biodiversity in tropical rain forests. Assessments: In-class activities, Final Project. (B). \n\n(2)  Distinguish (a) the different ways humans use and alter rain forests, and (b) the social, economic, and biological consequences of these activities. Assessments: In-class activities, Reflective Essay, Final Project. (B, Q2)  \n\n(3)  Explain how genetics, remote sensing, computational tools, and other scientific developments have advanced research on the ecology and evolution of rain forest biota. Assessments: In-class activities, Analytic Essay. (B). \n\n(4)  Examine the historical factors that have shaped cultural perceptions of rain forests. Assessments: In-class activities, Movie Reviews, Final project. (Q2).  \n\n(5)  Analyze how narratives about rain forests are reflected in different types of contemporary cultural expression. Assessments: In-class activities, Movie Reviews, Final project. (Q2).  \n\n(6)  Distinguish between the primary drivers of forest loss and how they vary geographically. Assessments: In-class activities, Analytic Essay. (B, Q2)  \n\n(7)  Critique different proposed mechanisms for rain forest conservation. Assessments: In-class activities, Analytic Essay. (B, Q2)")
+
+slo2a<- c("CRITICAL THINKING")
+slo2b<- c("Students carefully and logically analyze information from multiple perspectives and develop reasoned solutions to problems within the discipline(s).")
+slo2c<-c("(1) Test hypotheses regarding trends in deforestation and how forest regeneration varies geographically with quantitative data on forest cover and use news stories, primary literature, and other sources to propose mechanisms responsible for the patterns observed. Assessments: In-class activities, Analytic Essay  (B, Q2). \n\n(2) Analyze qualitative data on rural-urban migration and human demographic shifts in tropical countries and assess the potential implications of the results for conservation and broader societal issues. Assessments: In-class activities, Analytic Essay (B, Q2). \n\n(3) Explain the relationship between deforestation and the global climate cycle. Compare alternative policy pathways for reducing CO2 emissions using the En-ROADS global climate simulator. Assessments: In-class activities, Reflective Essay (B, Q2).")
+
+slo3a<- c("COMMUNICATION")
+slo3b<- c("Students communicate knowledge, ideas and reasoning clearly and effectively in written and oral forms appropriate to the discipline(s)")
+slo3c<-c("(1) Generate graphical analyses of quantitative data used to study rain forest biology and conservation (Q2, B). Assessments: In-class activities, Analytic Essay. \n\n(2) Compose summaries of  research on multidisciplinary questions relevant to tropical forest biology and conservation based on logical arguments (Q2, B). Assessments: In-class activities, Analytic Essay, Final Project. \n\n(3) Develop audience-specific content and materials with which to communicate an important issue related to tropical forest biology and conservation. Assessments: In-class activities,  Reflective Essay, Movie Reviews, Analytic Essay, Final Project (Q2).")
+
+slo4a<- c("CONNECTION")
+slo4b<-c("Students connect course content with meaningful critical reflection on their intellectual, personal, and professional development at UF and beyond.")
+slo4c<-c("(1) Examine the cultural, economic, and historical experiences of people in rain forest countries, how this compares with our preconceived notions of the same, and the consequences of this disparity for our scientific understanding of rain forests and their conservation. Assessments: In-class activities, Movie Reviews, Final Project  (Q2). \n\n(2) Assess the feedbacks between (a) the actions of individuals, governments, and the private sector, (b) global economic, social, and political conditions, and (c) the status rain forests and the global climate cycle. Assessments: In-class activities, Reflective Essay, Analytic Essay (Q2). \n\n(3) Appraise the ubiquity of tropical forest products in daily life, the role and impact of the global commodity chains that make this possible, and the consequences of consumer behavior for forest conservation and socioeconomic sustainability. Assessments: In-class activities, Final Project (Q2). \n\n(4) Analyze the local, regional, and global ecosystem services provided by tropical rain forests, how these vary geographically, and some of the cultural and ecological factors responsible for these differences. Assessments: In-class activities, Reflective Essay, Analytic Essay, Final Project (Q2). \n\n\n\n")
+
+slosa <- c(slo1a,slo1b,slo1c,slo3a,slo3b,slo3c)
+slosb <- c(slo4a,slo4b,slo4c,slo2a,slo2b,slo2c)
+slosc<-""
+slosd<-""
+slos <- data.frame(slosa,slosb,slosc,slosd)
+
+# class_policies <- read_csv("./class_materials/syllabus/policies.csv")
+# insert  \n\n where you want line break, then run:
+# slos$slosa <- linebreak(slos$slosa)
+# slos$slosb <- linebreak(slos$slosb)
+
+# slos[3,1] <- paste0("\\flushleft{", slos[3,1], "}")
+# slos[6,1] <- paste0("\\flushleft{", slos[6,1], "}")
+# slos[3,2] <- paste0("\\flushleft{", slos[3,2], "}")
+# slos[6,2] <- paste0("\\flushleft{", slos[6,2], "}")
+
+```
+
+```{r}
+slos %>% select(-slosc) %>%  
+ kbl(# digits = 2,
+      align="ll",
+      # format="latex",
+      # format="html",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      #     bottomrule = F,
+#     # toprule = F,
+#     # midrule = F,
+#     escape = F,
+col.names = NULL,
+      linesep = "") %>% 
+  # kable_styling(latex_options = "HOLD_position") %>%  
+   # kable_classic_2(full_width = F, 
+   #              # latex_options="scale_down", 
+   #              font_size = 10, 
+   #              position = "center") %>%  
+ column_spec(1, width = "25em") %>%  
+column_spec(2, width = "25em", color = "black", background="white") %>%  
+row_spec(c(1,4),bold=T, color = "white", background="#1F691B") %>%  
+row_spec(c(2,5),italic =T, bold=T)   
+
+# https://stackoverflow.com/questions/50118394/selecting-and-colouring-single-table-cells-with-kableextra-in-r-markdown-cell-sp 
+
+```

@@ -1,0 +1,10 @@
+---
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+---
+# Required Course Materials
+<!-- # Required Course Materials {.unnumbered} -->
+**Students are not required to purchase any textbooks or course materials;** all materials, including readings and videos, will be available on the course Canvas page. However, many of the assigned readings from the *New York Times* and *Washington Post* have dynamic multimedia data visualizations and video that can't be appreciated in the posted .pdf format. *Students in this class should sign up for free online access to the New York Times* and *Washington Post* by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734).
+
+**Materials and Supplies Fees**: None.

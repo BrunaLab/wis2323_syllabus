@@ -1,0 +1,77 @@
+---
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+title-block-style: plain
+# date: 09/15/2024
+date-modified: last-modified
+---
+
+# Semester Calendar & Key Dates
+<!-- # Semester Calendar & Key Dates {.unnumbered} -->
+
+
+```{r}
+
+library(kableExtra)
+library(tidyverse)
+
+calendar <- read_csv("./schedule_original.csv") %>% 
+  mutate(WEEK=paste(Week1,WEEK,sep=" ")) %>% 
+  select(-X1,-Week1) %>% 
+  mutate(DATE=paste(Day,Month,sep="-")) %>% 
+  mutate(SESSION=as.character(SESSION)) %>% 
+  select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>% 
+  replace_na(list(DATE="",WEEK="",SESSION="", TOPIC="", `ASSIGNMENT INFO`="")) %>% 
+  rename(" "="SESSION")
+
+calendar$WEEK <- gsub("NA NA","", calendar$WEEK)
+calendar$DATE <- gsub("NA-NA","", calendar$DATE)
+calendar$WEEK <- gsub("NA Final Exam","", calendar$WEEK)
+calendar$WEEK <- gsub("Finals Week NA","Finals Week", calendar$WEEK) 
+
+
+  
+# names(calendar) <- c("","","")
+
+kable(calendar,
+      # digits = 2,
+      align="ccclr",
+      # format="latex",
+      # format="html",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      linesep = "",
+      # caption = "Semester Overview and Key Dates"
+) %>% 
+  # kable_styling(font_size = 50) %>%
+  gsub("font-size: initial !important;",
+       "font-size: 50pt !important;",
+        .) %>% 
+  column_spec(1, bold = F, border_right = T) %>%
+  column_spec(2, width = "5em", background = "white",border_right = T) %>%
+  pack_rows("WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?", 1, 7) %>%
+  pack_rows("THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS", 8, 22) %>%
+  pack_rows("THE DRIVERS AND IMPACTS OF DEFORESTATION", 23, 30) %>%
+  pack_rows("THE FUTURE OF TROPICAL RAIN FORESTS", 31, 48) %>%
+  pack_rows("Finals Week", 49, 49) %>%
+  kable_styling(
+#     bootstrap_options = c("hover"),
+     # full_width = T,
+     latex_options= c("scale_down","HOLD_position"),
+     font_size = 9,
+position = "left") %>% 
+column_spec(1, width = "7em") %>%
+column_spec(2, width = "1em") %>%
+column_spec(3, width = "8em") %>%
+column_spec(4, width = "25em") %>%
+column_spec(5, width = "18em") %>%
+  column_spec(5, bold=T) %>%
+  row_spec(0, bold=T) %>%
+  row_spec(49, bold=T) %>%
+  row_spec(seq(3,48,by=3), background = "#D3D3D3") %>%
+  row_spec(0, bold = T, color = "white", background = "#1F691B")
+```

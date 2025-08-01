@@ -1,0 +1,52 @@
+/* Style for sections (#) */
+h1 {
+  color: white;
+  font-family: Arial;
+  font-size: 2.2em;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+  background:  darkgreen;
+}
+
+/* Style for subsections (##) */
+h2 {
+  color: navy;
+  font-family: Arial;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+    
+}
+
+/* Style for subsections (###) */
+h3 {
+  color: navy;
+  font-family: Arial;
+   font-weight: bold;
+   text-align: left;
+   margin-top: 10px;
+  font-size: 1.25em;
+    
+}
+
+blockquote p {
+    font-size: 0.8em !important;
+}
+
+#header {
+    display: none;
+}
+
+/*
+body {
+  counter-reset: h1;
+}
+h1::before {
+  counter-increment: h1;
+  content: counter(h1) ". ";
+}
+*/
+
+```{css}
+#| echo: FALSE

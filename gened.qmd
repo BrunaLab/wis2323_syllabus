@@ -1,0 +1,19 @@
+---
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+---
+# GenEd, Quest, & Credit Information
+<!-- # GenEd, Quest, & Credit Information {.unnumbered} -->
+
+**A minimum grade of C is required for Quest and General Education credit.** Courses intended to satisfy Quest and General Education requirements cannot be taken S-U. *This course fulfills the following Quest and GenEd requirements:*
+
+-   Quest 2 <!-- -   GenEd Biological Sciences -->
+-   GenEd International
+-   *Credits:* 3
+-   *Prerequisites:* None
+
+## Credit towards Minors & Certificates   {.unnumbered}
+
+**This also counts towards a minor or certificate in Latin American Studies.**\
+See [www.latam.ufl.edu/academics/undergraduate-programs](https://www.latam.ufl.edu/academics/undergraduate-programs/) for more information.

@@ -1,0 +1,140 @@
+project:
+  type: book
+  output-dir: docs
+
+# css: style.css
+  
+book:
+  title: "Syllabus: The Future of Rain Forests (WIS 2323)"
+  output-file: "wis2323-syllabus"
+  # author: "Emilio M. Bruna"
+  # date: 07/31/2025
+  # date: last-modified
+  # original-date: 11/15/2024
+  # doi
+  # url: https://herbvar-network.github.io/herbvar_manual
+  # pdf-url: https://herbvar-network.github.io/herbvar_manual/herbvar-manual.pdf 
+  date-format: long
+  license: "This work is licensed under CC BY-NC-SA 4.0. //To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  edition: "v4.0.0"
+  cover-image: images/cover.png
+  search: true
+  repo-url: https://github.com/BrunaLab/wis2323_syllabus
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  # sharing: [twitter, facebook]
+  reader-mode: false
+  favicon: images/cover.png
+  page-footer:
+    left: |
+      WIS 2323 The Future of Rain Forests Course Syllabus
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  
+  chapters:
+    - index.qmd
+    - gened.qmd
+    - materials.qmd
+    - office_hours.qmd
+    - grades.qmd
+    # - test.qmd
+    - calendar.qmd
+    - faq.qmd
+    - policies.qmd
+    - resources.qmd
+    - readings.qmd
+    - slos.qmd
+    # 
+    # - part: "Course Introduction"
+    #   chapters: 
+    #     # - introduction/intro.qmd
+    #     # - introduction/getting_involved.qmd
+    #     # - introduction/Network_Structure.qmd
+    #     # - introduction/data_overview.qmd
+    #     # - introduction/herbvar_products.qmd
+  
+
+    
+# bibliography: HerbVar.bib
+# csl: format/ecology.csl
+format:
+
+  html:
+    theme: 
+      - cosmo
+      - format/r4ds.scss
+
+      
+  pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    cover-image: images/banner.png
+    # template-partials:
+    #   - "protocols/title.tex"
+    header-includes: |
+      \titlehead{\includegraphics[height=9in]{images/cover.png}}
+      \publishers{v0.9.0 (Zenodo https://doi.org/10.5281/zenodo.14232308)\\-\\This material is based upon work supported by the National Science Foundation under Award No. NSF DEB-2203582.\\-\\Licensed under CC BY-NC-SA 4.0.}
+    toc: true
+    toc-depth: 1
+    toc-title: Table of Contents
+    lof: false
+    lot: false
+    titlepage: false
+    # bibliography: HerbVar.bib
+    # Numbering
+    number-sections: true
+    # Fonts
+    # fontfamily: libertinus
+    mainfont: Georgia
+    sansfont: Verdana
+    # monofont: Source Code Pro
+    fontsize: 10pt
+    microtypeoptions: ["final"]
+    # Colors
+    colorlinks: true
+    # Layout
+    geometry:
+      - margin=0.5in
+      - bindingoffset=0.0in
+      # - left=24mm
+      # - top=24mm
+      # - bottom=24mm 
+      # - right=50mm
+      # - heightrounded
+      # - footskip=0.475in
+      # - showframe
+    # pagestyle: plain
+    # Rendering
+    keep-tex: true
+    # https://quarto.org/docs/journals/templates.html#template-partials
+    # https://github.com/quarto-dev/quarto-cli/discussions/1941
+    # https://tex.stackexchange.com/questions/209993/how-to-customize-my-titlepage/210280#210280
+    # https://github.com/nmfs-opensci/quarto_titlepages_v1
+    # https://nmfs-opensci.github.io/quarto_titlepages_v1/03-how-to-use.html
+    # https://tex.stackexchange.com/questions/209993/how-to-customize-my-titlepage/210280#210280
+    # https://nrennie.rbind.io/blog/pdf-quarto/making-pretty-pdf-quarto/
+    # https://github.com/nrennie/PrettyPDF
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
+        \usepackage{pifont}
+        \usepackage{wasysym}
+
+      # - file: packages.tex
+      # - macros.tex
+    # include-in-header: 
+    #  - "format/PrettyPDF.tex"
+    # include-before-body:
+    #  - "format/pagestyle.tex
+    #   - "format/_titlepage.tex" 
+          
+      
+  epub:
+      epub-cover-image: images/cover.png
+
+# pdf-engine: xelatex
+# see fpr engine-opt: https://stackoverflow.com/questions/74261557/quarto-rendering-pdf-running-xelatex-faster-in-rstudio    
+editor: source
+
+execute:
+  freeze: auto

@@ -1,0 +1,158 @@
+---
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+# extensions:
+#   fontawesome
+#   fontawesome5
+
+---
+
+# FAQ
+
+<!-- # FAQ {.unnumbered} -->
+
+```{r}
+library(tidyverse)
+library(fontawesome)
+library(kableExtra)
+```
+
+```{r}
+p0 <- c("What is the best way to contact the instructors?")
+t0 <- c("Email sent via Canvas That's also how we will respond.")
+
+p1 <- c("Can you give me one good reason why I should go to Office Hours?")
+t1 <- c("I can give you ten. (1) To introduce yourself. (2) To get clarification on assignments. (3) To discuss topics that came up in class. (4) There is free tea, coffee, or espresso in our lab kitchen. (5) You can check to make sure you understood the key points from a class session. (6) We can give you feedback on ideas for course projects.(7)  Get advice on successfully navigating college. (8) Ask questions about how to gain experience for your post-graduation goals. (9) To get help arranging a study group.(10) You don't need a good reason...just come on by.")
+
+p2 <- c("How will you send announcements to the class?")
+t2 <- c("Canvas! Check the course Canvas page for announcements and be sure you are recieving Canvas emails and updates.")
+
+p3 <- c("What work should we do before class?")
+t3 <- c("Read, watch, listen to, or review all materials assigned for the session. This material will set the stage for the in-class activities.")
+
+p4 <- c("What will we do during class? When is 'in-class' work due?")
+t4 <- c("In-class exercises that reinforce key concepts, discussions of the assigned readings, and let you practice skills in other assignments. Some are completed individually, while others require working in groups or pairs. Each activity will have instructions and a rubric; most are designed to be finished in class. ) In-class work is due one week from the date it was assigned.")
+
+p6 <- c('When is the "in-class" work due?')
+t6 <- c("One week from the date it was assigned.")
+
+p7 <- c("What if I miss class?")
+t7 <- c("Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.")
+
+p8 <- c("I know I will miss class on a certain date. What should I do?")
+t8 <- c("Let us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.")
+
+p5 <- c("Class discussions are difficult for me. Will this affect my grade?")
+t5 <- c("No! If there are issues that make engaging in discussions difficult (e.g., shyness, language barriers, a medical condition), let us know and we will find alternative modes of participation.")
+
+p9 <- c("I have no child care today. My kid's school was cancelled. My partner can't stay with our baby. What should I do? Can I bring my kid to class?")
+t9 <- c("UF does not have a policy on children in the classroom; the following is my commitment to student-parents. I never want students to feel they have to choose between feeding their baby and their education. You and your nursing baby are welcome in class anytime; I also don't want parents to feel they must chose between attending class or staying home to care for kids, so occasionally bringing your kid to class because of a gap in child care is also acceptable. If you do bring your child to class, please sit close to the exit so that you can more easily step outside if you need to care for them (and so other students can continue learning). Non-parents in the class: please help by offering your seat near a door to parents. Finally, I understand that balancing school, childcare and perhaps also a job can be exhausting and a barrier to learning. I maintain the same high standards for all students in my class, and will work with you to find ways to balance your responsibilities as a parent and student. Let me know how I can help.")
+
+
+policy <- c(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+text <- c(t0, t1, t2, t3, t4, t5, t6, t7, t8)
+blank_col <- c(rep("t", nrow(as.data.frame(text))))
+
+# # envelope-circle-check
+# person-running
+# mug-saucer
+# bullhorn
+# house-user
+# person-chalkboard
+# volume-xmark
+# calendar-check
+# calendar-xmark
+# calendar-plus
+#
+# icons<-c(
+# "icons/envelope-circle-check.png",
+# "icons/mug-saucer.png",
+# "icons/bullhorn.png",
+# "icons/house-user.png",
+# "icons/person-chalkboard.png",
+# "icons/volume-xmark.png",
+# "icons/calendar-check.png",
+# "icons/calendar-xmark.png",
+# "icons/calendar-plus.png"
+# )
+
+icons<-c(
+fa("envelope-circle-check"),
+fa("mug-saucer"),
+fa("bullhorn"),
+fa("house-user"),
+fa("person-chalkboard"),
+fa("volume-xmark"),
+fa("calendar-check"),
+fa("calendar-xmark"),
+fa("calendar-plus")
+)
+
+# logo<-as.data.frame(icons)
+# logo<-c(icons,icons,icons)
+# logo<-logo[1:8]
+#
+faq <- data.frame(
+  # icons,
+  blank_col = rep("  ", length(policy)),
+  policy = policy,
+  text = text,
+  stringsAsFactors = FALSE
+)
+# %>%
+#   mutate(icons = file.path(icons))
+
+
+faq %>%
+  kbl(# digits = 2,
+      align="cll",
+      # format="latex",
+      # format="html",
+      row.names = FALSE,
+      escape= TRUE, # false for FA icos
+      booktabs=T,
+      #     bottomrule = F,
+#     # toprule = F,
+#     # midrule = F,
+#     escape = F,
+col.names = NULL) %>% 
+# ,
+#       linesep = "") %>% 
+# %>% 
+# %>%
+  # kable_paper(
+  #   font_size = 12,
+  #   bootstrap_options = "striped",
+  #   full_width = T,
+  #   position = "center"
+  # ) %>%
+  # column_spec(2,
+  #             bold=T,
+  #           width = "7em",
+  #           latex_valign = "m",
+  #           color = "#1F691B",
+  #           background="white"
+  #           ) %>%
+  # column_spec(1, image = spec_image(c(
+  #   "envelope-circle-check.png",
+  #   "./icons/mug-saucer.png",
+  #   "./icons/bullhorn.png",
+  #   "./icons/house-user.png",
+  #   "./icons/person-chalkboard.png",
+  #   "./icons/volume-xmark.png",
+  #   "./icons/calendar-check.png",
+  #   "./icons/calendar-xmark.png",
+  #   "./icons/calendar-plus.png"
+  # ), 100, 100), background = "#1F691B", width = "3em") %>%
+  column_spec(1, width = "2em", background = "#1F691B", color = "white", bold = T) %>%
+  column_spec(2, width = "10em", color = "#1F691B", background = "white", bold = T) %>%
+  column_spec(3, width = "35em", color = "black", background = "white") %>%
+  sub("\\\\toprule", "", .) %>% # Removes top line
+  sub("\\\\bottomrule", "", .) # remove bottom line
+```

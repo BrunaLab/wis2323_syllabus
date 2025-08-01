@@ -1,0 +1,14 @@
+---
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+---
+
+# Office Hours
+<!-- # Office Hours {.unnumbered} -->
+
+**Instructor:** Wednesday & Friday 1:30-3:00 pm or by appointment (in-person & online). Drop by anytime or sign up for a specific time here: <https://embruna.youcanbook.me>.
+
+**Teaching Assistant:** Tuesday 1:00-2:30 pm or by appointment (in-person & online).
+
+***Location: In-person:*** The Tropical Ecology & Conservation Lab is located next to the Rawlings Hall bus stop (711 Newell Drive; to find a map click the "Contact" link at [BrunaLab.org](http://brunalab.org)). ***Location - online:*** use the zoom link on the course Canvas page. We are online the entire session.

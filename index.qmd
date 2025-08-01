@@ -1,0 +1,41 @@
+
+# Course Overview
+
+
+### Course Description {.unnumbered}
+
+
+This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development. ***By the end of the course students will be able to:***
+
+-   Recognize and describe stereotypes about rain forests & their residents
+-   Analyze rain forest tropes in art, literature, & popular culture
+-   Discuss & evaluate hypotheses for the origins and maintenance of tropical biodiversity
+-   Explain & compare human history in rain forests
+-   Review contemporary threats to rain forests
+-   Analyze and visualize data on deforestation
+-   Review and contrast strategies for rain forest conservation & restoration
+-   Identify rain forests in their daily lives & set personal goals for advancing their conservation
+-   Produce materials for communicating about rain forests to family and peers
+
+### When & Where {.unnumbered}
+
+**When:** Tuesdays 3:00-3:50 and Thursdays 3:00-4:55\
+**Where:** LIT 0231 (both days)
+
+### Instructor & TA {.unnumbered}
+
+**Instructor:** Dr. Emilio M. Bruna\
+email: embruna\@ufl.edu\
+phone: (352) 846-0634\
+Office: Tropical Ecology & Conservation Lab, 711 Newell Dr.
+
+**TA:** Priyanka Hari Haran\
+email: phariharan1\@ufl.edu\
+Phone: (352) 846-0527\
+Office: Tropical Ecology & Conservation Lab, 711 Newell Dr.
+
+
+
+------------------------------------------------------------------------
+
+<!-- This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the BrunaLab Github Site. Anyone can make suggestions for improving the contect either by [pull request](https://github.com/HerbVar-Network/project_manual/pulls) or by [posting an issue](https://github.com/HerbVar-Network/project_manual/issues) on the syllabus repository.  -->
