@@ -33,17 +33,17 @@ book:
   
   chapters:
     - index.qmd
-    - gened.qmd
-    - materials.qmd
-    - office_hours.qmd
-    - grades.qmd
+    - 02-gened.qmd
+    - 03-materials.qmd
+    - 04-office_hours.qmd
+    - 05-grades.qmd
     # - test.qmd
-    - calendar.qmd
-    - faq.qmd
-    - policies.qmd
-    - resources.qmd
-    - readings.qmd
-    - slos.qmd
+    - 06-calendar.qmd
+    - 07-faq.qmd
+    - 08-policies.qmd
+    - 09-resources.qmd
+    - 10-readings.qmd
+    - 11-slos.qmd
     # 
     # - part: "Course Introduction"
     #   chapters: 

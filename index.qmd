@@ -27,12 +27,12 @@ This course investigates the fundamental issues addressed by scientists studying
 **Instructor:** Dr. Emilio M. Bruna\
 email: embruna\@ufl.edu\
 phone: (352) 846-0634\
-Office: Tropical Ecology & Conservation Lab, 711 Newell Dr.
+<!-- Office: Tropical Ecology & Conservation Lab, 711 Newell Dr. -->
 
 **TA:** Priyanka Hari Haran\
 email: phariharan1\@ufl.edu\
 Phone: (352) 846-0527\
-Office: Tropical Ecology & Conservation Lab, 711 Newell Dr.
+<!-- Office: Tropical Ecology & Conservation Lab, 711 Newell Dr. -->
 
 
 

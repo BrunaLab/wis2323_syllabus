@@ -73,5 +73,5 @@ column_spec(5, width = "18em") %>%
   row_spec(0, bold=T) %>%
   row_spec(49, bold=T) %>%
   row_spec(seq(3,48,by=3), background = "#D3D3D3") %>%
-  row_spec(0, bold = T, color = "white", background = "#1F691B")
+  row_spec(0, bold = T, color = "white", background = "#1F691B") 
 ```

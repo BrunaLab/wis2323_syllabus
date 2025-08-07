@@ -1,0 +1,25 @@
+---
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+---
+# Required Course Materials
+<!-- # Required Course Materials {.unnumbered} -->
+
+
+**Materials and Supplies Fees**: None.
+
+**Textbooks to purchase:** None. 
+
+- All materials, including readings and videos, will be made available on the course Canvas page. 
+\bigskip
+
+- *Students should sign up for free online access to the New York Times and Wall Street Journal by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734)* [^1]. 
+
+
+
+ [^1]: Some of the assigned readings from these sources have dynamic multimedia data visualizations or video that can't be appreciated in the `.pdf` versions posted to canvas. 
+
+
+
+

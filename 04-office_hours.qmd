@@ -1,0 +1,41 @@
+---
+title-block-style: plain
+# date: 09/15/2024
+# date-modified: last-modified
+---
+
+# Office Hours
+<!-- # Office Hours {.unnumbered} -->
+
+### When {.unnumbered}
+
+
+- **Instructor:** Wednesday & Friday 1:30-3:00 pm or by appointment. I am happy to meet either in-person or online. You can drop- or log-in at any time during the session or guarantee a specific time slot by signing up for a specific time here: <https://embruna.youcanbook.me>.
+
+- **Teaching Assistant:** Tuesday 1:00-2:30 pm or by appointment (in-person & online).
+
+### **Where** {.unnumbered}
+
+- **In-person:** The Tropical Ecology & Conservation Lab is located next to the Rawlings Hall bus stop (711 Newell Drive, a 5 minutes from Turlington Plaza). For a map to our location click the "Contact" link at [BrunaLab.org](http://brunalab.org)). 
+
+- **Online:** use the zoom link on the course Canvas page. We are online the entire session.
+
+::: {.callout-tip}
+
+
+## Can you give me one good reason why I should go to Office Hours?
+
+I can give you **ten**.   
+
+1. To introduce yourself.
+1. Get clarification on assignments. 
+1. Argue about a topic that came up in class. 
+1. Grab a (free) tea, coffee, or espresso in our lab kitchen. 
+1. Make sure you understood the key points from a class session. 
+1. Ask for feedback on ideas for course projects.
+1. Get advice on successfully navigating academic life at UF. 
+1. Discuss how to gain experience for your post-graduation goals. 
+1. Request help arranging a study group.
+1. You don't need a good reason...just come on by.
+
+:::
