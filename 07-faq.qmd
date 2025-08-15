@@ -18,9 +18,13 @@ extensions:
 <!-- # FAQ {.unnumbered} -->
 
 ```{r}
+#| echo: false
+#| warning: false
+
 library(tidyverse)
 # library(fontawesome)
 library(kableExtra)
+
 ```
 
 <!-- <span style="color: #1F691B;"> {{< fa envelope-circle-check >}} </span>  -->

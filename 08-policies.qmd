@@ -13,10 +13,12 @@ extensions:
 ---
 
 ```{r}
+#| echo: false
+#| warning: false
 
 library(tidyverse)
 library(kableExtra)
-# library(fontawesome)
+library(fontawesome)
 
 ```
 

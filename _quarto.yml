@@ -5,7 +5,7 @@ project:
 css: format/style.css
   
 book:
-  title: "Syllabus - WIS 2323"
+  title: "Syllabus"
   output-file: "wis2323-syllabus"
   # author: "Emilio M. Bruna"
   # date: 07/31/2025
@@ -17,7 +17,7 @@ book:
   date-format: long
   # license: "This work is licensed under CC BY-NC-SA 4.0. //To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/"
   # edition: "v4.0.0"
-  cover-image: images/cover.png
+  # cover-image: images/cover.png
   search: true
   repo-url: https://github.com/BrunaLab/wis2323_syllabus
   # repo-actions: [edit]
@@ -33,7 +33,7 @@ book:
   
   chapters:
     - index.qmd
-    # - 02-gened.qmd
+    # - 02-overview.qmd
     - 03-materials.qmd
     - 04-office_hours.qmd
     - 05-grades.qmd
@@ -43,7 +43,7 @@ book:
     - 09-resources.qmd
     - 10-readings.qmd
     - 11-slos.qmd
-    # - test.qmd
+    
     # 
     # - part: "Course Introduction"
     #   chapters: 
@@ -60,29 +60,30 @@ csl: format/ecology.csl
 format:
 
   html:
+    title-block: false
     theme: 
       - cosmo
-    # filters: [format/remove_title.lua]
-      
+    filters: [format/remove_title.lua]
+    
   pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
-    cover-image: images/cover.png
-    # filters: [format/remove_title.lua]
-    header-includes: |
-      \titlehead{\includegraphics[height=7in]{images/cover.png}}
-    toc: true
+    # cover-image: images/cover.png
+    filters: [format/remove_title.lua]
+    # header-includes: |
+    #   # \titlehead{\includegraphics[height=7in]{images/cover.png}}
+    toc: false
     toc-depth: 1
-    toc-title: Table of Contents
+    toc-title: Sections
     lof: false
     lot: false
     titlepage: false
     # Numbering
-    number-sections: true
+    number-sections: false
     # Fonts
     # fontfamily: libertinus
-    mainfont: Georgia
-    sansfont: Verdana
+    # mainfont: Georgia
+    # sansfont: Verdana
     # monofont: Source Code Pro
     fontsize: 10pt
     microtypeoptions: ["final"]
@@ -92,10 +93,10 @@ format:
     geometry:
       # - margin=0.75in
       - bindingoffset=0.0in
-      - left=20mm
-      - top=20mm
+      - left=24mm
+      - top=24mm
       - bottom=24mm
-      - right=20mm
+      - right=24mm
       # - heightrounded
       # - footskip=0.475in
       # - showframe
@@ -112,6 +113,13 @@ format:
     # https://github.com/nrennie/PrettyPDF
     include-in-header:
       text: |
+        \usepackage{xcolor}
+        \usepackage{sectsty}
+        \usepackage{titlesec}
+        \definecolor{customnavy}{RGB}{0, 0, 128}
+        \sectionfont{\color{customnavy}}
+        \subsectionfont{\color{customnavy}}   
+        \subsubsectionfont{\color{customnavy}}   
         \usepackage{amssymb}
         \usepackage{pifont}
         \usepackage{wasysym}
@@ -119,7 +127,17 @@ format:
         \usepackage{etoolbox}
         \makeatletter
         \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-        
+        % Adjust spacing before and after headings
+        \usepackage{titlesec}
+        \titleformat{\section}
+          {\normalfont\Large\bfseries\color{customnavy}\centering} % Format
+          {} % Label (empty = no number)
+          {0pt} % Separation between label and title
+          {} % Before-code
+
+        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex

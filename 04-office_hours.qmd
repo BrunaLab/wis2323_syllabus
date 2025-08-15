@@ -9,8 +9,6 @@ title-block-style: plain
 
 ### When {.unnumbered}
 
-**ACTIONS**
-
 - **Instructor:** Wednesday & Friday 1:30-3:00 pm or by appointment. I am happy to meet either in-person or online. You can drop- or log-in at any time during the session or guarantee a specific time slot by signing up for a specific time here: <https://embruna.youcanbook.me>.
 
 - **Teaching Assistant:** Tuesday 1:00-2:30 pm or by appointment (in-person & online).

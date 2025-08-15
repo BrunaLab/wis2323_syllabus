@@ -1,6 +1,11 @@
-# Course Overview
 
-### Course Description {.unnumbered}
+<!-- ![](images/ridges.png) -->
+![](images/banner.png)
+
+# Syllabus
+
+
+<!-- ## Course Overview {.unnumbered} -->
 
 This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development. ***By the end of the course students will be able to:***
 
@@ -40,7 +45,3 @@ A minimum grade of C is required for Quest and General Education credit. Courses
 This course counts towards:  
 
 - The Minor & Certificate in Latin American Studies. See  <https://www.latam.ufl.edu/academics/undergraduate-programs> for more information.
-
-------------------------------------------------------------------------
-
-<!-- This guide is a [Quarto Book](https://quarto.org/docs/books) hosted on the BrunaLab Github Site. Anyone can make suggestions for improving the contect either by [pull request](https://github.com/HerbVar-Network/project_manual/pulls) or by [posting an issue](https://github.com/HerbVar-Network/project_manual/issues) on the syllabus repository.  -->
