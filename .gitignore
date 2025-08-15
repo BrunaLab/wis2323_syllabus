@@ -4,5 +4,6 @@
 .httr-oauth
 .DS_Store
 .quarto
-
 /.quarto/
+wis2323-syllabus.tex
+schedule_original.csv
