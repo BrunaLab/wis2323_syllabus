@@ -8,9 +8,9 @@ title-block-style: plain
 prefer-html: true
 # date: 09/15/2024
 # date-modified: last-modified
-# extensions:
-#   fontawesome
-#   fontawesome5
+extensions:
+  fontawesome
+  fontawesome5
 ---
 
 # FAQ
@@ -23,153 +23,45 @@ library(fontawesome)
 library(kableExtra)
 ```
 
+<!-- <span style="color: #1F691B;"> {{< fa envelope-circle-check >}} </span>  -->
+##### How do I contact the Instructor or TA? {.unnumbered}
+Send a message in CANVAS. That way both the TA and instructor will see it and you will get a response more quickly. Plus emails sent to us directly tend to get buried under other messages. 
 
-<span style="color: #1F691B;"> {{< fa envelope-circle-check >}} </span>**How do I contact the Instructor or TA?** Send a message in CANVAS.  
+<!-- <span style="color: #1F691B;"> {{< fa bullhorn >}} </span> -->
+##### How will you send class announcements? {.unnumbered} 
+CANVAS. Check the course page for announcements and be sure you are receiving Canvas emails and updates.
 
-<span style="color: #1F691B;"> {{< fa bullhorn >}} </span>**How will you send class announcements?** CANVAS. Check the course page for announcements and be sure you are receiving Canvas emails and updates.
+<!-- <span style="color: #1F691B;"> {{< fa house-user >}} </span> -->
+##### What work should we complete BEFORE class? {.unnumbered} 
+Read, watch, listen to, or review all materials assigned for the session. This material sets the stage for in-class activities.
 
-<span style="color: #1F691B;"> {{< fa house-user >}} </span>**What work should we complete BEFORE class?** Read, watch, listen to, or review all materials assigned for the session. This material sets the stage for in-class activities.
+<!-- <span style="color: #1F691B;"> {{< fa person-chalkboard >}} </span> -->
+##### What will we do DURING class? {.unnumbered} 
+In-class exercises that reinforce key concepts, discussions of the assigned readings, and let you practice skills in other assignments. Some are completed individually, while others require working in groups or pairs. Each activity will have instructions and a rubric; most are designed to be finished in class.  
 
-<span style="color: #1F691B;"> {{< fa person-chalkboard >}} </span>**What will we do DURING class?**  In-class exercises that reinforce key concepts, discussions of the assigned readings, and let you practice skills in other assignments. Some are completed individually, while others require working in groups or pairs. Each activity will have instructions and a rubric; most are designed to be finished in class.  
+<!-- <span style="color: #1F691B;"> {{< fa volume-xmark >}} </span> -->
+##### When is the "in-class" work due? {.unnumbered} 
+Deadlines are in Canvas, but typically the start of the next class session.
 
-<span style="color: #1F691B;"> {{< fa volume-xmark >}} </span>**When is the "in-class" work due?** Deadlines are in Canvas, but typically the start of the next class session.
+<!-- <span style="color: #1F691B;"> {{< fa calendar-check >}} </span> -->
+##### What if I miss class? {.unnumbered} 
+Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.
 
-<span style="color: #1F691B;"> {{< fa calendar-check >}} </span>**What if I miss class?** Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.
+<!-- <span style="color: #1F691B;"> {{< fa calendar-xmark >}} </span> -->
+##### I have to miss class on a certain date. What should I do? {.unnumbered} 
 
-<span style="color: #1F691B;"> {{< fa calendar-xmark >}} </span>**I have to miss class on a certain date. What should I do?**  Let us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.")
+Let us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.")
 
-<span style="color: #1F691B;"> {{< fa calendar-plus >}} </span>**Class discussions are difficult for me. Will this affect my grade?** No! If there are issues that make engaging in discussions difficult (e.g., shyness, language barriers, a medical condition), let us know and we will find alternative modes of participation.
+<!-- <span style="color: #1F691B;"> {{< fa calendar-plus >}} </span> -->
+##### Class discussions are difficult for me. Will this affect my grade? {.unnumbered} 
 
-<span style="color: #1F691B;"> {{< fa person-breastfeeding >}} </span> **I unexpectedly have no child care today. What should I do...Can I bring my kid to class?**  UF does not have a policy on children in the classroom, so here is mine: I never want students to feel they have to choose between their responsibilities as parents and their education. Bringing your child to class because of a gap in child care is totally fine (and that includes babies). If you do so, please try and sit close to the exit so that you can more easily step outside if you need to care for them and so other students can continue learning.
+No! If there are issues that make engaging in discussions difficult (e.g., shyness, language barriers, a medical condition), let us know and we will find alternative modes of participation.
 
+<!-- ## {{< fa person-breastfeeding >}}{.unnumbered} -->
 
+<!-- <span style="color: #1F691B;"> {{< fa person-breastfeeding >}} </span>  -->
 
-<!-- ```{r} -->
-<!-- p0 <- c("How do I contact the Instructor or TA?") -->
-<!-- t0 <- c("Send a message in CANVAS.") -->
-<!-- #  -->
-<!-- # p1 <- c("Can you give me one good reason why I should go to Office Hours?") -->
-<!-- # t1 <- c("I can give you ten. (1) To introduce yourself. (2) To get clarification on assignments. (3) To discuss topics that came up in class. (4) There is free tea, coffee, or espresso in our lab kitchen. (5) You can check to make sure you understood the key points from a class session. (6) We can give you feedback on ideas for course projects.(7)  Get advice on successfully navigating college. (8) Ask questions about how to gain experience for your post-graduation goals. (9) To get help arranging a study group.(10) You don't need a good reason...just come on by.") -->
+##### I unexpectedly have no child care today...what can I do? {.unnumbered}
+UF does not have a policy on children in the classroom, so here is mine: I never want students to feel they have to choose between their responsibilities as parents and their education. Bringing your child to class because of a gap in child care is totally fine (and that includes babies). If you do so, please try and sit close to the exit so that you can more easily step outside if you need to care for them and so other students can continue learning.
 
-<!-- p2 <- c("How will you send class announcements?") -->
-<!-- t2 <- c("CANVAS. Check the course page for announcements and be sure you are recieving Canvas emails and updates.") -->
-
-<!-- p3 <- c("What work should we complete BEFORE class?") -->
-<!-- t3 <- c("Read, watch, listen to, or review all materials assigned for the session. This material sets the stage for in-class activities.") -->
-
-<!-- p4 <- c("What will we do DURING class?") -->
-<!-- t4 <- c("In-class exercises that reinforce key concepts, discussions of the assigned readings, and let you practice skills in other assignments. Some are completed individually, while others require working in groups or pairs. Each activity will have instructions and a rubric; most are designed to be finished in class.") -->
-
-<!-- p6 <- c('When is the "in-class" work due?') -->
-<!-- t6 <- c("Deadlines are in Canvas, but typically the start of the next class session.") -->
-
-<!-- p7 <- c("What if I miss class?") -->
-<!-- t7 <- c("Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.") -->
-
-<!-- p8 <- c("I have to miss class on a certain date. What should I do?") -->
-<!-- t8 <- c("Let us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.") -->
-
-<!-- p5 <- c("Class discussions are difficult for me. Will this affect my grade?") -->
-<!-- t5 <- c("No! If there are issues that make engaging in discussions difficult (e.g., shyness, language barriers, a medical condition), let us know and we will find alternative modes of participation.") -->
-
-<!-- p9 <- c("I unexpectedly have no child care today. What should I do...Can I bring my kid to class?") -->
-<!-- t9 <- c("UF does not have a policy on children in the classroom, so here is mine: I never want students to feel they have to choose between their responsibilities as parents and their education. Bringing your child to class because of a gap in child care is totally fine (and that includes babies). If you do so, please try and sit close to the exit so that you can more easily step outside if you need to care for them and so other students can continue learning.") -->
-
-
-<!-- policy <- c(p0,  -->
-<!--             # p1,  -->
-<!--             p2, p3, p4, p5, p6, p7, p8,p9) -->
-<!-- text <- c(t0,  -->
-<!--           # t1,  -->
-<!--           t2, t3, t4, t5, t6, t7, t8,t9) -->
-<!-- blank_col <- c(rep("t", nrow(as.data.frame(text)))) -->
-
-<!-- # # envelope-circle-check -->
-<!-- # person-running -->
-<!-- # mug-saucer -->
-<!-- # bullhorn -->
-<!-- # house-user -->
-<!-- # person-chalkboard -->
-<!-- # volume-xmark -->
-<!-- # calendar-check -->
-<!-- # calendar-xmark -->
-<!-- # calendar-plus -->
-<!-- # -->
-<!-- # icons<-c( -->
-<!-- # "icons/envelope-circle-check.png", -->
-<!-- # "icons/mug-saucer.png", -->
-<!-- # "icons/bullhorn.png", -->
-<!-- # "icons/house-user.png", -->
-<!-- # "icons/person-chalkboard.png", -->
-<!-- # "icons/volume-xmark.png", -->
-<!-- # "icons/calendar-check.png", -->
-<!-- # "icons/calendar-xmark.png", -->
-<!-- # "icons/calendar-plus.png" -->
-<!-- # ) -->
-
-
-<!-- icons<-c( -->
-<!-- fa("fas fa-envelope-circle-check"), -->
-<!-- fa("fas fa-bullhorn"), -->
-<!-- fa("fas fa-house-user"), -->
-<!-- fa("fas fa-person-chalkboard"), -->
-<!-- fa("fas fa-volume-xmark"), -->
-<!-- fa("fas fa-calendar-check"), -->
-<!-- fa("fas fa-calendar-xmark"), -->
-<!-- fa("fas fa-calendar-plus"), -->
-<!-- fa("fas fa-person-breastfeeding") -->
-<!-- ) -->
-
-<!-- # logo<-as.data.frame(icons) -->
-<!-- # logo<-c(icons,icons,icons) -->
-<!-- # logo<-logo[1:8] -->
-<!-- # -->
-<!-- faq <- data.frame( -->
-<!--   icons=icons, -->
-<!--   # blank_col = rep("  ", length(policy)), -->
-<!--   policy = policy, -->
-<!--   text = text, -->
-<!--   stringsAsFactors = FALSE -->
-<!-- ) -->
-<!-- # %>% -->
-<!-- #   mutate(icons = file.path(icons)) -->
-
-
-<!-- faq %>% -->
-<!--   kbl(# digits = 2, -->
-<!--       align="cll", -->
-<!--       # format="latex", -->
-<!--       format="html", -->
-<!--       row.names = FALSE, -->
-<!--       # table.attr = "quarto-disable-processing=true", -->
-<!--       escape= FALSE, # false for FA icos -->
-<!--       booktabs=T, -->
-<!--       #     bottomrule = F, -->
-<!-- #     # toprule = F, -->
-<!-- #     # midrule = F, -->
-<!-- #     escape = F, -->
-<!-- col.names = NULL) %>%  -->
-<!-- # , -->
-<!-- #       linesep = "") %>%  -->
-<!-- # %>%  -->
-<!-- # %>% -->
-<!--   # kable_paper( -->
-<!--   #   font_size = 12, -->
-<!--   #   bootstrap_options = "striped", -->
-<!--   #   full_width = T, -->
-<!--   #   position = "center" -->
-<!--   # ) %>% -->
-<!--   # column_spec(2, -->
-<!--   #             bold=T, -->
-<!--   #           width = "7em", -->
-<!--   #           latex_valign = "m", -->
-<!--   #           color = "#1F691B", -->
-<!--   #           background="white" -->
-<!--   #           ) %>% -->
-<!--   column_spec(1, width = "3em", background = "#1F691B", color = "white", bold = T) %>% -->
-<!--   column_spec(2, width = "12em", color = "#1F691B", background = "white", bold = T) %>% -->
-<!--   column_spec(3, width = "35em", color = "black", background = "white") %>% -->
-<!--   row_spec(1:9, extra_css = "border-bottom: 1px solid") %>%  -->
-<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
-<!--   sub("\\\\bottomrule", "", .) # remove bottom line -->
-<!-- ``` -->
+------------------------------------------------------------------------

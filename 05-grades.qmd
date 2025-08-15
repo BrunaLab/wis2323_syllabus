@@ -4,7 +4,8 @@ title-block-style: plain
 # date-modified: last-modified
 ---
 
-# Assignments, Grades, & Attendance
+# Grades & Attendance 
+
 <!-- # Assignments, Grades, & Attendance {.unnumbered} -->
 
 Learning in our class is achieved with an diverse array of methods ranging from data analysis to essays to projects. In most class sessions you will also be working with small groups of students to complete an in-class assignment that reinforces the major themes of the day's topic. In keeping with the philosophy of the Quest program, this course also has *Experiential Learning and Self-Reflection Components*. 
@@ -15,7 +16,7 @@ Learning in our class is achieved with an diverse array of methods ranging from 
 We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. *Disrespectful or disruptive behavior will not be tolerated*. And always remember that as scholars we rely on critical thinking, data, prior scholarship, and expert opinion when interrogating assigned readings and discussing course content with classmates and instructors.
 :::
 
-### Assignments (1000 points total) {.unnumbered} 
+### Assignments (1000 pts) {.unnumbered} 
 
 ```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '100%',fig.align="center" }
 
@@ -43,4 +44,4 @@ Though attendance is not required, many of the sessions we will be completing ac
 Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). *If you have personal issues that prohibit you from joining freely in class discussion (e.g., shyness, language barriers, medical condition): no problem.* let us know and we will discuss alternative modes of participation.
 
 
-
+------------------------------------------------------------------------

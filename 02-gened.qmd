@@ -6,6 +6,7 @@ title-block-style: plain
 # GenEd, Quest, & Credit Information
 <!-- # GenEd, Quest, & Credit Information {.unnumbered} -->
 
+## Credit Summary   {.unnumbered}
 
 **Credits:** 3  
 **Prerequisites:** None  
@@ -21,3 +22,5 @@ title-block-style: plain
 ## Credit towards Minors & Certificates   {.unnumbered}
 
 1. Minor & Certificate in Latin American Studies: See [www.latam.ufl.edu/academics/undergraduate-programs](https://www.latam.ufl.edu/academics/undergraduate-programs/) for more information.
+
+------------------------------------------------------------------------

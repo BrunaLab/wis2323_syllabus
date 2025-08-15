@@ -13,7 +13,9 @@ title-block-style: plain
 library(kableExtra)
 library(tidyverse)
 ```
-# Student Learning Objectives 
+
+# Student Learning Objectives
+
 <!-- # Student Learning Objectives {.unnumbered} -->
 
 B = Biological Sciences, Q2 = Quest 2

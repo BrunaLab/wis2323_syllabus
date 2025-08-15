@@ -1,0 +1,21 @@
+{
+  "hash": "93c0b0ee30a9fee58476dbd0396d1726",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nformat: pdf\nexecute:\n  echo: false\n  warning: false\n  message: false\ntitle-block-style: plain\nprefer-html: true\n# date: 09/15/2024\n# date-modified: last-modified\nextensions:\n  fontawesome\n  fontawesome5\n---\n\n# FAQ\n\n<!-- # FAQ {.unnumbered} -->\n\n\n::: {.cell}\n\n:::\n\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa envelope-circle-check >}} </span>  -->\n##### How do I contact the Instructor or TA? {.unnumbered}\nSend a message in CANVAS. That way both the TA and instructor will see it and you will get a response more quickly. Plus emails sent to us directly tend to get buried under other messages. \n\n<!-- <span style=\"color: #1F691B;\"> {{< fa bullhorn >}} </span> -->\n##### How will you send class announcements? {.unnumbered} \nCANVAS. Check the course page for announcements and be sure you are receiving Canvas emails and updates.\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa house-user >}} </span> -->\n##### What work should we complete BEFORE class? {.unnumbered} \nRead, watch, listen to, or review all materials assigned for the session. This material sets the stage for in-class activities.\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa person-chalkboard >}} </span> -->\n##### What will we do DURING class? {.unnumbered} \nIn-class exercises that reinforce key concepts, discussions of the assigned readings, and let you practice skills in other assignments. Some are completed individually, while others require working in groups or pairs. Each activity will have instructions and a rubric; most are designed to be finished in class.  \n\n<!-- <span style=\"color: #1F691B;\"> {{< fa volume-xmark >}} </span> -->\n##### When is the \"in-class\" work due? {.unnumbered} \nDeadlines are in Canvas, but typically the start of the next class session.\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa calendar-check >}} </span> -->\n##### What if I miss class? {.unnumbered} \nAttendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa calendar-xmark >}} </span> -->\n##### I have to miss class on a certain date. What should I do? {.unnumbered} \n\nLet us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.\")\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa calendar-plus >}} </span> -->\n##### Class discussions are difficult for me. Will this affect my grade? {.unnumbered} \n\nNo! If there are issues that make engaging in discussions difficult (e.g., shyness, language barriers, a medical condition), let us know and we will find alternative modes of participation.\n\n<!-- ## {{< fa person-breastfeeding >}}{.unnumbered} -->\n\n<!-- <span style=\"color: #1F691B;\"> {{< fa person-breastfeeding >}} </span>  -->\n\n##### I unexpectedly have no child care today...what can I do? {.unnumbered}\nUF does not have a policy on children in the classroom, so here is mine: I never want students to feel they have to choose between their responsibilities as parents and their education. Bringing your child to class because of a gap in child care is totally fine (and that includes babies). If you do so, please try and sit close to the exit so that you can more easily step outside if you need to care for them and so other students can continue learning.\n\n------------------------------------------------------------------------",
+    "supporting": [
+      "07-faq_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
