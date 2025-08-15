@@ -1,4 +1,4 @@
-function Meta(m)
-  m.title = nil
-  return m
+function Meta(meta)
+  meta.title = nil
+  return meta
 end
