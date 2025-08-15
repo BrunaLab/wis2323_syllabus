@@ -16,7 +16,7 @@ extensions:
 
 library(tidyverse)
 library(kableExtra)
-library(fontawesome)
+# library(fontawesome)
 
 ```
 

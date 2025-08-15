@@ -19,7 +19,7 @@ extensions:
 
 ```{r}
 library(tidyverse)
-library(fontawesome)
+# library(fontawesome)
 library(kableExtra)
 ```
 

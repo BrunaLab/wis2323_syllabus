@@ -11,8 +11,8 @@ execute:
 ```{r setup_policies, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
-library(fontawesome)
-library(flextable)
+# library(fontawesome)
+# library(flextable)
 library(kableExtra)
 ```
 
