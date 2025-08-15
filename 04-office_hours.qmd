@@ -24,7 +24,7 @@ title-block-style: plain
 ::: {.callout-tip}
 
 
-## Can you give me one good reason why I should go to Office Hours?
+## Can you give me **one good reason** why I should go to Office Hours?
 
 I can give you **ten**.   
 
