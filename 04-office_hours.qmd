@@ -21,8 +21,6 @@ title-block-style: plain
 - **Online:** use the zoom link on the course Canvas page. We are online the entire session.
 
 
-**TEST ACTIONS**
-
 ::: {.callout-tip}
 
 
