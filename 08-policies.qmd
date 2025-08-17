@@ -12,15 +12,15 @@ extensions:
   fontawesome5
 ---
 
-```{r}
-#| echo: false
-#| warning: false
+<!-- ```{r} -->
+<!-- #| echo: false -->
+<!-- #| warning: false -->
 
-library(tidyverse)
-library(kableExtra)
-library(fontawesome)
+<!-- # library(tidyverse) -->
+<!-- # library(kableExtra) -->
+<!-- # library(fontawesome) -->
 
-```
+<!-- ``` -->
 
 <!-- # University Policies {.unnumbered} -->
 # UF Policies

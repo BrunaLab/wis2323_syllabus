@@ -17,15 +17,15 @@ extensions:
 
 <!-- # FAQ {.unnumbered} -->
 
-```{r}
-#| echo: false
-#| warning: false
+<!-- ```{r} -->
+<!-- #| echo: false -->
+<!-- #| warning: false -->
 
-library(tidyverse)
-# library(fontawesome)
-library(kableExtra)
+<!-- library(tidyverse) -->
+<!-- # library(fontawesome) -->
+<!-- library(kableExtra) -->
 
-```
+<!-- ``` -->
 
 <!-- <span style="color: #1F691B;"> {{< fa envelope-circle-check >}} </span>  -->
 ##### How do I contact the Instructor or TA? {.unnumbered}
