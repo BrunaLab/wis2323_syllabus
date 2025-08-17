@@ -37,12 +37,12 @@ book:
     - 03-materials.qmd
     - 04-office_hours.qmd
     - 05-grades.qmd
-    # - 06-calendar.qmd
+    - 06-calendar.qmd
     - 07-faq.qmd
     - 08-policies.qmd
     - 09-resources.qmd
     - 10-readings.qmd
-    # - 11-slos.qmd
+    - 11-slos.qmd
     
     # 
     # - part: "Course Introduction"
