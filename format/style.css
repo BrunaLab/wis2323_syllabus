@@ -22,11 +22,12 @@ img.quarto-cover-image {
 
 
 h1 {
-  color: #1F691B;
+  color: #6C6C6C;
   font-family: Arial;
   font-size: 2.0em;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   font-weight: bold;
   /*background:  darkgreen;*/
 }
@@ -37,8 +38,8 @@ h2 {
   font-family: Arial;
   text-align: center;
   font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.4rem;
     
 }
@@ -49,12 +50,14 @@ h3 {
   font-family: Arial;
    font-weight: bold;
    text-align: center;
-   margin-top: 1.5em; 
+   margin-top: 1rem;
+  margin-bottom: 0.5rem;
    font-size: 1.2rem; 
  }
 
-h4 { margin-top: 1.5em; 
-font-size: 1.1rem; 
+h4 { font-size: 1.1rem; 
+margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   
 }
 
@@ -64,7 +67,8 @@ h5 {
   font-family: Arial;
    font-weight: bold;
    text-align: left;
-   margin-top: 1.5em; 
+   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
    font-size: 1rem; 
     
 }
