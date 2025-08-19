@@ -16,8 +16,6 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 :::
 
-
-
 ## Week 1  {.unnumbered}
 
 ##### 1-2: Course Introduction  {.unnumbered}
@@ -32,34 +30,41 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Excerpts from Historical Narratives \[6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)\]
 
-##### 2-2 Historical Narratives {.unnumbered}  
+##### 2-2 Historical Narratives (cont.); 
 
+- none
 
-
-> *Goal: To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology*
-
--  Excerpts from Historical Narratives \[6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)\]
 
 ## Week 3   {.unnumbered}
 
-##### 3-1 Historical Narratives (cont.); Rain Forest Imagery in Art & Literature {.unnumbered}
+##### 3-1 Rain Forest Imagery in Art & Literature {.unnumbered}
 
-- Excerpts from Literature/Poetry [link](https://ids2935.netlify.app/03_trf_culture/lit_poetry.pdf) (5 pages)
+> *Goal: To see how the different depictions of the tropics and tropical biodiversity from early European explorers are reflected in art and literature.*
+
+- Excerpts from Literature/Poetry [link](https://ids2935.netlify.app/03_trf_culture/lit_poetry.pdf) (5 pages)  
+
 - Images of artwork \[link\] (4 pages)
 
-##### 3-2 The Rain Forest in Pop Culture (pt 1) {.unnumbered}
+
+##### 3-2 The Rain Forest in Pop Culture {.unnumbered}
 
 > *Goal: To compare the use and presentation of rain forest images by the private sector and in different forms of popular culture, including the film and music industries, and to evaluate how these depictions influence perceptions of tropical countries & people.*
 
--  None
-
-## Week 4  {.unnumbered}
-
-##### 4-1 The Rain Forest in Pop Culture (pt 2) {.unnumbered}
 
 -  Jolly, Priscilla. 2021. 'Godzilla vs. Kong': Monster movies evoke adventure but also 'dangers' of tropics. The Conversation. \[[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)\] (4 pages)
 
 - Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". The Guardian \[[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)\] (newspaper story, 5-10 min. read)
+
+
+## Week 4  {.unnumbered}
+
+##### 4-1 What is a rain forest
+
+> *Goal: To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world.*
+
+-  Why Does Earth Have Deserts? \[[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)\]; 2 min long\]
+
+-  Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. \[Video/DVD\] BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/Jungles-2>
 
 <!-- >***Watch: *** We will be using the following videos for our in-class activity, you can get a head start by watching them before class. -->
 
@@ -72,26 +77,24 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 <!-- [Amazon video 2] (1 minutes)    -->
 
 <!-- [Amazon video 3] (1 minutes)   -->
-
-##### 4-2 What is a Rain Forest? {.unnumbered}
-
-> *Goal: To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world.*
-
--  Why Does Earth Have Deserts? \[[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)\]; 2 min long\]
-
--  Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. \[Video/DVD\] BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/Jungles-2>
-
-## Week 5  {.unnumbered}
-
-##### 5-1 What else is a rain forest? {.unnumbered}
+##### 4-2 What else is a Rain Forest? {.unnumbered}
 
 > *Goal: To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals*
 
 -  "Ch. 4: Finding animals in the rainforest" from Kricher, J.C. (2017). The new neotropical companion. In The New Neotropical Companion. Princeton Univ. Press (13 pp)
 
-##### 5-2: Patterns of Biodiversity 1 {.unnumbered}
+## Week 5  {.unnumbered}
 
-> *Goal: An overview of (a) diversity gradients and (b) local patterns of species richness and abundance in tropical forests and (c) how these differ from the temperate zone*
+##### 5-1  Patterns of Biodiversity 1 {.unnumbered}
+
+> *Goal: To observe and catalog the diversity of plant and animal life forms that can be found in rain forests, to quantify the local patterns of species richness and abundance in a tropical forest, and compare these patterns with those in the temperate zone*
+
+- None
+
+
+##### 5-2: 
+
+> *Goal: To understand global patterns of species richness and how these vary from the tropics to the temperate zone*
 
 -  We will be using iNaturalist in class. You can familiarize yourself in advance by reviewing the iNaturalist website <https://www.inaturalist.org/> after reading this: Matthew Earl Boone and Mathieu Basille. Using iNaturalist to contribute your nature observations to science (UF EDIS Document WEC413) \[link\]
 
@@ -99,17 +102,11 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 ## Week 6  {.unnumbered}
 
-##### 6-1: Patterns of Biodiversity 2 {.unnumbered}
+##### 6-1: The Origins of Tropical Biodiversity, {.unnumbered}
 
--  None
-
-##### 6-2: The Origins of Tropical Biodiversity, Disturbance, & The Paradox of Luxuriance {.unnumbered}
-
-> *Goal: To observe and catalog the diversity of plant and animal life forms that can be found in rain forests and review hypothesized mechanisms for the origins of tropical diversity.*
+> *Goal: To review hypothesized mechanisms for the origins of tropical diversity and the role of interspecific interactions in the (co)evolution and diversification of tropical biodiversity*
 
 -  Ingrid Kvale, & British Broadcasting Corporation (Producers), & Kvale, I. (Director). (2021). Borneo: Sacred Forest. \[Video/DVD\] BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/borneo-sacred-forest>
-
-> *Goal: To understand how interspecific interactions led to the (co)evolution and diversification of tropical biodiversity*
 
 -  "Ch. 3: The Realm of Plants" from Kricher, J. C. (2017). The new neotropical companion. In The New Neotropical Companion. Princeton University Press. (18 pp).
 
@@ -119,13 +116,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  A closer look at the Army Ant Birds: \[[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM), 14 min long\].
 
-> *Goal: To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this "Paradox of Luxuriance".*
-
--  Langewiesche, William. 2022. "The War for the Rainforest." NY Times. \[[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)\]
-
-## Week 7  {.unnumbered}
-
-##### 7-1 FLMNH - Butterfly Rain Forest {.unnumbered}
+##### 6-2: The maintencnace of tropical biodiversity {.unnumbered}
 
 > *Goal: To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species.*
 
@@ -135,7 +126,9 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Maybe this is the biggest flower: The Titan arum \[[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI), 2 min long\]
 
-##### 7-2 Humans are Part of Rain Forests {.unnumbered}
+## Week 7  {.unnumbered}
+
+##### 7-1 Humans are Part of Rain Forests {.unnumbered}
 
 > *Goal: To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity.*
 
@@ -143,31 +136,41 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 <!-- MAKE NARRATIVES REVISTED PART OF THE MOVIE REVIEW ASSIGNMENT? -->
 
+##### 7-2 Humans are Part of Rain Forests (Continued) {.unnumbered}
+
+> *Goal: To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity.*
+
+- None
+
+
 ## Week 8  {.unnumbered}
 
-##### 8-1 JUNGLE FILM FESTIVAL {.unnumbered}
+##### 8-1 Paradox of Luxuriance & (Bio)Narratives Revisited {.unnumbered}
 
--  1-2 readings TBD based on movie chosen.
+> *Goal: To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this "Paradox of Luxuriance".*
 
-<!--  -->
+-  Langewiesche, William. 2022. "The War for the Rainforest." NY Times. \[[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)\]
 
-<!-- 1. ***Watch:*** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/), 50 min long]. -->
+1. ***Watch:*** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/), 50 min long].
 
-<!-- 1. ***Read:*** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read]. -->
+1. ***Read:*** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read].
 
-<!-- > ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min]. -->
+> ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min].
 
 <!-- 1. ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon -->
 
-##### 8-2 How much tropical rain forest is there? {.unnumbered}
+
+##### 8-2 
+
+## Week 9  {.unnumbered}
+
+##### 9-1 How much tropical rain forest is there? {.unnumbered}
 
 > \*Goal: To learn how forest cover is defined and estimated and how it varies globally
 
 -  Louis Lucero II. New Interactive Tool Helps Track Earth’s Forests \[[NYTimes](https://www.nytimes.com/2013/11/15/science/earth/new-interactive-tool-helps-track-earths-forests.html), 10 min read\].
 
-## Week 9  {.unnumbered}
-
-##### 9-1 How much tropical rain forest have we lost? {.unnumbered}
+##### 9-2 How much tropical rain forest have we lost? {.unnumbered}
 
 > *Goal: To use forest cover data to estimate rates of tropical forest loss over time*
 
@@ -175,7 +178,9 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs). 2018. "Inside the Amazon's Deforestation Crisis". The Globe and Mail. \[[read online](https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/), 20 min read\].
 
-##### 9-2 Drivers & Consequences of Deforestation: Mining, Timber, Fire, Infrastructure {.unnumbered}
+## Week 10  {.unnumbered}
+
+##### 10-1 Drivers & Consequences of Deforestation Part 1 {.unnumbered}
 
 > *Goal: Learn (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics.*
 
@@ -185,9 +190,8 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 <!-- 1. ***Read:*** Andreoni, Manuela. 2022. "Stopping wildfires before they start". NY Times. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html), 5 min read]. -->
 
-## Week 10  {.unnumbered}
 
-##### 10-1 Drivers & Consequences of Deforestation: Agriculture {.unnumbered}
+##### 10-2 Drivers & Consequences of Deforestation Part II {.unnumbered}
 
 > *Goal: Continue learning (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics.*
 
@@ -199,7 +203,11 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 <!-- 1. Lustgarten, Abrahm. 2018. "Palm Oil Was Supposed to Help Save the Planet. Instead It Unleashed a Catastrophe". _NY Times_. [read online](https://www.nytimes.com/2018/11/20/magazine/palm-oil-borneo-climate-catastrophe.html) -->
 
-##### 10-2 Climate Change and Tropical Forests {.unnumbered}
+
+## Week 11  {.unnumbered}
+
+
+##### 11-1 Tropical Forests & Global Climate {.unnumbered}
 
 > *Goal: Climate change and Tropical Forests To understand the relationship between tropical forests, deforestation, and the global climate cycle.*
 
@@ -207,15 +215,17 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Pearce, Fred. 2018. "Rivers in the Sky: How Deforestation Is Affecting Global Water Cycles." Yale360. \[[read online](https://e360.yale.edu/features/how-deforestation-affecting-global-water-cycles-climate-change), 10 min read\].
 
-## Week 11  {.unnumbered}
 
-##### 11-1 Adressing Climate Change {.unnumbered}
+##### 11-2 Tropical Forests & Climate Change {.unnumbered}
 
 -  Serkez, Yaryna. 2020. Every Place Under Threat. NY Times. \[[read online](https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html), 10 min read\].
 
 -  learn about the EN-ROADS simulator we will be using in class at this \[[link to website](https://www.climateinteractive.org/en-roads/), 15 min read\]. You can even start experimenting with it here: \[[link to site](https://en-roads.climateinteractive.org/scenario.html?v=22.8.0)\].
 
-##### 11-2 Consumer Choices {.unnumbered}
+## Week 12  {.unnumbered}
+
+
+##### 12-1 Consumer Choices {.unnumbered}
 
 > *Goal: To understand how global production and chains and consumer demand in Europe and North America influence patterns of deforestation in tropical countries.*
 
@@ -229,9 +239,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Optional: Williams, Wyatt. 2021. "How Your Cup of Coffee Is Clearing the Jungle". NY Times. \[[read online](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html)\] Longer, but really gripping and the article includes a link to an audio version if you prefer to listen to it.
 
-## Week 12  {.unnumbered}
-
-##### 12-1 DURIAN FEST 2022 {.unnumbered}
+##### 12-2 Tropical Commodities & DURIAN FEST {.unnumbered}
 
 > *Goal: To learn about the global market in tropical fruit crops and the economic impact of tropical fruit production in Florida.*
 
@@ -241,27 +249,16 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Frías, Carlos. 2022. "Oddly colored and somewhat phallic: How Miami's rare tropical fruit went TikTok viral." Miami Herald. \[[read online](https://www.miamiherald.com/miami-com/restaurants/article263608093.html#storylink=cpyhttps://www.miamiherald.com/miami-com/restaurants/article263608093.html), 5 min\].
 
-##### 12-2 International Frameworks {.unnumbered}
+## Week 13  {.unnumbered}
+
+
+##### 13-1 International Conservation Frameworks {.unnumbered}
 
 > *Goal: To learn about the major local, national, and multi-national approaches to reducing deforestation by comparing their efficacy and socioeconomic impacts. REDD and Payment for Ecosystem Services.*
 
 -  UN-REDD Programme: An introduction to REDD+ \[link\].
 
 > Note: this is a slide deck designed to introduce the REDD+ framework to a general audience. The content is exceptional, but don't just read the material -- think about how it is being presented (graphics, etc.) and if it effectively communicates their message. I've asked you do this not just to prepare for today's lesson, but because it will be useful for your Final Project (TL;dr...the presentation is awful: busy slides, too much text, overly complicated graphics...we'll talk about how it could be improved).
-
-## Week 13  {.unnumbered}
-
-##### 13-1 Local Initiatives, Empowered Communities, Activism, & Philanthropy {.unnumbered}
-
-> *Goal: To learn about how local communities are engaged in rain forest conservation and sustainable development efforts in the tropics and beyond.*
-
--  Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" NY Times. \[[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html), 10 min read\].
-
--  Kimbrough, L. 2021. "How settlers, scientists, and a women-led industry saved Brazil's rarest primate". Mongabay.com \[[read online](https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/), 10 min read\].
-
--  Don't underestimate what one person can do on their own: "BBC World Service: The man who grew his own rainforest" \[[link to video](https://www.youtube.com/watch?v=AngaeIf78AQ), 5 min long\] (keep an eye out for the Euglossine bees we learned about earlier in the semester...you can see them collecting scented oil from flowers at 2:04).
-
--  Arellano, Astrid and Sierra Praeli, Yvette. 2022. "A look at violence and conflict over Indigenous lands in nine Latin American countries". Mongabay.com . \[[read online](https://news.mongabay.com/2022/05/a-look-at-violence-and-conflict-over-indigenous-lands-in-nine-latin-american-countries/?utm_medium=Social&utm_source=Twitter#Echobox=1654027741-1), 20 min read\].
 
 ##### 13-2 Protected Areas {.unnumbered}
 
@@ -271,27 +268,8 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 ## Week 14  {.unnumbered}
 
-##### 14-1 Project Work Day. {.unnumbered}
+##### 14-1 Tropical rain forests & Global Health {.unnumbered}
 
--  None
-
-##### 14-2 No class: Thanksgiving Holiday {.unnumbered}
-
--  None
-
-## Week 15  {.unnumbered}
-
-##### 15-1 Forest Restoration & Regeneration {.unnumbered}
-
-> *Goal: To learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation*
-
--  Medici, Patricia. 2015 TED Fellows Talk. "The coolest animal you know nothing about...and how we can save it". \[[link to video](https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653), 11:20 min long\].
-
--  "Do tapirs defecate in the woods?" 2019. The Economist \[[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods), 5 min read\].
-
--  Come prepared to make some money: we're looking into the economic benefits of setting aside land (or not) for conservation. To prepare, look this document over before class: \[[link](https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098), 10-15 min read\].
-
-##### 15-2 Tropical Rain Forests and Global Health {.unnumbered}
 
 > *Goal: To learn about the relationship between deforestation and the emergence and spread of tropical diseases like Zika and Malaria from the tropics to other regions of the globe*.
 
@@ -303,15 +281,43 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Kuchipudi, Suresh V. 2020. Why so many epidemics originate in Asia and Africa -- and why we can expect more. The Conversation. \[[read online](https://theconversation.com/why-so-many-epidemics-originate-in-asia-and-africa-and-why-we-can-expect-more-131657), 10 min\].
 
-## Week 16  {.unnumbered}
 
-##### 16-2 Rain Forest Headlines / What will you do? {.unnumbered}
+##### 14-2 Rain Forest Headlines {.unnumbered}
 
 > *Goal: To learn how journalists based in different countries or different global audiences chose and cover stories about rain forests and deal with the risks of covering this beat*.
 
 -  Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022. Inside the Amazon Journey That Left a Journalist and an Activist Dead. NY Times. \[[read online](https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur), 15 min read\]
 
--  Jennifer Weeks. Ending Amazon deforestation: 4 essential reads about the future of the world's largest rainforest. The Conversation \[link\] (4 pages)
+-  Jennifer Weeks. Ending Amazon deforestation: 4 essential reads about the future of the world's largest rainforest. The Conversation \[link\] (4 pages) 
+
+## Week 15  No Class - Thanksgiving Holiday {.unnumbered}
+
+## Week 16 {.unnumbered}
+
+##### 16-1 Forest Restoration & Regeneration {.unnumbered}
+
+> *Goal: To learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation*
+
+-  Medici, Patricia. 2015 TED Fellows Talk. "The coolest animal you know nothing about...and how we can save it". \[[link to video](https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653), 11:20 min long\].
+
+-  "Do tapirs defecate in the woods?" 2019. The Economist \[[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods), 5 min read\].
+
+-  Come prepared to make some money: we're looking into the economic benefits of setting aside land (or not) for conservation. To prepare, look this document over before class: \[[link](https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098), 10-15 min read\].
+
+
+<!-- ##### 13-1 Local Initiatives, Empowered Communities, Activism, & Philanthropy {.unnumbered} -->
+
+<!-- > *Goal: To learn about how local communities are engaged in rain forest conservation and sustainable development efforts in the tropics and beyond.* -->
+
+<!-- -  Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" NY Times. \[[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html), 10 min read\]. -->
+
+<!-- -  Kimbrough, L. 2021. "How settlers, scientists, and a women-led industry saved Brazil's rarest primate". Mongabay.com \[[read online](https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/), 10 min read\]. -->
+
+<!-- -  Don't underestimate what one person can do on their own: "BBC World Service: The man who grew his own rainforest" \[[link to video](https://www.youtube.com/watch?v=AngaeIf78AQ), 5 min long\] (keep an eye out for the Euglossine bees we learned about earlier in the semester...you can see them collecting scented oil from flowers at 2:04). -->
+
+<!-- -  Arellano, Astrid and Sierra Praeli, Yvette. 2022. "A look at violence and conflict over Indigenous lands in nine Latin American countries". Mongabay.com . \[[read online](https://news.mongabay.com/2022/05/a-look-at-violence-and-conflict-over-indigenous-lands-in-nine-latin-american-countries/?utm_medium=Social&utm_source=Twitter#Echobox=1654027741-1), 20 min read\]. -->
+
+
 
 <!-- 1. "A vanishing forest reborn."[[read online](https://www.rolex.org/rolex-awards/milestones/environment/laury-cullen-jr)] (some great drone footage of the location in the story above and more about Laury Cullen's efforts [[read online](https://www.rolex.org/rolex-awards/milestones/environment/laury-cullen-jr)] -->
 

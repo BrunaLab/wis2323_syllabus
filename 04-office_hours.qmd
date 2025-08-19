@@ -9,7 +9,7 @@ title-block-style: plain
 
 ### When {.unnumbered}
 
-- **Instructor:** Wednesday 1:30-3:30 (in-person and via Zoom, see below for details). You can drop by any time during the session, but if you want to guarantee a specific time slot you can do so by signing up here: <https://embruna.youcanbook.me>. If you can't make it during the regularly scheduled office hours, you can send a message via Canvas to set up an appointment.
+- **Instructor:** Wednesday 1:30-3:30 (in-person and via Zoom, see below for details). You can drop by any time during the session, but if you want to guarantee a specific time slot you can do so by signing up here: <https://embruna.youcanbook.me/>. If you can't make it during the regularly scheduled office hours, you can send a message via Canvas to set up an appointment.
 
 - **Teaching Assistant:** Tuesday 9:00-11:00 am (in-person & online) or by appointment.
 
