@@ -156,4 +156,5 @@ format:
 editor: source
 
 execute:
-  freeze: auto
+  # freeze: auto
+  freeze: false
