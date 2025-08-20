@@ -29,7 +29,7 @@ extensions:
 
 <!-- <span style="color: #1F691B;"> {{< fa envelope-circle-check >}} </span>  -->
 ##### How do I contact the Instructor or TA? {.unnumbered}
-Send a message in CANVAS. That way both the TA and instructor will see it and you will get a response more quickly. Plus emails sent to us directly tend to get buried under other messages. 
+Send a message in CANVAS. That way both the TA and instructor will see it and you will get a response more quickly (emails sent to us directly tend to get buried under other messages). 
 
 <!-- <span style="color: #1F691B;"> {{< fa bullhorn >}} </span> -->
 ##### How will you send class announcements? {.unnumbered} 
@@ -49,7 +49,7 @@ Deadlines are in Canvas, but typically the start of the next class session.
 
 <!-- <span style="color: #1F691B;"> {{< fa calendar-check >}} </span> -->
 ##### What if I miss class? {.unnumbered} 
-Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.
+Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Some of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. However, some of the in-class activities can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.
 
 <!-- <span style="color: #1F691B;"> {{< fa calendar-xmark >}} </span> -->
 ##### I have to miss class on a certain date. What should I do? {.unnumbered} 
