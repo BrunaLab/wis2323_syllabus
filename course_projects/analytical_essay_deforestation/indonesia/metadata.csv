@@ -1,0 +1,10 @@
+title,Primary Forest loss in Indonesia
+threshold,30
+extent_year,2000
+forest_type,primary_forest
+start_year,2002
+end_year,2022
+highlighted,false
+date_downloaded,2023-11-01
+metadata,https://api.resourcewatch.org/v1/gfw-metadata/widget_primary_forest_loss
+link,https://www.globalforestwatch.org/dashboards/country/IDN/?category=forest-change&location=WyJjb3VudHJ5IiwiSUROIl0%3D&map=eyJjYW5Cb3VuZCI6dHJ1ZX0%3D

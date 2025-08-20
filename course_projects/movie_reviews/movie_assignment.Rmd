@@ -1,0 +1,235 @@
+---
+title: "Assignment 1 - Movie Reviews"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Tropical Tropes in Film , p. \thepage}
+- "\\fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \usepackage{lscape}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+always_allow_html: yes
+web: www.BrunaLab.org
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
+
+---
+
+```{r setup_syllabus, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(here)
+```
+
+# Tropical Tropes in Movies
+
+\vspace{0.5cm}
+
+## Assignment Overview
+
+\vspace{0.3cm}
+
+Your assignment is to watch **three** films set in tropical rain forests, document the stereotypical ways in which the rain forest setting is presented, and then summarize this would shape the image of rain forests and rain forest people for viewers that are unfamiliar with these ecosystems. Complete details on how to complete these steps are below.
+
+The assignment's value is **100 points** and it is due **October 5^th^ by 5 pm**.
+
+## Films to Review
+
+\vspace{0.3cm}
+
+1.  ***The African Queen*** (1951): In WWI East Africa, a gin-swilling Canadian riverboat captain is persuaded by a strait-laced English missionary to undertake a trip up a treacherous river and use his boat to attack a German gunship. *(Starring Humphrey Bogart & Katharine Hepburn; Directed by John Huston)*. See the [[movie list]](https://ids2935.netlify.app/uploads/movie_list.pdf) for where to access this film.
+
+2.  ***The Emerald Forest*** (1985): After the son of engineer Bill Markham is abducted by an aboriginal tribe on the edge of the rain forest, the engineer spends the next 10 years searching for him. *(Starring Powers Boothe, Meg Fosterm, Charley Boorman; Directed by John Boorman)*. See the [[movie list]](https://ids2935.netlify.app/uploads/movie_list.pdf) for where to access this film.
+
+3.  **One movie of your choice from [this list](https://ids2935.netlify.app/uploads/movie_list.pdf).** To help you decide you can watch the trailers on the Course's Tropical Movie Trailers [YouTube List](https://youtube.com/playlist?list=PL5YVP-qXy1H9hSnUQ6B2VoOfgf16sGHc-&si=qEzL7kXzk7FGaMzx) or by searching for the movie on [IMDB](https://www.imdb.com/) or [YouTube](https://www.youtube.com/).
+
+> *Please submit the name of your movie selection on Canvas by **17 September**.*
+
+## How & Where to Watch
+
+\vspace{0.3cm}
+
+Most of the films are available via the UF Library access to Kanopy, other free streaming platforms (e.g., Tubi, Pluto), or as DVDs that can be checked out from the UF Library's Course Reserves. A few of them are only available on subscription-based streaming platforms such as Netflix or Amazon, but **many of the movies can be streamed for free at one of the online channels in the table below. Do *not* spend any personal funds on this assignment.**
+
+|   |   |   |   |
+|------|------|------|------|
+|   [Tubi](https://tubitv.com/)   |   [Kanopy](https://www.kanopy.com/)   |   [Plex](https://www.plex.tv/)   |   [Digitalia](https://www.digitaliafilmlibrary.com/)   |
+|   [YouTube](https://www.youtube.com/)  |   [Crackle](https://www.crackle.com/)   |   [Pluto TV](https://pluto.tv/en)   |      |
+|   [YuppTV](https://www.yupptv.com/)   |   [IMDB](https://www.imdb.com/)   |    [Film Detective](https://www.thefilmdetective.com/)  |      |
+
+
+<!-- Most of the films are available via the UF Library access to Kanopy, other free streaming platforms (e.g., Tubi, Pluto), or as DVDs that can be checked out from the UF Library's Course Reserves. A few of them are only available on subscription-based streaming platforms such as Netflix or Amazon, but **many of the movies can be streamed for free at one of the online channels below. Do *not* spend any personal funds on this assignment.** -->
+
+<!-- > -   [Tubi](https://tubitv.com/) -->
+<!-- > -   [Kanopy](https://www.kanopy.com/) -->
+<!-- > -   [Plex](https://www.plex.tv/) -->
+<!-- > -   [YouTube](https://www.youtube.com/) -->
+<!-- > -   [Crackle](https://www.crackle.com/) -->
+<!-- > -   [Pluto TV](https://pluto.tv/en) -->
+<!-- > -   [YuppTV](https://www.yupptv.com/) -->
+<!-- > -   [IMDB](https://www.imdb.com/) -->
+<!-- > -   [Film Detective](https://www.thefilmdetective.com/) -->
+<!-- > -   [Digitalia](https://www.digitaliafilmlibrary.com/) -->
+
+**Important Content Warning**: The some of the assigned films contain strong language, nudity, sexual situations, and violence, including sexual assault. There may be dialogue about or depictions of race, class, gender, sexuality, or other topics that are uncomfortable, disturbing, or offensive. Analyzing these depictions and their broader cultural implications is an important part of this assignment, so I encourage you to prepare yourself for this possibility. However, if you are concerned that you will find the content of the films you have been assigned to be difficult or even traumatic, let me know and we will arrange an alternative for you to review. You do *not* have to tell me why you want to switch, only that you would prefer to be assigned another film.
+
+**Language:** Some of the films may be partially or entirely in languages other than English and require subtitles.
+
+## Extra Credit
+
+\vspace{0.3cm}
+
+**Option 1**: Remember what I said about value judgments? Well..let's just put that aside for a moment to say there are some movies that are so ridiculously bad that I will award 10 points of extra credit simply for selecting one of them for your 3rd review.
+
+**Option 2**: Did you miss an earlier in-class assignment? Plan on missing one down later in the semester? You can review a 4th movie for an additional 20 points of extra credit.
+
+## Assignment Details
+
+\vspace{0.3cm}
+
+**For each of the three films you must do the following:**
+
+1.  **Document** the presence of some common tropes about rain forests in each film. To do so, use this [*Trope Datasheet*](https://ids2935.netlify.app/uploads/trope_datasheet.pdf), which lists some common tropes by category (e.g., Plot, Characters, Dialogue, Flora and Fauna). Print a copy of the data sheet for each movie, review the tropes in each category, and then as you watch the movie record which ones you see and record the approximate time of the movie at which they appear for the first time, known as the 'time stamp' (hour & minute, e.g, " 1 H 22 m").   
+
+2. **Consider** the elements with which filmmakers shape your emotions and perceptions:
+
+> -   **Plot**: the narrative, setting, key events, action sequences, resolution, plausibility, themes, cultural context, etc.
+
+> -   **Characters**: professions, personality, motivation, interactions, response to rain forest setting, etc.
+
+> -   **Visuals**: scenery, flora & fauna, props, wardrobe, shots, perspective, lighting, editing, effects, etc.
+
+> -   **Sound**: use and timing of background sounds (or silence), score, animal sounds, songs, etc.
+
+2.  **Reflect** on how the tropes and elements used by the filmaker *reinforce* one or more of the historical themes about rain forests and the people that live in them that we discussed in class, i.e., The Tropics Are:
+
+> -   **Paradise**: vibrant, lush, nurturing
+
+> -   **Hell on Earth**: dangerous, violent, deadly
+
+> -   **Mystical**: spiritual, peaceful, harmonious, a place for self-discovery
+
+> -   **Exploitable**: the resources and the people
+
+> -   **Conquerable**:an environment that can be tamed, those that emerge alive can survive any future challenge.
+
+3.  **Summarize** these reflections in a paragraph (200-300 words, single space) in which you **(a)** identify the rain forest theme or themes with which the movie aligns, **(b)** provide examples of the tropes and film elements as evidence to support your choice, and **(c)** speculate as to what someone watching this movie with little knowledge of rain forests would conclude about this ecosystem, its biodiversity, and the people living there.
+
+> ***Note:*** You should *not* write a summary of the film and its plot (i.e., a *descriptive review*) or whether the film is "good" or "bad" (i.e., an *evaluative review*). Your summary is a review of how the movie use rain forests as a character to advance the plot, and if / how this loops back to reinforce stereotypes about rain forests.
+
+## Assignment Submission
+
+\vspace{0.3cm}
+
+**To submit the assignment you must do the following:**
+
+1.  Enter the data from each Trope Data Sheet into this Google Form.    
+
+2.  Upload a single .pdf file of the three paragraphs (one per movie) into Canvas.
+
+<!-- **Assignment value: ** 100 points -->
+
+<!-- **Due Date: ** All reviews are due October 5^th^ by 5 pm.   -->
+
+**Required Content & Grading Rubric**: The review & checklists will be evaluated using the point values and minimum standards in the rubric below. *Note that the rubric on Canvas lists additional 'outcomes' to be evaluated. These additional criteria will **not*** be used to grade your assignment. These are some things the Quest Program is asking us to evaluate internally. Your assignment will be graded **solely** with the rubric in the table below.
+
+<!-- The individual components will be evaluated as: -->
+
+<!-- 1. "Exceeds required standards": Essay is of the required length with thorough and well-reasoned arguments and several specific examples as supporting evidence;engaging conclusion that summarizes the evidence and connects to the thesis and body. The examples accurate and the writing is articulate and sophisticated, with few grammatical mistakes or spelling errors. Overall, the paper is well written. Each checklist records 10 or more examples with a time stamp for each event.  -->
+
+<!-- 2. "Meets the minimum standards: Essay is of the required length; generally sound argument with some evidence in support of arguments but lacking details or explanation. There are some grammatical mistakes or spelling errors but the paper is henerally well written. The checklist includes 5-10 examples and is mostly complete; some time stamps or other details missing.  -->
+
+<!-- 3. "Incomplete / Unacceptable": The paper is well short of the required length or poorly organized; arguments are poorly articulated; examples in support of the argument are few or poorly chosen. Multiple grammatical and spelling errors. Checklist incomplete (<5 examples for each, few or no time stamps).  -->
+
+## Rubric
+
+\vspace{0.3cm}
+<!-- \begin{landscape} -->
+
+```{r rubric, echo=FALSE,message = FALSE,warning=FALSE}
+
+section <- data.frame(section = c("Essay","", "Checklist"))
+
+pts<-data.frame(pts=c("70","","30"))
+                   
+exceeds <- data.frame(exceeds = c("Essays are of the required length. One or more historical narratives about rain forests are identified; well-reasoned arguments for how the film promotes or subverts these narratives are backed up by specific examples. An engaging conclusion summarizes the evidence and connects it back to the central thesis. The writing is clear, with few grammatical mistakes or spelling errors. Overall, the paper is well written. \\textbf{(70-63 pts)}","","The film's checklist records 10 or more tropes with a time stamp and description of the event for each one. \\textbf{(9-10 pts)}"))
+
+meets <- data.frame(meets = c("Essays are somewhat shorter than the required length; a historical narrative is identified but the supporting argument is unclear or backed up by weak or limited supporting evidence. The paper is generally well written but there are some grammatical or spelling errors. \\textbf{(62-49 pts)}","","The checklist for a film includes 5-9 tropes and is mostly complete; some time stamps or other details missing. \\textbf{(7-8 pts)}"))
+
+dnm <- data.frame(dnm = c("The essays are much shorter than the required length; no historical narrative is identified or if one is, the arguments in support are poorly articulated or the supporting examples are limited or poorly chosen. Multiple grammatical or spelling errors. \\textbf{(<48 pts)}","","The checklist for a film is incomplete (<5 examples for each), or few / no time stamps or additional information. \\textbf{(<6 pts)}"))
+
+rubric<-bind_cols(section,pts,exceeds,meets,dnm)
+
+names(rubric)<-c("Section","Max. Points","Exceeds Expectations","Meets Expectations","Below Expectations")
+kable(rubric, 
+  align = "cclll", 
+  # format = "html", 
+  format = "latex", 
+  row.names = FALSE, 
+  booktabs = T, 
+  escape=F,
+  linesep = "" 
+) %>% 
+  # row_spec(2, hline_after = TRUE) %>% -->
+  # column_spec(3:7, width = "2.5cm") %>%  #removes the blank line after every 5 lines) %>%
+  kable_styling( 
+    position = "left",
+    bootstrap_options = c("hover"),
+    latex_options = c("scale_down")
+  ) %>%  
+    column_spec(1, width = "5em") %>% 
+  column_spec(2, width = "2em") %>% 
+  column_spec(3, width = "15em") %>%
+   column_spec(4, width = "15em") %>%
+  column_spec(5, width = "15em")
+```
+
+<!-- ### UPDATE BASED ON CONVERSTION WITH ED SPECIALIST - UFL -->
+
+<!-- in-class - compare sets of movies, id theme, extract tropes, compare across and relate backl to reading -->
+
+<!-- AND  -->
+
+<!-- project -->
+
+```{=html}
+<!-- 1. chose the two movies as either opposites (good depiction/bad depiction) or reinforcesrs (same tropes in different movies) 
+<!-- 1. Reviewing Trailers might be a good in class activity because they are short and will have many of the same elements -->
+```
+<!-- 1. Perhaps focus on a more limited set of tropes (10-15) and have them fill out for the entire movie (so people don't quit after getting the ten they need). -->
+
+<!-- 1. untapped opportunity to preview future aspects of the course (e.g., ask questions as part of assignment such as 'how do does this make you feel about conservation", or "what biodiversity / types of species do you see (or hear)  in forests") -->
+
+<!-- 1. She liked the idea of how quantifying how "trope-ey" the movies were. One possibility of a class activity afterwards would be to put movies on a gradient of trope-iness, perahps with some discussion about themovies we all saw and then students can place the one they chose to watch on a gradient. Maybe to get at this have people fill out a matrix in which they fill out some information about the movies (how they depict people, situations, the forest, etc). they can use the "index score" to rank their movies. In class the students can explain to the other styiudents why they put the movie they watched on the axis.  -->
+
+<!-- 1. Check out Jigsaw technique as a possibility for in class work: https://www.jigsaw.org/ -->
+
+<!-- 1. No more "review" essay: instead make it short answer and in-class work.  -->

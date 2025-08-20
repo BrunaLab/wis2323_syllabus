@@ -1,0 +1,149 @@
+---
+title: 'WIS 2323: Drivers of Deforestation - Palm Oil '
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Palm Oil Survey (In-class), p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  # knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile, 
+#   encoding = encoding, 
+#   output_dir = "./static/uploads")
+#   })
+#   html_document:
+#     df_print: paged
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./content/post/class-sessions")
+#   })
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Palm Oil Products Survey
+\vspace{0.3cm}
+
+Palm oil and its derivatives are _everywhere_. Prove this to yourself: your task is to go through your home and **find 10 products you use at least 1-2 times per week containing palm oil** (or its derivatives in the list below). 
+
+1. **Your survey must include the following:**  
+
+    * **3 products from the bathroom: **e.g., cosmetics, shampoo, deodorant, toothpaste, soap.
+    * **2 products from the laundry room or closet where you keep cleaning supplies: ** e.g., laundry detergent, fabric softener, de-greaser, glass cleaner (if you don't do laundry or clean your apartment 1-2 times per week, well...let's just pretend that you do.)
+    * **5 products from the kitchen: ** anything from the pantry or fridge/freezer; ideally things you eat or cook with regularly.  
+
+2. **Survey Step-by-Step:  **
+
+    1. Grab an item in the location you are searching and scan the list of ingredients for one of the items on the list below. You may have to go online (e.g., to the company website) to find the list of ingredients. 
+    2. If you find an item on the list below in the list of ingredients:
+         a) Take a photo of the item
+         b) Record the number (from the list below) of the ingredient it contains.
+    3. Upload the photos and chemical names via Canvas
+
+3. **Extra Credit (20 points max): **
+
+    * Submit an additional 10 items (from any location): 10 points
+    * Submit an additional 20 items (from any location): 20 points
+
+\newpage 
+## Palm Oil and Palm Oil Derived Ingredients
+\vspace{0.3cm}
+
+
+<!-- https://www.treehugger.com/sneaky-names-palm-oil-4858743   -->
+1. Calcium stearoyl
+1. Ingredients with "cetyl or "cetearyl”
+1. Cetylic Acid$^1$
+1. Elaeis guineensis
+1. Ethoxylated lauryl alcohol
+1. Ethyl palmitate$^2$
+1. Glyceryl
+1. Hexadecanoic acid$^1$
+1. Hydrogenated or Hydrated Palm glycerides
+1. Octyl palmitate
+1. Palm fruit oil
+1. Palm kernel
+1. Palm kernel oil
+1. Palm stearine
+1. Palmate
+1. Palmitate$^1$
+1. Palmitic acid$^1$
+1. Palmitoyl oxostearamide
+1. Palmitoyl tetrapeptide-3
+1. Palmityl alcohol 
+1. Palmolein
+1. Polyglycerol polyricinoleate (aka polyglycerol esters of fatty acids aka E(mulsifier)422, also E322, E442,E476, E430-36, E465-67, E470-8, E481-483)$^3$
+1. Sodium dodecyl sulphate (aka SDS or NaDS) 
+1. Sodium kernelate
+1. Sodium laureth sulfate
+1. Sodium lauryl lactylate
+1. Sodium lauryl sulfate
+1. Sodium palm kernelate
+1. Stearate
+1. Stearic acid$^3$
+1. Vegetable fat$^3$ 
+1. Vegetable oil$^3$
+1. 57-10-3$^1$
+
+
+$^1$These are all the same thing. In fact, there are 181 synonyms for ['Palmitic Acid'](https://pubchem.ncbi.nlm.nih.gov/compound/985#section=Depositor-Supplied-Synonyms&fullscreen=true)
+
+$^2$This chemical has [71 synonyms](https://pubchem.ncbi.nlm.nih.gov/compound/12366#section=Depositor-Supplied-Synonyms&fullscreen=true)
+
+$^3$Note that these can be derived from other coconut and other plant oils.**
+^3 
+
+
+
+
+<!-- (actually closer to 200 https://orangutanalliance.org/whats-the-issue/alternative-names-for-palm-oil/ -->
+<!-- ) -->
+
+<!-- some of the products: https://www.geographypods.com/palm-oil--me.html -->
+
+<!-- Only a few manufacturers – mostly in the organic sector – label their products as containing palm oil and palm fat. Most companies disguise it, referring to it as “vegetable oils and fats”. -->
+
+<!-- English and latin names for palm oil Likely to be palm oil Palm oil kernel Vegetable oil (if the product contains saturated fats, it's most likely palm oil) Palmitate / palmate Ingredient lists containing “stearate, stearyl” Elaeis gunieensis  -->
+
+<!-- Ingredient lists containing the words “cetyl, cetearyl” Hydrated palm ­gylcerides hexadecanoic Sodium lauryl sulphate (SLS), sodium laureth sulphate, sodium dodecyl sulphate, (SDS or NaDS) sodium Palmitic acid Calcium stearoyl lactylate steareth -2, steareth -20 emulsifier 422, 430-36, 465-67, 470-8, 481-483 -->
+
+<!-- Source: http://www.orangutan.org.au/palm-oil -->
+
+<!-- The largest palm oil producers:Major palm oil traders:The largest individual consumers of palm oil: Wilmar, IOI and Sinar Mas Cargill, Archer Daniels Midland (ADM) Unilever, Nestlé, Procter & Gamble and Henkel -->
+<!-- According to its own figures, the Unilever Group alone consumes 1.6 million tons of palm oil every year (2008). -->
+
+<!-- One way consumers can protect the rainforest is to avoid palm oil. For a list of palm oil-free products, visit -->
+<!-- http://www.ethicalconsumer.org/shoppingethically/palmoilfreelist.aspx -->
+
+
+<!-- How many of the products have the RSPO https://rspo.org/palmtrace or Rain Forest Alliance label? https://www.treehugger.com/what-does-rainforest-alliance-certification-mean-palm-oil-4856474 -->

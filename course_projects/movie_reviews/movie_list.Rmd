@@ -1,0 +1,203 @@
+---
+title: "Assignment 1 - Movie Reviews"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Assignment 1 - Movie Reviews, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \usepackage{lscape}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# always_allow_html: true
+# classoption: landscape
+output: pdf_document
+# output: html_document
+  # word_document: default
+# weight: 5
+    # df_print: paged
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
+---
+
+
+```{r setup_syllabus, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(here)
+```
+\begin{landscape}
+```{r movie_table, echo=FALSE,message = FALSE,warning=FALSE}
+# 
+# movies <- readxl::read_excel("~/Dropbox (UFL)/Teaching/WIS 2323 - Future of Rain Forests/IDS2935_RainForests/class_materials/projects_and_code/movies/movies.xlsx") %>% 
+
+movies <- readxl::read_excel("movies.xlsx") %>%
+  unite("subscription", paramount:apple, remove = TRUE, sep = ",") %>%
+  unite("free", kanopy:other_free, remove = TRUE, sep = ",") %>%
+  arrange(year,movie) %>%
+  filter(is.na(cat)) %>% 
+  # filter(cat!="assigned") %>%
+  select(-cat,
+         -Notes) %>% 
+  mutate(`Extra Credit` = replace_na(`Extra Credit`,"")) %>% 
+  mutate(`RT Score` = as.character(`RT Score`)) %>% 
+  mutate(`RT Score` = replace_na(`RT Score`,""))
+
+
+  
+movies$subscription <- gsub("NA,", "", movies$subscription)
+movies$subscription <- gsub(",NA", "", movies$subscription)
+movies$subscription <- gsub(",", ", ", movies$subscription)
+
+
+
+movies$free <- gsub("NA,", "", movies$free)
+movies$free <- gsub(",NA", "", movies$free)
+movies$free <- gsub(",", ", ", movies$free)
+movies$free <- gsub(";", ",", movies$free)
+movies$free <- gsub("_free", "", movies$free)
+#
+# movies <- movies %>%
+#   mutate(across(everything(), ~replace_na(.x, "")))
+
+movies$subscription <- gsub("NA", "", movies$subscription)
+movies$free <- gsub("NA", "", movies$free)
+movies$subscription <- gsub("_", " ", movies$subscription)
+movies$free <- gsub("_", " ", movies$free)
+
+movies <- movies %>%
+  rename(
+    "Free" = "free",
+    "Year" = "year",
+    "Paid" = "subscription",
+    "Title" = "movie",
+    "Summary" = "summary",
+    "Extra Cred." = "Extra Credit"
+  ) %>%
+  relocate(Year, .after = Title) %>%
+  mutate(Free = str_to_title(Free)) %>%
+  mutate(Paid = str_to_title(Paid))
+
+movies$Free <- gsub("Dvd", "DVD", movies$Free)
+movies$Free <- gsub("Youtube", "YouTube", movies$Free)
+movies$Free <- gsub("Imdb2", "IMDB", movies$Free)
+
+movies$Paid <- gsub("Hbo", "HBO", movies$Paid)
+
+movies<-movies %>% 
+  arrange(`Extra Cred.`, Year,desc(`RT Score`)) %>% 
+  mutate(`ID No.` = row_number(), .before=Title) 
+
+ec_first_row<-movies %>% filter(`Extra Cred.`=="yes") %>% slice_head() %>% select(`ID No.`)
+ec_first_row<-as.numeric(ec_first_row[1,1])
+
+ec_last_row<-movies %>% filter(`Extra Cred.`=="yes") %>% slice_tail() %>% select(`ID No.`)
+ec_last_row<-as.numeric(ec_last_row[1,1])
+
+
+movies<-movies %>% select(-`Extra Cred.`)
+# kbl(movies,
+#       # digits = 2,
+#       longtable=TRUE,
+#       align="l",
+#       format="latex",
+#       row.names = FALSE,
+#       escape= T,
+#       booktabs=T,
+#       linesep = "",
+#       ) %>%
+
+kable(booktabs = TRUE,
+      # movies, "html",
+      movies, "latex",
+      align="clcclccc",
+  # caption = "Test",
+  longtable = TRUE
+) %>%
+
+  # FOR HTML
+    #  kable_styling(
+  #   position = "left",
+  #   bootstrap_options = c("hover","striped"),
+  #   latex_options = c("scale_down")
+  # ) %>%
+# FOR PDF
+  kable_paper("striped",
+    latex_options = c("hold_position", "repeat_header", "scale_down"),
+    font_size = 9) %>% # USE for PDF
+    # font_size = 14) %>%
+  # pack_rows("Required", 1, 4, label_row_css = "background-color: #483D8B; color: #fff;") %>%
+  # pack_rows("Choose 1 + Assigned 1", 5, 42, label_row_css = "background-color: #483D8B; color: #fff;") %>%
+  # pack_rows("Extra Credit", 43, 52, label_row_css = "background-color: #483D8B; color: #fff;") %>%
+  column_spec(1, width = "3em") %>%
+  column_spec(2, width = "14em") %>%
+  column_spec(3, width = "3em") %>%
+  column_spec(4, width = "4em") %>%
+  column_spec(5, width = "27em") %>%
+  column_spec(6, width = "5em") %>%
+  column_spec(7, width = "5em") %>%
+  # column_spec(8, width = "6em") %>%
+  #   # column_spec(4:6, width = "4em") %>%
+  # #   column_spec(4, width = "3em")
+  # #   row_spec(0,hline_after = F, bold=T) %>%
+  # #   row_spec(c(1:5),hline_after = T) %>%
+  row_spec(1:nrow(movies)-1, hline_after = TRUE) %>%
+  row_spec(0, bold = T, color = "#483D8B", hline_after = F) %>% 
+  pack_rows("EXTRA CREDIT: These are so bad you get 10 extra points for watching them", ec_first_row,ec_last_row) %>%
+   row_spec(ec_first_row-1, hline_after = T) 
+  # row_spec(4, hline_after = T)
+#   add_indent(6)
+```
+\end{landscape}
+
+
+<!-- DVDs OF THE FOLLOWING HAVE BEEN LEFT ON RESERVE (2022) -->
+<!-- Congo -->
+<!-- The Mission -->
+<!-- Welcome to the Jungle -->
+<!-- Mosquito Coast -->
+<!-- Emerald Forest -->
+<!-- Rundown -->
+<!-- Romancing the Stone -->
+<!-- Medicine Man -->
+<!-- Predator -->
+<!-- Jumanji Welcome to the Jungle -->
+<!-- FerGully -->
+<!-- Creature from the Black Lagoon -->
+<!-- Avatar -->
+<!-- Anaconda -->
+<!-- AnacondasSix Days Seven Nights -->
+<!-- Turistas -->
+<!-- The Ruins -->
+
+<!-- NOT ON RESERVE -->
+<!-- Raiders of Lost Arc -->
+<!-- Monsters -->

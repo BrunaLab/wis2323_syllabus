@@ -1,0 +1,97 @@
+---
+title: "Assignment 1 - Movie Reviews"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Assignment 1 - Movie Reviews, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \usepackage{lscape}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# always_allow_html: true
+# classoption: landscape
+output: pdf_document
+# output: html_document
+  # word_document: default
+# weight: 5
+    # df_print: paged
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
+---
+
+
+```{r setup_syllabus, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(here)
+```
+
+
+
+https://www.jstor.org/stable/3513652?casa_token=rDGPRjR5ML8AAAAA%3AB8Tu1rkINAfCLL0c3y9HZCutQ5YKHHPestyN2JcvFjo5NmgTq75s9bpda5wBiM_3ePdCmRIFd8oa72XXSHDqS_VUaFyFdupD4KFVFEcX-1O5tk_uRQ&seq=4
+
+https://journals.sagepub.com/doi/pdf/10.1177/0308275X8600600207?casa_token=9o9p2A13Y5EAAAAA:965KV2SynBPDjR-m-dT9InhJfknZS4noSEJyATZ-n3ytXt80gDBrgfCfA8dn0kB_YGuqnYKhogE
+
+https://www.jstor.org/stable/1318120?casa_token=U94mPn_IFokAAAAA%3AQmZlUw6YWnd78aRCrOnxfafpI0KVfq1HFbUGaA6VjSVE5l1x0s8KF2kco0i0N064ThsLy1FtETSytTwwBTAYHPBPA7p7XJoHNF-QyfXZVCcvHXS3iw&seq=2
+
+
+https://www.jstor.org/stable/215824?casa_token=DXejU_iMZBsAAAAA%3A_IP05h2yrYRM-6b9UxSwHtGUVWn7S6JbID2dhBnlsYh4Zyum5upAdcNqX0bgUjxTqukt2TokEu31NZhjTzQdwB_gYKkREJQbsYXV71LSVcE8WNmysw&seq=4
+
+https://web.archive.org/web/20121102191327/http://pqasb.pqarchiver.com/latimes/access/684744122.html?FMT=ABS&FMTS=ABS:AI&type=historic&date=Oct+8,+1972&author=LEONARD+GRE&puENWOODb=Los+Angeles+Times+(1886-Current+File)&edition=&startpage=E10&desc=Long+Hunt+for+Son+Ends+in+Success,+but---
+
+
+https://www.latimes.com/archives/la-xpm-1985-07-02-ca-744-story.html
+
+https://www.imdb.com/title/tt0089087/locations/
+
+https://www.imdb.com/title/tt0043265/locations/
+
+https://www.yoursretro.co.uk/filmblog/behind-the-scenes-of-the-african-queen
+
+https://medium.com/@JoeSommerlad/katharine-hepburn-the-monster-and-the-making-of-the-african-queen-f685af78c05c
+
+https://www.youtube.com/watch?v=3Je26u1VCP4
+
+https://en.wikipedia.org/wiki/The_African_Queen_(film)
+
+https://www.nytimes.com/1985/06/30/movies/pondering-man-in-the-emerald-forest.html
+
+https://www.nytimes.com/1985/07/03/movies/emerald-forest.html
+
+https://www.google.com/books/edition/Cinematic_Journeys_in_Latin_America/RhnWEAAAQBAJ?hl=en&gbpv=1&dq=tropes+emerald+forest&pg=PA190&printsec=frontcover&bshm=rime/1
+
+
+https://time.com/6086973/jungle-cruise-disney-theme-park-ride/
+https://junglecruise.fandom.com/wiki/List_of_Racist_Elements_in_the_Jungle_Cruise
+
+and dont forger slide of EU kleadser speech about :the jungle:
+

@@ -1,0 +1,98 @@
+---
+title: "WIS 2323 - Climate Change Reflection"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Reflective Essay, p. \thepage}
+- "\\fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+mainfont: SourceSansPro
+output:
+  # html_document:
+  #   df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Reflective Essay
+
+Last week you and your classmates had the opportunity to use the En-ROADS simulator to come up with policies intended to minimize the increase in global temperatures to the internationally agreed target of \<2°C by 2100. That process required negotiation and compromise with your group members and other groups. You will now have the opportunity to use En-ROADS to (1) generate a policy scenario that aligns with your personal values and point of view and (2) reflect on the implications and viability of your scenario.
+
+As before, **your mission is to recommend a set of global policies, investments, and actions that will limit global warming to 'well below' 2°C (35.6°F).** Unlike the class exercise, however, *you may manipulate as many (or as few) sliders as you like.*
+
+1.  Open En-ROADS at [en-roads.climateinteractive.org/](en-roads.climateinteractive.org/). If you need a reminder, you can review the Guide to the En-ROADS Control Panel [[here](https://ids2935.netlify.app/uploads/En-ROADS%20One%20Page%20Guide%20to%20the%20Control%20Panel_v11.pdf)] and watch the introductory video to En-ROADS [[here](https://www.youtube.com/watch?v=NtLa1tp2lZ8)]. A more detailed (but very clear and readable) user guide is [here](https://docs.climateinteractive.org/projects/en-roads/en/latest/).
+
+2.  Develop a scenario by manipulating the policy alternatives ("sliders"). Again, *you may manipulate as many (or as few) sliders as you like.*
+
+3.  Save your scenario link: click on "Share Your Scenario" in the upper right-hand corner of En-ROADS, then choose "Copy Scenario Link."
+
+4.  Take a screenshot of your final scenario.
+
+5.  After developing your scenario, submit the following via canvas:
+
+> a)  A screenshot of your scenario
+
+> b)  Brief answers to the following questions:
+
+> > -   What are the 3 most important policies in your scenario?
+
+> > -   Which of these had the largest impact on reducing temperature, and by approximately how much did it do so?
+
+> c)  An essay of 500 words in which you critically reflect on your scenario and what you learned in generating it: What it would it take for your proposal to be realized? How likley the implementation of your preferred policies are in the immediate future? What you could or should be doing to help make their implementation a reality? How does this make you feel? How can you translate that emotional response into action?
+
+## Deadline & Submission
+
+Deadline: **November 28th**\
+Submission: Upload via Canvas
+
+## Rubric
+
+<!-- Rubric examples:  -->
+
+<!-- https://ctl.oregonstate.edu/sites/ctl.oregonstate.edu/files/reflective_writing_rubric.pdf -->
+
+<!-- https://cet.usc.edu/teaching-resources/reflective-essay-rubric/ -->
+
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Criteria                                  | Excellent                                                                                                                                                                                                                                                        | Meets Expectations                                                                           | Approaches Expectations                                                                                                        | Needs Improvement                                                                                                                          |
++===========================================+==================================================================================================================================================================================================================================================================+==============================================================================================+================================================================================================================================+============================================================================================================================================+
+| Completeness                              | Clearly and completely answers the assignment prompt. Adheres to required length.                                                                                                                                                                                | Almost completely answers the assignment prompt. Adheres to required length.                 | Partially addresses the assignment prompt. Adheres to required length.                                                         | Does not address the assignment prompt.                                                                                                    |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Analysis                                  | Rich, detailed description of the case, conflict, challenge, or issue of concern.                                                                                                                                                                                | Full description of the case, conflict, challenge, or issue of concern.                      | Partial description of the case, conflict, challenge, or issue of concern.                                                     | No description of the case, conflict, challenge, or issue of concern.                                                                      |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Evidence                                  | Clear attempt to integrate relevant facts, relationships, and the student's self. Includes conclusions based on synthesis of the description.                                                                                                                    | Clear attempt to integrate relevant facts, relationships, and the student's self.            | Slight or unclear attempt to integrate relevant facts, relationships, and the student's self.                                  | No attempt to integrate relevant facts, relationships, and the student's self.                                                             |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Critical Thinking: Analyzing Perspectives | Impressions plus critical reflection (i.e. exploration and critique of assumptions, values, beliefs, and/or biases; multiple perspectives; alternatives; and the consequences of actions). Includes discussion of how behavior may change based on new insights. | Impressions plus reflection (i.e. attempting to understand or question the case).            | Impressions without reflection.                                                                                                | No impressions, reflection or introspection.                                                                                               |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Depth of Reflection                       | Metacognitive: Student examines the learning process, showing what learning occurred, how learning occurred, and how newly acquired knowledge or learning altered existing knowledge.                                                                            | Analytical: Student applies learning to a broader context of personal and professional life. | Empathic: Student demonstrates thoughts about or challenges to beliefs, values, and attitudes of self and others.              | Descriptive: Student demonstrates acquisition of new content from significant learning experiences but does not apply new content to self. |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Writing Style                             | Word choice and tone appropriate to academic writing; sentences vary in length and complexity.                                                                                                                                                                   | Appropriate word choice and tone; some attention to sentence structure and variety.          | Occasional use of slang or inappropriate or inaccurate language; minimal discernible attention to sentence length and variety. | Frequent use of slang or inappropriate or inaccurate language; no explicit attention to sentence length and variety.                       |
+|                                           |                                                                                                                                                                                                                                                                  |                                                                                              |                                                                                                                                |                                                                                                                                            |
+|                                           | Minimal grammatical and spelling errors; errors do not impede readability.                                                                                                                                                                                       | Very few grammatical and spelling errors; errors do not impede readability.                  | Some grammatical and spelling errors that impede readability of some passages.                                                 | Many grammatical and spelling errors that impede readability of the text.                                                                  |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+

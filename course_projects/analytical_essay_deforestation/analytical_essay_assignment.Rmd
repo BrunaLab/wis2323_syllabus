@@ -1,0 +1,176 @@
+---
+title: "WIS 2323 - \"Analytical Essay"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+# output:
+#   html_document:
+#     df_print: paged
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Analytic Essay Assignment, p. \thepage}
+- "\\fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsubsectionfont{\centering\color{black}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \usepackage{pdflscape}
+- \newcommand{\blandscape}{\begin{landscape}}
+- \newcommand{\elandscape}{\end{landscape}}
+output: pdf_document
+  # editor_options:
+  # markdown: null
+  # wrap: 72
+mainfont: SourceSansPro
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding,
+  output_dir = "./static/uploads") })
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+```
+
+
+<!-- TODO UPDATES:  -->
+
+<!-- https://news.mongabay.com/2022/03/study-indonesias-forest-clearing-moratorium-underdelivered-but-so-did-donors/ -->
+<!-- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266178 -->
+
+# WIS 2323: Analytical Essay
+<!-- \vspace{0.3cm} -->
+### Due: 2 November 2023 | Value: 125 Points | Submission: Canvas
+
+## Assignment Overview  
+
+Brazil and Indonesia are among the world's countries with the most tropical forest (ranked 1st and 3rd, respectively). Considerable attention is therefore devoted to documenting the amount of forest cover in both countries, as well as investigating the factors responsible changes in forest cover over time. These factors can be both internal (i.e., domestic social, economic, and political issues) and external (i.e., international events, foreign policy). **_Your assignment is to analyze Brazil and Indonesia's forest cover from 2001-2022 and suggest internal or external factors could be responsible for any major changes the rate of forest loss._**
+
+**To complete this analytic essay you must:** 
+
+1. **Download data:** Use the Global Forest Watch Database ([https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)) to find and download data for the amount of tree cover and tree cover loss in Brazil and Indonesia between 2002-2022.
+
+2. **Calculate the following:**
+
+  > a) the *total* tree cover that was lost between 2002 through 2022 (total = all years combined), 
+  > b) the *percentage* of 2002 tree cover remaining in 2022,
+  > c) the *annual forest loss* from 2002 to 2022, and
+  > d) the *annual rate of forest loss* from 2002 to 2022.
+  > ***Convert all values of forest cover and forest loss from hectares to km^2^ for your analyses, figures, and report.*** 
+
+3. **Prepare two graphs:** one with the data from (2c), and one with the data from (2d). These should be line graphs, with each plot including the data for both countries. Make sure each graph has properly labeled axes, a legend, and a title.
+
+4. **Analyze and investigate the patterns of forest loss:** Once you have graphed the data, see if you can identify any trends in the rate of forest loss over time. Pay particular attention to trends before and after 2016. Then conduct research to identify any factors that might be responsible for the  observed trends. These could be within-country factors (e.g., government policies or national economic expansion or contraction) or international events (e.g., implementation of forest preservation treaties, international trade agreements or disputes).
+
+5. **Write an essay** in which you summarize and compare the rates of deforestation in Brazil and Indonesia, and present your conclusions regarding the mechanisms that are likely responsible for the trends you graphed. The essay should be $\geq$ 1000-1200 words (1000 words is approx 2-2.5 pages of single-spaced text). Note that you should *not* respond to each questions with bullet points - the responses should be in essay format, using carefully revised writing, and thorough descriptions of the observed patterns followed by their interpretation. You may wish to consider how your conclusions about patterns in forest loss change if considering longer time intervals (i.e., 10-20 years) vs. shorter ones (1-5 years). You might also try and predict the amount of forest loss going forward.
+
+  > The essay must include a bibliography with citations of at least 4 relevant sources that support your conclusions. The bibliography can be formatted in any standard style  (i.e, MLA, APA, Chicago, etc). 
+
+6. **Submission:** Your essay with bibliography and 2 graphs should be submitted via canvas as a single pdf document. The essay should be single-spaced text with 1 inch margins. Label the figures as Figure 1 and Figure 2. The essay is **due 2 November 2023** and has a **value = 125 Points**. It will be graded with the rubric below.
+
+
+\vspace{1cm}
+
+## Additional Information
+
+
+1. **A word about Sources: **The UF Smathers Libraries are among the best academic libraries in the country, and the librarians are *phenomenal*. Ask them for help both with looking for information for your papers, for how to determine if something is an acceptable source of information for a paper, and for how to evaluate the quality of the information presented. They have an online tutorial on [Library Research Basics](https://guides.uflib.ufl.edu/libraryresearch/libraryresearch) but you can actually get help with class assignments from the [Research Assistance Desk](https://librarywest.uflib.ufl.edu/services-resources/research-assistance-desk/) (both walk-ups and appointments are available). Take advantage of this paper to get to know the Librarians and the resources we have to make your life easier.
+
+2. **A word about Bibliographies: **There are few things in life worse than typing up bibliographies for papers. It takes forever and you will make tons of mistakes. Worse, the next professor will require the bibliography in a different format, so even if you can re-use a reference you have to retype it. If only there was a way to automate the process so you could print up a bibliography in a few seconds at the touch of a button. Behold! I give you [Endnote](https://guides.uflib.ufl.edu/endnote). Or [Zotero](https://guides.uflib.ufl.edu/zoterocite). Take your pick, both are free for UF students. Never type a bibliography again. Need help learning to use them? Ask me in office hours or ask the librarian listed of the page of the one you're trying to learn. 
+
+
+```{=tex}
+\newpage
+\blandscape
+```
+## RUBRIC
+<!-- table row spacing set with arraystretch -->
+<!-- \renewcommand{\arraystretch}{0.75}  -->
+```{r rubric, echo=FALSE, message = FALSE, warning=FALSE, results='asis'}
+# rubric <- read_csv("./class_materials/projects/analytical_essay_deforestation/rubric.csv")
+rubric <- read_csv("./rubric.csv") %>% 
+  replace_na(list("Criterion" = " "))
+variables<-names(rubric)
+
+tmp<-knitr::kable(rubric,
+     align="l",
+     # caption.short = "Demo Table",
+     # escape=FALSE,
+     # row.names = FALSE,
+     # caption = "Description of the column names for HDP_plots.csv and description of the data in each column",
+     booktabs=T,
+     linesep = "" #removes the blank line after every 5 lines
+     ) %>% 
+  kable_styling(bootstrap_options = "striped", 
+                full_width = T, 
+                latex_options = c("scale_down",
+                                  "repeat_header"),
+               font_size = 10,
+               position = "left") %>%
+   column_spec(1, width = "8em") %>% 
+   column_spec(2, width = "16em") %>% 
+   column_spec(3, width = "16em") %>% 
+   column_spec(4, width = "16em") %>% 
+  column_spec(5, width = "16em") %>% 
+  row_spec(c(1:5), hline_after = T) %>% 
+   row_spec(c(0), bold = T)
+
+knitr::asis_output(tmp)
+```
+
+
+```{=tex}
+\elandscape
+```
+
+
+ 
+ 
+
+
+<!-- **Essay Option 2: ** -->
+
+<!-- The Environmental Kuznets Curve (EKC) is a hypothesized global relationship between *per capita* income and environmental degradation. According to the EKC hypothesis, environmental degradation (e.g., pollution, deforestation) will *worsen* as economies develop, but eventually an inflection point will be reached at which increasing economic development leads to decreasing environmental degradation. -->
+
+
+<!-- 1. Download data on forest loss from Global Forest Watch ([https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)) and data on *per capita* GDP from the World Bank (available for [download here](https://databank.worldbank.org/indicator/NY.GDP.PCAP.CD/1ff4a498/Popular-Indicators)).  -->
+
+<!-- 2. Using these data sets, graph EKCs for three years: 2002, 2010, and 2019. Include any countries for which you can get both data points. You may wish to log-transform the data and graph the transforemed values, i.e., log(*per capita* GDP) and log(forest loss in sq. km). -->
+
+<!-- 3. Do you find any evidence for an Environmental Kuznets Curve (EKC)? If not, do you think this is because there is something about forest loss" that makes it a poor proxy for "Environmental Degradation"? -->
+
+<!-- **The complete assignment will require:  ** -->
+
+<!-- * An essay in which you respond to Item 3 above ($\geq$ 1000 words, which is approx. 2-2.5 pages of single-spaced text). Note that you should *not* respond with bullet points - the responses should be in essay format, using complete sentences and carefully revised writing, a description of the methodology, thorough descriptions of the observed pattern, citations of relevant sources to support your conclusions, and a formatted bibliography (any standard style - MLA, APA, Chicago, Harvard, other - is fine). -->
+
+<!-- * A graph showing the plot of *per capita*  GDP vs. Forest Loss for each of the three years. Be sure to have properly labeled axes, legends, and axes with the appropriate scales.       -->
+
+<!-- * the data file(s) used to generate your graph(s). Though I prefer you submit them in open formats (as .csv or .txt files), you may also submit MS Excel files (.xls, .xlsx) or share a link to a Google Sheet. I should be able to reproduce your figures using these files.  -->
+
+<!-- * Formatting: Single-spaced text, 1 inch margins, Times New Roman font. Each figure(s) and its legend should be on a separate page and labelled as Figure 1, Figure 2, etc.   -->
+
+<!-- https://www.science.org/doi/10.1126/science.1244693 -->
+
+<!-- https://www.wri.org/insights/indonesia-reducing-deforestation-problem-areas-remain -->
+<!-- https://www.nature.com/articles/s41559-020-01368-x -->
+<!-- https://iiasa.ac.at/web/home/about/news/170116-forest-dev.html -->
+<!-- https://www.globalforestwatch.org/blog/data-and-research/global-tree-cover-loss-data-2020/ -->
+
+
+
+
+

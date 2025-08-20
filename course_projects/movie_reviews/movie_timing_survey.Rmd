@@ -1,0 +1,64 @@
+---
+title: "WIS 2323: Movie Survey"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{Patterns of Biodiversity, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+
+Hi all,
+
+Tuesday of next week - 10 October - is the date of our Jungle Film Festival (i.e., watch / analyze a movie as a class - more details in class). The Film Festival is an opportunity to have some fun while reinforcing some key topics from the first part of the course (and yes - there will be a 20pt in-class activity). We'll have movie trope bingo, Dwayne Johnson trivia, loads of prizes, popcorn...in short, it's a chance to take a break from midterms while also realizing how much more you now know about rain forests than the people making a movie with a budget of $200 million.
+
+IMPORTANT DECISION THAT NEEDS YOUR INPUT: In the past we have watched the movie during an evening session in a theater-style classroom. This has two advantages: the classroom has more comfortable (padded) seats, and you are welcome to bring your friends/roommates/teammates/kids/ to watch with us. Yes, they can also compete for the prizes.
+
+This evening session has been on the Syllabus since the start of the semester. That said, I realize some of you may have work or other commitments that make attending an evening session difficult. This survey is an attempt to determine how many people are in that situation...if the number is too high, I will consider shifting the movie to the regular class time. 

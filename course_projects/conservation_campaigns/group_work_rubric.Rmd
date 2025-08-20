@@ -1,0 +1,72 @@
+---
+title: 'WIS 2323 - "Group Work Rubric'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 8pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Group and Self Evaluation, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  output_file = "Group_Work_Rubric.pdf",
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
+---
+
+```{r setup, include=FALSE}
+
+```
+
+<!-- From: https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/how-evaluate-group-work -->
+
+## Group Work Evaluation Rubric
+
+Please use this form to evaluate the contributions of each team member to the group effort. Consider attendance and participation in team meetings, individual contributions to idea generation and research, communication within the group, etc. ***These evaluations are completely confidential and will never be shown to your team members.*** Please respond as honestly as possible.
+
+**Instructions:** Please allocate a total of 100 percentage points among your team members, including yourself, with higher percentages going to those members who contributed most. In the case of equal contribution, points should be divided equally among team members.
+
+> Your name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+> Team name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+> Team member: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+| **Skills** | **4 Advanced - exceeds expectations**  | **3 Competent - meets expectations**  | **2 Progressing - doesn't fully meet expectations**  | **1 Beginning - doesn't meet expectations** |
+|------|------|------|------|------|
+|Contributions & Attitude |Always cooperative. Routinely offers useful ideas. Always displays positive attitude. |Usually cooperative. Usually offers useful ideas. Generally displays positive attitude. |Sometimes cooperative. Sometimes offers useful ideas. Rarely displays positive attitude. |Seldom cooperative. Rarely offers useful ideas. Is disruptive.|
+|Cooperation with Others|Did more than others. Highly productive. Works extremely well with others.| Did own part of workload. Cooperative. Works well with others. |Could have shared more of the workload. Has difficulty. Requires structure, directions, and leadership.|Did not do any work. Does not contribute. Does not work well with others.|
+|Focus, Commitments |Tries to keep people working together. Almost always focused on the task. Is very self-directed. |Does not cause problems in the group. Focuses on the task most of the time. Can count on this person. |Sometimes focuses on the task. Not always a good team member. Must be prodded and reminded to keep on task. |Often is not a good team member. Does not focus on the task. Lets others do the work. |
+|Team Role Fulfillment |Participates in all group meetings. Assumes leadership role. Does the work that is assigned by the group. |Participates in most group meetings. Provides leadership when asked. Does most of the work assigned by the group. |Participates in some group meetings. Provides some leadership. Does some of the work assigned by the group. |Participates in few or no group meetings. Provides no leadership. Does little or no work assigned by the group.  |
+|Ability to Communicate|Always listens to, shares with, and supports the efforts of others. Provides effective feedback. Relays a lot of relevant information. |Usually listens to, shares with, and supports the efforts of others. Sometimes talks too much. Provides some effective feedback. Relays some basic information that relates to the topic. |Often listens to, shares with, and supports the efforts of others. Usually does most of the talking.  |Rarely listens to others. Provides little feedback. Relays very little information that relates to the topic. Rarely listens to, shares with, or supports the efforts of others. Is always talking and never listens to others. Provides no feedback. Does not relay any information to teammates. |
+|Accuracy|Work is complete, well-organized, error-free, and done on time or early. |Work is generally complete, meets the requirements of the task, and is mostly done on time.|Work tends to be disorderly, incomplete, inaccurate, and is usually late.   | Work is generally sloppy and incomplete, contains excessive errors, and is mostly late.|
+
+
+
+Total Points \_\_\_\_\_\_
+
+
+Notes and Comments:
+
+
