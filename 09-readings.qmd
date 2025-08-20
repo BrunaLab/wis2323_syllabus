@@ -32,7 +32,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 -  Excerpts from Historical Narratives \[6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)\]
 
-##### 2-2 Historical Narratives (cont.); 
+##### 2-2 Historical Narratives (cont.);  {.unnumbered}
 
 - none
 
