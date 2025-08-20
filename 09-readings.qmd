@@ -42,8 +42,10 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 ##### 3-1 Rain Forest Imagery in Art & Literature {.unnumbered}
 
 > *Goal: To see how the different depictions of the tropics and tropical biodiversity from early European explorers are reflected in art and literature.*
+readings/trf_in_lit_and_poetry.pdf
 
-- Excerpts from Literature/Poetry [link](https://brunalab.github.io/wis2323_syllabus/readings/lit_poetry.pdf) (5 pages)  
+<!-- https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf -->
+- Excerpts from Literature/Poetry [link](https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf) (5 pages)  
 
 - Images of artwork \[link\] (4 pages)
 
