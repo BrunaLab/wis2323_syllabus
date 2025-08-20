@@ -33,16 +33,15 @@ book:
   
   chapters:
     - index.qmd
-    # - 02-overview.qmd
-    - 03-materials.qmd
-    - 04-office_hours.qmd
-    - 05-grades.qmd
-    - 06-calendar.qmd
-    - 07-faq.qmd
-    - 08-policies.qmd
-    - 09-resources.qmd
-    - 10-readings.qmd
-    - 11-slos.qmd
+    - 02-materials.qmd
+    - 03-office_hours.qmd
+    - 04-grades.qmd
+    - 05-calendar.qmd
+    - 06-faq.qmd
+    - 07-policies.qmd
+    - 08-resources.qmd
+    - 09-readings.qmd
+    - 10-slos.qmd
     
     # 
     # - part: "Course Introduction"
