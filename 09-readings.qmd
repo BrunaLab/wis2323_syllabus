@@ -345,21 +345,21 @@ Henry Knight Lozano (2023) California and Florida grew quickly on the promise of
 
 <!-- redd+ projects are developed with communities, this is an example of why some might succeed or fail -->
 
-Katrina Kosec et al. (2025) Forest loss in Malawi: how having women at the table affected debates and decisions about solutions. _The Conversation_. \[[read online] (https://theconversation.com/forest-loss-in-malawi-how-having-women-at-the-table-affected-debates-and-decisions-about-solutions-research-259699), 10 min read\].
-
 -  Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" _NY Times_. \[[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html), 10 min read\].
 
 
-##### 13-2 Protected Areas {.unnumbered}
+##### 13-2 Community based conservation {.unnumbered}
 
-> *Goal: To learn about different global categories of protected areas, the importance of protected areas in the tropics for conserving forest, and how the threats to protected areas vary regionally and globally.*
+> *Goal: To learn about how local communities are engaged in rain forest conservation and sustainable development efforts in the tropics and beyond.*
 
--  Dasgupta, Shreya (with research by Annika Schlemm & Zuzana Burivalova). 2017. "Do protected areas work in the tropics?" Mongabay.com. \[[read online](https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/), 25 min read\].
+-  Kimbrough, L. 2021. "How settlers, scientists, and a women-led industry saved Brazil's rarest primate". Mongabay.com \[[read online](https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/), 10 min read\].
 
-Matti Barthel et al. (2025) DRC’s plan for the world’s largest tropical forest reserve would be good for the planet: can it succeed? _The Conversation_. \[[read online] (https://theconversation.com/drcs-plan-for-the-worlds-largest-tropical-forest-reserve-would-be-good-for-the-planet-can-it-succeed-254394), 10 min read\].
+Katrina Kosec et al. (2025) Forest loss in Malawi: how having women at the table affected debates and decisions about solutions. _The Conversation_. \[[read online] (https://theconversation.com/forest-loss-in-malawi-how-having-women-at-the-table-affected-debates-and-decisions-about-solutions-research-259699), 10 min read\].
 
+-  Don't underestimate what one person can do on their own: "BBC World Service: The man who grew his own rainforest" \[[link to video](https://www.youtube.com/watch?v=AngaeIf78AQ), 5 min long\] (keep an eye out for the Euglossine bees we learned about earlier in the semester...you can see them collecting scented oil from flowers at 2:04).
 
 -  **Come prepared to make some money:** we're looking into the economic benefits of setting aside land (or not) for conservation. To prepare, review this document over before class: \[[link](https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098), 10-15 min read\].
+
 
 ## Week 14  {.unnumbered}
 
@@ -393,23 +393,24 @@ UF EPI. (2024) Florida’s mosquitoes can make you sick: Here’s how to protect
 
 ##### 16-1 Forest Restoration & Regeneration {.unnumbered}
 
-> *Goal: To learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation*
+> *Goal 1: To learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation*
+
+> *Goal 2: To learn about different global categories of protected areas, the importance of protected areas in the tropics for conserving forest, and how the threats to protected areas vary regionally and globally.*
+
+-  Dasgupta, Shreya (with research by Annika Schlemm & Zuzana Burivalova). 2017. "Do protected areas work in the tropics?" Mongabay.com. \[[read online](https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/), 25 min read\].
+
+Matti Barthel et al. (2025) DRC’s plan for the world’s largest tropical forest reserve would be good for the planet: can it succeed? _The Conversation_. \[[read online] (https://theconversation.com/drcs-plan-for-the-worlds-largest-tropical-forest-reserve-would-be-good-for-the-planet-can-it-succeed-254394), 10 min read\].
 
 -  Medici, Patricia. 2015 TED Fellows Talk. "The coolest animal you know nothing about...and how we can save it". \[[link to video](https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653), 11:20 min long\].
 
--  "Do tapirs defecate in the woods?" 2019. The Economist \[[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods), 5 min read\].
+<!-- -  "Do tapirs defecate in the woods?" 2019. The Economist \[[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods), 5 min read\]. -->
 
 -  Jennifer Weeks. Ending Amazon deforestation: 4 essential reads about the future of the world's largest rainforest. _The Conversation_ [link](https://theconversation.com/ending-amazon-deforestation-4-essential-reads-about-the-future-of-the-worlds-largest-rainforest-194800) (4 pages) 
 
--  Kimbrough, L. 2021. "How settlers, scientists, and a women-led industry saved Brazil's rarest primate". Mongabay.com \[[read online](https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/), 10 min read\].
-
--  Don't underestimate what one person can do on their own: "BBC World Service: The man who grew his own rainforest" \[[link to video](https://www.youtube.com/watch?v=AngaeIf78AQ), 5 min long\] (keep an eye out for the Euglossine bees we learned about earlier in the semester...you can see them collecting scented oil from flowers at 2:04).
 
 
 \newpage
 <!-- ##### 13-1 Local Initiatives, Empowered Communities, Activism, & Philanthropy {.unnumbered} -->
-
-<!-- > *Goal: To learn about how local communities are engaged in rain forest conservation and sustainable development efforts in the tropics and beyond.* -->
 
 
 <!-- -  Arellano, Astrid and Sierra Praeli, Yvette. 2022. "A look at violence and conflict over Indigenous lands in nine Latin American countries". Mongabay.com . \[[read online](https://news.mongabay.com/2022/05/a-look-at-violence-and-conflict-over-indigenous-lands-in-nine-latin-american-countries/?utm_medium=Social&utm_source=Twitter#Echobox=1654027741-1), 20 min read\]. -->
