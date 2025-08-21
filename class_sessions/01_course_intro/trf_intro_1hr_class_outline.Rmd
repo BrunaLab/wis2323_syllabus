@@ -1,0 +1,172 @@
+---
+title: "WIS 2323: Course Introduction"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{Course Introduction, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# WIS 2323: Course Introduction
+
+## Session Objectives & Competencies:   
+
+1. Introduce the class and challenges of tropical rain forest conservation 
+2. Review the Syllabus
+3. Become familiar with students, their concerns, and their interests
+
+## Pre-class Preparation - Instructor
+- [ ] Prepare survey and post as Assignment 1
+
+- [ ] Email students: 
+
+>Hi Everyone, I’m your instructor for "WIS 2323: The Future of Rain Forests".
+>
+>This is just a reminder that the first class session is tomorrow (Thursday) from >12:50-1:40 pm in LIT 0237.
+>
+>I've posted some information about the semester on the course Canvas page, as well as >"Assignment 1" - a very brief survey that should take you just a few minutes to complete >by next week.
+>
+>Most of you likely know how to log on to canvas, but just in case:
+>
+>Go to the e-Learning website
+>Choose “Log into e-Learning” and log in with your Gatorlink username and password.
+>Click on“Courses” at the top of the page.
+>Choose this course: [WIS 2323] from the list
+>Complete Assignment 1.
+>
+>If you have trouble logging into the E-learning system, contact: helpdesk@ufl.edu or call >(352) 392-4357.
+>
+>I look forward to seeing you all tomorrow,
+>EB
+
+- [ ] Prepare for Class 
+
+> - [ ] Roster
+> - [ ] Name cards & Markers
+> - [ ] Syllabi
+> - [ ] Chocolates
+> - [ ] PDF of class outline
+
+<!-- **<<Revision for v 2.0: have 1/2 the class do the survey for "tropical rain forest" and the other half do the words that come to mind with "jungle" - would be really interesteing to compare the differences that come to mind, and is a good lead-in to Jungle being defined by the British officers.">>**  -->
+
+## Pre-class Preparation - Students
+
+1. **Assignments:** Complete the survey if they have an opportunity to do so
+2. **Readings & Videos:** None
+
+
+\newpage
+```{r timer, echo=FALSE}
+
+Block1_breakout <- 10
+Break <- 0
+return_results <- 15
+intro_next_session <- 20
+questions <- 5  
+  
+total_time <- 
+  Block1_breakout + 
+  Break + 
+  return_results + 
+  questions +
+  intro_next_session 
+
+
+time_remain <- 50 - total_time
+```
+
+# Class Outline (Total Time: `r total_time` min)
+\vspace{0.5cm}
+
+### **Breakout** (`r Block1_breakout` min)
+
+1. Introduce yourselves to each other (name, major, where from), and without looking at your cell phones or computers see if you can answer these questions:  
+
+> - What is the primary ingredient in Chocolate?
+> - What THREE countries are the primary producers of this ingredient?   
+
+### Return and discuss breakout results (`r return_results` min)
+
+1. **Review the answers**  (*NB: Update numbers [here.](https://www.statista.com/topics/1638/chocolate-industry/#topicOverview)*)
+
+> - Main Ingredient: Cacao
+> - Primary producers 3 countries produce ~77% of world's Cacao.
+> - World's leading consumer of cacao products: USA (797,000 tons in 2021).
+
+2. **Why Cacao?** 
+
+> 1. Cacao is a perfect example of the challenges faced when considering the Future of Rain Forests
+> 1. Hugely important crop at the macroeconomic (major national export for many countries, multibillion dollar industry) and microeconomic level (major source of family income). 
+> 1. Threatened by climate change.
+> 1. Increasing global demand has major consequences for rain forests, especially the US.
+> 1. US eats about three billion kilograms (6.6 bi lbs) of chocolate confectionery annually. Avg us consumer  eats about 9 kg of chocolate per year.
+> 1. **We're going to study these challenges and consider - and maybe even come up with - the potential soluctions to them.**
+
+### Syllabus & Course Overview  (`r intro_next_session` min)      
+
+1. Most of the course work is in-class. Remind people this course is still a bit of an experiment, and also that...  
+1. Current events (e.g., deforestation, fires, national or international election results) so there will be some changes on the fly. Check the syllabus frequently.  
+1. "Some of you may be new to UF and so may not know what Office Hours are. They're an opportunity to..."  
+1. "This class has a very reasonable amount of homework and reading and _no tests_. In return I ask that you come to class committed to engage and enjoy yourself. This class will (I hope) be the least stressful one you have all semester. That doesn't necessarily mean it will be the easiest - in fact it may be quite challenging sometimes - but I hope that won't be too stressful. That's my commitment to you."
+
+
+### Closing Remarks/Questions (`r questions` min)
+
+1. Any questions? 
+1. Don't forget Fill out the Survey in Canvas as Assignment 1!
+
+\vspace{1.5cm}
+# Additional Resources and Reading
+\vspace{0.5cm}
+1. [The Real Price of a Chocolate Bar: West Africa’s Rainforests - Yale e360](https://e360.yale.edu/features/the-real-price-of-a-chocolate-bar-west-africas-rainforests)
+2. [Ghana Exports](https://tradingeconomics.com/ghana/exports-by-category)
+3. [Ivory Coast Exports](https://tradingeconomics.com/ivory-coast/exports-by-category)
+4. Leading Cocoa Exporters: [[link-1]](https://www.kakaoplattform.ch/about-cocoa/cocoa-facts-and-figures) [[link-2]](https://www.statista.com/statistics/1112357/global-leading-exporters-of-cocoa-bean) [[link-3]](https://worldpopulationreview.com/country-rankings/cocoa-producing-countries)
+5. Cocoa/Chocolate Market  [[link]](https://www.fortunebusinessinsights.com/industry-reports/cocoa-and-chocolate-market-100075)
+6. US Chocolate sales [[link]](https://www.axios.com/2022/03/18/chocolate-and-candy-sales-hit-a-record)
+
