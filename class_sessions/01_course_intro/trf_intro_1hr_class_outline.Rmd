@@ -62,28 +62,18 @@ opts_knit$set(width=75)
 
 ## Pre-class Preparation - Instructor
 - [ ] Prepare survey and post as Assignment 1
+- [ ] Email students introduction and reminder to fill out survey 
 
-- [ ] Email students: 
-
->Hi Everyone, I’m your instructor for "WIS 2323: The Future of Rain Forests".
->
->This is just a reminder that the first class session is tomorrow (Thursday) from >12:50-1:40 pm in LIT 0237.
->
->I've posted some information about the semester on the course Canvas page, as well as >"Assignment 1" - a very brief survey that should take you just a few minutes to complete >by next week.
->
->Most of you likely know how to log on to canvas, but just in case:
->
->Go to the e-Learning website
->Choose “Log into e-Learning” and log in with your Gatorlink username and password.
->Click on“Courses” at the top of the page.
->Choose this course: [WIS 2323] from the list
->Complete Assignment 1.
->
->If you have trouble logging into the E-learning system, contact: helpdesk@ufl.edu or call >(352) 392-4357.
->
->I look forward to seeing you all tomorrow,
->EB
-
+<!-- Hi Everyone, I’m your instructor for "WIS 2323: The Future of Rain Forests". -->
+<!-- This is just a reminder that the first class session is tomorrow (Thursday) from >3:00-3:50 pm in LIT 0237. -->
+<!-- I've posted some information about the semester on the course Canvas page, as well as >"Assignment 1" - a very brief survey that should take you just a few minutes to complete >by next week. -->
+<!-- Most of you likely know how to log on to canvas, but just in case: -->
+<!-- >Go to the e-Learning website and log in with your Gatorlink username and password. -->
+<!-- >Choose this course: [WIS 2323] from the list -->
+<!-- >Complete Assignment 1. -->
+<!-- If you have trouble logging into the E-learning system, contact: helpdesk@ufl.edu or call >(352) 392-4357. -->
+<!-- I look forward to seeing you all tomorrow, -->
+<!-- EB -->
 - [ ] Prepare for Class 
 
 > - [ ] Roster
@@ -91,8 +81,18 @@ opts_knit$set(width=75)
 > - [ ] Syllabi
 > - [ ] Chocolates
 > - [ ] PDF of class outline
+> - [ ] HW 1 (survey) published 
 
 <!-- **<<Revision for v 2.0: have 1/2 the class do the survey for "tropical rain forest" and the other half do the words that come to mind with "jungle" - would be really interesteing to compare the differences that come to mind, and is a good lead-in to Jungle being defined by the British officers.">>**  -->
+
+
+## After Class - Instructor
+
+- [ ] Upload Slides
+- [ ] Note any issues with timing or ideas for next time
+- [ ] Prep word cloud based on responses for next two-hour class session
+- [ ] publish pre-class assignment for next session 
+
 
 ## Pre-class Preparation - Students
 
@@ -135,7 +135,7 @@ time_remain <- 50 - total_time
 1. **Review the answers**  (*NB: Update numbers [here.](https://www.statista.com/topics/1638/chocolate-industry/#topicOverview)*)
 
 > - Main Ingredient: Cacao
-> - Primary producers 3 countries produce ~77% of world's Cacao.
+> - Primary producers 3 countries produce ~66% of world's Cacao; 4 countries produce ~72%
 > - World's leading consumer of cacao products: USA (797,000 tons in 2021).
 
 2. **Why Cacao?** 
@@ -163,6 +163,7 @@ time_remain <- 50 - total_time
 \vspace{1.5cm}
 # Additional Resources and Reading
 \vspace{0.5cm}
+1. Kalischek, N., Lang, N., Renier, C. et al. Cocoa plantations are associated with deforestation in Côte d’Ivoire and Ghana. Nat Food 4, 384–393 (2023). https://doi.org/10.1038/s43016-023-00751-8
 1. [The Real Price of a Chocolate Bar: West Africa’s Rainforests - Yale e360](https://e360.yale.edu/features/the-real-price-of-a-chocolate-bar-west-africas-rainforests)
 2. [Ghana Exports](https://tradingeconomics.com/ghana/exports-by-category)
 3. [Ivory Coast Exports](https://tradingeconomics.com/ivory-coast/exports-by-category)

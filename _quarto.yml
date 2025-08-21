@@ -63,7 +63,10 @@ format:
     theme: 
       - cosmo
     filters: [format/remove_title.lua]
-    
+  # docx:
+  #   toc: true
+  #   number-sections: true
+  #   highlight-style: github
   pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
