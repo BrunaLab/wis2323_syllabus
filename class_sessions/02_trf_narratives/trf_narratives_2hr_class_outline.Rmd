@@ -1,0 +1,164 @@
+---
+title: "WIS 2323: Historical Narratives"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{Historical Narratives, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+# WIS 2323: Historical Narratives
+
+<!-- UPDATES FOR NEXT YEAR: 
+1. Add text by Antonio de León Pinelo to the "Narratives" to be evaluated  -->
+
+## Objectives and Competencies:   
+
+1. To explore the cultural and historical roots of contemporary conceptualizations of rain forests and the people that live in them.
+1. To conduct basic text and sentiment analysis of the texts written by early European visitors to rain forests.
+1. To use the results of these analyses to infer the major themes or narratives about rain forests and their people established by these historical texts
+
+## Pre-class Preparation - Instructors
+
+- [ ] Email Students  
+
+> - [ ] class location
+> - [ ] reminder to bring printed version of the historical narratives
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+- [ ] Props  
+
+> * Ginger Plant or rhizomes
+> * Tumeric powder or Tea
+> * Black Pepper
+> * Cinnamon
+> * pumkin spice product (PSL Latte, or similar)
+
+## Pre-class Preparation (Students):
+
+1. Bring printout of the Historical Narratives
+
+### Assignments
+
+### Readings/Videos: 
+
+1. Historical Narratives 
+
+\newpage
+```{r timer, echo=FALSE}
+
+Block1_intro <- 45
+Block1_breakout <- 30
+return_results <- 40
+intro_next_session <- 15
+
+  
+total_time <- 
+  Block1_intro + 
+  Block1_breakout +
+  return_results + 
+  intro_next_session 
+
+
+time_remain <- 130 - total_time
+```
+# Class Outline (Total Time: `r total_time` min)
+\vspace{0.5cm}
+
+### **Intro: ** (`r Block1_intro` min)   
+
+1. Review the Word CLoud based on student responses to survey _(leave for next session if today's session is 1 hr)_
+
+#### Historical Narratives
+
+1. Most Europeans entered the tropics in a political and social climate of colonization and exploitation (of people, their culture, and natural resources). 
+1. That shapes their perceptions of both tropical environments and the people they encountered.
+1. These people wrote home about what they saw, and brought things back with them.  
+1. These stories percolate through society and are reflected back by authors and artists for consumption by the public.
+1. This reinforces and helps perpetuate the first perceptions (and misconceptions).
+
+### **Breakout** (`r Block1_breakout` min): Text analysis
+
+1. Text analysis assignment
+
+### **Return and discuss breakout results** (`r return_results` min)
+
+1. Review results of in-class text analysis
+
+**Note:** 
+
+1. Active debates among the religious and exploring elite about the location of paradise and whether it was under the equinoctal line.
+1. Antonio de León Pinelo: Spanish Jurist wrote "Paraíso en el Nuevo Mundo" in about 1650. Placed Eden just south of the equator in the Amazon (just south because a little bit milder, he reasoned.)
+
+<!-- 1. Maize (Zea mays) 2. Tomato (Solanum lycopersicum) 3. Potato (Solanum tuberosum) 4. Vanilla (genus Vanilla, esp. Vanilla planifolia) 5. Pará rubber tree (Hevea brasiliensis) 6. Cacao (Theobroma cacao) 7. Tobacco (Nicotiana rustica) -->
+<!-- 1/ Introduced Eurasian diseases wiped out 50–90% of the Indigenous population  -->
+
+### **Preview Next Session**  (`r intro_next_session` min)      
+
+
+<!-- ### Free Time -->
+
+There are `r time_remain` min remaining that can be used to answer questions.
+
+\vspace{1.5cm}
+
+# Additional Resources and Reading Materials
+\vspace{0.5cm}
+
+1. [A Brief History of the Age of Exploration](https://www.thoughtco.com/age-of-exploration-1435006)
+1. [European Exploration and Settlement in the New World](https://www.u-s-history.com/pages/h1031.html)
+1. [The Age of Discovery](https://en.wikipedia.org/wiki/Age_of_Discovery)
+1. [Timeline of European Exploration](https://en.wikipedia.org/wiki/Timeline_of_European_exploration)
+1. [El Dorado](https://en.wikipedia.org/wiki/El_Dorado)
+1. [Antonio de León Pinelo](Antonio de León Pinelo)  and the debate about the location of Eden: [Link_1](https://journals.sagepub.com/doi/abs/10.1177/1474474009350000?journalCode=cgjb), [Link2](http://sergio-vega-art.squarespace.com/introduction), [Link3](https://catedraltomada.pitt.edu/ojs/index.php/catedraltomada/article/view/202)
+

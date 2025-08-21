@@ -1,0 +1,76 @@
+---
+title: "WIS 2323 - Historical Narratives: In-class Activity"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- "\\fancyhead[R]{Lit and Poetry (In-class), p. \\thepage}"
+- "\\fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+mainfont: SourceSansPro
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Historical Narratives and the Depiction of Tropical Rain Forests and People    
+\vspace{0.3cm}
+
+Whether or not we realize it, when we read a passage of text we are breaking it apart into its unique elements - words - and then processing the individual words (or groups of words) to infer what the author is intending to communicate. The conclusions we draw from this inference are shaped in part by our individual experiences and environment (economic status, education, cultural background, identity), and the sociopolitical moment in which they are read.  
+
+As readers we usually do this *"Text Analysis"* subconsciously, but we can also step back and do it explicitly: we can extract key words or phrases from a passage, characterize features of these words (e.g., their objective meaning, the subjective emotional response they evoke in a reader), and use this information to infer how the author's choice of language could influence a reader's conclusions. For instance, we can analyze if the words used in a passage have meanings that are typically "positive", "negative", or "neutral", and from that conclude what a reader of a passage would conclude about the subject matter. This research method is known as   *Sentiment Analysis*.
+
+**You and your colleagues will be doing some simple Sentiment Analysis on reports written by some of the first Europeans to travel through (_i.e._, 'explore') tropical rain forests.** We will then use your results to collectively identify the major themes these historical reports established about tropical forests and the people that lived there. In future sessions, we will attempt to determine if these themes are reflected in over 500 years of cultural expression ranging from poetry to comic books _(spoiler alert: they are)_.
+
+### Instructions - Part 1 (Do on your own, bring to the next session)  
+
+1. Download the .pdf file of historical texts and images: [[link to file](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]. 
+
+
+1. As you read each text, highlight especially powerful descriptions of places, people, or the author's feelings about what they were experiencing.  Try to highlight just individual words or short phrases, not the entire sentence.
+
+1. In the margin next to the highlighted word or phrase, write either '+1' (if the meaning it conveys is positive) or '-1)' (if the meaning it conveys is negative).
+
+1. At the bottom of the passage record the sum of these scores (e.g., for a passage with phrases assigned scores of '+1/+1/-1/-1/-1/-1/+1/-1' you would write down 'Total: -2'
+
+1. Now look at the examples of some of the drawings that were included in these texts. What sentiment do they evoke? Do they reinforce the conclusions drawn from the text? Assign each of these images a score from '-5' (strongly negative) to '+5' (strongly positive).
+
+**BRING YOUR ANNOTATED TEXTS TO CLASS**. In class you will have the opportunity to compare your conclusions with those of other students, so _bring your marked texts and come prepared to discuss them with your group._ 
+
+***Note***: *you can annotate either a paper copy or the pdf, but you may find it easier to discuss with your group if you did the annotations on a printed copy.*
+
+<!-- Were there any words or phrases whole group agreed on? Any that you disagreed on? -->
+<!-- when back from group", EB has each sentence on screen and then records how many groups had that as +1,-1,)  -->
+   
+<!-- 5. Sometimes the things _left out_ by the author are as informative as the things they _did_ say. Can you infer anything from what *wasn't* said? -->
+
+
+**Once you have read and scored all the passages, take a step back: ** 
+
+> Can you identify some major themes (= *narratives*) about Tropical Rain Forests and the people living in them that emerge from these passages? Put another way, what would you conclude about thee places and people if you were reading these passages *at the time they were written*? 
+
+We will compare conclusions as a group in the next session, so _bring your marked texts, score sheets, and conclusions and come prepared to discuss them with your classmates_
+
+<!-- **<<revision for v 2.0; we got through only part 1. if you delete the lecture slide and do it as a video, you might get through the lit. but I rec doing part 1 only, then doing the lit/poetry as part of culture.>>** -->

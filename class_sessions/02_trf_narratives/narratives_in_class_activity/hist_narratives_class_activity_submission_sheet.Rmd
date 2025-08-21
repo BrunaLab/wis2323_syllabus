@@ -1,0 +1,105 @@
+---
+title: 'WIS 2323 - Historical Narratives: In-class Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Lit and Poetry (In-class), p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  # knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile, 
+#   encoding = encoding, 
+#   output_dir = "./static/uploads")
+#   })
+#   html_document:
+#     df_print: paged
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./content/post/class-sessions")
+#   })
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Historical Narratives
+
+## Group Discussion Submission Form
+
+\vspace{0.3cm}
+
+### Group ID (A-K):_______________
+
+### Group Members:
+
+
+| 1\.______________________________  5\.______________________________ 
+| 2\.______________________________  6\.______________________________ 
+| 3\.______________________________  7\.______________________________ 
+| 4\.______________________________  8\.______________________________ 
+
+
+### Section 1: 
+
+For each text, submit (1) your group's total score for the passage, and (2) the phrase or sentence that your group considered most representative of the passage. *(1 pt per response)*
+
+**Passage 1 (Polo)**
+
+-   Score:
+
+-   Phrase:
+
+**Passage 2 (Raleigh)**
+
+-   Score:
+
+-   Phrase:
+
+**Passage 3 (Cook)**
+
+-   Score:
+
+-   Phrase:
+
+**Passage 4 (Stanley)**
+
+-   Score:
+
+-   Phrase:
+
+### Section 2: 
+
+List *three* themes about rain forests that would be inferred by someone reading these texts in the era they were written. One way think conceptualize this is by filling in the blank in the following sentence with aa single word: "Rain forests are \_\_\_\_\_\_\_\_" *(4 pts each)*
+
+1.  Theme 1: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+2.  Theme 2: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+3.  Theme 3: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
