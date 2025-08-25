@@ -113,7 +113,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 readings/trf_in_lit_and_poetry.pdf
 
 <!-- https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf -->
-- Excerpts from Literature/Poetry [link](https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf) (5 pages)  
+- Excerpts from Literature/Poetry [link](https://brunalab.github.io/wis2323_syllabus/trf_in_lit_and_poetry.pdf) (5 pages)  
 
 - Images of artwork \[link\] (4 pages)
 
