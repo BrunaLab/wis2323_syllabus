@@ -117,14 +117,14 @@ time_remain <- 130 - total_time
 
 ### **Intro: ** (`r Block1_intro` min)   
 
-1. Review the Word CLoud based on student responses to survey _(leave for next session if today's session is 1 hr)_
+1. If a two hour session: quickly review Word Cloud based on student responses to survey _(leave for next time if today's session is 1 hr)_
 
 #### Historical Narratives
 
-1. Most Europeans entered the tropics in a political and social climate of colonization and exploitation (of people, their culture, and natural resources). 
-1. That shapes their perceptions of both tropical environments and the people they encountered.
+1. Most Europeans entered the tropics in a political and social climate of colonization and exploitation (of people, their culture, and natural resources).   
+1. That shapes their perceptions of both tropical environments and the people they encountered.  
 1. These people wrote home about what they saw, and brought things back with them.  
-1. These stories percolate through society and are reflected back by authors and artists for consumption by the public.
+1. These stories percolate through society and are reflected back by authors and artists for consumption by the public.  
 1. This reinforces and helps perpetuate the first perceptions (and misconceptions).
 
 ### **Breakout** (`r Block1_breakout` min): Text analysis
@@ -134,18 +134,15 @@ time_remain <- 130 - total_time
 ### **Return and discuss breakout results** (`r return_results` min)
 
 1. Review results of in-class text analysis
-
-**Note:** 
-
-1. Active debates among the religious and exploring elite about the location of paradise and whether it was under the equinoctal line.
-1. Antonio de León Pinelo: Spanish Jurist wrote "Paraíso en el Nuevo Mundo" in about 1650. Placed Eden just south of the equator in the Amazon (just south because a little bit milder, he reasoned.)
+2. The importance of the tropics to intellectual and religious life can't be overstated: 
+- Active debates among the religious and exploring elite about the location of paradise and whether it was under the equinoctal line. For example, Antonio de León Pinelo (a Spanish Jurist) wrote "Paraíso en el Nuevo Mundo" in about 1650. He placed Eden just south of the equator in the Amazon (just south because a little bit milder, he reasoned.)
 
 <!-- 1. Maize (Zea mays) 2. Tomato (Solanum lycopersicum) 3. Potato (Solanum tuberosum) 4. Vanilla (genus Vanilla, esp. Vanilla planifolia) 5. Pará rubber tree (Hevea brasiliensis) 6. Cacao (Theobroma cacao) 7. Tobacco (Nicotiana rustica) -->
 <!-- 1/ Introduced Eurasian diseases wiped out 50–90% of the Indigenous population  -->
 
 ### **Preview Next Session**  (`r intro_next_session` min)      
 
-
+1. Next time we are going to actually take the texts you read, analyzed, and do something with them.
 <!-- ### Free Time -->
 
 There are `r time_remain` min remaining that can be used to answer questions.

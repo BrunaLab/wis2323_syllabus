@@ -100,6 +100,9 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 <a href="https://github.com/BrunaLab/wis2323_syllabus/blob/53613f1d96051241c520088518b6546a1db89e6d/readings/historical_narratives.pdf" target="_blank">PDF.</a>
 
+readings/historical_narratives.pdf
+
+readings/historical_narratives.pdf
 
 ##### 2-2 Historical Narratives (cont.);  {.unnumbered}
 
