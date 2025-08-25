@@ -1,4 +1,5 @@
 % Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
@@ -8,21 +9,23 @@
   letterpaper,
   oneside,
   open=any]{scrbook}
-
+\usepackage{xcolor}
+\usepackage[bindingoffset=0.0in,left=24mm,top=24mm,bottom=24mm,right=24mm]{geometry}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 \usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -40,23 +43,32 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\usepackage[bindingoffset=0.0in,left=24mm,top=24mm,bottom=24mm,right=24mm]{geometry}
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 % Make \paragraph and \subparagraph free-standing
+\makeatletter
 \ifx\paragraph\undefined\else
   \let\oldparagraph\paragraph
-  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
 \fi
 \ifx\subparagraph\undefined\else
   \let\oldsubparagraph\subparagraph
-  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
+\makeatother
 
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -68,17 +80,33 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
 
 \usepackage{booktabs}
 \usepackage{longtable}
@@ -182,13 +210,9 @@
 \makeatletter
 \@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
 \makeatother
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage{bookmark}
-
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   colorlinks=true,
   linkcolor={Maroon},
@@ -197,26 +221,27 @@
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
+
 \author{}
 \date{}
-
 \begin{document}
 \frontmatter
+
 
 \mainmatter
 \bookmarksetup{startatroot}
 
 \chapter{Syllabus}\label{syllabus}
 
-\includegraphics{images/banner.png}
+\pandocbounded{\includegraphics[keepaspectratio]{images/banner.png}}
 
 This course investigates the fundamental issues addressed by scientists
 studying tropical rain forests, including what gave rise to their
 remarkable biodiversity, the drivers and consequences of deforestation,
-why people are fascinated by rain forests, cultural stereotypes about
-the tropics, and if forest conservation is compatible with socioeconomic
-development. \textbf{\emph{By the end of the course students will be
-able to:}}
+why people are fascinated by rain forests, cultural and ecological
+stereotypes about the tropics, and different approaches to forest
+conservation and sustainability. \textbf{\emph{By the end of the course
+students will be able to:}}
 
 \begin{itemize}
 \tightlist
@@ -229,7 +254,8 @@ able to:}}
   Discuss \& evaluate hypotheses for the origins and maintenance of
   tropical biodiversity
 \item
-  Explain \& compare human history in rain forests
+  Explain \& compare the history and ecological influence of humans in
+  rain forests
 \item
   Review contemporary threats to rain forests
 \item
@@ -241,8 +267,8 @@ able to:}}
   Identify rain forests in their daily lives \& set personal goals for
   advancing their conservation
 \item
-  Produce materials for communicating about rain forests to family and
-  peers
+  Produce materials for communicating about tropical biology \&
+  conservation to family and peers
 \end{itemize}
 
 \subsection*{When \& Where}\label{when-where}
@@ -324,7 +350,7 @@ This course counts towards:
   during the regularly scheduled office hours, you can send a message
   via Canvas to set up an appointment.
 \item
-  \textbf{Teaching Assistant:} Tuesday 9:00-11:00 am (in-person \&
+  \textbf{Teaching Assistant:} Tuesday 4:00-5:30 pm (in-person \&
   online) or by appointment.
 \end{itemize}
 
@@ -337,16 +363,15 @@ This course counts towards:
   is located at 711 Newell Drive next to Rawlings Hall (between the bus
   stop and the parking garage). For directions you can use this
   \href{https://maps.app.goo.gl/xo13vJmj8WXAivpZ9}{link to the lab on
-  Google Maps} or click the ``Contact'' link at
-  \href{http://brunalab.org}{BrunaLab.org}).
+  Google Maps}.
 \item
   \textbf{Online:} To join Office Hours virtually use the Zoom
   Conferences link on the main menu of the course Canvas page. We are
   online the entire session.
 \end{itemize}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, coltitle=black, left=2mm, colback=white, breakable, rightrule=.15mm, bottomrule=.15mm, opacitybacktitle=0.6, opacityback=0, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-tip-color-frame, titlerule=0mm, toprule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Can you give me \textbf{one good reason} why I should go to Office
-Hours?}, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colback=white, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, leftrule=.75mm, coltitle=black, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, breakable, toprule=.15mm, rightrule=.15mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Can you give me \textbf{one good reason} why I should go to Office
+Hours?}, toptitle=1mm, left=2mm, opacitybacktitle=0.6, opacityback=0]
 
 I can give you \textbf{ten}.
 
@@ -390,7 +415,7 @@ in-class assignment that reinforces the major themes of the day's topic.
 In keeping with the philosophy of the Quest program, this course also
 has \emph{Experiential Learning and Self-Reflection Components}.
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, coltitle=black, left=2mm, colback=white, breakable, rightrule=.15mm, bottomrule=.15mm, opacitybacktitle=0.6, opacityback=0, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-tip-color-frame, titlerule=0mm, toprule=.15mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Important note regarding class discussions \& group work.}, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colback=white, colbacktitle=quarto-callout-tip-color!10!white, arc=.35mm, leftrule=.75mm, coltitle=black, colframe=quarto-callout-tip-color-frame, bottomrule=.15mm, breakable, toprule=.15mm, rightrule=.15mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Important note regarding class discussions \& group work.}, toptitle=1mm, left=2mm, opacitybacktitle=0.6, opacityback=0]
 
 We will explore some challenging, important problems and increase our
 understandings of different perspectives and approaches for addressing
@@ -410,7 +435,7 @@ readings and discussing course content with classmates and instructors.
 \addcontentsline{toc}{subsection}{Assignments (1000 pts)}
 
 \begin{center}
-\includegraphics[width=1\textwidth,height=\textheight]{images/hw.png}
+\includegraphics[width=1\linewidth,height=\textheight,keepaspectratio]{images/hw.png}
 \end{center}
 
 \subsection*{Grading}\label{grading}
@@ -438,20 +463,15 @@ points, visit:
 \addcontentsline{toc}{subsection}{Attendance}
 
 Though attendance is not required, many of the sessions we will be
-completing activities in class that count towards your grade. Most of
-these can be completed independently, but by doing them in class you
-will benefit from working collaboratively with the other students.
-
-\textbf{Some of the in-class activities can only be completed in that
-day's class session.} If you miss class on one one of these days, that
-is why the grade for in-class activities is based on a subset of the
-total activities; you can also elect to make up lost points with
-extra-credit assignments. \textbf{\emph{If you need to miss class for
-any reason, please let me know as soon as possible}}. We will make
-arrangements for you to complete any assignments and go over any
-material you will be missing. I would much rather you focus on your
-health, attend your conference, or support friends and family in need
-than struggle to turn in assignments.
+completing activities in class that count towards your grade. Some these
+can be completed independently, but by doing them in class you will
+benefit from working collaboratively with the other students.
+\textbf{Not all in-class activities can be completed independently.}
+That is why only a subset of the in-class assignments count towards your
+grade. We also offer some opportunities for extra credit.
+\textbf{\emph{If you need to miss class for any reason, please let me
+know as soon as possible}}. We will try to make arrangements for you to
+complete any assignments and go over any material you will be missing.
 
 \subsection*{Participation}\label{participation}
 \addcontentsline{toc}{subsection}{Participation}
@@ -478,13 +498,13 @@ and we will discuss alternative modes of participation.
 \multicolumn{4}{l}{\textbf{WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?}}\\
 \textbf{\hspace{1em}Week 1} & 19-Aug & Class Starts Thursday! & \textbf{}\\
 \textbf{\hspace{1em}} & 21-Aug & Course Welcome and Introduction & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 2} & 26-Aug & Historical Narratives & \textbf{}\\
 \textbf{\hspace{1em}} & 28-Aug & Historical Narratives, cont. & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 3} & 2-Sep & Rain forests in Art \& Lit & \textbf{}\\
 \textbf{\hspace{1em}} & 4-Sep & The Rain Forest in Pop Culture & \textbf{Movie Reviews Assigned}\\
-\midrule
+\midrule\\
 \addlinespace[0.3em]
 \multicolumn{4}{l}{\textbf{THE ECOLOGY \& EVOLUTION OF TROPICAL RAIN FORESTS}}\\
 \textbf{\hspace{1em}Week 4} & 9-Sep & What is a Rain Forest? & \textbf{}\\
@@ -492,13 +512,13 @@ and we will discuss alternative modes of participation.
 \midrule
 \textbf{\hspace{1em}Week 5} & 16-Sep & Patterns of biodiversity 1 & \textbf{}\\
 \textbf{\hspace{1em}} & 18-Sep & Patterns of biodiversity 2 & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 6} & 23-Sep & Origins of tropical biodiversity & \textbf{}\\
 \textbf{\hspace{1em}} & 25-Sep & Maintenance of tropical biodiversity & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 7} & 30-Sep & Humans in rain forests 1 & \textbf{}\\
 \textbf{\hspace{1em}} & 2-Oct & Humans in rain forests 2 & \textbf{Movie Reviews Due}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 8} & 7-Oct & Paradox of Luxuriance \& (Bio)Narratives Revisited & \textbf{}\\
 \textbf{\hspace{1em}} & 9-Oct & JUNGLE FILM FEST (7 pm) & \textbf{}\\
 \midrule
@@ -509,27 +529,27 @@ and we will discuss alternative modes of participation.
 \midrule
 \textbf{\hspace{1em}Week 10} & 21-Oct & Drivers of deforestation 1 & \textbf{}\\
 \textbf{\hspace{1em}} & 23-Oct & Drivers of deforestation 2 & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 11} & 28-Oct & Tropical forests and climate & \textbf{Analytic Essay Due}\\
 \textbf{\hspace{1em}} & 30-Oct & Tropical forests and climate change & \textbf{Reflective Essay Assigned}\\
-\midrule
+\midrule\\
 \addlinespace[0.3em]
 \multicolumn{4}{l}{\textbf{THE FUTURE OF TROPICAL RAIN FORESTS}}\\
 \textbf{\hspace{1em}Week 12} & 4-Nov & Consumer choices & \textbf{}\\
 \textbf{\hspace{1em}} & 6-Nov & Tropical Commodities \& DURIAN FEST & \textbf{}\\
 \midrule
 \textbf{\hspace{1em}Week 13} & 11-Nov & International conservation frameworks & \textbf{Reflective Essay Due}\\
-\textbf{\hspace{1em}} & 13-Nov & Protected areas & \textbf{Final Project Assigned}\\
-\midrule
+\textbf{\hspace{1em}} & 13-Nov & Community-based Conservation & \textbf{Final Project Assigned}\\
+\midrule\\
 \textbf{\hspace{1em}Week 14} & 18-Nov & Tropical Rain Forests and Global Health & \textbf{}\\
 \textbf{\hspace{1em}} & 20-Nov & Rain forest Headlines & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{\hspace{1em}Week 15} & 25-Nov & No class - Thanksgiving & \textbf{}\\
 \textbf{\hspace{1em}} & 27-Nov & No class - Thanksgiving & \textbf{}\\
-\midrule
-\textbf{\hspace{1em}Week 16} & 2-Dec & Forest Restoration \& Regeneration & \textbf{Final Project Due}\\
+\midrule\\
+\textbf{\hspace{1em}Week 16} & 2-Dec & Protected Areas, Reforestation, Regeneration & \textbf{Final Project Due}\\
 \textbf{} & 4-Dec & No Class - Reading Days & \textbf{}\\
-\midrule
+\midrule\\
 \textbf{Finals Week} & 9-Dec & No Final Exam & \textbf{}\\
 \bottomrule
 \end{longtable*}
@@ -546,8 +566,8 @@ TA?}\label{how-do-i-contact-the-instructor-or-ta}
 \addcontentsline{toc}{paragraph}{How do I contact the Instructor or TA?}
 
 Send a message in CANVAS. That way both the TA and instructor will see
-it and you will get a response more quickly. Plus emails sent to us
-directly tend to get buried under other messages.
+it and you will get a response more quickly (emails sent to us directly
+tend to get buried under other messages).
 
 \paragraph*{How will you send class
 announcements?}\label{how-will-you-send-class-announcements}
@@ -585,12 +605,12 @@ session.
 \addcontentsline{toc}{paragraph}{What if I miss class?}
 
 Attendance is not required, but in many of the sessions we will be
-completing activities in class that count towards your grade. Most of
+completing activities in class that count towards your grade. Some of
 these can be completed independently, but by doing them in class you
-will benefit from working collaboratively with the other students. Some
-of the in-class activities, however, can not be completed on your own.
-That's why only a subset of the in-class assignments count towards your
-grade and we offer extra credit.
+will benefit from working collaboratively with the other students.
+However, some of the in-class activities can not be completed on your
+own. That's why only a subset of the in-class assignments count towards
+your grade and we offer extra credit.
 
 \paragraph*{I have to miss class on a certain date. What should I
 do?}\label{i-have-to-miss-class-on-a-certain-date.-what-should-i-do}
@@ -816,7 +836,7 @@ success as a UF student.
 
 \chapter{Weekly Reading}\label{weekly-reading}
 
-\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, coltitle=black, left=2mm, colback=white, breakable, rightrule=.15mm, bottomrule=.15mm, opacitybacktitle=0.6, opacityback=0, colbacktitle=quarto-callout-important-color!10!white, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-important-color-frame, titlerule=0mm, toprule=.15mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, leftrule=.75mm]
+\begin{tcolorbox}[enhanced jigsaw, bottomtitle=1mm, colback=white, colbacktitle=quarto-callout-important-color!10!white, arc=.35mm, leftrule=.75mm, coltitle=black, colframe=quarto-callout-important-color-frame, bottomrule=.15mm, breakable, toprule=.15mm, rightrule=.15mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, toptitle=1mm, left=2mm, opacitybacktitle=0.6, opacityback=0]
 
 Please review the assigned material \textbf{\emph{before}} class.
 \emph{Topics \& readings are subject to change based on current events;
@@ -857,11 +877,12 @@ biology}
 \tightlist
 \item
   Excerpts from Historical Narratives {[}6 pages:
-  \href{https://ids2935.netlify.app/uploads/historical_narratives.pdf}{link}{]}
+  \href{https://brunalab.github.io/wis2323_syllabus/readings/historical_narratives.pdf}{link}{]}
 \end{itemize}
 
-\paragraph{2-2 Historical Narratives
+\paragraph*{2-2 Historical Narratives
 (cont.);}\label{historical-narratives-cont.}
+\addcontentsline{toc}{paragraph}{2-2 Historical Narratives (cont.);}
 
 \begin{itemize}
 \tightlist
@@ -882,13 +903,13 @@ Literature}
 \begin{quote}
 \emph{Goal: To see how the different depictions of the tropics and
 tropical biodiversity from early European explorers are reflected in art
-and literature.}
+and literature.} readings/trf\_in\_lit\_and\_poetry.pdf
 \end{quote}
 
 \begin{itemize}
 \item
   Excerpts from Literature/Poetry
-  \href{https://ids2935.netlify.app/03_trf_culture/lit_poetry.pdf}{link}
+  \href{https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf}{link}
   (5 pages)
 \item
   Images of artwork {[}link{]} (4 pages)
@@ -908,7 +929,7 @@ influence perceptions of tropical countries \& people.}
 \begin{itemize}
 \item
   Jolly, Priscilla. 2021. `Godzilla vs.~Kong': Monster movies evoke
-  adventure but also `dangers' of tropics. The Conversation.
+  adventure but also `dangers' of tropics. \emph{The Conversation}.
   {[}\href{https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105}{link
   to read online}{]} (4 pages)
 \item
@@ -923,7 +944,8 @@ influence perceptions of tropical countries \& people.}
 
 \markright{Week 4}
 
-\paragraph{4-1 What is a rain forest}\label{what-is-a-rain-forest}
+\paragraph*{4-1 What is a rain forest}\label{what-is-a-rain-forest}
+\addcontentsline{toc}{paragraph}{4-1 What is a rain forest}
 
 \begin{quote}
 \emph{Goal: To learn the different ways biologists define the
@@ -982,7 +1004,10 @@ compare these patterns with those in the temperate zone}
 \begin{itemize}
 \tightlist
 \item
-  None
+  Ingrid Kvale, \& British Broadcasting Corporation (Producers), \&
+  Kvale, I. (Director). (2021). Borneo: Sacred Forest. {[}Video/DVD{]}
+  BBC Worldwide. Retrieved from
+  \url{https://video.alexanderstreet.com/watch/borneo-sacred-forest}
 \end{itemize}
 
 \paragraph{5-2:}\label{section}
@@ -994,15 +1019,13 @@ these vary from the tropics to the temperate zone}
 
 \begin{itemize}
 \item
-  We will be using iNaturalist in class. You can familiarize yourself in
-  advance by reviewing the iNaturalist website
-  \url{https://www.inaturalist.org/} after reading this: Matthew Earl
-  Boone and Mathieu Basille. Using iNaturalist to contribute your nature
-  observations to science (UF EDIS Document WEC413) {[}link{]}
+  We will be using iNaturalist in class. Read this: Matthew Earl Boone
+  and Mathieu Basille. Using iNaturalist to contribute your nature
+  observations to science. UF EDIS Document WEC413)
+  \url{https://journals.flvc.org/edis/article/view/107698/110114}\ldots{}
 \item
-  Why Are There So Many Species Near the Equator?
-  {[}\href{https://www.youtube.com/watch?v=IrbKix96_k0}{link to video},
-  4:50 long{]}
+  \ldots and then familiarize yourself in advance by reviewing the
+  iNaturalist website \url{https://www.inaturalist.org/}
 \end{itemize}
 
 \section*{Week 6}\label{week-6}
@@ -1023,39 +1046,9 @@ tropical diversity and the role of interspecific interactions in the
 
 \begin{itemize}
 \item
-  Ingrid Kvale, \& British Broadcasting Corporation (Producers), \&
-  Kvale, I. (Director). (2021). Borneo: Sacred Forest. {[}Video/DVD{]}
-  BBC Worldwide. Retrieved from
-  \url{https://video.alexanderstreet.com/watch/borneo-sacred-forest}
-\item
   ``Ch. 3: The Realm of Plants'' from Kricher, J. C. (2017). The new
   neotropical companion. In The New Neotropical Companion. Princeton
   University Press. (18 pp).
-\item
-  An introduction to Army Ants:
-  {[}\href{https://www.youtube.com/watch?v=p16g5IVCdeE}{link to video},
-  9 min long{]}.
-\item
-  See also this Army Ant Video by the BBC:
-  {[}\href{https://www.youtube.com/watch?v=JsfiUR0ZzLw}{link to video},
-  3 min long{]}.
-\item
-  A closer look at the Army Ant Birds:
-  {[}\href{https://www.youtube.com/watch?v=SQPcIYV_vKM}{link to video},
-  14 min long{]}.
-\end{itemize}
-
-\paragraph*{6-2: The maintencnace of tropical
-biodiversity}\label{the-maintencnace-of-tropical-biodiversity}
-\addcontentsline{toc}{paragraph}{6-2: The maintencnace of tropical
-biodiversity}
-
-\begin{quote}
-\emph{Goal: To review the biotic and abiotic mechanisms in tropical rain
-forests that permit the coexistence of so many species.}
-\end{quote}
-
-\begin{itemize}
 \item
   Is this the biggest flower in the world? ``BBC Earth: Corpse Flower
   Stinks of Death''
@@ -1070,6 +1063,31 @@ forests that permit the coexistence of so many species.}
   Maybe this is the biggest flower: The Titan arum
   {[}\href{https://www.youtube.com/watch?v=5Jg-GlCXpEI}{link to video},
   2 min long{]}
+\end{itemize}
+
+\paragraph*{6-2: The maintencnace of tropical
+biodiversity}\label{the-maintencnace-of-tropical-biodiversity}
+\addcontentsline{toc}{paragraph}{6-2: The maintencnace of tropical
+biodiversity}
+
+\begin{quote}
+\emph{Goal: To review the biotic and abiotic mechanisms in tropical rain
+forests that permit the coexistence of so many species.}
+\end{quote}
+
+\begin{itemize}
+\item
+  An introduction to Army Ants:
+  {[}\href{https://www.youtube.com/watch?v=p16g5IVCdeE}{link to video},
+  9 min long{]}.
+\item
+  See also this Army Ant Video by the BBC:
+  {[}\href{https://www.youtube.com/watch?v=JsfiUR0ZzLw}{link to video},
+  3 min long{]}.
+\item
+  A closer look at the Army Ant Birds:
+  {[}\href{https://www.youtube.com/watch?v=SQPcIYV_vKM}{link to video},
+  14 min long{]}.
 \end{itemize}
 
 \section*{Week 7}\label{week-7}
@@ -1134,32 +1152,17 @@ such low-quality soils, and explore the implications of this ``Paradox
 of Luxuriance''.}
 \end{quote}
 
-\begin{itemize}
-\tightlist
-\item
-  Langewiesche, William. 2022. ``The War for the Rainforest.'' NY Times.
-  {[}\href{https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html}{read
-  online}{]}
-\end{itemize}
-
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
   \textbf{\emph{Watch:}} Anthony Bourdain's Parts Unknown: Congo (S1E8)
-  {[}\href{https://www.imdb.com/title/tt2849384/}{link to video}, 50 min
-  long{]}.
+  {[}\href{https://www.youtube.com/watch?v=k59ToTXOuuE}{link to video},
+  50 min long{]}.
 \item
   \textbf{\emph{Read:}} Bourdain's Field Notes: Congo
   {[}\href{https://explorepartsunknown.com/congo/bourdains-field-notes-congo/}{read
   online}, 5 min read{]}.
 \end{enumerate}
-
-\begin{quote}
-\textbf{\emph{Listen:}} NPR's Throughline Podcast: ``There Will Be
-Bananas'' 1. NPR's Throughline Podcast: ``There Will Be Bananas''
-{[}\href{https://www.npr.org/2020/01/07/794302086/there-will-be-bananas}{listen
-online}, 56 min{]}.
-\end{quote}
 
 \paragraph{8-2}\label{section-1}
 
@@ -1175,15 +1178,20 @@ there?}
 
 \begin{quote}
 *Goal: To learn how forest cover is defined and estimated and how it
-varies globally
+varies globally*
 \end{quote}
 
 \begin{itemize}
-\tightlist
 \item
   Louis Lucero II. New Interactive Tool Helps Track Earth's Forests
   {[}\href{https://www.nytimes.com/2013/11/15/science/earth/new-interactive-tool-helps-track-earths-forests.html}{NYTimes},
   10 min read{]}.
+\item
+  Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs).
+  2018. ``Inside the Amazon's Deforestation Crisis''. The Globe and
+  Mail.
+  {[}\href{https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/}{read
+  online}, 20 min read{]}.
 \end{itemize}
 
 \paragraph*{9-2 How much tropical rain forest have we
@@ -1197,17 +1205,12 @@ forest loss over time}
 \end{quote}
 
 \begin{itemize}
+\tightlist
 \item
   Manuela Andreoni 2023 ``Despite Global Pledges, Tree Loss Is Up
   Sharply in Tropical Forests''
   {[}\href{https://www.nytimes.com/2023/06/27/climate/trees-tropical-forests-deforestation.html}{read
   online}, 10 min read{]}
-\item
-  Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs).
-  2018. ``Inside the Amazon's Deforestation Crisis''. The Globe and
-  Mail.
-  {[}\href{https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/}{read
-  online}, 20 min read{]}.
 \end{itemize}
 
 \section*{Week 10}\label{week-10}
@@ -1228,14 +1231,18 @@ drivers differ between the African, American, and Asian tropics.}
 
 \begin{itemize}
 \item
+  Serkez, Yaryna. 2020. Every Place Under Threat. \emph{NY Times}.
+  {[}\href{https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html}{read
+  online}, 10 min read{]}.
+\item
   Andreoni, Manuela, Blacki Migliozzi, Pablo Robles and Denise Lu.
   Photographs by Victor Moriyama. 2022. ``The Illegal Airstrips Bringing
-  Toxic Mining to Brazil's Indigenous Land''. NY Times.
+  Toxic Mining to Brazil's Indigenous Land''. \emph{NY Times}.
   {[}\href{https://www.nytimes.com/interactive/2022/08/02/world/americas/brazil-airstrips-illegal-mining.html}{read
   online}, 15 min read{]}.
 \item
   Searcey, Dionne (reporting) and Gilbertson, Ashley (photographs). 2022
-  ``Raft by Raft, a Rainforest Loses Its Trees'' NY Times.
+  ``Raft by Raft, a Rainforest Loses Its Trees'' \emph{NY Times}.
   {[}\href{https://www.nytimes.com/interactive/2022/06/14/climate/congo-rainforest-logging.html}{read
   online}, 10 min read{]}.
 \end{itemize}
@@ -1303,11 +1310,13 @@ Change}\label{tropical-forests-climate-change}
 \addcontentsline{toc}{paragraph}{11-2 Tropical Forests \& Climate
 Change}
 
+Henry Knight Lozano (2023) California and Florida grew quickly on the
+promise of perfect climates in the 1900s -- today, they lead the country
+in climate change risks. \emph{The Conversation}.
+\href{https://theconversation.com/california-and-florida-grew-quickly-on-the-promise-of-perfect-climates-in-the-1900s-today-they-lead-the-country-in-climate-change-risks-207470}{Link}
+
 \begin{itemize}
-\item
-  Serkez, Yaryna. 2020. Every Place Under Threat. NY Times.
-  {[}\href{https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html}{read
-  online}, 10 min read{]}.
+\tightlist
 \item
   learn about the EN-ROADS simulator we will be using in class at this
   {[}\href{https://www.climateinteractive.org/en-roads/}{link to
@@ -1334,7 +1343,7 @@ in tropical countries.}
 \begin{itemize}
 \item
   Carodenuto, Sophia. 2021. ``Chocolate fix: How the cocoa industry
-  could end deforestation in West Africa''. The Conversation.
+  could end deforestation in West Africa''. \emph{The Conversation}.
   {[}\href{https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953}{read
   online}, 10 min read{]}.
 \item
@@ -1342,22 +1351,16 @@ in tropical countries.}
   Environmental Consequences'' Huffington Post.
   {[}\href{https://tinyurl.com/y6curgmn}{read online}, 10 min read{]}.
 \item
-  Hunt, Chris and Premathilake, Rathnasiri. 2018. ``Prehistoric people
-  started to spread domesticated bananas across the world 6,000 years
-  ago.'' The Conversation.
-  {[}\href{https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547}{read
-  online}, 5 min{]}.
-\item
-  Optional: Mufson, Steven and Georges, Salwan. 2019. ``The trouble with
-  chocolate'' Washington Post
-  {[}\href{https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/}{read
-  online} to see the amazing maps, pictures, and data visualizations.
-\item
-  Optional: Williams, Wyatt. 2021. ``How Your Cup of Coffee Is Clearing
-  the Jungle''. NY Times.
+  Williams, Wyatt. 2021. ``How Your Cup of Coffee Is Clearing the
+  Jungle''. \emph{NY Times}.
   {[}\href{https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html}{read
   online}{]} Longer, but really gripping and the article includes a link
   to an audio version if you prefer to listen to it.
+\item
+  \textbf{\emph{Optional:}} Mufson, Steven and Georges, Salwan. 2019.
+  ``The trouble with chocolate'' Washington Post
+  {[}\href{https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/}{read
+  online} to see the amazing maps, pictures, and data visualizations.
 \end{itemize}
 
 \paragraph*{12-2 Tropical Commodities \& DURIAN
@@ -1373,7 +1376,7 @@ the economic impact of tropical fruit production in Florida.}
 \begin{itemize}
 \item
   Weintraub, Karen. 2019. ``They're Smelly and Spiky, and They Need Bats
-  to Pollinate Them''. NY Times.
+  to Pollinate Them''. \emph{NY Times}.
   {[}\href{https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html}{read
   online}, 5 min read{]}.
 \item
@@ -1381,11 +1384,20 @@ the economic impact of tropical fruit production in Florida.}
   Paradise. Atlas Obscura.
   {[}\href{https://www.atlasobscura.com/articles/tropical-fruit-farms-in-united-states}{read
   online}, 5 min read{]}.
+\end{itemize}
+
+\begin{itemize}
 \item
-  Frías, Carlos. 2022. ``Oddly colored and somewhat phallic: How Miami's
-  rare tropical fruit went TikTok viral.'' Miami Herald.
-  {[}\href{https://www.miamiherald.com/miami-com/restaurants/article263608093.html\#storylink=cpyhttps://www.miamiherald.com/miami-com/restaurants/article263608093.html}{read
+  Hunt, Chris and Premathilake, Rathnasiri. 2018. ``Prehistoric people
+  started to spread domesticated bananas across the world 6,000 years
+  ago.'' \emph{The Conversation}.
+  {[}\href{https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547}{read
   online}, 5 min{]}.
+\item
+  \textbf{\emph{Listen:}} NPR's Throughline Podcast: ``There Will Be
+  Bananas''
+  {[}\href{https://www.npr.org/2020/01/07/794302086/there-will-be-bananas}{listen
+  online}, 56 min{]}.
 \end{itemize}
 
 \section*{Week 13}\label{week-13}
@@ -1407,7 +1419,8 @@ socioeconomic impacts. REDD and Payment for Ecosystem Services.}
 \begin{itemize}
 \tightlist
 \item
-  UN-REDD Programme: An introduction to REDD+ {[}link{]}.
+  UN-REDD Programme: An introduction to REDD+
+  \href{https://www.un-redd.org/sites/default/files/2021-10/1.\%20Introduction\%20to\%20REDD\%2B_Tim\%20Christophersen.pdf}{link}.
 \end{itemize}
 
 \begin{quote}
@@ -1421,24 +1434,55 @@ too much text, overly complicated graphics\ldots we'll talk about how it
 could be improved).
 \end{quote}
 
-\paragraph*{13-2 Protected Areas}\label{protected-areas}
-\addcontentsline{toc}{paragraph}{13-2 Protected Areas}
+\begin{itemize}
+\tightlist
+\item
+  Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and
+  Nanna Heitmann (photography). 2022. ``What do the protectors of
+  Congo's peatlands get in return?'' \emph{NY Times}.
+  {[}\href{https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html}{read
+  online}, 10 min read{]}.
+\end{itemize}
+
+\paragraph*{13-2 Community based
+conservation}\label{community-based-conservation}
+\addcontentsline{toc}{paragraph}{13-2 Community based conservation}
 
 \begin{quote}
-\emph{Goal: To learn about different global categories of protected
-areas, the importance of protected areas in the tropics for conserving
-forest, and how the threats to protected areas vary regionally and
-globally.}
+\emph{Goal: To learn about how local communities are engaged in rain
+forest conservation and sustainable development efforts in the tropics
+and beyond.}
 \end{quote}
 
 \begin{itemize}
 \tightlist
 \item
-  Dasgupta, Shreya (with research by Annika Schlemm \& Zuzana
-  Burivalova). 2017. ``Do protected areas work in the tropics?''
-  Mongabay.com.
-  {[}\href{https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/}{read
-  online}, 25 min read{]}.
+  Kimbrough, L. 2021. ``How settlers, scientists, and a women-led
+  industry saved Brazil's rarest primate''. Mongabay.com
+  {[}\href{https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/}{read
+  online}, 10 min read{]}.
+\end{itemize}
+
+Katrina Kosec et al.~(2025) Forest loss in Malawi: how having women at
+the table affected debates and decisions about solutions. \emph{The
+Conversation}. {[}{[}read online{]}
+(https://theconversation.com/forest-loss-in-malawi-how-having-women-at-the-table-affected-debates-and-decisions-about-solutions-research-259699),
+10 min read{]}.
+
+\begin{itemize}
+\item
+  Don't underestimate what one person can do on their own: ``BBC World
+  Service: The man who grew his own rainforest''
+  {[}\href{https://www.youtube.com/watch?v=AngaeIf78AQ}{link to video},
+  5 min long{]} (keep an eye out for the Euglossine bees we learned
+  about earlier in the semester\ldots you can see them collecting
+  scented oil from flowers at 2:04).
+\item
+  \textbf{Come prepared to make some money:} we're looking into the
+  economic benefits of setting aside land (or not) for conservation. To
+  prepare, review this document over before class:
+  {[}\href{https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098}{link},
+  10-15 min read{]}.
 \end{itemize}
 
 \section*{Week 14}\label{week-14}
@@ -1458,22 +1502,30 @@ the tropics to other regions of the globe}.
 \end{quote}
 
 \begin{itemize}
-\item
-  Lavinas Picq, Manuela 2020. ``Spreading Faith, and Disease''. NY
-  Times.
-  {[}\href{https://www.nytimes.com/2020/10/02/opinion/amazon-missionaries-tribes-disease.html}{read
-  online}, 15 min read{]}.
+\tightlist
 \item
   Vittor, Amy, Gabriel Zorello Laporta, and Maria Anice Mureb Sallum.
   2020. How deforestation helps deadly viruses jump from animals to
-  humans. The Conversation.
+  humans. \emph{The Conversation}.
   {[}\href{https://theconversation.com/how-deforestation-helps-deadly-viruses-jump-from-animals-to-humans-139645}{read
   online}, 15 min read{]}.
+\end{itemize}
+
+UF EPI. (2024) Florida's mosquitoes can make you sick: Here's how to
+protect yourself.
+\href{https://epi.ufl.edu/2024/05/01/floridas-mosquitoes-can-make-you-sick-heres-how-to-protect-yourself/}{link}
+
+\begin{itemize}
 \item
   Kuchipudi, Suresh V. 2020. Why so many epidemics originate in Asia and
-  Africa -- and why we can expect more. The Conversation.
+  Africa -- and why we can expect more. \emph{The Conversation}.
   {[}\href{https://theconversation.com/why-so-many-epidemics-originate-in-asia-and-africa-and-why-we-can-expect-more-131657}{read
   online}, 10 min{]}.
+\item
+  Lavinas Picq, Manuela 2020. ``Spreading Faith, and Disease''. \emph{NY
+  Times}.
+  {[}\href{https://www.nytimes.com/2020/10/02/opinion/amazon-missionaries-tribes-disease.html}{read
+  online}, 15 min read{]}.
 \end{itemize}
 
 \paragraph*{14-2 Rain Forest Headlines}\label{rain-forest-headlines}
@@ -1486,23 +1538,25 @@ and deal with the risks of covering this beat}.
 \end{quote}
 
 \begin{itemize}
+\tightlist
 \item
   Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022.
   Inside the Amazon Journey That Left a Journalist and an Activist Dead.
-  NY Times.
+  \emph{NY Times}.
   {[}\href{https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur}{read
   online}, 15 min read{]}
-\item
-  Jennifer Weeks. Ending Amazon deforestation: 4 essential reads about
-  the future of the world's largest rainforest. The Conversation
-  {[}link{]} (4 pages)
 \end{itemize}
 
-\section*{Week 15 No Class - Thanksgiving
-Holiday}\label{week-15-no-class---thanksgiving-holiday}
-\addcontentsline{toc}{section}{Week 15 No Class - Thanksgiving Holiday}
+\section*{Week 15}\label{week-15}
+\addcontentsline{toc}{section}{Week 15}
 
-\markright{Week 15 No Class - Thanksgiving Holiday}
+\markright{Week 15}
+
+\begin{itemize}
+\tightlist
+\item
+  No Class - Thanksgiving Holiday
+\end{itemize}
 
 \section*{Week 16}\label{week-16}
 \addcontentsline{toc}{section}{Week 16}
@@ -1515,28 +1569,53 @@ Regeneration}\label{forest-restoration-regeneration}
 Regeneration}
 
 \begin{quote}
-\emph{Goal: To learn the difference between passive regeneration and
+\emph{Goal 1: To learn the difference between passive regeneration and
 active restoration and assess evidence for whether they can be used to
 reverse the effects of deforestation}
 \end{quote}
 
+\begin{quote}
+\emph{Goal 2: To learn about different global categories of protected
+areas, the importance of protected areas in the tropics for conserving
+forest, and how the threats to protected areas vary regionally and
+globally.}
+\end{quote}
+
 \begin{itemize}
+\tightlist
+\item
+  Dasgupta, Shreya (with research by Annika Schlemm \& Zuzana
+  Burivalova). 2017. ``Do protected areas work in the tropics?''
+  Mongabay.com.
+  {[}\href{https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/}{read
+  online}, 25 min read{]}.
+\end{itemize}
+
+Matti Barthel et al.~(2025) DRC's plan for the world's largest tropical
+forest reserve would be good for the planet: can it succeed? \emph{The
+Conversation}. {[}{[}read online{]}
+(https://theconversation.com/drcs-plan-for-the-worlds-largest-tropical-forest-reserve-would-be-good-for-the-planet-can-it-succeed-254394),
+10 min read{]}.
+
+\begin{itemize}
+\tightlist
 \item
   Medici, Patricia. 2015 TED Fellows Talk. ``The coolest animal you know
   nothing about\ldots and how we can save it''.
   {[}\href{https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it\#t-694653}{link
   to video}, 11:20 min long{]}.
-\item
-  ``Do tapirs defecate in the woods?'' 2019. The Economist
-  {[}\href{https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods}{read
-  online}, 5 min read{]}.
-\item
-  Come prepared to make some money: we're looking into the economic
-  benefits of setting aside land (or not) for conservation. To prepare,
-  look this document over before class:
-  {[}\href{https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098}{link},
-  10-15 min read{]}.
 \end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  Jennifer Weeks. Ending Amazon deforestation: 4 essential reads about
+  the future of the world's largest rainforest. \emph{The Conversation}
+  \href{https://theconversation.com/ending-amazon-deforestation-4-essential-reads-about-the-future-of-the-worlds-largest-rainforest-194800}{link}
+  (4 pages)
+\end{itemize}
+
+\newpage
 
 \bookmarksetup{startatroot}
 
@@ -1583,5 +1662,6 @@ B = Biological Sciences, Q2 = Quest 2
 
 
 \backmatter
+
 
 \end{document}
