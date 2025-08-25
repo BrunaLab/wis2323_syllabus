@@ -98,7 +98,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 > *Goal: To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology*
 
-[link](https://brunalab.github.io/wis2323_syllabus/readings/historical_narratives.pdf)
+- Historical Narratives [link](https://github.com/BrunaLab/wis2323_syllabus/blob/a6e30180ef80ce712af383b93f06395a569fc932/readings/historical_narratives.pdf)
 
 ##### 2-2 Historical Narratives (cont.);  {.unnumbered}
 
@@ -110,12 +110,10 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 ##### 3-1 Rain Forest Imagery in Art & Literature {.unnumbered}
 
 > *Goal: To see how the different depictions of the tropics and tropical biodiversity from early European explorers are reflected in art and literature.*
-readings/trf_in_lit_and_poetry.pdf
 
-<!-- https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf -->
-- Excerpts from Literature/Poetry [link](https://brunalab.github.io/wis2323_syllabus/trf_in_lit_and_poetry.pdf) (5 pages)  
+- Excerpts from Literature/Poetry  [link](https://github.com/BrunaLab/wis2323_syllabus/blob/a6e30180ef80ce712af383b93f06395a569fc932/readings/trf_in_lit_and_poetry.pdf) (5 pages)  
 
-- Images of artwork \[link\] (4 pages)
+- Images of artwork [link](https://github.com/BrunaLab/wis2323_syllabus/blob/a6e30180ef80ce712af383b93f06395a569fc932/readings/tropical_paintings.pdf) (4 pages)
 
 
 ##### 3-2 The Rain Forest in Pop Culture {.unnumbered}
