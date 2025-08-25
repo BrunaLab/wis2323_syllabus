@@ -8,6 +8,13 @@ This is the teaching materials and website for the UF Quest 2 course "The Future
 
 The syllabus is a quarto `html` book book the option to download a `pdf`. It is deployed using Github pages and uses Github actions to rerender both the `html` and `pdf` versions where  when changes are pushed to the repository.
 
+To add a folder with readings to the `gh-pages` branch: 
+    ```
+    git add readings/
+    git commit -m "Add readings folder"
+    git push origin gh-pages
+    ```
+    
 ### How to contribute to the course or suggest corrections 
 
 1. With the standard GitHub flow: fork the repository, add or change material, and submit a pull request.
