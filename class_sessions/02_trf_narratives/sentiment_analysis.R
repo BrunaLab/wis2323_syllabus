@@ -187,40 +187,61 @@ equally consider that they have a right to settle, the aborigines are
 rapidly disappearing.")
 
 
-text<-polo
-# text<-raleigh
-# text<-cook
 
-text<-gsub("\n"," ", text)
-text<-tolower(text)
-text<-gsub("[^[:alnum:][:space:]']", " ", text)
-text<-strsplit(text, " ")
+stanley<-c("One hears much about 5 the silence of the forest -- but the tropical
+forest is not silent to the keen observer. The hum and murmur of
+hundreds of busy insect tribes make populous the twilight shadows that
+reign under the primeval growth. I hear the grinding of millions of
+mandibles, the furious hiss of a tribe just alarmed or about to rush
+to battle, millions of tiny wings rustling through the nether air, the
+march of an insect tribe under the leaves, the startling leap of an
+awakened mantis, the chirp of some eager and garrulous cricket, the
+buzz of an ant-lion , the roar of a bull-frog . Add to these the
+crackle of twigs, the fall of leaves, the dropping of nut and berry,
+the occasional crash of a branch, or the constant creaking and swaying
+of the forest tops as the strong wind brushes them or the gentle
+breezes awake them to whispers. Though one were blind and alone in the
+midst of a real tropical forest, one's sense of hearing would be
+painfully alive to the fact that an incredible number of minute
+industries, whose number one could never hope to estimate, were active
+in the shades. Silence is impossible in a tropical forest.  
+About ten o'clock, as we cowered in most miserable condition under the 
+rude, leafy shelters we had hastily thrown up, the people of the 
+wooded bluffs of Iryamba, opposite the Lowwa confluence, came over to 
+see what strange beings were those who had preferred the secrecy of 
+the uninhabited grove to their own loud roystering society. Stock 
+still we sat cowering in our leafy coverts, but the mild reproachful 
+voice of Katembo, our cannibal interpreter, was heard labouring in the 
+interests of peace, brotherhood, and goodwill. The rain pattered so 
+incessantly that I could from my position only faintly hear Katembo's 
+voice pleading, earnestly yet mildly, with his unsophisticated 
+brothers of Iryamba, but I felt convinced from the angelic tones that 
+they would act as a sedative on any living creature except a 
+rhinoceros or a crocodile. The long-diawn bleating sound of the word 
+Sen-nen-neh, which I heard frequently uttered by Katembo, I studied 
+until I became quite as proficient in it as he himself. 
 
-text<-unlist(text) %>% 
-  as_tibble() %>% 
-  rename("word"="value") %>% 
-  mutate(n=nchar(word)) %>% 
-  filter(n>0) %>% 
-  select(-n)
+Some other pleasures we have are in watching a sunny bank, where we 
+may rest assured the crocodile lies dreaming of fish banquets, and 
+whence he will rise and plunge with a startling splash; or in 
+watching the tricks of some suspicious and watchful behemoth, whose 
+roar has its volume redoubled as it is reverberated from shore to 
+shore in these eerie wilds.
+
+Our terrors are numerous. First, the rocks and rapids, the plunging
+cataract and whirling pool, which fortunately are passed, and which we
+pray we shall not have to encounter again. Then the sudden storm,
+which now blows each day up river, and, first wrinkling the face of
+the river, soon raises heavy brown waves, like those of a lake, which,
+having already suffered from, we are careful to avoid but the greatest
+danger, an ever-recurring one, is that which we have to encounter each
+time the wild howling cannibal aborigines observe us. Indeed, the
+sense of security is short - lived, our pleasure evanescent; but the
+sense of danger is always present, and pervades ouir minds whether in
+our sleeping or our waking hours")
 
 
-# install.packages("stopwords")
 
-# stopwords<-stopwords()
-# > stopwords<-as.data.frame(stopwords)
-
-df<-text
-library(stopwords)
-words <- df %>% 
-  anti_join(get_stopwords())
-words
-
-word_counts <- words %>%
-  anti_join(stop_words, by = "word") %>%
-  count(word, word, sort = TRUE)
-word_counts
-
-library(tidytext)
 # All three of these lexicons are based on unigrams, i.e., single words. These 
 # lexicons contain many English words and the words are assigned scores for 
 # positive/negative sentiment, and also possibly emotions like joy, anger, 
@@ -249,6 +270,46 @@ bing_negative <- get_sentiments("bing") %>%
 
 
 
+
+
+
+# text<-polo
+# text<-raleigh
+# text<-cook
+text<-stanley
+
+text<-gsub("\n"," ", text)
+text<-tolower(text)
+text<-gsub("[^[:alnum:][:space:]']", " ", text)
+text<-strsplit(text, " ")
+
+text<-unlist(text) %>% 
+  as_tibble() %>% 
+  rename("word"="value") %>% 
+  mutate(n=nchar(word)) %>% 
+  filter(n>0) %>% 
+  select(-n)
+
+
+# install.packages("stopwords")
+
+# stopwords<-stopwords()
+# > stopwords<-as.data.frame(stopwords)
+
+df<-text
+library(stopwords)
+library(tidytext)
+words <- df %>% 
+  anti_join(get_stopwords())
+words
+
+word_counts <- words %>%
+  anti_join(stop_words, by = "word") %>%
+  count(word, word, sort = TRUE)
+word_counts
+
+
+
 #  word counts from your selected text in different categories
 
 positive_words <- word_counts %>% 
@@ -269,6 +330,7 @@ negative_words
 
 afinn_positive <- get_sentiments("afinn") %>% 
   filter(value >0)
+
 
 afinn_negative <- get_sentiments("afinn") %>% 
   filter(value <0)
@@ -295,7 +357,7 @@ lw_sentiment <- words %>%
   inner_join(get_sentiments("bing")) %>%
   count(word, sentiment, sort = TRUE) %>%
   acast(word ~ sentiment, value.var = "n", fill = 0) %>%
-  comparison.cloud(colors = c("gray20", "gray80"),
+  comparison.cloud(colors = c("darkred", "navy"),
                    max.words = 100)
 
 
@@ -306,7 +368,13 @@ lw_sentiment <- words %>%
 
 
 library(gutenbergr)
+# walter raleigh discovery of guyana
+# lw<-gutenberg_download(2272)
 
+# Captain Cook's Journal During His First Voyage Round the World by James Cook
+# lw<-gutenberg_download(8106)
+
+# Polo
 lw <- gutenberg_download(10636)
 lw2 <- gutenberg_download(12410)
 lw<-bind_rows(lw,lw2)
@@ -353,7 +421,7 @@ lw_sentiment <- words %>%
   inner_join(get_sentiments("bing")) %>%
   count(word, sentiment, sort = TRUE) %>%
   acast(word ~ sentiment, value.var = "n", fill = 0) %>%
-  comparison.cloud(colors = c("gray20", "gray80"),
+  comparison.cloud(colors = c("darkred", "navy"),
                    max.words = 100)
 
 

@@ -555,7 +555,6 @@ knitr::include_graphics("./texts_images/paintings/debry3.jpeg")
 <!-- > ![](./texts_images/paintings/debry3.jpeg){width=70%} -->
 
 
-
 <!-- \newpage -->
 <!-- ### ITEM 3: General and Natural History of the Indies Gonzalo Fernández de Oviedo y Valdés (1526)   -->
 

@@ -3,8 +3,8 @@ title: "WIS 2323 - Historical Narratives: In-class Activity"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
 output:
-  html_document:
-    df_print: paged
+  # html_document:
+  #   df_print: paged
   pdf_document: default
 geometry: margin=1in
 fontsize: 12pt
