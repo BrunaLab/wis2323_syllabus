@@ -1,0 +1,229 @@
+---
+title: 'WIS 2323 - Historical Narratives'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# output: html_document
+#   output:
+#   pdf_document: default
+#   html_document:
+#     df_print: paged
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# FINE ART (Paintings)
+
+\vspace{0.3cm}
+
+1.  Albert Eckhout, *Series of eight figures* (1641)
+
+    -   [painting
+        1](https://en.wikipedia.org/wiki/File:Albert_Eckhout_-_Mameluca.JPG)
+    -   [painting
+        2](https://en.wikipedia.org/wiki/File:Albert_Eckhout_painting.jpg)
+    -   [painting 3](https://en.wikipedia.org/wiki/File:MulatoAE.jpg)
+    -   [painting
+        4](https://en.wikipedia.org/wiki/File:Albert_Eckhout_Tapuia_woman_1641.jpg)
+
+<!-- Eckhout was among the first European artists to paint scenes from the "New World"; he accompanied Johan Maurits, Prince of Nassau-Siegen and the Dutch governor-general of Brazil. For more and context [see this](https://www.khanacademy.org/humanities/art-americas/new-spain/colonial-brazil/a/albert-eckhout-series-of-eight-figures) -->
+
+2.  Albert Eckhout, *Brazilian Fruits* (c. 1610): [link
+    here](https://en.wikipedia.org/wiki/File:Albert_Eckhout_1610-1666_Brazilian_fruits.jpg)
+
+3.  Balthasar van der Ast, *Fruit, Flowers, and Shells* (1620/1629):
+    [link here](http://emuseum.toledomuseum.org/objects/55093)
+
+4.  Johanne Zoffany, *The Death of Captain James Cook* (1779): [link
+    here](https://en.wikipedia.org/wiki/The_Death_of_Captain_James_Cook_(Zoffany)#/media/File:Zoffany_Death_of_Captain_Cook.jpg)
+
+5.  Thomas Cole, *Expulsion from the Garden of Eden* (1828): [link
+    here](https://artsandculture.google.com/asset/expulsion-from-the-garden-of-eden/IQEPipHQTghvCw?hl=en)
+
+6.  Thomas Cole, *The Garden of Eden* (1828): [link
+    here](https://artsandculture.google.com/asset/the-garden-of-eden-thomas-cole/FwHRDrYYX_YVuw)
+
+7.  Frederic Edwin Church, *The Heart of the Andes* (1859): [link
+    here](https://www.metmuseum.org/art/collection/search/10481).
+
+    -   There's an audio link on the page that gives a great
+        explanation. You can also read more [link
+        here](https://en.wikipedia.org/wiki/The_Heart_of_the_Andes)
+
+8.  Charles Christian Nahl, *Incident on the Chagres River* (1867):
+    [link
+    here](http://imgzoom.cdlib.org/Fullscreen.ics?ark=ark:/13030/tf658010cs/z1&&brand=oac4)
+
+9.  Martin Johnson Heade, *Hummingbird with Passionflowers* (c. 1875):
+    [link
+    here](https://artsandculture.google.com/asset/hummingbird-and-passionflowers-martin-johnson-heade/LAEr7eIcfErZwg?hl=en)
+
+10. Paul Gauguin, *Arearea* (1892): [link
+    here](https://www.wikiart.org/en/paul-gauguin/arearea-i-1892)
+
+11. Paul Gauguin, *Tahitian Landscape* (1891): [link
+    here](./texts_images/paintings/gauguin_tahitian_landscape.jpeg)
+
+<!-- Note that Gauguin [was an exploitative colonialist in his own right](https://www.dailyartmagazine.com/gauguin-master-or-monster/).  -->
+
+12. Henri Rousseau, *The Dream* (1910): [link
+    here](https://en.wikipedia.org/wiki/Henri_Rousseau#/media/File:Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg).
+
+    -   After you've written your answers, put on some headphones and
+        [take a guided tour through the
+        painting](https://artsandculture.google.com/story/xwVxpOh7XnK4bQ)).
+
+<!-- Good info [link here](https://www.nga.gov/learn/teachers/lessons-activities/ecology/rousseau-jungle.html) -->
+
+13. Henri Rousseau, *The Equatorial Jungle* (1909): [link
+    here](https://artsandculture.google.com/asset/the-equatorial-jungle-henri-rousseau/cwFWCSzNtFX8ew)
+
+14. Perham Nahl, *Thirteenth Labor of Hercules* (1915): [link
+    here](https://www.artsy.net/artwork/perham-wilhelm-nahl-the-thirteenth-labor-of-hercules-official-poster-for-the-panama-pacific-international-exposition)
+
+15. Lasar Segall, *Menino com lagartixas* (1924): [link
+    here](https://artsandculture.google.com/asset/menino-com-lagartixas-lasar-segall/lAEC6kbwDCYW_A)
+
+16. Candido Portinari *Brazilian Flora and Fauna* (1934): [link
+    here](https://artsandculture.google.com/asset/brazilian-flora-and-fauna/dQFZBwYjfMCjsA)
+
+17. Wilfredo Lam, *The Jungle* (1943): [link
+    here](https://www.wikiart.org/en/wifredo-lam/the-jungle-1943).
+
+    -   The MOMA site also includes some [links to
+        audio](https://www.moma.org/collection/works/34666) where you
+        can learn more about Lam and his work.
+
+18. Wilfredo Lam, *Le Sombre Malembo, Dieu du carrefour* (1943): [link
+    here](https://www.wikiart.org/en/wifredo-lam/le-sombre-malembo-dieu-du-carrefour-1943)
+
+<!-- ![Ekhout-Series of eight figures (1-2)](./texts_images/paintings/ekhout1.jpeg){height=30%}   -->
+
+<!-- ![Ekhout-Series of eight figures (3-4)](./texts_images/paintings/ekhout2.jpeg){height=30%}   -->
+
+<!-- ![Ekhout-Series of eight figures (5-6)](./texts_images/paintings/ekhout4.jpeg){height=30%}   -->
+
+<!-- ![Ekhout-Series of eight figures (7-8)](./texts_images/paintings/ekhout5.jpeg){height=30%}    -->
+
+<!-- ![Ekhout - Coconuts](./texts_images/paintings/ekhout6.jpeg){height=30%}   -->
+
+<!-- ![van der Ast - Fruit, Flowers, and Shells](./texts_images/paintings/vanderast.jpeg){height=50%}   -->
+
+<!-- ![Zofany - The Death of Captain James Cook](./texts_images/paintings/zoffany.jpeg){height=30%}   -->
+
+<!-- ![Cole](./texts_images/paintings/cole2.jpeg){height=30%}   -->
+
+<!-- ![Cole - Expulsion from the Garden of Eden](./texts_images/paintings/cole1.jpeg){height=30%}   -->
+
+<!-- ![Church - The Heart of the Andes](./texts_images/paintings/church.jpeg){height=30%}   -->
+
+<!-- ![C Nahl - Incident on the Chagres River](./texts_images/paintings/nahl1.png){height=50%}   -->
+
+<!-- ![Heade - South American River](./texts_images/paintings/heade1.jpeg){height=50%}   -->
+
+<!-- ![Gauguin - Tahitian Landscape](./texts_images/paintings/gauguin_tahitian_landscape.jpeg){height=30%}    -->
+
+<!-- ![Gauguin - Bathers in Tahiti](./texts_images/paintings/gauguin_bathers.jpeg){height=30%}    -->
+
+<!-- ![Rousseau - The Dream](./texts_images/paintings/rousseau1.jpeg){height=30%}   -->
+
+<!-- ![Rousseau - The Equatorial Jungle](./texts_images/paintings/rousseau2.jpeg){height=30%}   -->
+
+<!-- ![P Nahl - Thirteenth Labor of Hercules](./texts_images/paintings/nahl2.jpg){height=30%}   -->
+
+<!-- ![Segall - Menino com lagartixas](./texts_images/paintings/segall.jpeg){height=30%}   -->
+
+<!-- ![W. Lam - The Jungle (La Jungla)](./texts_images/paintings/lam_jungle.jpeg){height=30%}    -->
+
+<!-- ![W. Lam - Le Sombre Malembo, Dieu du carrefour](./texts_images/paintings/lam_sombre.jpeg){height=30%}   -->
+
+<!-- ![Candido Portinari - Brazilian Flora and Fauna](https://artsandculture.google.com/asset/brazilian-flora-and-fauna/dQFZBwYjfMCjsA)   -->
+
+<!-- [link for hi-res](https://artsandculture.google.com/asset/brazilian-flora-and-fauna/dQFZBwYjfMCjsA) -->
+
+<!-- #### Others -->
+
+<!-- The Naturalist on the River Amazons Henry Walter Bates -->
+
+<!-- https://www.gutenberg.org/files/2440/2440-h/2440-h.htm -->
+
+<!-- David Livingstone *A popular account of the Narrative of an expedition to the Zambesi and its tributaries* [[link to full text](https://www.gutenberg.org/files/2519/2519-h/2519-h.htm)] and [link](https://library.si.edu/digital-library/book/narrativeofexpe00livi). -->
+
+<!-- von Humboldt *Personal Narrative of Travels to the Equinoctial Regions of America, During the Years 1799-1804* -->
+
+<!-- - Juan Diego de Valdez - Lost City of Zinj -->
+
+<!-- - David Livingstone - Narrative of an Expedition -->
+
+<!-- - JE Warren - the Romance of the Tropics (Knickerbocker Magazine) -->
+
+<!-- - Pierre d'Ailly -  Imago Mundi (1410) -->
+
+<!-- #### Timeline -->
+
+<!-- 1271   Marco Polo goes to China.   -->
+
+<!-- 1418   João Gonçalves Zarco and Tristão Vaz Teixeira discover Porto Santo.   -->
+
+<!-- 1434   Gil Eanes passes Cabo de Não and rounds Cape Bojador.   -->
+
+<!-- 1443   Nuno Tristão passes Cape Blanco.   -->
+
+<!-- 1444   Dinis Dias reaches the mouth of the Senegal River.   -->
+
+<!-- 1446   The Portuguese reach Cape Verde and the Gambia River.   -->
+
+<!-- 1460   Pêro de Sintra reaches Sierra Leone.   -->
+
+<!-- 1473   Lopo Gonçalves is the first to cross the equator.   -->
+
+<!-- 1474   Ruy de Sequeira discovers São Tomé and Príncipe.   -->
+
+<!-- 1482   Diogo Cão reaches the Congo River, where he erects a “padrão” (pillar of stone).   -->
+
+<!-- 1492   Columbus sails to the New World.   -->
+
+<!-- 1498    Vasco de Gama Sailed around Africa to India   -->
+
+<!-- 1519   Ferdinand Magellan and his crew sail around the world from 1519-1522.   -->
+
+<!-- 1513    Vasco Nunez de Balboa Crossed the Isthmus of Panama   -->
+
+<!-- 1521    Hernand Cortez Mexico and the Aztecs   -->
+
+<!-- 1533    Francisco Pizarro Defeated the Inca   -->
+
+<!-- #### Maps of Exploration  -->
+
+<!-- [Pacific](https://en.wikipedia.org/wiki/Exploration_of_the_Pacific#/media/File:SpanishPacific.svg)   -->
+
+<!-- [Americas](https://en.wikipedia.org/wiki/Spanish_colonization_of_the_Americas)   -->

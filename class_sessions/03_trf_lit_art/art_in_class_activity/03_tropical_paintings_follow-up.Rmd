@@ -1,0 +1,78 @@
+---
+title: 'Tropical Paintings - What did you see?'
+author: "IDS 2935"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Tropical Paintings, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  # pdf_document: default
+html_document:
+     df_print: paged
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
+---
+
+<!-- UPDATES TO MAKE: Add links to the public repositories of these texts on google books, etc. so people can find the original texts and images -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Image 1: Albert Eckhout, *Series of eight figures* (1641)
+![](./paintings/ekhout4.jpeg){height=70%}  
+
+#### Eckhout was among the first European artists to paint scenes from the "New World"; he accompanied Johan Maurits, Prince of Nassau-Siegen and the Dutch governor-general of Brazil. These paintings were from Northeastern Brazil; there is an **_excellent_** essay describing them [here](https://www.khanacademy.org/humanities/art-americas/new-spain/colonial-brazil/a/albert-eckhout-series-of-eight-figures). Here is a brief excerpt about these two paintings:
+
+> The final pair of figures represents people of mixed race. The woman is a mameluca, of indigenous and white ancestry, and the man a mulatto, of black and white ancestry. The representation of the mameluca contains no references to agriculture or child-rearing. Instead, she solely provides voyeuristic pleasure to European males as she smiles cheekily at the viewer. The guinea pig reinforces her sexual availability because Europeans associated guinea pigs with rabbits, traditional symbols of fertility. To a European audience, the loose garment and flowers reference Flora, the Roman goddess of flowers and fertility who was adopted as a symbol for prostitutes and courtesans. In a place with few white women, the mameluca’s whiteness made her particularly desirable as a concubine.
+
+> In the eyes of Europeans, the so-called mulatto’s white ancestry likewise allowed him to rise above other Afro-Brazilians. He is posed in an authoritative military stance in front of a sugarcane field, the Dutch colony’s most important source of revenue. Likely tasked with protecting the fields and supervising the slaves, his appearance emphasizes his position within the social hierarchy between free and slave, European and non-European. His clothing is an imaginative mixture of European and foreign garments. While the offspring of enslaved women were born into slavery, children of white fathers were sometimes freed. Although bare feet can function as a visual symbol of enslavement, slaves were forbidden from carrying weapons—thus, the rifle and rapier suggest that he is free.
+
+\newpage
+
+## Image 2: Charles Christian Nahl, *Incident on the Chagres River* (1867)
+![](./paintings/nahl.png){height=70%}  
+
+#### There is a [link to a high-resolution version here](http://imgzoom.cdlib.org/Fullscreen.ics?ark=ark:/13030/tf658010cs/z1&&brand=oac4). More about Nahl and examples of his work can be [seen here](https://artsandculture.google.com/entity/charles-christian-nahl/m06w7t1k?categoryId=artist). 
+\newpage
+
+## Image 3: Henri Rousseau, *The Dream* (1910)  
+![](./paintings/rousseau1.jpeg){height=70%}  
+
+#### A link to a  [high-resolution version is here](https://en.wikipedia.org/wiki/Henri_Rousseau#/media/File:Henri_Rousseau_-_Le_R%C3%AAve_-_Google_Art_Project.jpg). Rosseau is best known for his fantastical paintings of jungles, but he never left France or visited a rain forest (more in this [biography](https://en.wikipedia.org/wiki/Henri_Rousseau)). Put on some headphones and [take a guided tour through the painting](https://artsandculture.google.com/story/xwVxpOh7XnK4bQ).
+
+\newpage
+## Image 4: Wilfredo Lam, *The Jungle* (1943)  
+![](./paintings/lam.png){height=70%}  
+
+#### You can read more about this Cuban painter [here](https://en.wikipedia.org/wiki/Wifredo_Lam); the website of the New York's Museum of Modern Art (MOMA) has a  hig-resolution image of this painting and also some [audio files](https://www.moma.org/collection/works/34666) where you can learn more about Lam and his work. Here is MOMAs summary of this painting:  
+
+> Lam, who had spent three years working with the Surrealists in Paris, aimed for The Jungle to convey the haunting consequences of slavery and colonialism for his native island of Cuba. He depicted figures with crescent-shaped faces, recalling African or Pacific Islander masks, against a background of Cuban sugarcane fields. Cuba, one of the world’s largest sugar exporters, had been colonized since the sixteenth century, and the Atlantic slave trade had brought more than a million Africans there as labor for the country’s plantations. “I wanted with all my heart to paint the drama of my country,” Lam wrote, “to disturb the dreams of the exploiters.”

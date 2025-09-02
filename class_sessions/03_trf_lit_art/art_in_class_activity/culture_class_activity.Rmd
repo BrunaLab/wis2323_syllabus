@@ -1,0 +1,112 @@
+---
+title: 'IDS 2935 - Historical Narratives: In-class Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{In-Class: Paintings, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: html_document
+# output:
+#   pdf_document: default
+#   html_document:
+#     df_print: paged
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The Depiction of Tropical Rain Forests and People in Art
+\vspace{0.3cm}
+
+
+
+### Instructions - Literature
+
+1. Now read each passage from fiction or poem.
+
+2. What "narrative" does this passage draw from? Does it reinforce or subvert this narrative?  Write a brief response for each one.
+
+### Instructions - Fine Art
+
+Paintings are different from poetry and literature because - to point out the obvious - they have no words to which a specific meaning is ascribed (or in some cases open to interpretation) Instead you have to infer from and interpret color, subject matter, technique, and your personal response to the work. It's not always easy...but let's try anyway! 
+
+Below are the primary narratives about tropical rain forests we came up with as a class: 
+
+**Paradise**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Exploitable**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Hell**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Conquerable**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+**Mystical**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Dangerous**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Defenseless**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+**Primitive**  
+
+With your group, identify the paintings or elements of individual paintings that reinforce the theme you've been assigned. Be prepared to share your list with the class and tell us why you assigned particular paintings or images to that theme. I have provided some numbered space for you below; you may not need all of it or you may need more...
+
+### Painting or Element
+
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+1. ***
+ \vspace{0.3cm}
+
+
+### Group Members
+
+1. __________________
+1. __________________
+1. __________________
+1. __________________
+1. __________________
+1. __________________
+1. __________________
+
+
+
+
+
+
+
+
+
+
+
+

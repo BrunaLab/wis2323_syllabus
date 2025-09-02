@@ -1,0 +1,371 @@
+---
+title: 'WIS 2323 - Literature and Petry'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Literature and Poetry, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+editor_options:
+  markdown:
+    wrap: 72
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./readings")
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# 500 years of Tropical Rain Forests in Literature & Poetry 
+<!-- \vspace{0.5cm} -->
+
+## TEXT 1: [*Utopia*](https://www.gutenberg.org/files/2130/2130-h/2130-h.htm), Thomas Moore (1516) 
+
+_"Sir Thomas More (1477-1535) was the first person to write of a 'utopia', a
+word used to describe a perfect imaginary world. More's book imagines a complex,
+self-contained community set on an island, in which people share a common culture
+and way of life...It is unclear as to whether the book is a serious projection 
+of a better way of life, or a satire that gave More a platform from which to 
+discuss the chaos of European politics." 
+(source: [The British Library](https://www.bl.uk/learning/timeline/item126618.html))_
+\vspace{0.2cm}
+
+> Under the equator, and as far on both sides of it as the sun moves,
+there lay vast deserts that were parched with the perpetual heat of
+the sun; the soil was withered, all things looked dismally, and all
+places were either quite uninhabited, or abounded with wild beasts and
+serpents, and some few men, that were neither less wild nor less cruel
+than the beasts themselves. But, as they went farther, a new scene
+opened, all things grew milder, the air less burning, the soil more
+verdant, and even the beasts were less wild: and, at last, there were
+nations, towns, and cities, that had not only mutual commerce among
+themselves and with their neighbours, but traded, both by sea and
+land, to very remote countries.
+
+## TEXT 2: [*Paradise Lost*](https://www.gutenberg.org/files/26/26-h/26-h.htm), John Milton (1667)
+
+_"Milton intended to ‘justify the ways of God to men’ (1.26). 
+He begins with Satan, who has been banished to Hell after his revolt against God,
+and goes on to explore God’s creation of humankind, the temptation of 
+Adam and Eve in Eden, and the concept of sin."
+(source: [The British Library](https://www.bl.uk/collection-items/john-milton-paradise-lost))_ 
+
+\vspace{0.2cm}
+
+>So on he fares, and to the border comes\
+Of Eden, where delicious Paradise,\
+Now nearer, crowns with her enclosure green,\
+As with a rural mound, the champaign head\
+Of a steep wilderness, whose hairy sides\
+With thicket overgrown, grotesque and wild,\
+Access denied; and overhead upgrew\
+Insuperable height of loftiest shade,\
+Cedar, and pine, and fir, and branching palm,\
+A sylvan scene, and, as the ranks ascend,\
+Shade above shade, a woody theatre\
+Of stateliest view. Yet higher than their tops\
+The verdurous wall of Paradise upsprung;\
+Which to our general sire gave prospect large\
+Into his nether empire neighbouring round.\
+And higher than that wall a circling row\
+Of goodliest trees, loaden with fairest fruit,\
+Blossoms and fruits at once of golden hue,\
+Appeared
+
+\vspace{0.2cm}
+## TEXT 3: [*Jungle Book*](https://www.gutenberg.org/files/35997/35997-h/35997-h.htm), Rudyard Kipling (1894)
+
+_Kipling (1865–1936) was an English novelist, author of short stories, poet, 
+and journalist. In 1907, he was awarded the Nobel Prize in Literature. 
+He was the first English-language writer to receive this prize and its 
+youngest recipient to date (he was 41 yrs old). 
+[The Jungle Book](https://en.wikipedia.org/wiki/The_Jungle_Book) is a collection 
+of fables in which he uses anthropomorphic animals to teach moral lessons._ 
+\vspace{0.2cm}
+
+> "Listen, man-cub," said the bear, and his voice rumbled like thunder
+on a hot night. "I have taught thee all the Law of the Jungle for all
+the Peoples of the Jungle---except the Monkey Folk who live in the
+trees. They have no Law. They are outcastes. They have no speech of
+their own, but use the stolen words which they overhear when they
+listen and peep and wait up above in the branches. Their way is not
+our way. They are without leaders. They have no remembrance. They
+boast and chatter and pretend that they are a great people about to do
+great affairs in the jungle, but the falling of a nut turns their
+minds to laughter, and all is forgotten. We of the jungle have no
+dealings with them. We do not drink where the monkeys drink; we do not
+go where the monkeys go; we do not hunt where they hunt; we do not die
+where they die."
+
+
+\vspace{0.2cm}
+## Text 4: *The White Man's Burden*, Rudyard Kipling (1899)
+
+_In this poem Kipling makes clear his perspective on the looming 
+Philippine–American War (1899–1902). This is only the first stanza; you 
+can read the rest of the poem and about the political background 
+[here](https://en.wikipedia.org/wiki/The_White_Man%27s_Burden)._
+\vspace{0.2cm}
+
+>Take up the White Man's burden\
+Send forth the best ye breed\
+Go bind your sons to exile\
+To serve your captives' need;\
+To wait in heavy harness,\
+On fluttered folk and wild\
+Your new-caught, sullen peoples,\
+Half-devil and half-child
+
+<!-- ![Mowgli's Song Against People](./texts_images/kipling/kipling1.png){height=50%}  -->
+
+<!-- ![alt text here](./texts_images/kipling/kipling2.png){height=50%}  -->
+
+<!-- ![alt text here](./texts_images/kipling/kipling3.png){height=50%}  -->
+
+<!-- ![alt text here](./texts_images/kipling/kipling4.png){height=50%} -->
+
+\vspace{0.2cm}
+## TEXT 5: [*Heart of Darkness*](https://www.gutenberg.org/files/219/219-h/219-h.htm), Joseph Conrad (1899)
+
+_Conrad (born Józef Teodor Konrad Korzeniowski, 1857-1924) is regarded as 
+one of the greatest novelists to write in the English language. His writings 
+depict trials of the human spirit in the midst of what he saw as an impassive, 
+inscrutable universe. In 1890 he spent time in what was then the known as the 
+[Congo Free State](https://en.wikipedia.org/wiki/Congo_Free_State) 
+(which was actually a privately owned colony of Leopold II of Belgium). 
+The things he saw and experienced there would inspire 
+his novella _Heart of Darkness_._ 
+\vspace{0.2cm}
+
+> It was just two months from the day we left the creek when we came to
+the bank below Kurtz's station. Going up that river was like traveling
+back to the earliest beginnings of the world, when vegetation rioted
+on the earth and the big trees were kings. An empty stream, a great
+silence, an impenetrable forest. The air was warm, thick, heavy,
+sluggish. There was no joy in the brilliance of sunshine. The long
+stretches of the waterway ran on, deserted, into the gloom of
+overshadowed distances...The broadening waters flowed through a mob of
+wooded islands; you lost your way on that river as you would in a
+desert, and butted all day long against shoals, trying to find the
+channel, till you thought yourself bewitched and cut off for ever from
+everything you had known once somewhere far away --- in another
+existence perhaps. There were moments when one's past came back to
+one, as it will sometimes when you have not a moment to spare for
+yourself; but it came in the shape of an unrestful and noisy dream,
+remembered with wonder amongst the overwhelming realities of this
+strange world of plants, and water, and silence. And this stillness of
+life did not in the least resemble a peace. It was the stillness of an
+implacable force brooding over an inscrutable intention. It looked at
+you with a vengeful aspect...
+
+>...I tried to break the spell---the heavy, mute spell of the
+wilderness that seemed to draw him to its pitiless breast by the
+awakening of forgotten and brutal instincts, by the memory of
+gratified and monstrous passions.
+
+\vspace{0.2cm}
+## TEXT 6: [*Cabbages and Kings*](https://www.gutenberg.org/files/2777/2777-h/2777-h.htm), O. Henry (1905)
+
+_O. Henry was the pen name of William Sydney Porter (1862–1910), an American 
+writer known primarily for his short stories (e.g., "The Gift of the Magi"). 
+The novel _Cabbages and Kings_ is comprises interlinked short stories set in 
+the fictitional Central American country of "The Republic of Anchuria". 
+It was inspired by O. Henry's experiences in Honduras in the late 1890s._
+\vspace{0.2cm}
+
+> Well, then, in three days we sailed alongside that Guatemala...We
+landed at a town on the coast, where a train of cars was waitin' for
+us on a dinky little railroad.....We run some forty miles in seven
+hours, and the train stopped. There was no more railroad. 'Twas a sort
+of camp in a damp gorge full of wildness and melancholies. They was
+gradin' and choppin' out the forests ahead to continue the road.
+'Here,' says I to myself, 'is the romantic haunt of the
+revolutionists. Here will Clancy, by the virtue that is in a superior
+race and the inculcation of Fenian tactics, strike a tremendous blow
+for liberty. The trees was all sky-scrapers; the underbrush was full
+of needles and pins; there was monkeys jumpin' around and crocodiles
+and pink-tailed mockin'-birds, and ye stood knee-deep in the rotten
+water and grabbled roots for the liberation of Guatemala. Of nights we
+would build smudges in camp to discourage the mosquitoes, and sit in
+the smoke, with the guards pacin' all around us.
+
+> One old man named Halloran --- a man of Hibernian entitlements and
+discretions, explained it to me. He had been workin' on the road a
+year. Most of them died in less than six months. He was dried up to
+gristle and bone, and shook with chills every third night. "Ye're
+surrounded by a ragin' forest full of disreputable beasts---lions and
+baboons and anacondas---waitin' to devour ye. The sun strikes ye hard,
+and melts the marrow in your bones...The fault's wid these tropics.
+They rejuices a man's system. 'Tis a land, as the poet says, 'Where it
+always seems to be after dinner'."
+
+\vspace{0.2cm}
+## TEXT 7: *Beyond the Chagres River*, James S Gilbert (1905)  
+
+_The Chagres River is in central Panama. It is the largest river in the Panama 
+Canal's watershed and is dammed twice. The resulting reservoirs — Gatun Lake 
+and Lake Alajuela — form an integral part of the Panama Canal and 
+its water system._
+\vspace{0.2cm}
+
+>Beyond the Chagres River,\
+'Tis said (the story's old),\
+Are paths that lead to mountains\
+Of purest virgin gold;\
+But 'tis my firm conviction\
+Whate'er the tales they tell\
+Beyond the Chagres River\
+All paths lead straight to Hell.
+
+\vspace{0.2cm}
+## TEXT 8: [*Tarzan of the Apes*](https://www.gutenberg.org/files/78/78-h/78-h.htm), Edgar Rice Burroughs (1912)
+
+_Burroughs (1875–1950) was an American author of adventure, science fiction, 
+and fantasy stories; his most well-known characters are Tarzan and John Carter. 
+Tarzan (aka John Clayton II, Viscount Greystoke) was a 'feral child raised in 
+the African jungle by the Mangani great apes; he later experiences civilization,
+only to reject it and return to the wild as a heroic adventurer'
+(source: [Wikipedia](https://en.wikipedia.org/wiki/Tarzan))_
+
+\vspace{0.2cm}
+
+>Their work done the sailors returned to the small boat, and pulled off
+rapidly toward the Arrow. Tarzan, an interested spectator of all that
+had taken place, sat speculating on the strange actions of these
+peculiar creatures. Men were indeed more foolish and more cruel than
+the beasts of the jungle! How fortunate was he who lived in the peace
+and security of the great forest!
+
+\vspace{0.2cm}
+## TEXT 9: *One Hundred Years of Solitude*, Gabriel García Márquez (1967)
+_This novel by Colombian author and Nobel Laureate Gabriel García Márquez
+tells the story of multiple generations of the Buendía family, 
+whose patriarch founded the fictitious town of Macondo._
+<!-- \vspace{0.2cm} -->
+
+>Then, for more than ten days, they did not see the sun again. The
+ground became soft and damp, like volcanic ash, and the vegetation was
+thicker and thicker, and the cries of the birds and the uproar of the
+monkeys became more and more remote, and the world became eternally
+sad. The men on the expedition felt overwhelmed by their most ancient
+memories in that paradise of dampness and silence, going back to
+before original sin, as their boots sank into pools of steaming oil
+and their machetes destroyed bloody lilies and golden salamanders.
+
+\vspace{0.5cm}
+## TEXT 10: *Eat, Pray, Love: One Woman's Search for Everything Across Italy, India and Indonesia*, Elizabeth Gilbert (2006)
+_This memoir by American Elizabeth Gilbert chronicles her trip around 
+the world following her divorce and the resulting personal discoveries. 
+It was an international best-seller (e.g., 187 weeks on the NYTimes list)._
+\vspace{0.2cm}
+
+>So I take a taxi to the town of Ubud, which seems like a good place to
+start my journey. I check into a small and pretty hotel there on the
+fabulously named Monkey Forest Road. The hotel has a sweet swimming
+pool and a garden crammed with tropical flowers with blossoms bigger
+than volleyballs (tended to by a highly organized team of hummingbirds
+and butterflies). The staff is Balinese, which means they
+automatically start adoring you and complimenting you on your beauty
+as soon as you walk in. The room has a view of the tropical treetops
+and there's a breakfast included every morning with piles of fresh
+tropical fruit. In short, it's one of the nicest places I've ever
+stayed and it's costing me less than ten dollars a day. It's good to
+be back.
+
+>The sound universe is also spectacular around here. In the evenings
+there's a cricket orchestra with frogs providing the bass line. In the
+dead of night the dogs howl about how misunderstood they are. Before
+dawn the roosters for miles around announce how freaking cool it is to
+be roosters. ("We are ROOSTERS!" they holler. "We are the only ones
+who get to be ROOSTERS!") Every morning around sunrise there is a
+tropical birdsong competition, and it's always a ten-way tie for the
+championship. When the sun comes out the place quiets down and the
+butterflies get to work. The whole house is covered with vines; I feel
+like any day it will disappear into the foliage completely and I will
+disappear with it and become a jungle flower myself. The rent is less
+than what I used to pay in New York City for taxi fare every month.
+
+>I rode my bicycle back home, pushing my happy body up the hills toward
+my house in the late afternoon sun. On my way through the forest, a
+big male monkey dropped out of a tree right in front of me and bared
+his fangs at me. I didn't even flinch. I said, "Back off, Jack---I got
+four brothers protecting my ass," and I just rode right on by him^1^.
+
+\vspace{1.0cm}
+> ^1^_Two primate species are found on Bali: the [Crab-Eating Macaque, _Macaca fascicularis_](https://en.wikipedia.org/wiki/Crab-eating_macaque) and the 
+[Javan Langur, _Trachypithecus auratus_](https://en.wikipedia.org/wiki/East_Javan_langur). 
+This was alost certainly a Macaque, which is is known for stealing cameras, 
+sunglasses, and other items from tourists and refusing to give them back 
+until they are given some food._
+
+<!-- Other Options -->
+<!-- ## Norman Mailer, *The Naked and the Dead* (1948) -->
+
+<!-- ## TEXT 4: [*Second Jungle Book*](https://www.gutenberg.org/ebooks/1937), Rudyard Kipling (1894) -->
+
+<!-- *EB Karela is bitter melon (_Momordica charantia_)* -->
+
+<!-- MOWGLI'S SONG AGAINST PEOPLE -->
+
+<!-- I will let loose against you the fleet-footed vines---\ -->
+<!-- I will call in the Jungle to stamp out your lines!\ -->
+<!-- The roofs shall fade before it,\ -->
+<!-- The house-beams shall fall,\ -->
+<!-- And the Karela\*, the bitter Karela,\ -->
+<!-- Shall cover it all! -->
+
+<!-- In the gates of these your councils my people shall sing,\ -->
+<!-- In the doors of these your garners the Bat-folk shall cling;\ -->
+<!-- And the snake shall be your watchman,\ -->
+<!-- By a hearthstone unswept;\ -->
+<!-- For the Karela, the bitter Karela,\ -->
+<!-- Shall fruit where ye slept! -->
+
+<!-- Ye shall not see my strikers; ye shall hear them and guess;\ -->
+<!-- By night, before the moon-rise, I will send for my cess,\ -->
+<!-- And the wolf shall be your herdsman\ -->
+<!-- By a landmark removed,\ -->
+<!-- For the Karela, the bitter Karela,\ -->
+<!-- Shall seed where ye loved! -->
+
+<!-- I will reap your fields before you at the hands of a host;\ -->
+<!-- Ye shall glean behind my reapers, for the bread that is lost,\ -->
+<!-- And the deer shall be your oxen\ -->
+<!-- By a headland untilled,\ -->
+<!-- For the Karela, the bitter Karela,\ -->
+<!-- Shall leaf where ye build! -->
+
+<!-- I have untied against you the club-footed vines,\ -->
+<!-- I have sent in the Jungle to swamp out your lines.\ -->
+<!-- The trees---the trees are on you!\ -->
+<!-- The house-beams shall fall,\ -->
+<!-- And the Karela, the bitter Karela,\ -->
+<!-- Shall cover you all! -->
+
+

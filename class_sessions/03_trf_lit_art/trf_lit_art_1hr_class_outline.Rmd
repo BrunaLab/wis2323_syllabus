@@ -1,0 +1,119 @@
+---
+title: "TRF in Literfature and the arts"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Pre-Class Preparation (Instructor):  
+
+1. Email Reminder
+3. **Bring to Class:**  
+
+## Objectives and Competencies:   
+
+1.Review and if necessary revise the major themes about rain forests and their peoples established by early Europeans
+2.compares with our preconceived notions of the same, and the consequences of this disparity for our understanding of rain forests and their conservation.
+
+
+## Pre-class Preparation (Students):
+
+
+### **Readings**
+1. Excerpts from Literature/Poetry  (5 pages)
+2. Images of artwork (4 pages)
+
+## Class Outline
+
+
+```{r timer, echo=FALSE}
+
+t1_overview <- 15
+breakout1 <- 20
+return_results <- 20
+questions <- 5
+
+  
+  
+total_time <- 
+  t1_overview + 
+  breakout1 + 
+  return_results + 
+  questions 
+
+
+time_remain <- 50 - total_time
+```
+
+### **Topic 1 Overview:**  (`r t1_overview` min)
+
+### Breakout
+
+**Breakout (`r breakout1` min): ** 
+
+### Return and discuss breakout results
+
+1. **Returning results & Take-home message (`r return_results` min)** 
+
+
+1. Jungle Book: 
+a. creation of human archetypes through the animal characters, and 
+b. (from Numan) construction of colonial English national identity within Kipling's imperial project. In Nyman's view, nation, race and class are mapped out in the stories, contributing to "an imagining of Englishness as a site of power and racial superiority." Nyman suggested that The Jungle Book's monkeys and snakes represent "colonial animals" and "racialized Others" within the Indian jungle.
+c. People went to India for work, advancement, and adventure. And in the case of Kipling because of the Victorian ideal of Empire and it's accomplishments
+
+2. Heart of Darkness
+a. Central to Conrad's work is the idea that there is little difference between "civilised people" and "savages." Heart of Darkness implicitly comments on imperialism and racism. The novella's setting provides the frame for Marlow's story of his obsession with the successful ivory trader Kurtz. Conrad offers parallels between London ("the greatest town on earth") and Africa as places of darkness. Critique of colonialism of the Belgians in Congo.
+
+
+When Tarzan first introduces himself to Jane, he does so as "Tarzan, the killer of beasts and many black men". The novel climaxes with Tarzan saving Jane (who in the original novel is not British, but a southern White woman from Baltimore, Maryland) from a black ape rapist.  Burroughs was an explicit supporter of eugenics and scientific racism in both his fiction and nonfiction; Tarzan was meant to reflect these concepts. His views held that English nobles made up a particular heritable elite among Anglo-Saxons. Tarzan was meant to reflect this, with him being born to English nobles and then adopted by talking apes (the Mangani). They express eugenicist views themselves, but Tarzan is permitted to live despite being deemed "unfit" in comparison, and grows up to surpass not only them but black Africans, whom Burrough clearly presents as inherently inferior, even not wholly human. In one Tarzan story, he finds an ancient civilization where eugenics has been practiced for over 2,000 years, with the result that it is free of all crime. Criminal behavior is held to be entirely hereditary, with the solution having been to kill not only criminals but also their families. Lost on Venus, a later novel, presents a similar utopia where forced sterilization is practiced and the "unfit" are killed. Burroughs explicitly supported such ideas in his unpublished nonfiction essay I See A New Race. 
+
+
+Tarzan's primitivist philosophy ("a belief in the value of what is simple and unsophisticated, expressed as a philosophy of life or through art or literature.") was absorbed by countless fans, among whom was Jane Goodall, who describes the Tarzan series as having a major influence on her childhood. 
+
+Eat Pray Love
+In early 2010, the feminist magazine Bitch published a critical review and social commentary called "Eat, Pray, Spend." Authors Joshunda Sanders and Diana Barnes-Brown wrote that "Eat, Pray, Love is not the first book of its kind, but it is a perfect example of the genre of priv-lit: literature or media whose expressed goal is one of spiritual, existential, or philosophical enlightenment contingent upon women's hard work, commitment, and patience, but whose actual barriers to entry are primarily financial." The genre, they argued, positions women as inherently and deeply flawed and offers "no real solutions for the astronomically high tariffs—both financial and social—that exclude all but the most fortunate among us from participating."[19]
+
+
+
+2. **Take-home message:** Reinforce value of paperless data collection
+      
+### Free Time
+
+There are `r time_remain` min remaining that can be used to -----
+
+# Additional Resources and Reading Mateirals
+
+1.Nature of Milton's Paradise Lost [link](https://www.jstor.org/stable/25112601?seq=6#metadata_info_tab_contents)
+2. Jopi Nyman [Re-Reading Rudyard Kipling's ‘English’ Heroism: Narrating Nation in The Jungle Book](https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1600-0730.2001.d01-44.x)
+3. Kipling and Imperialism [link](https://victorianweb.org/authors/kipling/rkimperialism.html), [link](https://victorianweb.org/authors/kipling/rkimperialism.html)
+
+
+https://gamingbolt.com/10-of-the-most-amazing-looking-forests-in-video-games/9
