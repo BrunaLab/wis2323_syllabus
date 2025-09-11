@@ -40,11 +40,11 @@ output: pdf_document
   # word_document: default
 # weight: 5
     # df_print: paged
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./static/uploads")
-  })
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
 ---
 
 
@@ -56,10 +56,10 @@ library(here)
 ```
 \begin{landscape}
 ```{r movie_table, echo=FALSE,message = FALSE,warning=FALSE}
-# 
+
 # movies <- readxl::read_excel("~/Dropbox (UFL)/Teaching/WIS 2323 - Future of Rain Forests/IDS2935_RainForests/class_materials/projects_and_code/movies/movies.xlsx") %>% 
 
-movies <- readxl::read_excel("movies.xlsx") %>%
+movies <- readxl::read_excel("./course_projects/movie_reviews/movies.xlsx") %>%
   unite("subscription", paramount:apple, remove = TRUE, sep = ",") %>%
   unite("free", kanopy:other_free, remove = TRUE, sep = ",") %>%
   arrange(year,movie) %>%

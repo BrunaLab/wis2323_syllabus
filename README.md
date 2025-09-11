@@ -1,5 +1,7 @@
 # WIS 2323: The Future of Rain Forests
 
+Course Website: https://brunalab.github.io/wis2323_syllabus/
+
 ## A UF Quest 2 Course & GenEd Course
 
 This is the teaching materials and website for the UF Quest 2 course "The Future of Tropical Rain Forests". You can [review the syllabus here](https://brunalab.github.io/wis2323_syllabus/). Most of the class sessions work as a 'flipped' or 'active-learning' sessions, with students reading articles and viewing videos before coming to class. Class time is spent discussing the material and working on exercises with the teacher answering questions and demoing the concepts. The course remains under active development and I welcome contributions or suggestions to all aspects of the course and website. Suggestions for exercises, readings, examples, and exercises for a GenEd audience are especially welcome. You are welcome to use course materials for your own course.  The course content and organization is a forkable repository, an act that was inspired by the [Data Carpentry for Biologists](https://github.com/datacarpentry/semester-biology) course developed, taught, and shared by [@ethanwhite](https://github.com/ethanwhite).
