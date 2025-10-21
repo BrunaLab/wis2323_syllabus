@@ -1,0 +1,126 @@
+---
+title: 'WIS 2323 - "Deforestation Data Analysis Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Deforestation Data (In-class), p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  # html_document:
+  #   df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## In-Class Exercise: Analyzing deforestation with data from Global Forest Watch
+
+\vspace{0.3cm}
+
+**Part I: Finding and Downloading Data on Deforestation**
+
+## GFW Website
+
+1. Open the Global Forest Watch Website: [https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)
+
+2. It is useful to register with GFW so that you can save your work across sessions. To do that, click on "MY GFW" in the top right corner. You can skip this step if you want, but it will make things easier.
+
+3. Click on "Dashboard". This page gives a summary of global loss in Primary Forest, Tree Cover Loss, the amount of forest lost due to different "drivers" (i.e., causes), and other data summaries. 
+
+4. Under the word "Global", click on **"^ Select country"** and select  **"Peru"**.
+
+a. Familiarize yourself with the types of information shown in the different tabs (Summary, Land Cover, Forest Change...). There is information in these tabs useful for your analytic essay.
+
+b. The first tab is a "Summary" tab with Peru-specific summaries of the Primary Forest Loss, Tree Cover, etc. 
+
+c. On the right is a map where you can see the locations of Primary Forest and Tree Cover Loss. Note the circle with some vertical lines: if you click on this icon, a slider appears that makes the colors darker or lighter. Slide the one for "Primary Forest" closer to "0"; this will allow you to see the areas of forest loss more clearly. There is also a [+/-] box in the top right corner zoom in or out on areas of interest.
+
+d. There is a check box under the legend to overlay satellite images. You can use dropdown menus to choose the satellite image to be overlaid (month/year) as well as the color scheme.
+
+e. The data used to create each summary box can be downloaded by clicking the "Download Data" icon in the top-right corner of each box (you can hover over each icon to find the one you need). Download the data on Primary Forest Loss for Peru. Save the zip file to your computer.
+
+5. Repeat these steps and download the data for **"Rwanda"**
+
+6. When you unzip the data files, they will have several files inside of them. Pay particular attention to these:
+
+    
+    i) **treecover_extent_2000_in_primary_forests_2001_tropics_only__ha.csv** 
+    
+    >This file includes data on the amount of tree cover in country's tropical forests (in hectares) in 2000. There are two values for the amount of forest cover: `umd_tree_cover_extent_2000__ha`	and `area__ha`. The two values are very similar, but they use slightly different methods to estimate forest cover^[the UMD program estimates tree cover: woody vegetation with a height of at least five meters (m) and a canopy density of at least 30 percent at 30-m resolution; see https://research.wri.org/gfr/key-terms-definitions#talking-about-tree-cover and https://www.globalforestwatch.org/blog/data-and-research/2022-tree-cover-loss-data-explained/]; _we will use the `umd` values in all our calculations_. 
+    
+    ii) **treecover_loss_in_primary_forests_2001_tropics_only__ha.csv**
+    
+    >This reports the UMD estimate for the amount of Tropical Primary Forest lost in a calendar year and the carbon emissions each year from that loss ^[Emissions include all relevant ecosystem carbon pools (aboveground biomass, belowground biomass, dead wood, litter, soil) and greenhouse gases (CO2, CH4, N2O), see https://data.globalforestwatch.org/datasets/gfw::forest-greenhouse-gas-emissions/about].
+
+    These files can be used to visualize deforestation in different and useful ways:   
+    
+
+    i) The _total amount_ of primary tropical forest lost in each year (this is what is graphed in the figure on the Summary tab)
+    ii) The _percent of primary tropical forest_ there was in 2000 that remains after each year (this starts at 100% and declines every year)
+    iii) The _rate of primary tropical forest loss_ (the "speed" at which forest is being cleared, i.e., the percentage of forest that was standing in a given year that was cleared the following year).
+
+
+## Data Visualization and Analysis 
+**Using these data files, answer the following questions:**
+
+
+1) What are the units in which they report the area of forest lost?  
+2) How do you convert these units to km^2^?
+3) Use the data in the downloaded files to calculate and visualize the following for each country:
+
+    (a) The annual loss of primary tropical forest (units: sq km)
+    (b) the total amount of tropical forest lost from 2001-2022 (units: sq km)
+    (c) The percent of initial forest (i.e., in 2000) remaining after each year (units: %).
+    (d) The annual rate of forest loss (units: sq km/yr)
+
+  > You can either graph these as bar charts or line charts. It is possible to graph the data for both country on the same graph, but you can also submit the graphs separately for each country.
+  
+
+<!-- 5 points extra credit: Finally, on each country's summary click on the other tabs to see the type of information provided. Under the "Climate Change" tab, download the data for the graph entitled "FOREST-RELATED GREENHOUSE GAS EMISSIONS". (warning: switching between tabs can be slow; sometimes I find it easier to just click the "country" drop-down list and start over) 
+4) Plot the relationship between (a) the amount of forest cover lost in a given year and (b) greenhouse gas emissions in a given year.-->
+
+4) What insights do these different numbers provide about deforestation in these countries? (you don't have to graph these - calculate the numbers in the spreadsheet and then look them over to answer the question).
+
+
+
+**Submit the answers to these questions and a screenshot or pdf of your plot via canvas**
+
+**Part II: Exploring the Layers of GFW Data**
+
+1. If you have time, navigate around the map and learn about some of the other features in GFW.
+
+
+**Additional Information**
+
+1. More information on the GFW data, how they were collected, and how they can be used can be found in this article: Hansen, Matthew C., et al. 2013. High-resolution global maps of 21st-century forest cover change. *Science* 342(6160): 850-853. ([link to the article](https://www.science.org/doi/10.1126/science.1244693))
+
+2. A short tutorial on using the dashboard can be found on the GFW site:  [tutorial link](https://www.globalforestwatch.org/help/map/guides/analyze-data-map/)
+
+

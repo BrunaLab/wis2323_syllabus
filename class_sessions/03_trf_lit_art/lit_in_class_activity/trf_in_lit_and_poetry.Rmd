@@ -32,11 +32,11 @@ output: pdf_document
 editor_options:
   markdown:
     wrap: 72
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./readings")
-  })
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./readings")
+#   })
 ---
 
 ```{r setup, include=FALSE}
