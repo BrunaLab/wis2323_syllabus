@@ -1,0 +1,35 @@
+---
+title-block-style: plain
+title: WIS2323 Posters
+lightbox: true
+---
+
+# Jungle Film Festival (the _worst_ of rain forest cinema)
+
+![Jungle Film Festival 2025](images/posters/jungle_film_festival_2025.png){group="jungle-film-festival"}
+
+![Jungle Film Festival 2023](images/posters/jungle_film_festival_2023.png){group="jungle-film-festival"}
+
+![Jungle Film Festival 2022](images/posters/jungle_film_festival_2022.png){group="jungle-film-festival"}
+
+![Jungle Film Festival 2021](images/posters/jungle_film_festival_2021.png){group="jungle-film-festival"}
+
+
+
+
+
+# DurianFest (Long live the King)
+
+![DurianFest 2023](images/posters/DurianFest_2023.png){group="DurianFest"}  
+
+![DurianFest 2022](images/posters/DurianFest_2022.png){group="DurianFest"}  
+
+![DurianFest 2021](images/posters/DurianFest_2021.png){group="DurianFest"}  
+
+
+
+
+
+
+
+
