@@ -2,6 +2,7 @@
 title-block-style: plain
 title: WIS2323 Posters
 lightbox: true
+format: html
 ---
 
 # Jungle Film Festival (the _worst_ of rain forest cinema)
