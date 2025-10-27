@@ -5,27 +5,27 @@ lightbox: true
 format: html
 ---
 
-# Jungle Film Festival (the _worst_ of rain forest cinema)
+## Posters forWIS2323's Jungle Film Festival and DurianFest 
 
-![Jungle Film Festival 2025](images/posters/jungle_film_festival_2025.png){group="jungle-film-festival"}
+![Jungle Film Festival 2025](images/posters/jungle_film_festival_2025.png)
 
-![Jungle Film Festival 2023](images/posters/jungle_film_festival_2023.png){group="jungle-film-festival"}
-
-![Jungle Film Festival 2022](images/posters/jungle_film_festival_2022.png){group="jungle-film-festival"}
-
-![Jungle Film Festival 2021](images/posters/jungle_film_festival_2021.png){group="jungle-film-festival"}
+![DurianFest 2023](images/posters/DurianFest_2023.png)    
 
 
+![Jungle Film Festival 2023](images/posters/jungle_film_festival_2023.png)  
+
+
+![DurianFest 2022](images/posters/DurianFest_2022.png)  
+
+![Jungle Film Festival 2022](images/posters/jungle_film_festival_2022.png)  
 
 
 
-# DurianFest (Long live the King)
 
-![DurianFest 2023](images/posters/DurianFest_2023.png){group="DurianFest"}  
+![Jungle Film Festival 2021](images/posters/jungle_film_festival_2021.png)
 
-![DurianFest 2022](images/posters/DurianFest_2022.png){group="DurianFest"}  
 
-![DurianFest 2021](images/posters/DurianFest_2021.png){group="DurianFest"}  
+![DurianFest 2021](images/posters/DurianFest_2021.png)
 
 
 
