@@ -8,23 +8,23 @@ format: html
 ::: {.grid}
 
 ::: {.g-col-6}
-![DurianFest 2023](images/posters/DurianFest_2023.png){fig-align="left" width="25%"}  
+![DurianFest 2023](images/posters/DurianFest_2023.png){fig-align="left" width="100%" group="poster-gallery"}  
 
-![DurianFest 2022](images/posters/DurianFest_2022.png){fig-align="left" width="25%"}  
+![DurianFest 2022](images/posters/DurianFest_2022.png){fig-align="left" width="100%" group="poster-gallery"}  
 
-![DurianFest 2021](images/posters/DurianFest_2021.png){fig-align="left" width="25%"}
+![DurianFest 2021](images/posters/DurianFest_2021.png){fig-align="left" width="100%" group="poster-gallery"}
 :::
 
 ::: {.g-col-6}
-![Jungle Film Festival 2025](images/posters/jungle_film_festival_2025.png){fig-align="left" width="25%"}  
+![Jungle Film Festival 2025](images/posters/jungle_film_festival_2025.png){fig-align="left" width="100%" group="poster-gallery"}  
 
-![Jungle Film Festival 2023](images/posters/jungle_film_festival_2023.png){fig-align="left" width="25%"}  
+![Jungle Film Festival 2023](images/posters/jungle_film_festival_2023.png){fig-align="left" width="100%" group="poster-gallery"}  
 
 
 
-![Jungle Film Festival 2022](images/posters/jungle_film_festival_2022.png){fig-align="left" width="25%"}  
+![Jungle Film Festival 2022](images/posters/jungle_film_festival_2022.png){fig-align="left" width="100%" group="poster-gallery"}  
 
-![Jungle Film Festival 2021](images/posters/jungle_film_festival_2021.png){fig-align="left" width="25%"}  
+![Jungle Film Festival 2021](images/posters/jungle_film_festival_2021.png){fig-align="left" width="100%" group="poster-gallery"}  
 
 :::
 
