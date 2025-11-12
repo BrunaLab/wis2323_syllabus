@@ -1,0 +1,149 @@
+---
+title: 'WIS 2323 - Tropical Tropes in Film'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{The Tropics in Film, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+# output: html_document
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Tropical Tropes and Imagery in Film
+<!-- \vspace{0.5cm} -->
+
+A **trope** (noun, pronunciation: /trōp/) is a cliché used in storytelling - a common, overused, and often stereotypical theme, device, characterization, or situation. Because movies are such an important form of Pop Culture, and films from the USA have such a large cultural impact on the rest of the world, we are going to see if the broad themes about rain forests that we identified as a group - themes which first emerged 500-700 years ago in historical and fictional narratives - are still present in these contemporary forms of narrative.  As a reminder, those broad themes were that **The Tropics Are:**  
+
+1. **Paradise:** vibrant, lush, nurturing    
+1. **Hell on Earth:** dangerous, violent, deadly  
+1. **Mystical:** spiritual, peaceful, harmonious; a place for finding inner peace      
+1. **Exploitable:** the resources, the people   
+1. **Conquerable:** a place for self-discovery; if one is able to overcome the overwhelming challenges of the tropics one can survive any future ones   
+
+We can't watch multiple, complete movies during today's class, but we can watch a brief summary of each movie and it's overarching theme by the film's creators the trailer. The movie trailers below can be found on the WIS 2323 YouTube playlist of [**Tropical Movie Trailers**](https://youtube.com/playlist?list=PL5YVP-qXy1H9hSnUQ6B2VoOfgf16sGHc-&si=9rLnB7vH3Ecppa0s). 
+
+**_Your group's job is to watch the movie trailers in each collection, and:_**
+
+1. For each trailer: chose the theme or themes with which the movie trailer aligns.   _(Note that each film could align with more than 1)_
+1. For each trailer: identify the _tropes_ from the list below that reinforce these themes, and 
+1. Discuss what these trailers collectively "say" (e.g., what impression do they give, what message do the communicate) about (a) tropical rain forests and (b) the people that live there?
+
+**BEFORE WATCHING:** Below are the tropes to look out for as you watch the trailers (they come from the _TV Tropes Database_, which you can find [here](https://tvtropes.org/)). You can either divide the tropes up among group members, or all members can try to spot all tropes. Be sure to confer after each trailer to see if you got all examples of each. 
+
+**_IMPORTANT:_** Many of the tropes refer to _"The Natives"_ - a term commonly used in the historical narratives we read for class and that continues to be used in contemporary conversation, films, movies, and books.  This term is generally considered problematic (or offensive) by indigenous people due to it's colonial origins, the stereotypes it perpetuates, and the way which its use as a collective term erases the identity of very different nations. The proper terminology is often highly personal, changes over time, and varies geographically. But here (in class) we will try to follow the recommendations of the [Native Governance Center](https://nativegov.org/news/how-to-talk-about-native-nations-a-guide/) and the [National Museum of the American Indian](https://americanindian.si.edu/nk360/faq/did-you-know) and (1) whenever possible use the nation's name (e.g., Yanomami, Orang Asli) and (2) use 'Indigenous' when referring to groups of native people. 
+
+I recognize that this might be new to many of you, and chances are at some point one of us will slip-up and use outdated terminology. That's ok - we're here to learn, so if this happens simply correct and move forward. Note also that in the listing of tropes below I have chosen to keep the term in part because it is specifically calling attention to a stereotype. I did, however, put it in quotation marks to draw attention to it. 
+
+## TROPICAL MOVIE TROPES
+
+1. **_Adventurer Outfit_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/AdventurerOutfit): Beige or tan linens, big brown belt, boots, probably a rifle and binoculars; also, a safari hat called a pith helmet. (Monocle optional but recommended). Usually, the wearer is book-smart but ignorant of what they should actually wear for the expedition. Counter-intuitively most of them needed more coverage in Real Life to avoid sunburns and harmful insects and during the age of African exploration the pith helmet was the narrow-brimmed model of Zulu War vintage, not the broad-brimmed "Bombay Bowler" of the post-1900 years.
+
+1. **_Mighty Whitey_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/MightyWhitey) and **_Led by the Outsider_**[[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/LedByTheOutsider): A common trope in 18th and 19th century adventure fiction, when Europeans were visiting and documenting vast swathes of the world for the first time, Mighty Whitey is usually a displaced white European who ends up living with 'native' people and not only learns their ways, but becomes their greatest warrior/ leader/ representative. This trope can heavily overlap with Led by the Outsider, extra points if he woos [_The Chief's Daughter_](https://tvtropes.org/pmwiki/pmwiki.php/Main/TheChiefsDaughter) along the way; an unfortunately common variation that perpetuates into present-day media is that she will continue to love our hero even if he is directly responsible for the death of her husband, brother, or father. 
+
+1. **_Chased by "Angry Natives"_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/ChasedByAngryNatives): Stock scene for the [Adventurer Archaeologist](https://tvtropes.org/pmwiki/pmwiki.php/Main/AdventurerArchaeologist) and [Evil Colonialist](https://tvtropes.org/pmwiki/pmwiki.php/Main/EvilColonialist) types, the ["Hollywood Natives"](https://tvtropes.org/pmwiki/pmwiki.php/Main/HollywoodNatives) are angry at the hero stealing their sacred idol or refusing to be their dinner, or even merely trespassing in their territory. Expect there to be hilariously ineffectual thrown spears and arrows, hooting and jumping as he makes a clean getaway via plane, boat, car, or train. Of course, this amounts to nothing so much as [Mighty Whitey](https://tvtropes.org/pmwiki/pmwiki.php/Main/MightyWhitey) "preserving for posterity" the ancient sacred objects of a lesser culture to a place they’ll be truly appreciated: a public museum. "The natives" on the other hand, usually prefer seeing it as "theft" or "desecration," and hence the pursuit.
+
+1. **_Green Aesop_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/GreenAesop): Any story with An Aesop with an environmental message which warns that unchecked pollution will either destroy the Earth or incur Mother Nature’s wrath. Sometimes the message may incorporate [Science Is Bad](https://tvtropes.org/pmwiki/pmwiki.php/Main/ScienceIsBad) as well, though it is becoming more common to feature good scientists who encourage green technology and environmentally friendly lifestyles. It might also tell the sad story of one plant. Can be done with subtlety or done blatantly.
+
+1. **_Inevitable Waterfall_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/InevitableWaterfall): If the characters are rafting, swimming, or just floating down a river, then they will either go over a waterfall or narrowly avoid going over a waterfall. Always. No exceptions.
+
+1. **_Jungle Drums_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/JungleDrums): A sister trope to _"The Natives" Are Restless_, this harks back to the days in deepest darkest Africa, where the mood of "the natives" can be determined by their midnight drumming. If they’re banging away on those puppies till the wee small hours, trouble is definitely brewing. The more anxious white people can be driven to nervous exhaustion by Those Infernal Drums (a good name for a band), but the moment you really worry is when they stop, suddenly. Sometimes we get to see the wild abandoned dancing of "the natives".
+
+1. **_Noisy Nature_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/NoisyNature): Nature is usually quiet. Except in Movies. Possibly the best reason to use this trope is for our heroes to suddenly realize that it has suddenly gotten quiet.
+
+1. **_Raised by Natives_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/RaisedByNatives): One of the classic story hooks is for an orphan child from a strange land be raised by the people native to the land he or she finds themselves in. His origins (the orphan is usually a boy) and the purpose of his parents’ trek so far from home is a mystery, but they’ll usually face an accident of some kind that wipes them all out save for him. Whatever the case, the child will be adopted by the chief and raised as one of his sons.  
+
+1. **_Vine Swing_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/VineSwing): The usual way of transportation of a [Nature Hero](https://tvtropes.org/pmwiki/pmwiki.php/Main/NatureHero): grab a conveniently placed, always available vine on a tree, and swing on it to the next one.
+
+1. **_Damsel in Distress_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/DamselInDistress): A female character is put into immediate danger in order to put the cast in motion. Her plight unites the cast, causing them to put aside their differences and work together to save her or provide the premise for [The Quest](https://tvtropes.org/pmwiki/pmwiki.php/Main/TheQuest) and is considered [Older Than Dirt](https://tvtropes.org/pmwiki/pmwiki.php/Main/OlderThanDirt).
+
+1. **_Evil Colonialist_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/EvilColonialist): This is an imperialist or colonialist man who has just come to take advantage of "the natives" with a friendly smile and a rifle on his shoulder. He only cares about winning a quick buck at everyone else’s expense and exploiting the poor "natives" since he is convinced his race/culture is superior. Since he is either rich and powerful or in the middle of The character, usually a white one, was originally depicted as Western European (usually from Britain, Spain, France or Germany) but people from the US and South Africa joined the group later. He probably becomes the king of the place, and is likely to be [Chased by Angry 'Natives'](https://tvtropes.org/pmwiki/pmwiki.php/Main/ChasedByAngryNatives) either when declaring such dominion or somewhere else along the line.
+
+1. **_Jungle Princess_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/JunglePrincess): this is a young woman of European extraction who has been raised in a jungle environment, usually by animals. Despite her upbringing, though, she has managed to grasp the basic rudiments of English, tools, and fashion — she is frequently seen wearing fetching leather or [Fur Bikinis](https://tvtropes.org/pmwiki/pmwiki.php/Main/FurBikini) and wielding a spear. She is far more likely to have [Rapunzel Hair](https://tvtropes.org/pmwiki/pmwiki.php/Main/RapunzelHair) than [Wild Hair](https://tvtropes.org/pmwiki/pmwiki.php/Main/WildHair), and her legs and armpits will be inexplicably hairless. She’s likely to be an [Earthy Barefoot Character](https://tvtropes.org/pmwiki/pmwiki.php/Main/EarthyBarefootCharacter). For some unfathomable reason, the animals of the jungle obey her slavishly instead of viewing her as lunch, and the woefully benighted [_"Hollywood Natives"_](https://tvtropes.org/pmwiki/pmwiki.php/Main/HollywoodNatives) treat her as a goddess. Inevitably she will be single when she first encounters a hunky American or European explorer. She will find him in the clutch of some local danger (being menaced by her tame leopard is always fun if it’s a romantic comedy), rescue him, and romance will ensue.
+
+1. **_Science Hero_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/ScienceHero): A hero who uses science, technology and/or super-science to save the day. This hero is one part [Badass Normal](https://tvtropes.org/pmwiki/pmwiki.php/Main/BadassNormal), two parts [The Smart Guy](https://tvtropes.org/pmwiki/pmwiki.php/Main/TheSmartGuy), with a hint of [Wrench Wench](https://tvtropes.org/pmwiki/pmwiki.php/Main/WrenchWench) and [Gadgeteer Genius](https://tvtropes.org/pmwiki/pmwiki.php/Main/GadgeteerGenius). They’re defined mostly by being highly technically proficient scientists (often in all fields) and with a sense of adventure and curiosity. Plus, gadgets!
+
+1. **_Tropical Island Adventure_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/ScienceHero): Whenever an adventure far from civilization is needed, a tropical island is where it usually will be set. Typically located in or based on the Caribbean, Oceania or Southeast Asia, tropical islands are a very popular location for adventures due to their exotic environment and wildlife, remoteness and disconnection from the rest of the world, allowing for more fantastic elements than would be seen in a more civilized setting, and being popular places for vacations, due to their usually sunny weather, warm climate and pristine beaches.
+
+1. **_Everything Here is Trying To Kill You_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/EverythingTryingToKillYou): This warning - or some variation - will be spoken by the grizzled veteran of jungle adventures to the first-time rain forest visitors.
+
+1. **_Captured by Cannibals_** [[link]](https://tvtropes.org/pmwiki/pmwiki.php/Main/CapturedByCannibals): One specific, discredited version of [_I’m a Humanitarian_](https://tvtropes.org/pmwiki/pmwiki.php/Main/ImAHumanitarian) is the idea that when people from the "civilized world" (like missionaries and explorers) encounter [_"Hollywood Natives"_](https://tvtropes.org/pmwiki/pmwiki.php/Main/HollywoodNatives), they are in danger of being eaten. The "civilized" characters may initially think that "the natives" are treating them as respected guests or even gods, and feeding them better than they ever have been... but then, without fail, out come the pots and the chanting.
+
+## Trailers
+
+1. Pick **FIVE** of these trailers to analyze:
+
+>*Jungle Cruise*  
+>*Congo*   
+>*Medicine Man*  
+>*Jungle* (Trailer #1)  
+>*The Rundown*   
+>*Jumanji: Welcome to the Jungle*   
+>*Fire on the Amazon*   
+>*The Beach*   
+>*Avatar*  
+>*Ferngully: The Last Rainforest*  
+
+
+<!-- *Six Days, Seven Nights*   -->
+<!-- *Greystoke the Legend of Tarzan, Lord of the Apes*   -->
+<!-- *The Jungle*   -->
+<!-- *The Green Inferno*   -->
+<!-- *Romancing the Stone*  -->
+<!-- *Fitzcarraldo*   -->
+<!-- *Primal*   -->
+<!-- *Gold *   -->
+<!-- *Avatar*   -->
+<!-- *Green Mansions*   -->
+<!-- *At Play in the Fields of the Lord*   -->
+<!-- *Apocalypse Now*   -->
+
+
+2. After you have watched these trailers and discussed the questions among yourselves,submit your answers to the questons below via Canvas:
+
+---
+1. What group members were present for the discussion? 
+
+1. What 5 movie trailers did you watch? 
+
+3. With which Rain Forest Theme or Themes does each film trailer overlap?
+
+2. For each Trailer: which of the tropes does each trailer include? 
+
+3. Based on your discussion of the trailers, summarize in 2-3 sentences the take-home messages these trailers communicate about:
+
+>a) Rain Forest biodiversity, especially the types of species one encounters in a rain forest
+>b) The people that live in rain forests (both indigenous and non-indigenous).
