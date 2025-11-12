@@ -1,0 +1,47 @@
+---
+title: "flmnh_message"
+author: "Emilio M. Bruna"
+date: "2022-09-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hey all, 
+
+You'll recall that we were originally scheduled to go to the Florida Museum of Natural History (FLMNH) last week to visit the butterfly rainforest. I was looking at the schedule and realized it would be tough to fit this in later in the semester...plus we could all use a break from the classroom, don't you think? So, that means...
+
+CLASS TOMORROW WILL BE A VISIT TO THE BUTTERFLY RAINFOREST. 
+
+Important Information:
+
+1. We will meet at the front door of the Museum at 10 am.  You can arrive on your own or catch the bus from Reitz (more info below)
+
+2. Everything including transportation will be completed during regular class time. You don't have to arrive early and won't be late to anything immediately after class normally ends.
+
+3. Bring your UFID: Admission to the rain forest is free for UF students with ID.
+
+4. Bus from/back to Reitz Union
+
+From Reitz Union to the Museum: 4 busses leave the Reitz Union between 9:37 and 9:42 that arrive at the Museum by 10 am [see options here]. I'll be on one of those.
+From the Museum to the Reitz: 4 busses leave the Cultural Plaza between 11:01 and 11:08 that arrive at the Reitz Union by 11:30. [see options here].
+
+5. You don't have to take the busses above - you can arrive and leave on your own if it is more convenient for you. Information on getting there (including parking, bus lines, etc) is here: https://www.floridamuseum.ufl.edu/visit/plan/
+ (Links to an external site.)
+.
+
+6. This is the site for the museum https://www.floridamuseum.ufl.edu/
+ (Links to an external site.)
+  and the information on the butterfly rain forest https://www.floridamuseum.ufl.edu/exhibits/butterfly-rainforest/
+ (Links to an external site.)
+ 
+
+7. If you can't make it or something comes up, you can complete the activity we'll be doing by going on your own anytime before next thursday.  But why would you do that instead of go with the group? Remember how much fun field trips were in elementary school? Grab your juice box, crackers, and let's go!
+(Links to an external site.)
+). 
+
+8. More information on what we will be doing in a bit.
+
+EB

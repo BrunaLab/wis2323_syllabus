@@ -1,0 +1,102 @@
+---
+title: 'WIS 2323 - Disturbances in Tropical Forests: In-class Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{In-Class: Disturbances, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: html_document
+# output:
+#   pdf_document: default
+#   html_document:
+#     df_print: paged
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Disturbances in Tropical Forests
+\vspace{0.3cm}
+
+https://en.wikipedia.org/wiki/Wire-tailed_manakin#/media/File:Rabo_de_arame.jpg
+<!-- edit this to reflect what is posted online -->
+
+### Introduction
+Introduction - EXTRA CREDIT
+
+We did an exercise in class in which we plotted the Species-Abundance Relationship for trees on Barro Colorado Island. For extra credit, you can repeat the procedure with this data set on the diversity and abundance of birds in the unique "white-sand" forests of the Amazon. One of the species they captured was this beautiful Wire-tailed Manakin, _Pipra filicauda_ (Photo: juniorgiortto, CC BY-SA 4.0)
+
+Step 1: Download this file to your computer. It is a table with three columns: 
+
+Column 1: a 4-letter code used for each of the species captured during the survey.
+
+Column 2: the complete scientific name of each bird species found during the survey 
+
+Column 3: the number of individuals of each species the ornithologists captured (referred to as "n").
+
+Step 2: Import the data into a Google Sheet or Microsoft Excel spreadsheet. I strongly recommend using google sheets: not only is it free to UF students to get a high-capacity Google Drive, the hints below and online tutorial assume you are working with Google sheets
+
+**Step 1: **Download this file to your computer. It is a table with three columns: 
+
+> Column 1: a 4-letter code used for each of the species found in the plot in the 2005 survey
+
+> Column 2: the complete scientific name of each tree species found in the plot in the 2005 survey 
+
+> Column 3: the number of individuals of each species found in the plot in the 2005 survey (referred to as "n").
+
+**Step 2: **Import the data into a Google Sheet or Microsoft Excel spreadsheet. I strongly recommend using google sheets: not only is it free to UF students to get a high-capacity Google Drive, the hints below and online tutorial assume you are working with Google sheets. 
+
+**Questions: **
+
+1. How many tree species are in the plot?
+1. How many total trees are there in the plot? (all specis combined)
+1. What is the most common species?
+1. How many individuals are there of the most common tree species?
+1. Arrange the species in order from _most_ abundant to _least_ abundant. How many species do you need to count until you have counted the first 50% of the trees in the plot? _(hint: you'll first have to calculate the the 'cumulative frequency', then use that to calculate the 'cumulative percentage'. If you need help figuring this out, ask for it!)._
+1. How many species make up the _remaining_ 50% of trees in the plot? 1. How many species are represented by only 1 tree?
+1. Now create a figure ('bar' chart or 'column' chart) in which the X axis is the individual tree species, and the Y axis is the number of individuals of each species species. Save this figure with the name  "Species-Abundance-Plot" by clicking it, then clicking the 3 dots in the top right corner, then Selecting "Download" -> "PDF document".
+1. What does this plot suggest about the relative abundance of tree species in tropical forests?
+
+> _Hint for making the figure: highlight the "count" and "species" columns, select "Insert" from the menu ribbon, and then drop down to chart. It will probably make a pie chart as a default - to the right under "setup" select the drop down menu for "chart type" select "column chart" (Don't ever use pie charts. Ever. They're awful. Ask me why)._
+
+
+<!-- ADD THE LINK TO THE TUTORIAL ON YOUTUBE -->
+**Submit your answers to these questions and your plot via Canvas. **
+
+
+EXTRA CREDIT: 
+
+1. Repeat the steps above with data on birds in the Amazon. Do the overall patterns of Species-Abundance (i.e., the shape of the plot, the fraction of species that are common vs. rare) look similar for trees and birds? 
+
+
+
+
+
+
+

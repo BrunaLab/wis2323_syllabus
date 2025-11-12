@@ -6,8 +6,8 @@ library(here)
 # brazil ------------------------------------------------------------------
 
 here()
-brazil_2000<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","brazil","treecover_extent_2000_in_primary_forests_2001_tropics_only__ha.csv")) 
-brazil_loss<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","brazil","treecover_loss_in_primary_forests_2001_tropics_only__ha.csv")) %>% 
+brazil_2000<- read.csv(here("course_projects","analytical_essay_deforestation","brazil","treecover_extent_2000_in_primary_forests_2001_tropics_only__ha.csv")) 
+brazil_loss<- read.csv(here("course_projects","analytical_essay_deforestation","brazil","treecover_loss_in_primary_forests_2001_tropics_only__ha.csv")) %>% 
   rename(year=umd_tree_cover_loss__year,
          loss=umd_tree_cover_loss__ha) %>% 
   mutate('tree_cover_start' = ifelse(year=="2001",brazil_2000[1,2] ,NA)) %>% 
@@ -15,7 +15,7 @@ brazil_loss<- read.csv(here("class_materials","course_projects","analytical_essa
   mutate(tree_cover_final = tree_cover_start-loss) %>% 
   relocate(tree_cover_final, .after='loss')  
 
-for (i in seq(2002,2022)) {
+for (i in seq(2002,2024)) {
     brazil_loss$tree_cover_start[brazil_loss$year==i]=brazil_loss$tree_cover_final[brazil_loss$year==(i-1)] 
     brazil_loss$tree_cover_final[brazil_loss$year==i]=brazil_loss$tree_cover_start[brazil_loss$year==i]-brazil_loss$loss[brazil_loss$year==i]
 } 
@@ -30,8 +30,8 @@ brazil_loss
 
 
 
-indonesia_2000<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","indonesia","treecover_extent_2000_in_primary_forests_2001_tropics_only__ha.csv")) 
-indonesia_loss<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","indonesia","treecover_loss_in_primary_forests_2001_tropics_only__ha.csv")) %>% 
+indonesia_2000<- read.csv(here("course_projects","analytical_essay_deforestation","indonesia","treecover_extent_2000_in_primary_forests_2001_tropics_only__ha.csv")) 
+indonesia_loss<- read.csv(here("course_projects","analytical_essay_deforestation","indonesia","treecover_loss_in_primary_forests_2001_tropics_only__ha.csv")) %>% 
   rename(year=umd_tree_cover_loss__year,
          loss=umd_tree_cover_loss__ha) %>% 
   mutate('tree_cover_start' = ifelse(year=="2001",indonesia_2000[1,2] ,NA)) %>% 
@@ -39,7 +39,7 @@ indonesia_loss<- read.csv(here("class_materials","course_projects","analytical_e
   mutate(tree_cover_final = tree_cover_start-loss) %>% 
   relocate(tree_cover_final, .after='loss')  
 
-for (i in seq(2002,2022)) {
+for (i in seq(2002,2024)) {
   indonesia_loss$tree_cover_start[indonesia_loss$year==i]=indonesia_loss$tree_cover_final[indonesia_loss$year==(i-1)] 
   indonesia_loss$tree_cover_final[indonesia_loss$year==i]=indonesia_loss$tree_cover_start[indonesia_loss$year==i]-indonesia_loss$loss[indonesia_loss$year==i]
 } 
@@ -197,7 +197,7 @@ total_loss_plot
 
 
 # Step 1: Call the pdf command to start the plot
-pdf(file = "./class_materials/projects_and_code/analytical_essay_deforestation/forest_loss_plots.pdf",   # The directory you want to save the file in
+pdf(file = "./class_sessions/16_1_climate_change/analytical_essay_deforestation/forest_loss_plots.pdf",   # The directory you want to save the file in
     width = 5, # The width of the plot in inches
     height = 10) # The height of the plot in inches
 

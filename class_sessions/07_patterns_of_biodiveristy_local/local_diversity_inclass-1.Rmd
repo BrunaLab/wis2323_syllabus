@@ -1,0 +1,130 @@
+---
+title: "WIS 2323 - Local Diversity Patterns in Tropical Rain Forests: In-class Activity"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{WHAT are LTRF, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<!-- \vspace{0.3cm} -->
+
+<!-- 1. Compare trees on BCI and Harvard Forest  -->
+<!-- 2. Compare birds in France and Central Brazil -->
+
+
+## Introduction  
+
+We learned that the number of species found in a given location on earth varies geographically, with species richness increasing as one approaches the equator - a pattern called the **Latitudinal Diversity Gradient**. Figuring out the mechanisms responsible for the origins of tropical diversity is a major topic of research in ecology and evolutionary biology. Now we will try to understand how all these species manage to coexist and persist in tropical forests - i.e., the mechanisms responsible for the _maintenance_ of tropical diversity. After all, lots of theoretical and empirical research by ecologists has shown that when two species compete for the same resource, the superior competitor should out-compete the inferior competitor…unless there is some mechanism that allows it to persist. Before hypothesizing about potential mechanisms of coexistance, however, we first need to set the stage for the discussion by diving into some data to learn about another ubiquitous pattern observed in tropical rain forests.
+
+
+We will be using data from one of the most studied tropical forests in the world - the Smithsonian Tropical Research Institute's "Barro Colorado Island". This island, created by the flooding of the panama canal, has a 50-ha plot (1000 m x 500 m) in which every single tree with a diameter > 1 cm has been marked and identified. The plot is censused every 5-10 years to track the recruitment, growth, and death of trees. The original file has over 6.7 million pieces of information about these trees in it, but I prepared a subset of this data with the information needed for today's exercise. [If you're interested in taking a look at these data, or maybe even doing some research with them, let me know]. 
+
+<!-- ```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'} -->
+<!-- knitr::include_graphics("temp.png") -->
+<!-- ``` -->
+
+
+## Assignment: 
+
+**Step 1: **Download this file to your computer. It is a table with three columns: 
+
+> **_Column 1:_** a 4-letter code used for each of the species found in the plot in the 2005 survey
+
+> **_Column 2:_** the complete scientific name of each tree species found in the plot in the 2005 survey 
+
+> **_Column 3:_** the number of individuals of each species found in the plot in the 2005 survey (referred to as "n").
+
+**Step 2: **Import the data into a Google Sheet (I _strongly_ recommend using Google sheets instead of _MS Excel_ or _Numbers for Mac_ - not only can UF students to get a high-capacity Google Drive at no expense, the hints below and [online tutorial](https://youtu.be/gNo8QpXpIcI?si=1Px7VqafnzkqnYTU) assume you are working with Google sheets).
+
+**Step 3: **Sort the species from most to least common (if they aren't already in that order), then add a column whose values are the cumulative number of trees that you have after adding each new species. _(If you need help figuring out how to do this, ask or watch the tutorial video)._
+
+> _how to calculate cumulate sum: =SUM($B$2:B2)_
+
+**Step 4:** Use the data and these calculations to respond to the following questions:
+
+1. How many different tree species are found in the plot?
+1. What is the total number of trees in the plot?
+1. What is the most abundant (i.e., the most common) species? 
+1. How many individuals of that dominant (i.e., most common) tree species are there?
+
+**Step 5: **Make sure you species are still in order from most- to least-common, then add a column of the cumulative percentage of trees that you have after each species. _(Again - if you need help figuring out how to do this, ask or watch the tutorial video)._ 
+
+**Step 6: **Use these calculations to respond to the following questions:
+
+1. "The ____ most abundant species in the plot account for the first 50% of trees in the plot." (where ___ is a number). 
+2. "____ species account for the last 50% of trees in the plot." (where ___ is a number). 
+3. "____ species in the plot are represented by only a single tree."
+
+**Step 6: **Make a Graph
+
+Use these data to create a type of graph called a 'Species Abundance Plot', which is a 'bar chart' (sometimes referred to as a 'column chart') in which the X axis is individual tree species and the Y axis is their abundance in the plot. The bars of the chart should be arranged so that the most common species is first and the least common species is last. 
+> _Hint for making the figure: highlight the "count" and "species" columns, select "Insert" from the menu ribbon, and then drop down to chart. It will probably make a pie chart as a default - to the right under "setup" select the drop down menu for "chart type" select "column chart" (Don't ever use pie charts. Ever. They're awful. Ask me why)._
+
+Be sure your plot has these elements:
+
+- Properly labeled X and Y axes (X = "Species", Y = "Abundance")
+- a Descriptive Title ("Species Abundance Plot - BCI 50-ha plot")
+- Vertical labels on the X axis
+
+Save this figure as a .pdf file with the name  "Species-Abundance-Plot". to do so, click the figure, then click the 3 dots in the top right corner and Select "Download" -> "PDF document".
+
+**Step 7:** Use the graph to answer this question:
+
+1. What conclusion do you draw about the _relative_ abundance of tree species in tropical forests? _(hint: think in terms of common species vs. rare species)_
+
+
+**Submit your answers to these questions along with the pdf of your plot via Canvas. **
+
+
+EXTRA CREDIT: 
+
+1. Repeat the steps above with data on birds in the Amazon. Do the overall patterns of Species-Abundance (i.e., the shape of the plot, the fraction of species that are common vs. rare) look similar for trees and birds? 
+
+
+Why does this matter? Figuring out the mechanisms responsible for the origins of all the diversity in the tropics is a major topic of research in ecology and evolutionary biology. So is figuring out how all these species manage to coexist and persist in the same place - i.e., the mechanisms responsible for the maintenance of this diversity. This is because of theoretical and empirical research by ecologists has shown that when two species compete for the same resource, the superior competitor should out-compete the inferior competitor…unless there is some mechanism that allows it to persist. In the next sessions we will be discussing the reasons for the two patterns we have identified. Put another way, we will be investigating the origins of tropical biodiversity and mechanisms of their coexistance.
+
+
+
+
+
+
