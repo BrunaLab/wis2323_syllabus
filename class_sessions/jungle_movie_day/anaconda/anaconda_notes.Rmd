@@ -1,0 +1,184 @@
+---
+title: 'IDS 2935 - "Coevolution: Mutualisms" In-class Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Jungle Film Festival, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## ANACONDA (1997)
+
+Hello everyone,
+
+A reminder that tomorrow is the inaugural IDS 2935 Jungle Film Festival. A few things you need to know in advance.  
+
+1. Be there on time, we need to start the movie at *_exactly_* 10:40 to make sure we finish on time.
+
+2. I'll bring the popcorn, you bring drinks, lunch, or anything else you might need to watch 
+
+2. [Anaconda](https://www.imdb.com/title/tt0118615/) is very bad. It's [so bad](https://www.rottentomatoes.com/m/anaconda), in fact, that it's absolutely great. Come prepared for bad dialogue, worse accents, obviously animatronic snakes, and an amazing number of the tropes on the checklist you used for your reviews.
+
+3. Speaking of tropes, bring that list...you're going to need it for Tropical Trope Bingo...and there are prizes. 
+
+4. In advance of the screening, here's some biology you should know in advance. You'll have to ignore these facts for the duration of the movie, but as soon as it's over please remember them again:
+
+    a. There are four species of Anaconda (genus *Eunectes*). The largest species is the Green Anaconda, *Eunectes murinus*, found in Colombia, Venezuela, the Guianas, Ecuador, Peru, Bolivia, and Brazil. 
+
+    b. The Green Anaconda isn't the longest snake in the world - that would be the reticulated python (*Malayopython reticulatus*). It is, however, the heaviest. The largest Anacondas typically reach a length of ~5 m (16 ft) and a weight of 70 kg (155 lbs.), though there are anectodal reports of Anacondas reaching a length of ~ 12 m / 40 ft.
+
+    c. Anacondas prey on caymans, capybaras, brocket deer, and the like. They [will also prey on domesticated animals](https://journals.sagepub.com/doi/full/10.1177/194008291600900105), especially dogs and chickens. 
+
+    d. Snakes do on occasion regurgitate their food. It is unclear why this might be - it could be that the prey item is too large, or that it feels threatened in the place it has chosen to digest its food. It is important to emphasize that their regurgitated prey will not be alive.
+
+    e. Anacondas spend most of their time in water, where they move quickly and efficiently. They can be found on land, but they are less mobile and agile there.
+
+    f. You can see a photo of a decent-sized anaconda (being held by people, for size-reference) [here](https://www.flickr.com/photos/williamquatman/359945881/in/photolist-xNPnt-roDPD-b9Ww7-4eNfS1-JW4MnE-sjGQnm-K3riET-Z2VvC4-bXPMkw-yGwVm5-89pvoP-WpPA8X-629dsD-mnshi-2jMD3z5-9MX1c-4hrH5S-nF7kgp-r3wLUa-252NM3y-bELofe-2jBugZZ-GuAyrq-9jRdRb-scEs6c-8AyKts-2kuGFMo-p6sQAS-sjdUah-2iD2xco-JYjhRP-2jp6YYV-53R29P-8S3ewq-9PK5hY-kbWWJo-yCM31-6kWBVc-ak56eK-jzuMW-8CYmbj-ss4DKa-7VLh4a-57TEXv-do7qwa-9MX7L-rAzaGm-5gHbmV-4xNjhr-a1877U).  But for some really, really, *really* big ones check out this [video complication](https://www.youtube.com/watch?v=CpcyF7KuHos). Note the second one looks like it has recently swalloed something big.  There's also [this one](https://www.youtube.com/watch?v=yY8MPx5KlF8). Or [this](https://www.youtube.com/watch?v=13sp0fbcqQw)
+
+
+5. Movie Trivia
+
+    a. According to wikipedia, Gillian Anderson and Julianna Margulies were the first choices for the role of Terri Flores , which ultimately went to Jennifer Lopes).
+
+    b. The movie was filmed on location in the Central Amazon in and around the the now-abandoned [Ariau Towers Jungle Lodge](https://www.ariauamazontowers.com/) Hotel. The later action scenes were filmed at the [Los Angeles County Arboretum & Botanic Garden](https://www.arboretum.org/).
+
+    c. The podcast *How did this Get Made* did a great episode on [Anaconda](https://www.earwolf.com/episode/anaconda/).
+
+
+Hi class, here are few things in preparation for our screening of Anaconda tomorrow:
+
+
+
+
+1) Feel free to bring a more comfortable chair, snacks, etc. Since we will be in the same classroom there's not too much extra room, but also feel free to invite friends/roomates/whatever. They can also participate in TropeBingo and win prizes.
+
+2) Please watch the following (very short) videos, as some questions about the content will be part of the 20 points of in-class work. In total it's about 20 minutes of video:
+
+A) Nat Geo Wild: The Anaconda is a Heavyweight of Snakes (3:36): https://youtu.be/_qgA63Ixc_Y?si=JjppLQ6lWVba9wtV
+
+B) This is how lots of people see Anacondas - when they cross a highway. This is an Anaconda on the BR-174 highway about 100 km north of the turn-off for the biological reserve where I do my research: https://www.youtube.com/watch?v=RCla8pfgw7I
+
+C) An short introduction to flooded forests and researchers studying them as part of the Rolex Perpetual Planet Initiative
+
+- Expedition Amazon: In the Flooded Forest (2:32): https://www.youtube.com/watch?v=79EsAR9KNEM
+
+- Expedition Amazon: Along the Juruá River (3:30): https://www.youtube.com/watch?v=sNXAWudiPpQ
+
+- NatGeo: Researcher Thiago Silva is Uncovering resilience and adaptability in the Amazon’s floodplain forests (2:23): https://www.youtube.com/watch?v=WhQHije0IYg
+
+D) Terra Mater's Documentary on the Amazon Rain Forest. You don't have to watch the whole thing (though you will want to...its some incredible cinematography): https://www.youtube.com/watch?v=8ibgkwouP4g
+
+For tomorrow please watch the following:
+
+0:00-4:20 Introduction
+25:20-26:50 The forest floods
+37:30-42:45 Seed dispersal in flooded forests
+46:40-49:00 Harpy Eagle coda
+
+
+
+
+EXTRA STUFF:
+
+1. Want to see what you're getting into tomorrow? The official trailer for ANACONDA (1997), starring  
+Jennifer Lopez, Ice Cube, Angelina Jolie's dad, Eric Stoltz (who famously got fired from back to the Future and was replaced by Michael J Fox), Jonathan Hyde, and a guy named Owen Wilson who was still waiting for his big break: https://youtu.be/ZkjWyIdIBJo?si=hUYASF3FG0Wx8tPA
+
+2. Giant anaconda in the Amazon rainforest | Alliance for a Sustainable Amazon: https://www.youtube.com/watch?v=fXA36ZuT8yo (you can get a good idea of their size, plus some interesting video of amazonian animals. Plus at 00:42 and 1:16 you can hear the screaming pija, which is used as "rain forest bird" in loads of movies.)
+
+
+3. Are you fans of the "How did this get made?" Podcast? Because of course there is an Anaconda episode (live, so Jason Mantzoukas is even more Jason Mantzoukas than usual): https://www.earwolf.com/episode/re-release-anaconda-live-w-michael-ian-black/ Listen after seeing the move, there are spoilers (thanks a lot, June!)
+
+
+
+
+Questions for bingo:
+- How many extant species of anaconda are there? 4
+- What is the common name of Eunectes murinus, the kargest of the Anaconda species? GREEN
+- What is the typical AVG length of female anaconda in ft? 16
+- what is the wieght range for typical mature anaconda, in lbs? 66-176 
+- what are the primary dispersers of seeds in flooded forests?
+
+  > Can get up to 6.32 m (20 ft 9 in) long.[14] More typical mature specimens reportedly can range up to 5 m (16 ft 5 in), with adult females, with a mean length of about 4.6 m (15 ft 1 in), being generally much larger than the males, which average around 3 m (9 ft 10 in). Weights are less well studied, 
+
+- how can an Anaconda breathe while eating? - emergent trachea
+- how many anaconda babies in a brood? (range): 20-40 
+- Anaconda reproduction is somewhat unusual among snakes in that they are "viviparous". What does this mean? 
+- what do we call the annual cycle of waters rising and falling in the amazon that floods adjacent forests all the way up to the canopy? The flood pulse (in up to 20 km)
+
+
+-  Tarantula Hawk wasp (_Pepsis_)In terms of scale, the wasp's sting is rated near the top of the Schmidt sting pain index, second only to that of the bullet ant, and is described by Schmidt as "blinding, fierce[, and] shockingly electric". Aside from the possibility of triggering an allergic reaction, the sting is not dangerous and does not require medical attention. Local redness appears in most cases after the pain, and lasts for up to a week.
+
+
+- Fordlandia: iis a district and adjacent area of 14,268 square kilometres (5,509 sq mi) in the city of Aveiro, Pará, Brazil. It is located on the east banks of the Tapajós river roughly 300 kilometres (190 mi) south of the city of Santarém. It was established by American industrialist Henry Ford in the Amazon Rainforest in 1928 as a prefabricated industrial town intended to be inhabited by 10,000 people to secure a source of cultivated rubber for the automobile manufacturing operations of the Ford Motor Company in the United States. Ford had negotiated a deal with the Brazilian government granting him a concession of 10,000 km2 (3,900 sq mi) of land on the banks of the Rio Tapajós near the city of Santarém, Pará, Brazil, in exchange for a 9% share in the profits generated.[2] Ford's project failed, and the city was abandoned in 1934.
+
+
+Lampyridae - I mean *come ON* there are fireflies everywhere
+
+totem poles - why wouldnt they be common in amazonia? 
+
+
+Leeches - Haementeria ghilianii is a species of leech in the Glossiphoniidae family, comprising freshwater proboscis-bearing leeches. Colloquially, they are known as the Amazon giant leech.
+Tyrannobdella is a monotypic genus of leech, of family Praobdellidae, found in South America in the upper reaches of the Amazon. This newly found genus of leech takes sustenance from the mucous membranes of the mammalian upper respiratory tract, and is known to feed upon humans. It has eight teeth. Tyrannobdella rex was discovered feeding upon the mucous membrane of a girl who had recently bathed in the upper Amazon in Peru.
+
+candiru https://en.wikipedia.org/wiki/Vandellia_cirrhosa https://en.wikipedia.org/wiki/Candiru_(fish)#Alleged_attacks_on_humans When subsequently interviewed, Spotte stated that even if a person were to urinate while "submerged in a stream where candiru live", the odds of that person being attacked by candiru are "(a)bout the same as being struck by lightning while simultaneously being eaten by a shark."[41]
+
+6. Topics Discussed during the movie
+
+
+Varzea
+seed-dispersing Fish
+the Amazon's seasonal flood pulse
+EE Anavilhanas
+Woolly monkeys
+Green Anacondas
+Tarantula Hawk wasp
+uncontacted tribes
+Human occupation and the Petroglyphs of Velho Airao
+Fordlandia
+Rivers as Roads
+Ecotourism
+
+
+
+
+
+
+
+
+
+
+
+
+

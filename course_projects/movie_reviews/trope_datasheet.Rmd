@@ -41,11 +41,11 @@ output: pdf_document
 # output: html_document
 # weight: 5
     # df_print: paged
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./static/uploads")
-  })
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
 ---
 
 
@@ -68,7 +68,8 @@ library(here)
 
 ```{r tropes_table_edit, echo=FALSE,message = FALSE,warning=FALSE, results=FALSE}
 # tropes<-readxl::read_excel("./class_materials/projects/movies/tropes.xlsx") %>%
-tropes<-readxl::read_excel("./tropes.xlsx") %>%
+
+tropes<-readxl::read_excel("./course_projects/movie_reviews/tropes.xlsx") %>%
   arrange(Category,Trope) %>% 
   select(-Category) %>% 
   filter(is.na(Focal)==FALSE) %>% 
@@ -96,7 +97,7 @@ tropes <- tropes %>%
   relocate(Code, .after="ID No.") %>% 
   select(-Code) %>% 
   select(-`ID No.`) %>% 
-  mutate(Timestamp="___H____m", .before=1) %>% 
+  mutate(`Timestamp (H___m___)`="   ",.after="Description") %>% 
   mutate(Category=" ", .before=1)
 # %>% 
 #   mutate(Notes=" ") 
@@ -125,11 +126,13 @@ tropes <- tropes %>%
 
 
 # for pdf only: 
-tropes<-tropes %>% select(-Link)
+tropes<-tropes %>% 
+  select(-Link) %>% 
+  relocate
   
 kable(tropes, "latex",
   booktabs = TRUE,
-  align="rccl",
+  align="rclc",
   # caption = "Test",
   longtable = TRUE
 ) %>%
@@ -153,9 +156,11 @@ kable(tropes, "latex",
   row_spec(1:nrow(tropes)-1, hline_after = TRUE) %>%
   row_spec(0,hline_after = F, bold=T) %>%
   column_spec(1, width = "6em") %>%
-  column_spec(2, width = "5em") %>%
-  column_spec(3, width = "12em") %>%
-  column_spec(4, width = "45em") 
+  column_spec(2, width = "12em") %>%
+  column_spec(3, width = "45em") %>% 
+  column_spec(4, width = "5em",
+              border_left = TRUE,
+              border_right = TRUE)
 # %>% 
   # column_spec(5, width = "12em") 
 # %>%
