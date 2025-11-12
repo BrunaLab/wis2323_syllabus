@@ -1,0 +1,73 @@
+---
+title: 'WIS 2323 - "Deforestation Data Analysis Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{#ShowYourStripes (In-class), p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  # html_document:
+  #   df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## #ShowYourStripes
+
+\vspace{0.3cm}
+
+Today in class we discussed why increases in Global Average (Surface) Temperatures were such a concern and the temperature increase of 1.5 degrees Celsius that is considered a critical threshold. We also discussed the fact that this critical threshold can be difficult to grasp because (a) it seems like a small number and (b) people often don't realize that small increases in avg. temperature across large parts of the globe can be overwhelmed by large increases in a small number of locations. This has led to efforts to creatively visualize trends and how they vary for different parts of the globe in an effort help people grasp the scale of the problem.
+
+
+One of the most successful has been the #ShowYourStripes visualization created by [Professor Ed Hawkins](http://www.met.reading.ac.uk/~ed/home/index.php) of Reading University in the UK. They show how temperature in any given year from 1901-2020 has varied relative to the average of that same time period (blue = cooler, red = warmer). It is effective because it is simple, with no numbers or axes.
+
+
+For today's inc-class activity, create a #ShowYourStripes plot for the country in which you would take your Dream Vacation.
+
+
+1) Navigate to [https://showyourstripes.info](https://showyourstripes.info)
+
+
+2) Using the drop down menu on the left, select the region in which the country is located
+
+3) Once you've selected the global region, choose the country in which your dream vacation spot is located. For some countries, you will also be able to select the state in which this spot is located. The Stripes Graphic will be created automatically.
+
+
+4) Download the image by clicking the  big blue arrow button in the bottom right-hand corner of the image. Save the file to your computer. Note that three images are produced: The default is "Stripes" (it's the simplest, with no numbers), but you can also look at  "Labelled Stripes" (labelled with starting and ending year), and "Bar Chart" (bar charts showing both color and height). Check them all out, but be sure to upload the default "Stripes" image.
+
+
+5) On canvas submit: (a) the name of the dream vacation spot and (b) the #Stripes image you downloaded. 
+
+
+
+
+
+If you want to share the image, be sure to give credit to Prof. Hawkins for creating this incredible tool and share the website link (https://showyourstripes.info) so your friends and family can also try this!

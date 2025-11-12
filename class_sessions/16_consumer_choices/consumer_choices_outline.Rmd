@@ -1,0 +1,269 @@
+---
+title: 'WIS 2323 - "Consumer Choices'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Consumer Choices, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+certification tropical consumers coffee - Google Scholar
+https://scholar.google.com/scholar?start=10&q=certification+tropical+consumers+coffee&hl=en&as_sdt=0,10
+
+Is voluntary certification of tropical agricultural commodities achieving sustainability goals for small-scale producers? A review of the evidence - IOPscience
+https://iopscience.iop.org/article/10.1088/1748-9326/aa625e/meta
+
+Green labelling, sustainability and the expansion of tropical agriculture: Critical issues for certification schemes - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0006320712000304
+
+The Society for Conservation Biology
+https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12110
+
+Eco-certification and coffee cultivation enhance tree cover and forest connectivity in the Colombian coffee landscapes | Regional Environmental Change
+https://link.springer.com/article/10.1007/s10113-014-0607-y
+
+Frontiers | Do Certification Schemes Enhance Coffee Yields and Household Income? Lessons Learned Across Continents
+https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.716904/full
+
+what is certification coffee - Google Search
+https://www.google.com/search?q=what+is+certification+coffee&sca_esv=b1da9f5fcde7e62b&rlz=1C5CHFA_enUS828US828&sxsrf=AE3TifOZmtaCktVy07jkWpb4nKEu7AFxXA%3A1762271340865&ei=bCAKadfCNI2HwbkP9u-7uQY&ved=0ahUKEwjXqJSq7NiQAxWNQzABHfb3LmcQ4dUDCBE&uact=5&oq=what+is+certification+coffee&gs_lp=Egxnd3Mtd2l6LXNlcnAiHHdoYXQgaXMgY2VydGlmaWNhdGlvbiBjb2ZmZWUyChAjGIAEGCcYigUyCxAAGIAEGJECGIoFMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMgUQABiABDIIEAAYgAQYsQNIqy5QsgdYjSxwAngBkAEAmAHIB6AB7yWqAQc1LjQuNi00uAEDyAEA-AEBmAILoAK3CKgCCsICBxAjGCcY6gLCAgoQABiABBhDGIoFwgIEECMYJ8ICDhAAGIAEGLEDGIMBGIoFmAMP8QWwQQMAD2ru85IHAzYuNaAHo26yBwM0LjW4B58IwgcFMi05LjLIB0o&sclient=gws-wiz-serp
+
+WEC306/UW351: Evaluating Certified Coffee Programs
+https://edis.ifas.ufl.edu/publication/UW351
+
+cbi_728.tex
+https://repository.si.edu/server/api/core/bitstreams/82e3f031-9bac-41b8-af9e-286c71ac3404/content
+
+Coffee Certification | Coffee: Production, Quality and Chemistry | Books Gateway | Royal Society of Chemistry
+https://books.rsc.org/books/edited-volume/1829/chapter-abstract/2241993/Coffee-Certification?redirectedFrom=fulltext
+
+Coffee Certification | Coffee: Production, Quality and Chemistry | Books Gateway | Royal Society of Chemistry
+https://books.rsc.org/books/edited-volume/1829/chapter-abstract/2241993/Coffee-Certification
+
+Coffee: Production, Quality and Chemistry | Books Gateway | Royal Society of Chemistry
+https://books.rsc.org/books/edited-volume/1829/Coffee-Production-Quality-and-Chemistry
+
+smithsonian certification coffee - Google Search
+https://www.google.com/search?q=smithsonian+certification+coffee&rlz=1C5CHFA_enUS828US828&oq=smithsonian+certification+coffee&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTIKCAYQABiABBiiBDIHCAcQABjvBTIKCAgQABiABBiiBNIBCDQ2MDBqMGo0qAIDsAIB8QWcdNgRTp-qdw&sourceid=chrome&ie=UTF-8
+
+Does eco-certification have environmental benefits? Organic coffee in Costa Rica - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0921800912003060
+
+review certification biodiversity - Google Scholar
+https://scholar.google.com/scholar?as_ylo=2021&q=review+certification+biodiversity&hl=en&as_sdt=0,10
+
+FSC forest certification effects on biodiversity: A global review and meta-analysis - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0048969723069231
+
+Policy Matters - Issue 21.pdf
+https://wildlifeeconomy.info/sites/default/files/Policy%20Matters%20-%20Issue%2021.pdf#page=27
+
+Limitations of Certification and Supply Chain Standards for Environmental Protection in Commodity Crop Production | Annual Reviews
+https://www.annualreviews.org/content/journals/10.1146/annurev-resource-100913-012432
+
+OpenAthens / Sign in
+https://login.openathens.net/auth/ufl.edu/o/71963343?t=%2Fsaml%2F2%2Fsso%2Fufl.edu%2Fo%2F71963343%2Fc%2Foafed%3FSAMLRequest%3DfZLNbsIwEITvfYrId%252BL8AcEiQbQItVKrIkh76M0kS2IprFOvE%252Fr4TQOo7YWj5Z1vRjs7X3wda6cDQ0pjwnzXYw5grguFZcLesvUoZov0bk7yWAeNWLa2wi18tkDWWRKBsb3uQSO1RzA7MJ3K4W37nLDK2oYE56fTyZWIrawNdApO5GpTci257FHc5B0f0LzRZJmz6rkKpR3CXBG1LhW6uoH%252BowIkF8EOKh5wIs3bQ%252B1C0XLNp%252F5sEoZRyPPe4QAFc9ba5DCkTthB1gTMeVolTPrhJC88Pw6KWFWzyTSAsoyLYj%252BNZ7Hfz9BGEqkOflVELTwhWYk2YYEXjEe%252BP%252FKizI9FFIpo5o6j6IM5G6OtznV9r%252FC8w9ag0JIUCZRHIGFzsVu%252BPIvA9cT%252BPETiMcs2o83rLmPO%252B7WL4KeLvh0kcd7%252BbVZzMWbpuSwxJDZ%252FCbcB8lonS2%252BXR5Xa73UNtprzv1bp5fn%252FTNJv%26RelayState%3Dhttps%253A%252F%252Fwww.annualreviews.org%252Fcontent%252Fjournals%252F10.1146%252Fannurev-resource-110119-025703&ctx=sd&redirect=true
+
+Addressing Consumer Desires for Sustainable Food Systems: Contentions and Compromises | Annual Reviews
+https://www.annualreviews.org/content/journals/10.1146/annurev-food-060721-022439
+
+Rainforest Alliance Certified Coffee | Rainforest Alliance
+https://www.rainforest-alliance.org/insights/rainforest-alliance-certified-coffee/
+
+Rainforest Alliance Certification in Coffee Production: An Analysis of Costs and Revenues in Latin America 2010-11 | Rainforest Alliance
+https://www.rainforest-alliance.org/resource-item/rainforest-alliance-certification-in-coffee-production-impact-study/
+
+Success of voluntary sustainability certification schemes – A comprehensive review - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0959652618315932
+
+82404_200528_counting_carbon_web_0.pdf
+https://cisp.cachefly.net/assets/articles/attachments/82404_200528_counting_carbon_web_0.pdf#page=29
+
+Climate change: Consumer pose 'growing threat' to tropical forests
+https://www.bbc.com/news/science-environment-56566377
+
+Disentangling the numbers behind agriculture-driven tropical deforestation | Science
+https://www.science.org/doi/10.1126/science.abm9267
+
+Key tropical crops at risk from pollinator loss due to climate change and land use | Science Advances
+https://www.science.org/doi/10.1126/sciadv.adh0756
+
+Mapping the deforestation footprint of nations reveals growing threat to tropical forests | Nature Ecology & Evolution
+https://www.nature.com/articles/s41559-021-01417-z
+
+Fair trade coffee - Wikipedia
+https://en.wikipedia.org/wiki/Fair_trade_coffee
+
+Lavazza ¡Tierra! Organic Planet Whole Bean Coffee L - Google Search
+https://www.google.com/search?q=Lavazza+%C2%A1Tierra!+Organic+Planet+Whole+Bean+Coffee+L&rlz=1C5CHFA_enUS828US828&oq=Lavazza+%C2%A1Tierra!+Organic+Planet+Whole+Bean+Coffee+L&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBBzI3MmowajSoAgOwAgHxBYTk91MTfcl8&sourceid=chrome&ie=UTF-8
+
+¡Tierra! Organic - Organic Coffee | Lavazza
+https://www.lavazzausa.com/en/roast-and-ground-coffee/tierra-for-planet?utm_source=google&utm_medium=cpc&utm_campaign=google_cpc_united-states_us_brand-multiproduct-none-none_pmax_12-2022_pmax&utm_term=&gclsrc=aw.ds&gad_source=1&gad_campaignid=19278799345&gbraid=0AAAAADn13uRY0h0bOqeNFhEHYfguOJy-k&gclid=EAIaIQobChMI4sv2xcXRkAMVWbMDAB1cLwuPEAQYAiABEgKqXPD_BwE
+
+Coffee Beans - Espresso Arabica and Robusta Beans | Lavazza
+https://www.lavazzausa.com/en/whole-bean-coffee
+
+Quick Tip: All-Purpose Discussion Prompts for Discussing Assigned Readings in Class – Center for Innovative Teaching & Learning
+https://blogs.iu.edu/citl/2022/09/20/qtip-all-purpose-discussion-prompts/
+https://www.chocolatescorecard.com/scorecards/
+https://www.sciencedirect.com/science/article/pii/S175778022400180X
+
+https://journals.sagepub.com/doi/epdf/10.1177/1086026610368370
+
+
+https://www.cell.com/one-earth/fulltext/S2590-3322(21)00057-9
+
+labels
+
+https://www.sciencedirect.com/science/article/pii/S2352550922001580
+https://www.sciencedirect.com/science/article/pii/S0959378017304545#:~:text=Highlights&text=Eco%2Dlabels%20and%20certifications%20for,to%20halt%20land%20use%20change.&text=Sparse%20and%20uneven%20market%20uptake%20only%20partially%20explain%20this%20outcome.&text=Loopholes%20in%20certification%20standards%20and%20enforcement%20mechanisms%20also%20play%20a%20role.
+https://onlinelibrary.wiley.com/doi/full/10.1111/agec.12706
+https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12209
+https://www.sciencedirect.com/science/article/pii/S0306919213001796
+https://www.sciencedirect.com/science/article/pii/S1389934106001870
+https://www.mdpi.com/2071-1050/11/5/1297
+https://www.cell.com/heliyon/pdf/S2405-8440(21)01146-4.pdf
+
+https://knowthechain.org/
+
+
+Link to share:  https://www.bbc.com/news/science-environment-59088498 
+https://www.npr.org/sections/thesalt/2018/09/02/642269900/do-sustainable-certifications-for-coffee-really-help-coffee-growers
+
+
+https://www.cgdev.org/blog/corporate-commitments-necessary-not-sufficient-end-tropical-deforestation
+https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html?searchResultPosition=2
+
+https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/
+
+https://www.rainforest-alliance.org/find-certified/
+https://e360.yale.edu/features/the-real-price-of-a-chocolate-bar-west-africas-rainforests
+
+https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953
+
+https://www.nytimes.com/2019/09/05/world/americas/h-m-leather-brazil-amazon-fires.html
+
+https://www.worldcocoafoundation.org/initiative/cocoa-forests-initiative/
+
+https://www.huffpost.com/entry/chocolate-deforestation-ivory-coast-ghana_n_5f69cbb3c5b655acbc6f9949
+
+https://www.edie.net/news/7/Shareholder-demands-driving-commitments-on-deforestation--report-finds/
+
+https://www.businessdestinations.com/move/sustainable-travel/could-ecotourism-help-protect-the-amazon-rainforest/ 
+
+https://rainforests.mongabay.com/kids/elementary/607.html
+
+
+https://sustainablebrands.com/read/marketing-and-comms/shareholders-increasingly-placing-pressure-on-companies-to-address-deforestation
+
+https://www.proxypreview.org/all-contributor-articles/shareholders-play-key-role-in-reducing-deforestation-and-climate-risk
+
+https://news.mongabay.com/2020/04/investing-in-amazon-rainforest-conservation/
+https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html
+https://www.gourmesso.com/pages/keurig-compatible-rainforest-alliance-coffee
+https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12712
+https://www.sustainability.nespresso.com/rainforest-alliance-insights
+https://www.rainforest-alliance.org/insights/rainforest-alliance-certified-coffee/
+https://bigcupofcoffee.com/what-is-rainforest-alliance-coffee-and-is-it-worth-it/
+
+https://news.mongabay.com/2021/08/corporate-sustainability-shouldnt-be-an-unknown-entity-commentary/
+
+
+## Consumer Choices
+
+1. Our actions as consumers have an impact on tropical forests and forest communities.  Some of these we know about, we may not even be aware of others. 
+
+a) Direct consumption of products. Can be direct (timber, coffee) or indirect (palm oil used in cleaning products).
+
+b) human livelihoods (workers that harvest and process products)
+
+c) Tourism in tropical countries (employees at larger resorts, ecotourism)
+
+
+Ecotourism: Ecotourism originated in the 1980s, at the dawn of sustainable development, as a way to channel tourism revenues into conservation and development
+
+
+Via [The Rainforest Foundation](https://rainforestfoundation.org/engage/10-things-you-can-do/)
+1. Eliminate Deforestation From Your Diet
+ Reduce your meat intake, and buy your meat from local farms that use sustainable practices. UF Meat Lab!
+ 
+2. Buy Responsibly Sourced Products
+ 
+Jewelry from recycled gold and other recycled metals 
+Avoid products (guitars, furniture) made from tropical hardwoods
+Use paper products made from recycled pulp
+Choose products certified by organizations like the Forest Stewardship Council (FSC). 
+Buy from companies that have eliminated deforestation from their supply chains.
+
+3. Support Indigenous Communities
+
+4. Travel Responsibly
+
+6. Invest Equitably
+
+5. Reduce Your Carbon Footprint
+
+https://www.wren.co/
+https://www.wren.co/projects/tech-enabled-rainforest-protection 
+
+
+
+
+
+6. Email Your Preferred News Outlet
+
+News outlets help determine what issues are top-of-mind for their readers. By focusing on one topic or another, they drive public discourse and inspire the public to take action. You can encourage your preferred media outlet to cover rainforest news by emailing the editor.
+
+
+
+
+
+7. Share Rainforest News on Social Media
+
+The more people know what is happening to rainforests and the indigenous communities who rely on them, the more likely they are to join and support the causw
+
+8. Contact Your Elected Representatives
+
+Elected officials directly influence government priorities and allocation of funds, and they have a duty to represent the interests of their electorate. Call, email, or attend your representatives’ public meetings to remind them that according to the Intergovernmental Panel on Climate Change
+
+9. Volunteer Your Time
+
+The contribution of your personal time and energy can make a big difference. 
+10. Host a Fundraiser
+
+Launching your own campaign can raise awareness on rainforest protection and climate action in your community, while raising essential financial support for the cause.
+
+
+https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12712

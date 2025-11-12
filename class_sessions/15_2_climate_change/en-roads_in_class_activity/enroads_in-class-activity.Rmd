@@ -1,0 +1,129 @@
+---
+title: 'WIS 2323 - "EnRoads Simulation'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{EnROADS Activity, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  # df_print: paged
+  # pdf_document: default
+  # rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simulating Climate Futures in En-ROADS
+
+**LEARNING OBJECTIVES:**  
+
+  * Learn about the climate system and solutions.
+  * Develop a personal vision for solving climate change that is grounded.
+  * Think creatively about how to solve climate change while balancing economic, equity and other societal issues.
+  
+\vspace{0.3cm}
+
+The [Paris Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement) is a 2015 international treaty whose signatories - nearly 200 countries plus the European Union - formally agreed to keep warming to ‘well below’ 2 degrees C, and strive for a ceiling of 1.5 degrees C in an effort to prevent sea level rise and other negative impacts of climate change. The treaty was ratified by the governments of 192 countries (collectively responsible for 98.3% of global CO2 emissions); five countries agreed to the treaty but their governments have yet to formally ratify it (Eritrea, Iran, Iraq, Libya, and Yemen). 
+
+The USA (17.9% of global emissions, 2nd only to China) was one of the original signatoriesm, but in 2017 President Trump withdrew the US from the Paris Agreement (the [withdrawal became official on November 4, 2020](https://www.npr.org/2020/11/03/930312701/u-s-officially-leaving-paris-climate-agreement)). Following President Biden's 2021 Executive Order the USA [rejoined the Paris Agreement](https://www.npr.org/2021/02/19/969387323/u-s-officially-rejoins-paris-agreement-on-climate-change) on February 19, 2021. Under the original terms of the agreement, the USA committed to reducing CO2 emissions by about 25% by of 2005 levels by 2025 but as of 2020 has only on track to achieve a reduction of ~17%. In April 2021 the Biden Administration pledged to achieve a [50% reduction from 2005 levels by 2030](https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/22/fact-sheet-president-biden-sets-2030-greenhouse-gas-pollution-reduction-target-aimed-at-creating-good-paying-union-jobs-and-securing-u-s-leadership-on-clean-energy-technologies/).
+
+In November 2021, the [COP26 summit](https://ukcop26.org/) brought parties together from around the world to continue working towards implementing the goals of the Paris Agreement. Among the primary objectives of COP26 was to *_"Secure global net zero by mid-century and keep 1.5 degrees within reach"._* Translation: The world's countries have been asked to reduce global CO2 emissions by 2030 to a level that - if they are successful and continue the trend - means that by 2050 no new CO2 would be added to the atmosphere (i.e., 'Net Zero’). Achieving ‘net zero’ by 2050 means we would have a good chance of limiting the rise in average global temperature to 1.5 degrees Celsius. _Note: the 2030 target level is global emissions that are about 45% lower than they were back in 2010._  Unfortunately, the three main types of heat-trapping greenhouse gases (carbon dioxide, methane and nitrous oxide) [all hit hit record high levels in 2021](https://www.npr.org/2022/10/26/1131671933/greenhouse-gases-record-climate-pledges-un), with the biggest jump for methane. Furthermore, the war in Ukraine - with its resulting global energy crisis, increased food and commodities prices, and increased military expenditures - has complicated the ability of many countries to stick to their commitments. 
+
+In October 2022, the UN released a report reiterating that there is only one decade remaining to reduce emissions by 45% or we will exceed a 2.3 degree target. To put things in perspective, the global COVID lockdown -- with its greatly reduced air travel, traffic, and industrial production -- led to a 7% decrease in emissions.  All of this means that the [COP30 summit](https://unfccc.int/cop30) to be held in the Brazil in November 2025 will likely be a difficult one, with countries struggling to agree about how to meet the targets. This is particularly true in light of the [recent changes](https://www.cnn.com/2025/08/01/politics/us-government-epa-climate-change) to [prior US commitments](https://2021-2025.state.gov/climate-crisis/) to reducing greenhouse gas emissions emissions.   
+
+
+## ASSIGNMENT OVERVIEW
+
+To understand the challenge faced by the participants in COP30, and to see the type of actions that are required to limit temperature rise to 1.5 degrees C, we will be using the En-ROADS simulator. This remarkable tool allows us to create scenarios that successfully address climate change while considering implications across the economy, environment, and society.
+
+**GOAL:** Use En-ROADS to develop your vision of how to successfully limit global warming to less than 2°C — and ideally 1.5°C — per the Paris Agreement. Ensure your scenario factors in the goals listed below.
+
+
+
+
+
+## INSTRUCTIONS:
+
+**PART 1**
+
+1.	Open En-ROADS at [en-roads.climateinteractive.org/](en-roads.climateinteractive.org/). If you are new to En-ROADS, review the Guide to the En-ROADS Control Panel [[here]()] and watch the introductory video to En-ROADS [[here](https://www.youtube.com/watch?v=NtLa1tp2lZ8)]. A more detailed (but very clear and readable) user guide is [here](https://docs.climateinteractive.org/projects/en-roads/en/latest/). 
+
+2. Develop a scenario in which you manipulate 2-3 of the policy alternatives ("sliders") based on the group to which you have been assigned. Name it (use the name of the group you are representing). **Your mission is to recommend a set of global policies, investments, and actions that will limit global warming to ‘well below’ 2°C (35.6°F) given the constraints imposed by representing a particular group.** 
+**Strive for policies that:**
+
+- **Limit global warming.** Global warming above 2°C will cause dangerous and irreversible impacts that will harm our prosperity, security, health, and lives. Limiting warming to less than 2°C is not without challenges either (we are already seeing impacts today), however it is a benchmark by which scientists and world leaders believe we can lower the risks to a more manageable level. 
+
+- **Preserve and create a healthy economy**. Your policies should strive to lead a global energy transition that would preserve and create a healthy global economy. You must decide how to balance the short-term costs of climate actions with the long-term costs of damages from climate inaction. Note that financial costs are not explicitly predicted in the model as they are uncertain and controversial. You may offer your own hypotheses on the financial impacts of different decisions. 
+
+>While assessing the economics, also consider the potential to offset short-term costs with additional _**co-benefits**_, e.g., benefits to the economy, public health, national security and other areas which could provide benefits on top of the direct benefits of mitigating global warming. See this 1 page [En-ROADS guide to co-benefits]() for more details.
+
+- **Promote equity and a just transition**. Consider the impacts of your policies for both high-income and low-income nations, and between the rich and poor people within nations. Consider whether your policies will disproportionately harm certain groups and how to mitigate such harms (e.g., if you favor policies that would reduce or shut down fossil fuel use, how will your policies address the resulting unemployment of people employed by the fossil fuel industry?). Also consider how opportunities for the new green economy can be shared more equitably and not leave marginalized groups behind. See this [En-ROADS guide to Equity Considerations]() for more details.
+
+- **Protect the environment**. Many environmental challenges besides climate change threaten human welfare—e.g., water shortage, air and water pollution (smog, particulates), soil loss, plastic pollution, anoxic zones (dead zones) in rivers and oceans, extinction of species, etc. Your proposals should minimize other harmful effects on the environment.
+
+- **Be realistic but not cynical**. Imagine a scenario of what could be possible if human civilization operates at its best.
+
+
+3. Save your scenario link.
+
+  - Click on “Share Your Scenario” in the upper right-hand corner of En-ROADS, then choose “Copy Scenario Link.”
+  - Take a screenshot of your final scenario.
+
+4. After developing and discussion your preferred scenario with the class, submit upload your scenario and submit concise responses to the questions in Canvas (_Part 2_, below).
+
+
+
+**PART 2**: Respond to the questions on the quiz:
+
+1. What Group are you representing? (the quiz will tell you your answer is "wrong"...it's not, don't worry)
+
+2.  What members of your group are participating today? (First and Last Name)
+
+3. Please upload a screenshot of your scenario dashboard
+
+4. **Your Plan:** What are the top 3 most important policies in your strategy?  (i.e., the most important sliders that you moved). Describe the changes proposed and why you chose them.
+
+5. **Co-benefits:** What is one "co-benefit" for each of these actions?
+
+6. **Impact:** What surprised you about the behavior of the energy and climate system as captured in the simulation? What actions had a bigger or smaller effect than you thought? Did you discover why that might be? 
+
+7. **Political Feasibility:** How feasible do you think it is to arrive at 2 degrees based on the round-robin discussion in which groups could "veto" another group's proposed policy? What will it take over the next 15-20 years for businesses, civil society, government, and the public to come together and address this issue?
+
+8. **Winners/ Losers:** Step out of your role as an advocate for your group. Who would be the biggest ‘winners’ and ‘losers’ globally under your group's proposed plan? (You might find it useful to actually sketch out a table with two columns for winners and losers).
+
+
+## ADDITIONAL RESOURCES
+
+1. [Climate Interactive FAQ](https://support.climateinteractive.org/support/solutions)
+
+
+**SOURCE**
+
+This assignment is based on materials created by [Climate Interactive](https://www.climateinteractive.org/), who made them available under a Creative Commons licence ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). 
