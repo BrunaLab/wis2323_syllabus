@@ -336,7 +336,8 @@ Henry Knight Lozano (2023) California and Florida grew quickly on the promise of
 
 ## Week 13  {.unnumbered}
 
-##### 13-1: Veteran's Day Holiday
+##### 13-1: Veteran's Day Holiday {.unnumbered}  
+
 
 ##### 13-2 International Conservation Frameworks {.unnumbered}
 
@@ -401,14 +402,13 @@ Katrina Kosec et al. (2025) Forest loss in Malawi: how having women at the table
 
 ##### 16-1 Tropical rain forests & Global Health {.unnumbered}
 
-
 > *Goal: To learn about the relationship between deforestation and the emergence and spread of tropical diseases like Zika and Malaria from the tropics to other regions of the globe*.
 
 <!-- James Barrat, & Tangled Bank Studios (Producers), & Barrat, J. (Director). (2016). Spillover: Zika, Ebola and Beyond. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/spillover-zika-ebola-and-beyond -->
 
 -  Vittor, Amy, Gabriel Zorello Laporta, and Maria Anice Mureb Sallum. 2020. How deforestation helps deadly viruses jump from animals to humans. _The Conversation_. \[[read online](https://theconversation.com/how-deforestation-helps-deadly-viruses-jump-from-animals-to-humans-139645), 15 min read\].
 
-UF EPI. (2024) Florida’s mosquitoes can make you sick: Here’s how to protect yourself. [link](https://epi.ufl.edu/2024/05/01/floridas-mosquitoes-can-make-you-sick-heres-how-to-protect-yourself/)
+-  UF EPI. (2024) Florida’s mosquitoes can make you sick: Here’s how to protect yourself. [link](https://epi.ufl.edu/2024/05/01/floridas-mosquitoes-can-make-you-sick-heres-how-to-protect-yourself/)
 
 -  Kuchipudi, Suresh V. 2020. Why so many epidemics originate in Asia and Africa -- and why we can expect more. _The Conversation_. \[[read online](https://theconversation.com/why-so-many-epidemics-originate-in-asia-and-africa-and-why-we-can-expect-more-131657), 10 min\].
 
