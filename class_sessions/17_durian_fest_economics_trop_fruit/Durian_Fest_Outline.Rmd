@@ -1,0 +1,230 @@
+---
+title: 'WIS 2323 - "Consumer Choices'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Consumer Choices, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+#   html_document:
+#   df_print: paged
+#   pdf_document: default
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Link to share:  https://www.bbc.com/news/science-environment-59088498 
+
+<!-- https://www.cgdev.org/blog/corporate-commitments-necessary-not-sufficient-end-tropical-deforestation -->
+<!-- https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html?searchResultPosition=2 -->
+<!-- https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/ -->
+<!-- https://www.rainforest-alliance.org/find-certified/ -->
+<!-- https://e360.yale.edu/features/the-real-price-of-a-chocolate-bar-west-africas-rainforests -->
+<!-- https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953 -->
+<!-- https://www.nytimes.com/2019/09/05/world/americas/h-m-leather-brazil-amazon-fires.html -->
+<!-- https://www.worldcocoafoundation.org/initiative/cocoa-forests-initiative/ -->
+<!-- https://www.huffpost.com/entry/chocolate-deforestation-ivory-coast-ghana_n_5f69cbb3c5b655acbc6f9949 -->
+<!-- https://www.edie.net/news/7/Shareholder-demands-driving-commitments-on-deforestation--report-finds/ -->
+<!-- https://www.businessdestinations.com/move/sustainable-travel/could-ecotourism-help-protect-the-amazon-rainforest/  -->
+<!-- https://rainforests.mongabay.com/kids/elementary/607.html -->
+<!-- https://sustainablebrands.com/read/marketing-and-comms/shareholders-increasingly-placing-pressure-on-companies-to-address-deforestation -->
+<!-- https://www.proxypreview.org/all-contributor-articles/shareholders-play-key-role-in-reducing-deforestation-and-climate-risk -->
+<!-- https://news.mongabay.com/2020/04/investing-in-amazon-rainforest-conservation/ -->
+<!-- https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html -->
+<!-- https://www.gourmesso.com/pages/keurig-compatible-rainforest-alliance-coffee -->
+<!-- https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12712 -->
+<!-- https://www.sustainability.nespresso.com/rainforest-alliance-insights -->
+<!-- https://www.rainforest-alliance.org/insights/rainforest-alliance-certified-coffee/ -->
+<!-- https://bigcupofcoffee.com/what-is-rainforest-alliance-coffee-and-is-it-worth-it/ -->
+<!-- https://news.mongabay.com/2021/08/corporate-sustainability-shouldnt-be-an-unknown-entity-commentary/ -->
+
+
+
+<!-- https://www.theguardian.com/environment/2025/may/12/climate-crisis-threatens-the-banana-the-worlds-most-popular-fruit-research-shows -->
+<!-- https://worksinprogress.co/issue/king-of-fruits/ -->
+<!-- https://www.nature.com/articles/s43247-025-02072-z -->
+<!-- https://www.npr.org/2025/02/13/1231104434/the-truth-behind-your-valentines-day-flowers -->
+<!-- https://www.npr.org/2025/02/12/nx-s1-5289034/chocolate-prices-valentines-day-cocoa-beans -->
+
+
+
+### Notes for Class
+
+ Durio zibethinus, native to Borneo and Sumatra, is the only species available on the international market. 
+ Durian trees are large, growing to 25–50 metres (80–165 feet) in height
+ bat pollinators, squirrels, mouse deer, pigs, sun bears, orangutans, elephants, and even carnivorous tigers.[\
+
+ Durio zibethinus, native to Borneo and Sumatra, is the only species available on the international market. 
+ Durian trees are large, growing to 25–50 metres (80–165 feet) in height
+ bat pollinators, squirrels, mouse deer, pigs, sun bears, orangutans, elephants, and even carnivorous tigers.[\
+ 
+ 
+
+The odour of durian is strongly influenced by the presence of organosulfur compounds. These  are often associated with foul odors, but many of the sweetest compounds known are organosulfur derivatives, e.g., saccharin. Nature abounds with organosulfur compounds—sulfur is vital for life. Of the 20 common amino acids, two (cysteine and methionine) are organosulfur compounds, and the antibiotics penicillin and sulfa drugs both contain sulfur.
+
+
+Market size value in 2024: USD 1.83 billion
+Revenue forecast in 2030: USD 2.44 billion
+
+The total value of the entire Durian market however is significantly higher if one takes into account Durian
+end products. Durian end products include the market segments of desserts, snacks and beverages. Durian’s
+share of these markets is unknown but combined in Asia are worth over 275 USD billion annually and growing
+
+### 2020 US Tropical Fruit Imports/Exports
+
+GLOBAL TRADE IN TROPICAL FRUITS: US$18 BILLION  
+WORLD EXPORTS IN TROPICAL FRUITS IN 2024: $11.3 billion
+<!-- https://openknowledge.fao.org/server/api/core/bitstreams/62fd99fd-32e0-4d2c-b9a6-12e29fe684ac/content -->
+
+### TOP EXPORT CROPS: 
+1. Bananas (18.6%, #1): Bananas are the most produced, traded and consumed fruits globally. 
+Most popular fruit in the US (more consumed than apples and oranges)
+Cavendish banana accounts for just under half of global production and has an estimated annual production volume of 50 million tonnes.
+
+### OF THE REMAINDER:
+
+1. Avocado 56% (USA: 48% of imports; #1).  eat 9.22 pounds per capita in USA
+Among the avocado-producing states, California accounts for most of the US production in 2023 with 88%, followed by Florida with 12% 
+
+1. Mango, Mangosteen, & Guava 27% (USA Imports: 26% of global total, #1)
+Profitable alternative for growers in south Florida, with growers earning on average $4,487/acre/year or $0.24/pound, which is larger than many other tropical fruits.
+
+
+1. Pineapple (15% of total global imports, #1; note that dropped due to covid because 60% in USA is hospitality/food service sales)
+1. Papaya: 3%
+
+
+
+### USA Banana imports: >$2.7B [source](https://www.statista.com/statistics/996326/banana-import-value-us/)
+1. Guatemala: 1.1 billion
+1. Ecuador: $455M
+1. Costa Rica: $448M
+1. Colombia: $250
+1. Mexico: $246
+1. Honduras $156M
+1. Peru: $51M
+1. Panama: $45.6
+1. Nicaragua: $8.8M
+1. Dom Rep: $3.2M
+
+### Primary Exporters of Trop. Fruits:
+1. Central America & Caribbean" 4.9 bi
+1. The combined slightly more than South Am. + Asia
+
+### Primary Importeers of Trop. Fruits:
+USA: approx $5 billion
+
+### Top Florida Tropical Fruit Crops
+
+The state’s tropical fruit industry is valued at over US$137 million annually.
+ 
+1. Oranges (S Chine, NE India, Myanmar): $708,581,000
+1. Tomatoes (South America): $323,534,000
+1. Grapefruit (hybrid originating in Barbados) $72,081,000
+1. Tangerines (SE Asia) $22,089,000
+1. Avocados (Tropical America): $13,350,000
+1. Mango (India): $2.1M 2014, possible 2021:  20.49 million
+
+
+#### Florida Crops  
+
+* [**Guanábana**](https://en.wikipedia.org/wiki/Soursop#Annona_muricata), *Annona muricata* (Annonaceae). graviola, guyabano, soursop. native to the tropical regions of the Americas and the Caribbean. 
+* [**Guava**](https://en.wikipedia.org/wiki/Guava), *Psidium guajava* (Myrtaceae). native to Mexico, Central America, the Caribbean and northern South America.
+* [**Passion Fruit**](https://en.wikipedia.org/wiki/Passiflora_edulis), *Passiflora edulis* (Passifloraceae). native to southern Brazil through Paraguay and northern Argentina
+* [**Mango**](https://en.wikipedia.org/wiki/Mango), *Mangifera indica* (Anacardiaceae). believed to have originated in the region between northwestern Myanmar, Bangladesh, and northeastern India.
+* [**Mamey**](https://en.wikipedia.org/wiki/Pouteria_sapota), _Pouteria sapota_ (Sapotaceae). Mexico and Central America
+* [**Papaya**](https://en.wikipedia.org/wiki/Papaya), _Carica papaya_ (Caricaceae). southern Mexico and Central America; also considered native to southern Florida, introduced by predecessors of the Calusa no later than 300 CE. Spaniards introduced papaya to the Old World in the 16th century. Papaya cultivation is now nearly pantropical, spanning Hawaii, central Africa, India, and Australia.
+* Others: Avocado, Longan, Pitaya, Carambola/Starfruit
+
+#### Other common fruits imported to Florida/important to Florida residents 
+
+* [**Cashew**](https://en.wikipedia.org/wiki/Cashew), _Anacardium occidentale_ (Anacardiaceae). Northeastern Brazil & Southeastern Venezuela; in 1500s distributed globally by Portuguese explorers (Goa, India ca. 1560; from there to Southeast Asia and Africa). Cashew Apple Maranon, cajuil (Puerto Rico), mereh (Venezuela), caju (Portuguese), acajou (French), mamuang himmalphan (central Thailand), jambu monet (Malay)
+* [**Tamarind**](https://en.wikipedia.org/wiki/Tamarind), *Tamarindus indica* (Fabaceae). likely from tropical Africa
+* [**Lulo**](https://en.wikipedia.org/wiki/Solanum_quitoense), *Solanum quitoense* (Solanaceae). northwestern South America.
+* [**Nance**](https://en.wikipedia.org/wiki/Byrsonima_crassifolia), *Byrsonima crassifolia* (Malpighiaceae). maricao cimun, craboo, golden spoon, hogberry. open pine forests and grassy savannas, from central Mexico, through Central America, to Colombia, Peru, Bolivia and Brazil; it also occurs in Trinidad, Barbados, Curaçao, St. Martin, Dominica, Guadeloupe, Puerto Rico, Haiti, the Dominican Republic and throughout Cuba and the Isle of Pines. 
+* [**Tamarillo**](https://en.wikipedia.org/wiki/Tamarillo), _Solanum betaceum_ (Solanaceae). tree tomato, tomate de árbol, tomate andino, tomate serrano, blood fruit, tomate de yuca, tomate de españa, sachatomate, berenjena, chilto and tamamoro in South America, and terong Belanda (Dutch eggplant) in Indonesia. native to the Andes of Ecuador, Colombia, Peru, Chile, Argentina and Bolivia. 
+* [**Açaí**](https://en.wikipedia.org/wiki/A%C3%A7a%C3%AD_palm), _Euterpe oleraceae_ (Aracaceae). native to eastern Amazonia, especially in Brazil
+
+\newpage   
+
+### Primary Global Market in Tropical Fruit (2020):  $35.2B
+1. [Bananas](https://oec.world/en/profile/hs/pineapples-fresh-or-dried?redirect=true) $13.9B 
+1. [Cashew Nuts](https://oec.world/en/profile/hs/cashew-nuts-fresh-or-dried?redirect=true): $6.87B 
+1. [Avocados](https://oec.world/en/profile/hs/avocados-fresh-or-dried?redirect=true): $6.7B
+1. [Mango/Guava/Mangosteen](https://oec.world/en/profile/hs/guavas-mangoes-and-mangosteens-fresh-or-dried?redirect=true): $3.6B
+1. [Pineapples](https://oec.world/en/profile/hs/pineapples-fresh-or-dried): $2.11B
+1. [Coconut](https://oec.world/en/profile/hs/coconuts-fresh-or-dried?redirect=true): $1.45B 
+1. [Papaya](https://oec.world/en/profile/hs/papaws-papayas-fresh?redirect=true): $320M
+1. [Brazil Nuts](https://oec.world/en/profile/hs/brazil-nuts-fresh-or-dried?redirect=true): $275M
+
+
+
+### Sources
+1. [FAO trop. fruits](https://www.fao.org/3/cb6897en/cb6897en.pdf)
+1. [FAO -Banana 1](https://www.fao.org/3/cb5150en/cb5150en.pdf) and [FAO Banana -2](https://www.fao.org/3/cc2401en/cc2401en.pdf)
+1. [OEC](https://oec.world/en/profile/hs/tropical-fruits)
+
+\newpage   
+
+### Student Readings
+
+1. Karen Weintraub (2019) [They’re Smelly and Spiky, and They Need Bats to Pollinate Them](https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html#commentsContainer). *New York Times.*
+
+3. Chris Hunt and Rathnasiri Premathilake (2018) [Prehistoric people started to spread domesticated bananas across the world 6,000 years ago.](https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547). *The Conversation*
+
+4. Rachel Wharton (2020) [How the Tip of Florida Became a Tropical-Fruit Paradise.](https://www.atlasobscura.com/articles/tropical-fruit-farms-in-united-states) *Atlas Obscura*
+
+### To prepare for class
+
+* [2021 USDA FL AGRICULTURE OVERVIEW](https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=FLORIDA)
+* Blare, T. et al. [PROFITABILITY AND COST ESTIMATES FOR PRODUCING MANGO (MANGIFERA INDICA L.) IN SOUTH FLORIDA](https://edis.ifas.ufl.edu/publication/FE1115) 
+* [IPM Centers- FL Mango 2014](https://ipmdata.ipmcenters.org/documents/cropprofiles/FLmango2014.pdf))
+* [Durian](https://en.wikipedia.org/wiki/Durio_zibethinus): *Durio zibethinus* (Malvaceae)
+* Ask Pablo: What's the Impact of Imported Tropical Fruit? [Treehugger](https://www.treehugger.com/ask-pablo-whats-the-impact-of-imported-tropical-fruit-4856815)
+* Grüter R, Trachsel T, Laube P, Jaisli I (2022) Expected global suitability of coffee, cashew and avocado due to climate change. PLoS ONE 17(1): [e0261976](https://doi.org/10.1371/journal.pone.0261976). 
+* [IFAS - Trop Fruit Acerage in FL](https://sfyl.ifas.ufl.edu/media/sfylifasufledu/miami-dade/documents/tropical-fruit/Tropical-Fruit-Acreage.pdf)
+* [USDA Florida Ag](https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_1_State_Level/Florida/st12_1_0037_0037.pdf)
+
+<!-- ADD TO THE CONSUMER-CHOICE SECTION FOR NEXT YEAR -->
+<!-- Really Interesting but Optional:  -->
+
+<!-- *has some amazing maps, pictures, and data visualizations - definitely worth checking out.* -->
+
+<!-- 1. Steven Mufson and Salwan Georges (2019) [The trouble with chocolate](https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/)  *Washington Post* -->
+
+<!-- *also really comprehensive and with great photos.* -->
+
+<!-- 2. Shola Lawal (2020) [Our Endless Appetite For Chocolate Has Bitter Environmental Consequences](https://www.huffpost.com/entry/chocolate-deforestation-ivory-coast-ghana_n_5f69cbb3c5b655acbc6f9949)  *Huffington Post*. -->
+
+<!-- *longer but really gripping and the article includes a link to an audio version if you prefer to listen to it.* -->
+
+<!-- 3.  Wyatt Williams (2021) [How Your Cup of Coffee Is Clearing the Jungle](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html). New York Times.  -->
+
+<!-- 2. Sophia Carodenuto (2021). [Chocolate fix: How the cocoa industry could end deforestation in West Africa.](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953) *The Conversation.* -->

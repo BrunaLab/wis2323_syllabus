@@ -1,0 +1,86 @@
+---
+title: 'WIS 2323 - "Durian-Fest'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Durian-Fest, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## DURIAN-FEST & GLOBAL MARKET FOR TROPICAL FRUIT
+
+## Objectives and Competencies:   
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+
+### Readings
+
+1. Karen Weintraub (2019) [They’re Smelly and Spiky, and They Need Bats to Pollinate Them](https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html#commentsContainer). *New York Times.*
+
+2. Sophia Carodenuto (2021). [Chocolate fix: How the cocoa industry could end deforestation in West Africa.](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953) *The Conversation.*
+
+3. Chris Hunt and Rathnasiri Premathilake (2018) [Prehistoric people started to spread domesticated bananas across the world 6,000 years ago.](https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547). *The Conversation*
+
+4. Rachel Wharton (2020) [How the Tip of Florida Became a Tropical-Fruit Paradise.](https://www.atlasobscura.com/articles/tropical-fruit-farms-in-united-states) *Atlas Obscura*
+
+
+Really Interesting but Optional: 
+
+*has some amazing maps, pictures, and data visualizations - definitely worth checking out.*
+
+1. Steven Mufson and Salwan Georges (2019) [The trouble with chocolate](https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/)  *Washington Post*
+
+*also really comprehensive and with great photos.*
+
+2. Shola Lawal (2020) [Our Endless Appetite For Chocolate Has Bitter Environmental Consequences](https://www.huffpost.com/entry/chocolate-deforestation-ivory-coast-ghana_n_5f69cbb3c5b655acbc6f9949)  *Huffington Post*.
+
+*longer but really gripping and the article includes a link to an audio version if you prefer to listen to it.*
+
+3.  Wyatt Williams (2021) [How Your Cup of Coffee Is Clearing the Jungle](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html). New York Times. 

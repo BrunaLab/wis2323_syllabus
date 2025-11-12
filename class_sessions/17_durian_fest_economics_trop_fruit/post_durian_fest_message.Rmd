@@ -1,0 +1,59 @@
+---
+title: 'WIS 2323 - "Post Durian-Fest Message'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Post Durian-Fest Message, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Thanks for coming out and being so adventurous! If you came but forgot to turn in your taste-test card, let me know to make sure you get full credit. And by the way, the fruits we tried - in order - were:
+
+Nance: Byrsonima crassifolia (Malpighiaceae)
+Passion Fruit: Passiflora edulis (Passifloraceae)
+Guanabana/Soursop: Annona muricata (Annonaceae)
+Mango: Mangifera indica (Anacardiaceae)
+
+Guava: Psidium guajava (Myrtaceae)
+Lulo: Solanum quitoense (Solanaceae)
+Tamarind: Tamarindus indica (Fabaceae)
+
+
+
+
+And of course:
+
+Durian: Durio zibethinus (Malvaceae) 

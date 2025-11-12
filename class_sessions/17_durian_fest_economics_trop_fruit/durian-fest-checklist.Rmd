@@ -1,0 +1,92 @@
+---
+title: 'WIS 2323 - "Durian-Fest'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Durian-Fest, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  # html_document:
+  # df_print: paged
+  pdf_document: default
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## DURIAN-FEST & THE ECONIOMIC IMPACTS OF TROPICAL FRUITS  
+
+### Supplies: Buy
+
+* [ ] plastic tablecloth
+* [ ] paper towels
+* [ ] plastic cups for serving durian and water to drink
+* [ ] small ("shot") cups to trying juices
+* [ ] plastic spoons
+* [ ] gallons of drinking water (some poured out in jug to drink, remainder serve to mix juice)
+* [ ] rubber gloves
+* [ ] ice
+* [ ] fruit juices - 2 bags of pulp = one gallon, and plenty was left over. Could make less or put in smaller bottles to make it easier to serve and take home left-overs. Suggest buying 2 and making 1 = 1/2 gallon, with 1 in case run out. 
+* [ ] simple syrup for juice mixes (2 lbs sugar)
+* [ ] biscoito maria / palmier
+* [ ] Prizes: jams, coconut candies, canned juices
+
+### Supplies: Home/Lab
+
+* [ ] container to serve water
+* [ ] chef's knife
+* [ ] machete
+* [ ] cutting board
+* [ ] print-outs for taste-test of labels, posters, game sheets
+* [ ] Hand blender
+* [ ] funnel (to get juices in label-free bottles)
+* [ ] ice chest
+* [ ] cameras
+* [ ] Speaker
+
+### Fruit Pulp/Juice
+
+* [ ] Guanábana
+* [ ] Guava
+* [ ] Passion Fruit
+* [ ] Mango
+* [ ] Mamey
+* [ ] Papaya
+* [ ] Cashew
+* [ ] Lulo
+* [ ] Tamarind
+* [ ] Nance
+* [ ] Tamarillo
+* [ ] Açaí
+
+### Email to students 
+
+1. Reminder with Readings, Location, Poster
+
+\newpage   
