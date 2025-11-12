@@ -1,0 +1,177 @@
+---
+title: "WIS 2323: ------"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{'Drivers of Deforestation - Pt. 1', p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Pre-Class Preparation (Instructor):  
+
+1. Email Reminder to read news paper article by S Nolen
+2. **Bring to Class:**  
+*
+*
+*
+
+## Objectives and Competencies:   
+
+1. To learn the leading causes of deforestation in different tropical forests
+2. investigate supply chains for beef and leather
+3. learn about where in supply chains illegal cattle can get in
+
+ 
+Suggest reading: 
+
+1. https://www.bloomberg.com/graphics/2022-beef-industry-fueling-amazon-rainforest-destruction-deforestation/?leadSource=uverify%20wall
+1. https://www.vogue.co.uk/fashion/article/biodiversity-fashion
+1. https://www.theguardian.com/us-news/2021/nov/29/fashion-industry-amazon-rainforest-deforestation
+1. https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/
+1. https://www.nytimes.com/2021/11/17/climate/leather-seats-cars-rainforest.html
+
+
+1. How many direct suppliers did JBS have in 2020 vs 2009? (7700 vs 16900)
+2. How many cattle suppliers - direct and indirect - did JBS buy from in that period? (~60500) 
+3. How many slaughterhouses does JBS have in the Amazon region? 
+4. Brazil is the world’s biggest beef producer and exporter. How many cattle did it slaughter per tear?  (22.2 million)
+5. Why is it so hard to keep cattle related to deforestation out of the supply chain?  
+6: Bonus: It is home to 4 percent of the world’s population but eats about ____ percent of its beef. (20%)
+
+What is the solution?
+
+How many direct suppliers did JBS have in 2020 vs 2009? (7700 vs 16900)
+How many cattle suppliers - direct and indirect - did JBS buy from in that period? (~60500) 
+
+
+
+By the way, here is the link to one of the investigative reports I presented today, where you can see the original figures: [link]. On this page, you can also use an interactive "supply chain visualizer" - click on one of the brands at the bottom, and you can trace the intermediaries and companies from which the leather came. [link]
+
+sources
+https://news.mongabay.com/2020/11/satellites-maps-and-the-flow-of-cattle-brazilian-solutions-for-reducing-deforestation-are-already-in-use/
+https://www.mightyearth.org/wp-content/uploads/2017/05/StillAtIt.pdf
+https://slowfactory.earth/supplychange
+https://docs.google.com/presentation/d/1bA-FxnXqvhPimKUk_nA00z6fppKA2DdhjKioF5sNf9A/edit#slide=id.gf26899768c_5_12
+https://www.washingtonpost.com/climate-solutions/2022/03/09/amazon-rainforest-deforestation-beef/
+https://climatecommunication.yale.edu/publications/climate-change-and-the-american-diet/
+https://www.voguebusiness.com/sustainability/how-fashion-is-distancing-itself-from-deforestation
+https://www.vogue.com/article/deforestation-fashion-industry-arizona-muse-op-ed
+
+
+The growth in Brazilian beef exports to the U.S. is linked to a combination of a scarce supply in the U.S. and high demand for beef. Perosa says the U.S. cattle herd has reached its lowest level in 80 years, impacted by factors such as severe droughts and producers shifting to more profitable ventures. Meanwhile, the demand for beef in the U.S. remains robust. “In the U.S., they eat hamburgers every day. It’s cultural,” notes Perosa, comparing it to Brazil’s staple foods like rice and beans.
+
+## Pre-class Preparation (Students):
+
+1. https://www.bloomberg.com/graphics/2022-beef-industry-fueling-amazon-rainforest-destruction-deforestation/?leadSource=uverify%20wall
+Rainforest beef is typically found in fast food hamburgers or processed beef products. In both 1993 and 1994, the U. S. imported over 200 million pounds of fresh and frozen beef from Central American countries. Two-thirds of these countries' rainforests have been cleared, in part to raise cattle whose meat is exported to profit the U. S. food industry. When it enters the U. S. the beef is not labeled with its country of origin, so there is no way to trace it to its source. 
+
+1. https://www.youtube.com/watch?v=9o2M_KL8X6g
+
+1. https://www.theguardian.com/environment/2021/feb/13/walmart-selling-beef-from-firm-linked-to-amazon-deforestation?s=09
+
+1. https://www.beefontrack.org/
+
+1. https://www.nytimes.com/2021/11/17/climate/leather-seats-cars-rainforest.html
+
+1. https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/
+
+1. https://news.mongabay.com/2020/11/satellites-maps-and-the-flow-of-cattle-brazilian-solutions-for-reducing-deforestation-are-already-in-use/
+1. https://www.npr.org/sections/thesalt/2015/07/10/421532548/inside-the-world-s-largest-food-company-you-ve-probably-never-heard-of
+
+
+## Class Outline
+
+
+```{r timer, echo=FALSE}
+
+Block1_intro <- 25
+Block1_breakout <- 30
+Break <- 10
+return_results <- 20
+questions <- 10
+intro_next_session <- 10
+  
+  
+total_time <- 
+  Block1_intro + 
+  Block1_breakout + 
+  Break + 
+  return_results + 
+  questions +
+  intro_next_session 
+
+
+time_remain <- 50 - total_time
+```
+
+
+
+<!-- ### **Topic 1 Overview: Paperless Data Collection** (`r t1_overview` min) -->
+
+### **Topic 1: Patterns of Forest Cover & Consequences of Forest Loss
+
+1) Forest - Where is it, How much of it, & The importance of Intact Forest
+2) Primary Drivers of Forest Loss
+3) What happens to a landscape when you clear forest?
+4) What happens when you abandon these areas?
+
+
+1) Forest has a [technical definition](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf) according to the UN FAO. Actually, there are many [technical defintions](https://www.iucn.org/sites/dev/files/content/documents/primary-forest-report-final-march-2021.pdf). Plus two of the main resources - FAO Forest Resources Assessment (FRA) and WRI Global Forest Watch (GFW) [differ in some significant ways](https://www.wri.org/insights/insider-global-forest-watch-and-forest-resources-assessment-explained-5-graphics).  
+
+### Demo
+
+1. Click "Map" on the main menu bar.
+2. "Land Cover" on the Left icon menu
+3. x-out the layers you don't need on the legend
+
+<!-- There are `r time_remain` min remaining that can be used to ----- -->
+
+# Additional Resources and Reading Mateirals
+
+

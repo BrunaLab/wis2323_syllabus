@@ -1,0 +1,90 @@
+---
+title: 'IDS 2935 - Rural v Urban Populations in the Tropics: In-class Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{In-Class: Rural v Urban Populations in the Tropics, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: html_document
+# output:
+#   pdf_document: default
+#   html_document:
+#     df_print: paged
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Disturbances in Tropical Forests
+\vspace{0.3cm}
+
+### Introduction
+
+The human population in the tropics is frequently conceptualized as primarily rural, which has important implications for (1) how we think about human impacts on tropical rain forests and (2) how we approach the conservation of tropical rain forests both locally and internationally. This exercise is designed to investigate how "rural" the population of tropical countries has been, is, and will be in the future.
+
+**Step 1:** Download these data to your computer: (World Bank Population Data - WIDE). This file is data from the World Bank for 136 tropical countries (plus a few non-tropical) with the percentage of each country's population that lives in (or is predicted to live in) an urban area. The data starts in 1950 and is organized as follows:
+
+1) **Row 1**: the *header row*, which lists the names of each column 
+
+2) **Rows 2-137:** the data for each country (each row is a different country)  
+
+3) **Column A:** the name of the country
+
+4) **Columns B-CX:** the percentage of a country's population that lived in an urban environment from 1950 (Column B) to 2050 (Column CX).
+
+**Step 2:** Import the data into Google Sheets and then:
+
+1) Graph the proportion of the population in INDONESIA that is living an urban setting vs. time. Your graphs should have "Year" on the X axis, and "% urban" on the Y axis. 
+
+2) Now add the following countries to your graph: 
+
+BRAZIL
+SENEGAL
+INDIA
+MALAYSIA
+PERU
+CAMEROON
+CONGO
+RWANDA
+CAMBODIA
+USA
+SPAIN
+ECUADOR
+
+If you need help, there is a [tutorial video here](https://youtu.be/7lgdlFHUqW4).
+
+**Step 3: ** Study the graphs and then respond to the following questions on Canvas. 
+
+1) How do you use this graph to determine of a country is majority rural or majority urban?
+
+2) In 2-3 sentences, describe the trends ( = pattern) you observe in the graph. What do the different lines have in common, and how do they differ? 
+
+3) Looking back at the entire dataset, how many countries is the population predicted to still be 'majority rural' in 2050? 
+
+

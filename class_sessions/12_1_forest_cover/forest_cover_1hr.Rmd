@@ -1,0 +1,127 @@
+---
+title: "WIS 2323: ------"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Forest Cover & Loss, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Objectives and Competencies:   
+
+1.To learn how different organizations define 'forest'
+2. Be able to compare FRA and GFW criteria  
+3. Gain an overview of how much forest there is in the world, and how much of this is in the tropics
+4. Learn how the drivers of deforestation differ between different tropical regions.
+5. Learn the importance of roads and learn to recognize the fishbone deforestation pattern
+
+
+## Pre-Class Preparation - Instructor:  
+
+- [ ] Email Reminder to read news paper article by S Nolen
+- [ ] **Bring to Class:**  
+
+
+## Pre-class Preparation - Students:
+
+
+### **Reading or Watch**
+
+## Class Outline
+
+
+```{r timer, echo=FALSE}
+
+Block1_intro <- 25
+Block1_breakout <- 30
+Break <- 10
+return_results <- 20
+questions <- 10
+intro_next_session <- 10
+  
+  
+total_time <- 
+  Block1_intro + 
+  Block1_breakout + 
+  Break + 
+  return_results + 
+  questions +
+  intro_next_session 
+
+
+time_remain <- 50 - total_time
+```
+
+
+
+<!-- ### **Topic 1 Overview: Paperless Data Collection** (`r t1_overview` min) -->
+
+### **Topic 1: Patterns of Forest Cover & Consequences of Forest Loss
+
+1) Forest - Where is it, How much of it, & The importance of Intact Forest
+2) Primary Drivers of Forest Loss
+3) What happens to a landscape when you clear forest?
+4) What happens when you abandon these areas?
+
+
+1) Forest has a [technical definition](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf) according to the UN FAO. Actually, there are many [technical defintions](https://www.iucn.org/sites/dev/files/content/documents/primary-forest-report-final-march-2021.pdf). Plus two of the main resources - FAO Forest Resources Assessment (FRA) and WRI Global Forest Watch (GFW) [differ in some significant ways](https://www.wri.org/insights/insider-global-forest-watch-and-forest-resources-assessment-explained-5-graphics).  
+
+### Demo
+
+1. Click "Map" on the main menu bar.
+2. "Land Cover" on the Left icon menu
+3. x-out the layers you don't need on the legend
+
+<!-- There are `r time_remain` min remaining that can be used to ----- -->
+
+# Additional Resources and Reading Mateirals
+
+2.
+3.
+

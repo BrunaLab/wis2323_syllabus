@@ -1,0 +1,183 @@
+---
+title: 'WIS 2323 - "Deforestation Data Analysis Activity'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Oil Palm (In-class), p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  # html_document:
+  #   df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Stakeholder Analysis - Palm Oil Production
+
+\vspace{0.3cm}
+
+**Part I: Introduction to Stakeholder Analysis**
+
+A) *What is a Stakeholder Analysis?^1^*
+
+    A *stakeholder analysis* is an assessment of all the individuals or groups that are affected by and have an impact on a policy or project. They are often conducted before an initiative or project is started, but are also useful later in the process to identify unexpected impacts.
+
+B) *Who or what is a stakeholder?*
+
+    A “stakeholder” can be defined as: Any individual, group, or institution who has a vested interest in the natural resources of the project area and/or who potentially will be affected by project activities and have something to gain or lose if conditions change or stay the same. Types of stakeholders include:  
+
+    i) Primary stakeholders: those ultimately most affected, either positively or negatively by an organization's actions
+    ii) Secondary stakeholders: the "intermediaries," that is, persons or organizations who are indirectly affected by an organization's actions
+    iii) Tertiary stakeholders: those who will be impacted the least
+    iv) Key stakeholders: those with significant influence upon or particular importance within an organization; they can also belong to the other groups
+
+    These stakeholders can also be described by their: 
+
+    i) How much **Power** they have (high, medium, low)
+    ii) How much **Influence** they have (high or low)
+    iii) How much **Interest/Need** they have with regards to the policy or program (high, medium, low)
+    iv) Their **Attitude** regarding the project (positive, neutral, negative)  
+    
+
+C) *Why Stakeholder Analysis Is Important?*
+
+    Ultimately, all projects depend on selecting stakeholders with whom they can jointly work towards goals that will reduce or reverse the threats to your key conservation targets. A stakeholder analysis can help a project or program identify:
+
+    * The interests of all stakeholders who may affect or be affected by the program/project;
+    * Potential conflicts or risks that could jeopardise the initiative;
+    * Opportunities and relationships that can be built on during implementation;
+    * Groups that should be encouraged to participate in different stages of the project;
+    * Appropriate strategies and approaches for stakeholder engagement; and
+    * Ways to reduce negative impacts on vulnerable and disadvantaged groups.  
+    
+    
+
+    The full participation of stakeholders in both project design and implementation of is a key to – but not a guarantee of – success. Stakeholder participation:  
+
+    * Gives people some say over how projects or policies may affect their lives;
+    * Is essential for sustainability;
+    * Generates a sense of ownership if initiated early in the development process;
+    * Provides opportunities for learning for both the project team and stakeholders themselves; and
+    * Builds capacity and enhances responsibility. 
+
+*^1^From the World Wildlife Fund ["Introduction to Stakeholder Analysis"](https://awsassets.panda.org/downloads/1_1_stakeholder_analysis_11_01_05.pdf)*
+
+
+**Part II: Stakeholder Analysis: Palm Oil and RSPO Certification**
+
+The issue of Palm Oil and it's certification is obviously extremely complex, and the assigned readings - while giving an excellent overview from different perspectives - only scratched the surface of issue. Nevertheless, thinking about the issue from the perspective of different stakeholders is useful starting point for understanding how challenging it is to come up with solutions for what is widely recognized as one of the most important environmental issues of our times.
+
+With that in mind, your objective today is to work with your group to conduct a stakeholder analysis of Palm Oil and [RSPO Certification](https://rspo.org/certification). To do so, start with the following:
+
+**STEP 1**
+
+<!-- 1) Who are the stakeholders in the production of palm oil? -->
+
+<!-- RSPO names seven: We are a not-for-profit that unites stakeholders from the 7 sectors of the palm oil industry: oil palm producers, processors or traders, consumer goods manufacturers, retailers, banks/investors, and environmental and social non-governmental organisations (NGOs), to develop and implement global standards for sustainable palm oil. -->
+
+2) What are the pros and cons of palm oil production for each?
+3) For those that can participate in RSPO Certification, what are the potential costs and benefits to each of participating in the Roundtable?
+4) For each of these stakeholders, try and categorize: 
+
+    i) How much *power* they have (high, medium, low)
+    ii) How much *Influence* they have (high or low)
+    iii) How much *Interest/Need* they have with regards to the policy or program (high, medium, low)
+    iv) Their *Attitude* regarding the project (positive, neutral, negative)  
+    
+
+4) In light of 1-4 above, what do you think is the likely decision each would make when it comes to participating?
+
+You can look online for resources (i.e., corporate statements on palm oil use) that can help you learn about the perspectives of some stakeholders. Some other online resources that might help you work though this conversation are below.
+
+**STEP 2**
+
+As a group, write up a summary of your responses (You can put it in the form of a table, if easier). Make sure your summary includes the name of all persons in your grup, and then upload it to Canvas when ready (if a google doc you can submit the link, but be sure you have shared it with embruna@ufl.edu). Also prepare to report back your conclusions to the class. 
+
+
+
+**_Additional Resources_**
+
+1) The [RSPO website](https://rspo.org/certification).
+
+2) A short [RSPO video](https://www.youtube.com/watch?v=QrXFHjElsY4) on the role of certification.
+
+3) How [PalmTrace](https://www.youtube.com/watch?v=QrXFHjElsY4) tracks certified palm oil 
+
+4) Rist, L., Feintrenie, L., & Levang, P. (2010). The livelihood impacts of oil palm: smallholders in Indonesia. Biodiversity and Conservation, 19(4), 1009–1024. [doi:10.1007/s10531-010-9815-z](https://link.springer.com/article/10.1007/s10531-010-9815-z)
+
+5) Fitzherbert, E., Struebig, M., Morel, A., Danielsen, F., Bruhl, C., Donald, P., & Phalan, B. (2008). How will oil palm expansion affect biodiversity? Trends in Ecology & Evolution,23(10), 538–545. [doi:10.1016/j.tree.2008.06.012](https://www.sciencedirect.com/science/article/pii/S0169534708002528)
+
+<!-- American Consumer -->
+<!-- Indo Agricultural Services Workers -->
+<!-- Smallholder -->
+
+<!--     Imagine you are an Indonesian farmer. You grew up in rural Kalimantan in a village called Sungai Pasir. For years, you grew rice, but five years ago you were introduced to palm oil.  -->
+<!--     You currently own two hectares of land that cultivate palm oil, and you are looking to expand to four hectares within the next three years. Palm oil’s year-round yield is more consistent than that of rice, and it requires much less labor to maintain the plantation. You now have more free time because palm oil is less labor intensive, and this time has allowed you to pursue other projects and jobs while still thriving economically. Since investing in palm oil, you have been able to send your daughter and son to a university on Java, Indonesia. -->
+<!--     You are now considering becoming RSPO sustainable certified, and you’ve been invited to share your expertise and concerns at a forum hosted by the Roundtable on Sustainable Palm Oil (RSPO). There you will meet with various stakeholders from the palm oil industry, and discuss the best path forward for the commodity. -->
+
+
+<!-- Conservationist -->
+
+<!--     Imagine that, after taking this class and graduating from UF, you are employed as a conservation scientist by Orangutan Foundation International (OFI). In addition to helping with the rehabilitation of orangutans confiscated from the illegal pet trade, you conduct field research and monitor the remaining population of wild Sumatran orangutans. You have dedicated several years to orangutan conservation efforts, and you hope to save a species on the brink of extinction.  -->
+<!--     Given the strong correlation between habitat area and population size, the clearing of forests for agricultural development poses a serious threat to the survival of the orangutan. It’s no secret that the development of palm oil plantations has resulted in the loss of forested land area, but many deny, are unaware of, or are unconcerned by the extent of the deforestation and its subsequent effects on biodiversity, specifically on orangutan populations. -->
+<!--     You’ve been invited to share your expertise and concerns at a forum hosted by the Roundtable on Sustainable Palm Oil (RSPO). There you will meet with various stakeholders from the palm oil industry, and discuss the best path forward for the commodity. -->
+
+<!-- Readings: -->
+<!-- Fitzherbert, E., Struebig, M., Morel, A., Danielsen, F., Bruhl, C., Donald, P., & Phalan, B. (2008). How will oil palm expansion affect biodiversity? Trends in Ecology & Evolution,23(10), 538–545. doi:10.1016/j.tree.2008.06.012 -->
+
+<!-- 3) Member of Indonesia’s Ministry of Environment and Forestry -->
+<!-- Imagine you are a Direktur Jenderal within Indonesia’s Ministry of Environment and Forestry (MoEF). You grew up in the city of Medan on the island of Sumatra, not far from an area now dominated by palm oil plantations. After studying Land Use and Rural Development in the Netherlands, you returned home to help Indonesia manage its growing agricultural sector, eventually working your way up to your current position. -->
+<!-- You are responsible for overseeing all federal forest conservation efforts within Indonesia. The boom in palm oil production has made your job more difficult, to say the least, and you spend many of your days attempting to develop and implement effective conservation policies to combat rampant palm oil expansion. Due to MoEF’s budget constraints, this often means coordinating efforts with international NGOs and palm oil companies themselves. A few years ago, you helped introduce the Indonesian Sustainable Palm Oil Standard (ISPO)—a mandatory sustainability standard for all growers operating within Indonesia. The ISPO is similar to the RSPO, but critics say its criteria for certification are weaker, and that enforcing it is impossible without more government funding.  -->
+<!-- You’ve been invited to share your expertise and concerns at a forum hosted by the Roundtable on Sustainable Palm Oil (RSPO). There you will meet with various stakeholders from the palm oil industry, and discuss the best path forward for the commodity. -->
+<!-- Readings: -->
+<!-- Hospes, O. (2014). Marking the success or end of global multi-stakeholder governance? The rise of national sustainability standards in Indonesia and Brazil for palm oil and soyJump to Edgenote. Agriculture and Human Values,31(3), 425–437. doi:10.1007/s10460-014-9511-9 -->
+
+
+<!-- 4)  Representative of Large Palm Oil Company -->
+<!-- You are a representative of a vegetable oil company called Voil. You have recently started adding palm oil into your vegetable oil mix. To get this palm oil, you have invested in two palm oil plantations in Indonesia. They are each thousands of hectares large in rural Borneo.  -->
+<!-- Using palm oil has made your vegetable oil cheaper, and because of this price decrease, demand for your product is higher. Many of your customers are Americans, Europeans, or those from other areas where RSPO-sustainable palm oil is the only accepted palm oil. In these areas, the customers will stop buying your oil if they hear that you are linked to deforestation or other environmental degradation. Without becoming RSPO certified, you could still sell your oil in the local market, but to ensure access to these foreign markets you decided to get your two palm plantations RSPO sustainable certified.  -->
+
+<!-- Recently, you’ve been invited to share your expertise and concerns at a forum hosted by the Roundtable on Sustainable Palm Oil (RSPO). There you will meet with various stakeholders from the palm oil industry, and discuss the best path forward for the commodity. -->
+<!-- Readings: -->
+<!-- Nikoloyuk, J., Burns, T. R., & Man, R. D. (2010). The promise and limitations of partnered governance: the case of sustainable palm oilJump to Edgenote. Corporate Governance: The international journal of business in society,10(1), 59-72. doi:10.1108/14720701011021111 -->
+
+<!-- (Peimary advantages of palm oil  -->
+<!-- Uses  -->
+<!-- Alternatives  -->
+<!-- Is it worth it  -->
+<!-- Wjat if i told yiñou it was landsparing?  -->
+
+<!-- What stories mire  -->
+<!-- Compelling - loss of forest, orang, or story of the person?  -->
+<!-- ) -->
+
+
+
