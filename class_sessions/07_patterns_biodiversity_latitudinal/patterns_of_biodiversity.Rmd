@@ -1,0 +1,205 @@
+---
+title: "IDS 2935: Patterns of Biodiversity"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{Patterns of Biodiversity, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+# IDS 2935: Patterns of Biodiversity
+
+
+## Objectives and Competencies:   
+
+1. Learn the difference between species richness and species diversity 
+2. Learn and be able to describe two major patterns of species richness related to the tropics
+
+> (A) Latitudinal Diversity Gradient
+> (B) High diversity in a site, but few common species (but most are very rare)
+
+3. Learn to use iNaturalist to find or record biodiversity data
+4. Download data, import into google docs, plot, and analyze
+
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
+
+
+```{r timer, echo=FALSE}
+
+Block1_intro <- 30
+Break <- 5
+trivia <- 60
+
+total_time <- 
+  Block1_intro + 
+  Break + 
+  trivia
+
+
+time_remain <- 150 - total_time
+```
+# Class Outline (Total Time: `r total_time` min)
+\vspace{0.5cm}
+
+### **Intro: ** (`r Block1_intro` min)
+
+1. Announcements:
+
+1. Reminder: seasonality...but not in temperature, it's seasonality of rain fall.
+
+2. Tallest tree: detected with Light Detection and Ranging (LiDAR) survey in the Danum Valley Conservation Area (DVCA) in Sabah.  It was measured by climber Unding Jami with a tape measure as being 100.8 meters tall. 
+
+### Global Biodiversity
+
+1. How many species?
+2. What are they?
+
+Everyone got a different color post-it note, stand up / sit down to show the relative number of species in different groups.
+
+
+## Latitudinal Diversity Gradient
+
+Cities: 
+58: Juneau, AK (A: 3, M: 31, B: 157)
+49: Winnipeg, Manitoba, CA  (A: 6, M: 35, B: 248)
+43: Buffalo, NY (A: 4, M: 39, B: 156)
+41: Cedar Rapids, Iowa (A: 8 M: 14  B: 160 )
+<!-- Memphis , TN (A: 24  M: 36 B: 254 ) -->
+36: Nashville, TN (A: 24  M: 44 B: 274 ) *Search for "Greater Nashville) 
+31: El Paso, TX (A: 16 M: 55 B: 327)
+29: Gainesville, FL (A: 22 M: 32 B: 207)
+25: Monterrey, MEX (A: 20 M: 67 B: 376)
+18: Cuernavaca, MEX (A: 19 M: 31 B: 235)
+10: Heredia Province, Sarapiquí, Costa Rica (A: 34, M: 33, B: 240)
+9: Gamboa, Panama (A: 32  M: 55 B: 287)
+6: Medellin, Colombia (A: 18 M: 32 B: 309 )
+-3: Manaus, Brazil (A: 59 M: 136 B: 325 )
+-10: Rio Branco, AC, BR (A: 51 M: 45 B: 348 )
+-15: Cuiaba, Brazil (A: 16 M: 23 B: 246 I: 379)
+-22: Rio de Janeiro, Brazil (A: 125 M: 126 B: 589)
+-25: Curitiba, BR (A: 44 M: 55 B: 324)  (greater met area)
+<!-- Porto Alegre (A: 11 M: 20 B: 165) -->
+<!-- Asuncion, Paraguay (A: 10, M: 6, B: 131) -->
+<!-- -31 Cordoba, Argentina (A: 31 M: 59 B: 338) -->
+-32: Rosario, Argentina (A: 12 M: 22 B: 244)
+-34: Montevideo Uruguay (A: 13 M: 24 B: 214)
+-39: Valdivia, Chile (county) (A: 18 M: 45 B: 150)
+-51: Torres del Paine, Chile (Open Space) (A: 1 M: 14 B: 90)
+-53: Punta Arenas Chile (A: 0, M: 9, B: 80)
+
+
+Verifiable, Research Grade
+Yukon Territory, CA A: 3, m: 53, B: 253 (186,272 mi²)
+North Dakota, USA A: 10, B: 328, M: 59 (70,704 mi²)
+Ohio, USA A: 424, B: 141 M: 65 (44,825 mi²)
+Florida, USA A: 65, B: 576, M: 90 (65,758 mi²)
+Puebla, Mex A: 61 B:467 M: 112  (13,224 mi²)
+Honduras A: 116, B: 691, M: 154 (43,433 mi²)
+Ecuador A: 475 B: 1467, M: 299 (109,483 mi²)
+Rondonia, Brl B: 639 A: 132 M 130 (91,729 mi²)
+Rio de Janeiro A: 125, B: 589, M: 126 (16,871.2 sq mi)
+Uruguay A: 37, B: 442, M: 82 (68,037 mi²)
+
+
+
+<!-- NOTE BATS in mammals! -->
+
+
+
+
+<!-- [Forest Height Map](https://eoimages.gsfc.nasa.gov/images/imagerecords/77000/77637/forestheight_ice_2005_lrg.jpg)  -->
+<!-- Bonus: Try this video of a [forest in Costa Rica](https://www.youtube.com/watch?v=AhISnxlonxI&t=9s), complete with the dulcet tones of Richard Attenborough's narration.  -->
+
+
+
+<!-- 9.  What do you think limits their distribution? (put another way, why don't we have Tropical Rain Forests in Gainesville? Or Michigan? Or London?) -->
+
+<!-- In a rain forest, is rain going to be limited? -->
+<!-- For these big trees, is light the limiting factor? What is? -->
+<!-- What about for understory plants?  -->
+
+
+
+### **Break**  (`r Break` min)    
+
+### **NEXT PART**  (`r trivia` min)      
+<!-- UPDATES:  -->
+
+<!-- Each team needs to come up with names OR assign names with each table getting a [table stand with photo](https://www.webstaurantstore.com/choice-12-black-menu-card-holder/176CH12BK.html)  -->
+
+<!-- Set up system in advance to enter scores as we go, or enter responses and tell us if they are correct -->
+
+<!-- Be sure to take attendance to give people points OR ask them to submit their team name afterwards for 20 points -->
+
+
+
+\vspace{1.5cm}
+# Additional Resources & Reading
+\vspace{0.5cm}
+
+1. Make maps with locations on them: https://www.mapcustomizer.com/
+

@@ -1,0 +1,95 @@
+---
+title: 'WIS 2323: WHERE are Tropical Rain Forests'
+author: "Emilio M. Bruna"
+date: 'updated: `r Sys.Date()`'
+output:
+  # html_document:
+  #   df_print: paged
+  # word_document: default
+  # rmdformats::robobook: default
+  pdf_document: default
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{TRF Trivia, p. \thepage}
+- "\\fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+mainfont: SourceSansPro
+editor_options:
+  markdown:
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+# WIS 2323: Rain Forest Trivia  
+\vspace{0.5cm}
+
+## TEAM NAME: 
+
+## GROUP NUMBER: 
+
+## TEAM MEMEBERS PRESENT:  
+\vspace{0.5cm}
+1. ___  
+1. ___
+1. ___
+1. ___  
+1. ___
+1. ___
+1. ___  
+
+
+## RESPONSES: 
+
+1. ___  
+1. ___
+1. ___
+1. ___  
+1. ___
+1. ___
+1. ___  
+1. ___
+1. ___
+1. ___  
+1. ___
+1. ___
+1. ___  
+1. ___
+1. ___
+
+
+
+

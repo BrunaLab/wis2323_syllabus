@@ -1,0 +1,180 @@
+---
+title: "WIS 2323: WHAT are Tropical Rain Forests"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{WHAT are LTRF, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+# WIS 2323: WHAT are Tropical Rain Forests
+
+
+<!-- UPDATES FOR NEXT YEAR: 
+1. Add text by Antonio de León Pinelo to the "Narratives" to be evaluated  -->
+
+## Objectives and Competencies:   
+
+
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+- [ ] Trivia Items  
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
+
+```{r timer, echo=FALSE}
+
+Block1_intro <- 30
+Break <- 5
+trivia <- 60
+
+total_time <- 
+  Block1_intro + 
+  Break + 
+  trivia
+
+
+time_remain <- 150 - total_time
+```
+# Class Outline (Total Time: `r total_time` min)
+\vspace{0.5cm}
+
+### **Intro: ** (`r Block1_intro` min)
+
+1. Announcements, Movie Project Info
+
+1. Tree Slides, with reference back to the conclusions they drew in class when comparing the videos of LLP and LTRF. (~45 min)
+
+> * Structural Complexity: Layers, Canopy, Subcanopy, Understory
+
+> * Diversity of Forms: Palms, Trees, Vines/Lianas, Shrubs, Herbs, Bamboos, Epiphytes
+
+> * Understory is generally cool and dark, with sunflecks
+
+### **Break**  (`r Break` min)    
+
+### **TRIVIA**  (`r trivia` min)      
+<!-- UPDATES:  -->
+
+<!-- TODO: ADD SOME FROM THE READING  -->
+
+<!-- Each team needs to come up with names OR assign names with each table getting a [table stand with photo](https://www.webstaurantstore.com/choice-12-black-menu-card-holder/176CH12BK.html)  -->
+
+<!-- Set up system in advance to enter scores as we go, or enter responses and tell us if they are correct -->
+
+<!-- Be sure to take attendance to give people points OR ask them to submit their team name afterwards for 20 points -->
+
+1. Trivia Contest
+
+And that is our transition to what's next...what factors limit the global distribution of these forests? Put another way, why are there no rain forests in Gainesville? Or Michigan? Or London?
+
+1. How tall is Century tower? (in meters, +/- 2 m)
+
+<!-- 1. Latitude and Longitude are lines used to map the precise location places on Earth. What is the difference between latitude and longitude? -->
+
+1. What is the LATITUDE of Gainesville, Florida (rounded to the nearest degree)
+
+1. There are three latitudes so important they have theior own names: what are they?
+
+
+3. What are these lines called, what is their latitude (to the nearest degree)?
+
+4. What makes the area between the tropics of Cancer and Capricorn astronomically unique? 
+
+5. A hectare is a unit of area in the metric system? What is the area of a hectare in m2, and how many American football fields is this equal to?
+* 10K m2, ~2.5 football fields
+
+6. What is the area of the state of Florida? You may give the answer in Ha or km2 
+
+* 53,625 sq mi 
+* 138,887 km2
+* 13.8887 million ha
+
+7. How much rain forest is there in the world? Area in Ha, km2, States of Florida, or % of the earth surface (must be +/- 5%)
+
+* 1.84 billion hectares
+* 18.4 million km2
+* 132.48 Floridas
+* 2.27x the Continental USA (Area of the Continental USA = 8.1 million km2)
+
+
+8. What is the annual precipitation in Gainesville? 
+<!-- A lot of rain (rainy season) falls in the months: June, July, August, September and October. -->
+<!-- On average, September is the wettest month with 7.52 inch (191.0 mm) of precipitation. -->
+<!-- On average, November is the driest month with 2.20 inch (56.0 mm) of precipitation. -->
+The average amount of annual precipitation is: 53.50 inch (1359.0 mm)
+
+9. What are the typical max  temperature in Gainesville?
+
+On average, the warmest month is July with 91.76° Fahrenheit (33.2° Celsius).
+<!-- On average, the coolest month is January with 65.3° Fahrenheit (18.5° Celsius). -->
+<!-- The average annual maximum temperature is: 79.7° Fahrenheit (26.5° Celsius) -->
+<!-- The average annual minimum temperature is: 59° Fahrenheit (15.0° Celsius) -->
+<!-- https://weatherspark.com/y/16986/Average-Weather-in-Gainesville-Florida-United-States-Year-Round -->
+
+
+
+
+\vspace{1.5cm}
+# Additional Resources and Reading Materials
+\vspace{0.5cm}
