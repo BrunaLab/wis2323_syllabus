@@ -14,7 +14,7 @@ title-block-style: plain
 - All materials, including readings and videos, will be made available on the course Canvas page. 
 \bigskip
 
-- *Students should sign up for free online access to the New York Times and Wall Street Journal by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734)* [^1]. 
+- *Students should sign up for free online access to the New York Times, Wall Street Journal, and The Economist by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist)* [^1]. 
 
 ------------------------------------------------------------------------
 

@@ -13,3 +13,6 @@ docs
 original_class_webpage
 book
 to_delete-class_sessions
+
+**/*.quarto_ipynb
+.positai

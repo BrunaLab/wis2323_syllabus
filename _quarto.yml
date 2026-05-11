@@ -73,6 +73,7 @@ format:
     classoption: ["oneside", "open=any"]
     # cover-image: images/cover.png
     filters: [format/remove_title.lua]
+    pdf-standard: ua-2
     # header-includes: |
     #   # \titlehead{\includegraphics[height=7in]{images/cover.png}}
     toc: false

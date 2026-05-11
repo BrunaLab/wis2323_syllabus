@@ -1,34 +1,34 @@
-block,Week1,WEEK,SESSION,Day,Month,TOPIC,ASSIGNMENT DISTRIBUTED or DUE,duration,In-Class Activity,notes
-WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?,Week ,1,1,19,Aug,Class Starts Thursday!,,1,,
-,,,2,21,Aug,Course Welcome and Introduction,,2,"Intros, Cacao Questions, Survey",
-,Week ,2,1,26,Aug,Historical Narratives,,1,text analysis on their own,
-,,,2,28,Aug,"Historical Narratives, cont.",,2,group work on text analyses,
-THE ECOLOGY and EVOLUTION OF TROPICAL RAIN FORESTS,Week ,3,1,2,Sep,Rain forests in Art & Lit,,1,Q from readings,
-,,,2,4,Sep,The Rain Forest in Pop Culture,Movie Reviews Assigned,2,movie trailer exercise,
-,Week ,4,1,9,Sep,What is a Rain Forest?,,1,video analysis,
-,,,2,11,Sep,What else is a Rain Forest? ,,2,Trivia,
-,Week ,5,1,16,Sep,Patterns of biodiversity 1,,1,local diversity,
-,,,2,18,Sep,Patterns of biodiversity 2,,2,latitudinal diversity gradient,
-,Week ,6,1,23,Sep,Origins of tropical biodiversity,,1,?,
-,,,2,25,Sep,Maintenance of tropical biodiversity ,,2,?,Include Forest disturbance
-,Week ,7,1,30,Sep,Humans in rain forests 1,,1,class q and questions from reading,
-,,,2,2,Oct,Humans in rain forests 2,Movie Reviews Due,2,demog exercise,
-THE CONSEQUENCES OF FOREST LOSS,Week ,8,1,7,Oct,Paradox of Luxuriance & (Bio)Narratives Revisited,,1,?,
-,,,2,9,Oct,JUNGLE FILM FEST (7 pm),,2,qs about reading,
-,Week ,9,1,14,Oct,How much rain forest is there?,Analytic Essay Assigned,1,what is a forest + qs about reading,
-,,,2,16,Oct,How much rain forest have we lost?,,2,global forest watch exercise,
-,Week ,10,1,21,Oct,Drivers of deforestation 1,,1,class cattle article exercise,
-,,,2,23,Oct,Drivers of deforestation 2,,2,palm oil,
-THE FUTURE OF RAIN FORESTS,Week ,11,1,28,Oct,Tropical forests and climate,Analytic Essay Due,1,climate stripes ,
-,,,2,30,Oct,Tropical forests and climate change,Reflective Essay Assigned,2,Inroads,
-,Week ,12,1,4,Nov,Consumer choices,,1,supply chains,introduce tropical fruit crop markers
-,,,2,6,Nov,Tropical Commodities & DURIAN FEST,,2,durian fest slip + questions about reading,
-,Week ,13,1,11,Nov,No class - Veteran's Day,Reflective Essay Due,1,,
-,,,2,13,Nov,International conservation frameworks ,,2,,
-,Week ,14,1,18,Nov,"Protected Areas, Reforestation, Regeneration",,1,Final Project Assigned ,
-,,,2,20,Nov,Community-based Conservation,,2,Conservation Game,
-,Week ,15,1,25,Nov,No class - Thanksgiving,,1,-,
-,,,2,27,Nov,No class - Thanksgiving,,2,-,
-,Week ,16,1,2,Dec,Tropical Rain Forests and Global Health,Final Project Due,1,?,
-,,,2,4,Dec,No Class - Reading Days,,2,-,
-,Finals Week,,,9,Dec,No Final Exam,,,-,
+block,Week1,WEEK,SESSION,Day,Month,TOPIC,ASSIGNMENT DISTRIBUTED or DUE,duration,In-Class Activity,notes,
+WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?,Week ,1,1,,Aug,Class Starts Thursday,,1,,,
+,,,2,20,Aug,Course Welcome and Introduction,,2,"Intros, Cacao Questions, Survey",,
+,Week ,2,1,25,Aug,Historical Narratives,,1,text analysis on their own,,
+,,,2,27,Aug,Historical Narratives (cont.),,2,group work on text analyses,,
+THE ECOLOGY and EVOLUTION OF TROPICAL RAIN FORESTS,Week ,3,1,1,Sep,Rain forests in Art & Literature,,1,Q from readings,,0
+,,,2,3,Sep,The Rain Forest in Pop Culture,Movie Reviews Assigned,2,movie trailer exercise,,2
+,Week ,4,1,8,Sep,What is a Rain Forest?,,1,video analysis,,7
+,,,2,10,Sep,What else is a Rain Forest? ,,2,Trivia,,9
+,Week ,5,1,15,Sep,Patterns of biodiversity,,1,local diversity,,14
+,,,2,17,Sep,Patterns of biodiversity (cont.),,2,latitudinal diversity gradient,,16
+,Week ,6,1,22,Sep,Origins of tropical biodiversity,,1,?,,21
+,,,2,24,Sep,Maintenance of tropical biodiversity ,,2,?,Include Forest disturbance,23
+,Week ,7,1,29,Sep,Humans in rain forests,,1,class q and questions from reading,,28
+,,,2,1,Oct,Humans in rain forests (cont.),Movie Reviews Due,2,demog exercise,,0
+THE CONSEQUENCES OF FOREST LOSS,Week ,8,1,6,Oct,Paradox of Luxuriance & (Bio)Narratives Revisited,,1,?,,5
+,,,2,8,Oct,JUNGLE FILM FESTIVAL,,2,qs about reading,,7
+,Week ,9,1,13,Oct,How much rain forest is there?,Analytic Essay Assigned,1,what is a forest + qs about reading,,12
+,,,2,15,Oct,How much rain forest have we lost?,,2,global forest watch exercise,,14
+,Week ,10,1,20,Oct,Drivers of deforestation,,1,class cattle article exercise,,19
+,,,2,22,Oct,Drivers of deforestation (cont.),,2,palm oil,,21
+THE FUTURE OF RAIN FORESTS,Week ,11,1,27,Oct,Tropical forests and climate,Analytic Essay Due,1,climate stripes ,,26
+,,,2,29,Oct,Tropical forests and climate change,Reflective Essay Assigned,2,Inroads,,28
+,Week ,12,1,3,Nov,International conservation frameworks ,,2,,introduce tropical fruit crop markers,2
+,,,2,5,Nov,Tropical Commodities & DURIAN FEST,,2,durian fest slip + questions about reading,,4
+,Week ,13,1,10,Nov,Consumer choices & Rain Forest conservation,,1,supply chains,,9
+,,,2,12,Nov,"Protected Areas, Reforestation, and Regeneration",,1,Final Project Assigned ,,16
+,Week ,14,1,17,Nov,No class - Thanksgiving,,1,-,,23
+,,,2,19,Nov,No class - Thanksgiving,,2,-,,25
+,Week ,15,1,24,Nov,Community-based Conservation,,2,Conservation Game,,18
+,,,2,26,Nov,Media coverage of rain forests,,,,,
+,Week ,16,1,1,Dec,Rain forest and global health,Final Project Due,1,?,,0
+,,,2,3,Dec,No Class - Reading Days,,2,-,,2
+,Finals Week,,,10,Dec,No Final Exam,,,-,,9
