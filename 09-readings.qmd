@@ -8,73 +8,42 @@ execute:
 
 
 <!-- * IN CLASS: CLASS PROJECT FAIR -->
-
 <!-- In-class assignments -->
-
 <!-- 1. Day 1 Survey (Y/N Grade)   -->
-
 <!-- 1. Text Analysis - Historical.  -->
-
 <!-- 1. Photo/Lit Analysis.  -->
-
 <!-- 1. TODO: Movie Trailer Analysis (put in context of reading).  -->
-
 <!-- 1. Comparison of LLP and Tropical Forest structure in videos.  -->
-
 <!-- 1. Geography Quiz Bowl  (Y/N Grade).  -->
-
 <!-- 1. STRI Plot Diversity/Abundance Data Analysis.  -->
-
 <!-- 1. iNaturalist Lat Div Gradient.  -->
-
 <!-- 1. FLMNH Photo Safari.  -->
-
 <!-- 1. TODO: Paradox of Luxuriance Day. Questions about the reading? PCE Violations?   -->
-
 <!-- 1. Rural/Urban Population Analysis.  -->
-
 <!-- 1. TODO: Narratives Revisited.  -->
-
 <!-- 1. Movie Bingo  (Y/N Grade).  -->
-
 <!-- 1. "What is a forest? (edit to revisit after discussion?")  (Y/N Grade).  -->
-
 <!-- 1. Deforestation Data Plots.    -->
-
 <!-- 1. Deforestation 1: Palm Oil Survey.  -->
-
 <!-- 1. Deforestation 2: draw the supply chain.  -->
-
 <!-- 1. Show your stripes  (Y/N Grade).  -->
-
 <!-- 1. En-roads Group Dashboard  (Y/N Grade).  -->
-
 <!-- 1. TODO: Consumer Choices.  -->
-
 <!-- 1. Durian Fest   (Y/N Grade).  -->
-
 <!-- 1. TODO: Int'l Frameworkds : Conservation Financing Sheets?    -->
-
 <!-- 1. TODO: Local Initaitives.   -->
-
 <!-- 1. TODO: Protected Areas (currently - list of protected areas visited in last 6 mos).   -->
-
 <!-- 1. Community Conservation Negotiation Game (Y/N Grade).   -->
-
 <!-- 1. TODO: Tropical Forests & Global Health.    -->
-
 <!-- 1. Q for Journalist  (Y/N Grade).    -->
-
 <!-- 1. Conservation Values Survey  (Y/N Grade).    -->
-
 <!-- 1. indigenous Groups/Languages Quiz -->
-
 <!-- 1. (Relative) Species Diversity in Different Groups -->
-
 <!-- 1. Palm Oil Stakeholder Analysis  (Y/N Grade) -->
 
+# Weekly Reading _(Subject to Change)_
 
-# Weekly Reading  
+
 
 <!-- https://brunalab.github.io/wis2323_syllabus/readings/historical_narratives.pdf -->
 
@@ -98,9 +67,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 > *Goal: To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology*
 
--  Excerpts from Historical Narratives \[6 pages: [link](https://brunalab.github.io/wis2323_syllabus/readings/historical_narratives.pdf)\]
-
-<a href="https://github.com/BrunaLab/wis2323_syllabus/blob/53613f1d96051241c520088518b6546a1db89e6d/readings/historical_narratives.pdf" target="_blank">PDF.</a>
+-  Excerpts from Historical Narratives \[6 pages: [link](https://github.com/BrunaLab/wis2323_syllabus/blob/53613f1d96051241c520088518b6546a1db89e6d/readings/historical_narratives.pdf" target="_blank)\]
 
 ##### 2-2 Historical Narratives (cont.);  {.unnumbered}
 
@@ -112,7 +79,7 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 ##### 3-1 Rain Forest Imagery in Art & Literature {.unnumbered}
 
 > *Goal: To see how the different depictions of the tropics and tropical biodiversity from early European explorers are reflected in art and literature.*
-readings/trf_in_lit_and_poetry.pdf
+
 
 <!-- https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf -->
 - Excerpts from Literature/Poetry [link](https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf) (5 pages)  
@@ -124,7 +91,6 @@ readings/trf_in_lit_and_poetry.pdf
 
 > *Goal: To compare the use and presentation of rain forest images by the private sector and in different forms of popular culture, including the film and music industries, and to evaluate how these depictions influence perceptions of tropical countries & people.*
 
-
 -  Jolly, Priscilla. 2021. 'Godzilla vs. Kong': Monster movies evoke adventure but also 'dangers' of tropics. _The Conversation_. \[[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)\] (4 pages)
 
 - Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". The Guardian \[[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)\] (newspaper story, 5-10 min. read)
@@ -132,7 +98,7 @@ readings/trf_in_lit_and_poetry.pdf
 
 ## Week 4  {.unnumbered}
 
-##### 4-1 What is a rain forest  {.unnumbered}
+##### 4-1 What is a Rain Forest?  {.unnumbered}
 
 > *Goal: To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world.*
 
@@ -151,6 +117,7 @@ readings/trf_in_lit_and_poetry.pdf
 <!-- [Amazon video 2] (1 minutes)    -->
 
 <!-- [Amazon video 3] (1 minutes)   -->
+
 ##### 4-2 What else is a Rain Forest? {.unnumbered}
 
 > *Goal: To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals*
@@ -159,13 +126,13 @@ readings/trf_in_lit_and_poetry.pdf
 
 ## Week 5  {.unnumbered}
 
-##### 5-1  Patterns of Biodiversity 1 {.unnumbered}
+##### 5-1  Patterns of Biodiversity {.unnumbered}
 
 > *Goal: To observe and catalog the diversity of plant and animal life forms that can be found in rain forests, to quantify the local patterns of species richness and abundance in a tropical forest, and compare these patterns with those in the temperate zone*
 
 -  Ingrid Kvale, & British Broadcasting Corporation (Producers), & Kvale, I. (Director). (2021). Borneo: Sacred Forest. \[Video/DVD\] BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/borneo-sacred-forest>
 
-##### 5-2: 
+##### 5-2 Patterns of Biodiversity, (cont.) {.unnumbered}
 
 > *Goal: To understand global patterns of species richness and how these vary from the tropics to the temperate zone*
 
@@ -177,7 +144,7 @@ readings/trf_in_lit_and_poetry.pdf
 
 ## Week 6  {.unnumbered}
 
-##### 6-1: The Origins of Tropical Biodiversity, {.unnumbered}
+##### 6-1 The Origins of Tropical Biodiversity {.unnumbered}
 
 > *Goal: To review hypothesized mechanisms for the origins of tropical diversity and the role of interspecific interactions in the (co)evolution and diversification of tropical biodiversity*
 
@@ -191,7 +158,7 @@ readings/trf_in_lit_and_poetry.pdf
 -  Maybe this is the biggest flower: The Titan arum \[[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI), 2 min long\]
 
 
-##### 6-2: The maintencnace of tropical biodiversity {.unnumbered}
+##### 6-2 The maintencnace of tropical biodiversity {.unnumbered}
 
 > *Goal: To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species.*
 
@@ -205,7 +172,7 @@ readings/trf_in_lit_and_poetry.pdf
 
 ## Week 7  {.unnumbered}
 
-##### 7-1 Humans are Part of Rain Forests {.unnumbered}
+##### 7-1 Humans in Rain Forests {.unnumbered}
 
 > *Goal: To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity.*
 
@@ -213,7 +180,7 @@ readings/trf_in_lit_and_poetry.pdf
 
 <!-- MAKE NARRATIVES REVISTED PART OF THE MOVIE REVIEW ASSIGNMENT? -->
 
-##### 7-2 Humans are Part of Rain Forests (Continued) {.unnumbered}
+##### 7-2 Humans in Rain Forests (cont.) {.unnumbered}
 
 > *Goal: To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity.*
 
@@ -235,7 +202,7 @@ readings/trf_in_lit_and_poetry.pdf
 <!-- 1. ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon -->
 
 
-##### 8-2 
+##### 8-2 Jungle Film Festival
 
 ## Week 9  {.unnumbered}
 
@@ -256,7 +223,7 @@ readings/trf_in_lit_and_poetry.pdf
 
 ## Week 10  {.unnumbered}
 
-##### 10-1 Drivers & Consequences of Deforestation Part 1 {.unnumbered}
+##### 10-1 Drivers & Consequences of Deforestation {.unnumbered}
 
 > *Goal: Learn (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics.*
 
@@ -270,7 +237,7 @@ readings/trf_in_lit_and_poetry.pdf
 <!-- 1. ***Read:*** Andreoni, Manuela. 2022. "Stopping wildfires before they start". _NY Times_. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html), 5 min read]. -->
 
 
-##### 10-2 Drivers & Consequences of Deforestation Part II {.unnumbered}
+##### 10-2 Drivers & Consequences of Deforestation (cont.) {.unnumbered}
 
 > *Goal: Continue learning (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics.*
 
@@ -305,21 +272,20 @@ Henry Knight Lozano (2023) California and Florida grew quickly on the promise of
 
 ## Week 12  {.unnumbered}
 
+##### 12-1: International Conservation Frameworks {.unnumbered}
 
-##### 12-1 Consumer Choices {.unnumbered}
+> *Goal: To learn about the major local, national, and multi-national approaches to reducing deforestation by comparing their efficacy and socioeconomic impacts. REDD and Payment for Ecosystem Services.*
 
-> *Goal: To understand how global production and chains and consumer demand in Europe and North America influence patterns of deforestation in tropical countries.*
+-  UN-REDD Programme: An introduction to REDD+ [link](https://www.un-redd.org/sites/default/files/2021-10/1.%20Introduction%20to%20REDD%2B_Tim%20Christophersen.pdf).
 
--  Carodenuto, Sophia. 2021. "Chocolate fix: How the cocoa industry could end deforestation in West Africa". _The Conversation_. \[[read online](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953), 10 min read\].
+> Note: this is a slide deck designed to introduce the REDD+ framework to a general audience. The content is exceptional, but don't just read the material -- think about how it is being presented (graphics, etc.) and if it effectively communicates their message. I've asked you do this not just to prepare for today's lesson, but because it will be useful for your Final Project (TL;dr...the presentation is awful: busy slides, too much text, overly complicated graphics...we'll talk about how it could be improved).
 
--  Lawal,Shola. 2020. "Our Endless Appetite For Chocolate Has Bitter Environmental Consequences" Huffington Post. \[[read online](https://tinyurl.com/y6curgmn), 10 min read\].
+<!-- redd+ projects are developed with communities, this is an example of why some might succeed or fail -->
 
-- Williams, Wyatt. 2021. "How Your Cup of Coffee Is Clearing the Jungle". _NY Times_. \[[read online](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html)\] Longer, but really gripping and the article includes a link to an audio version if you prefer to listen to it.
-
--  **_Optional:_** Mufson, Steven and Georges, Salwan. 2019. "The trouble with chocolate" Washington Post \[[read online](https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/) to see the amazing maps, pictures, and data visualizations.
+-  Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" _NY Times_. \[[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html), 10 min read\].
 
 
-##### 12-2 Tropical Commodities & DURIAN FEST {.unnumbered}
+##### 12-2 Trade in tropical commodities & DURIAN FEST {.unnumbered}
 
 > *Goal: To learn about the global market in tropical fruit crops and the economic impact of tropical fruit production in Florida.*
 
@@ -333,29 +299,22 @@ Henry Knight Lozano (2023) California and Florida grew quickly on the promise of
 
 - ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min].
 
-
 ## Week 13  {.unnumbered}
 
-##### 13-1: Veteran's Day Holiday {.unnumbered}  
+##### 13-1 Consumer choices & Rain Forest conservation {.unnumbered}
+
+> *Goal: To understand how global production and chains and consumer demand in Europe and North America influence patterns of deforestation in tropical countries.*
+
+-  Carodenuto, Sophia. 2021. "Chocolate fix: How the cocoa industry could end deforestation in West Africa". _The Conversation_. \[[read online](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953), 10 min read\].
+
+-  Lawal,Shola. 2020. "Our Endless Appetite For Chocolate Has Bitter Environmental Consequences" Huffington Post. \[[read online](https://tinyurl.com/y6curgmn), 10 min read\].
+
+- Williams, Wyatt. 2021. "How Your Cup of Coffee Is Clearing the Jungle". _NY Times_. \[[read online](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html)\] Longer, but really gripping and the article includes a link to an audio version if you prefer to listen to it.
+
+-  **_Optional:_** Mufson, Steven and Georges, Salwan. 2019. "The trouble with chocolate" Washington Post \[[read online](https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/) to see the amazing maps, pictures, and data visualizations.
 
 
-##### 13-2 International Conservation Frameworks {.unnumbered}
-
-> *Goal: To learn about the major local, national, and multi-national approaches to reducing deforestation by comparing their efficacy and socioeconomic impacts. REDD and Payment for Ecosystem Services.*
-
--  UN-REDD Programme: An introduction to REDD+ [link](https://www.un-redd.org/sites/default/files/2021-10/1.%20Introduction%20to%20REDD%2B_Tim%20Christophersen.pdf).
-
-> Note: this is a slide deck designed to introduce the REDD+ framework to a general audience. The content is exceptional, but don't just read the material -- think about how it is being presented (graphics, etc.) and if it effectively communicates their message. I've asked you do this not just to prepare for today's lesson, but because it will be useful for your Final Project (TL;dr...the presentation is awful: busy slides, too much text, overly complicated graphics...we'll talk about how it could be improved).
-
-<!-- redd+ projects are developed with communities, this is an example of why some might succeed or fail -->
-
--  Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" _NY Times_. \[[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html), 10 min read\].
-
-
-
-## Week 14  {.unnumbered}
-
-##### 14-1 Forest Restoration & Regeneration {.unnumbered}
+##### 13-2 Protected areas, forest restoration, and forest regeneration {.unnumbered}
 
 > *Goal 1: To learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation*
 
@@ -372,8 +331,14 @@ Henry Knight Lozano (2023) California and Florida grew quickly on the promise of
 -  Jennifer Weeks. Ending Amazon deforestation: 4 essential reads about the future of the world's largest rainforest. _The Conversation_ [link](https://theconversation.com/ending-amazon-deforestation-4-essential-reads-about-the-future-of-the-worlds-largest-rainforest-194800) (4 pages) 
 
 
+## Week 14  {.unnumbered}
 
-##### 14-2 Community based conservation {.unnumbered}
+- No Class - Thanksgiving Holiday
+
+
+## Week 15  {.unnumbered}
+
+##### 15-1 Community based conservation {.unnumbered}
 
 > *Goal: To learn about how local communities are engaged in rain forest conservation and sustainable development efforts in the tropics and beyond.*
 
@@ -385,18 +350,12 @@ Katrina Kosec et al. (2025) Forest loss in Malawi: how having women at the table
 
 -  **Come prepared to make some money:** we're looking into the economic benefits of setting aside land (or not) for conservation. To prepare, review this document over before class: \[[link](https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098), 10-15 min read\].
 
+##### 15-2 Media coverage of Rain Forests {.unnumbered}
 
+> *Goal: To learn how journalists based in different countries or different global audiences chose and cover stories about rain forests and deal with the risks of covering this beat*.
 
-<!-- ##### 14-2 Rain Forest Headlines {.unnumbered} -->
+-  Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022. Inside the Amazon Journey That Left a Journalist and an Activist Dead. _NY Times_. \[[read online](https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur), 15 min read\]
 
-<!-- > *Goal: To learn how journalists based in different countries or different global audiences chose and cover stories about rain forests and deal with the risks of covering this beat*. -->
-
-<!-- -  Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022. Inside the Amazon Journey That Left a Journalist and an Activist Dead. _NY Times_. \[[read online](https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur), 15 min read\] -->
-
-
-## Week 15  {.unnumbered}
-
-- No Class - Thanksgiving Holiday
 
 ## Week 16 {.unnumbered}
 
