@@ -11,7 +11,7 @@ prefer-html: true
 # date: 09/15/2024
 date-modified: last-modified
 ---
-# Calendar & Key Dates
+# Topic Calendar & Key Dates
 
 ```{r}
 
@@ -200,25 +200,25 @@ calendar <- read_csv("./schedule.csv") %>%
 calendar |>
 gt() |>
   tab_header(
-    title = "**Course Topics and Key Dates**",
+    title = "Course Topics and Key Dates",
     # subtitle = "===")
   ) |>
   # gt(rowname_col = "WEEK") |>
   tab_row_group(
   label = "WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?",
-    rows = 3:6,
+    rows = 2:5,
     id = "why") |>
   tab_row_group(
   label = "THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS",
-    rows = 7:16,
+    rows = 6:15,
   id = "ecology") |>
   tab_row_group(
   label = "THE DRIVERS AND IMPACTS OF DEFORESTATION",
-    rows = 17:22,
+    rows = 16:21,
   id = "drivers") |>
   tab_row_group(
   label = "THE FUTURE OF TROPICAL RAIN FORESTS",
-    rows = 23:33,
+    rows = 22:31,
   id = "future") |>
     row_group_order(groups = c(NA,"why","ecology","drivers","future"))|>
    tab_style(
@@ -240,6 +240,14 @@ gt() |>
   tab_style(
     style = cell_text(color = "white", weight = "bold"),
     locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+  )|>
+   cols_width(
+    # num ~ px(150),
+    # ends_with("r") ~ px(100),
+    # starts_with("date") ~ px(200),
+    `ASSIGNMENT INFO` ~ px(125),
+    WEEK ~ px(20),
+    TOPIC ~ px(325)
   )
   
 ```
