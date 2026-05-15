@@ -16,6 +16,7 @@ date-modified: last-modified
 ```{r}
 
 library(kableExtra)
+library(gt)
 library(tidyverse)
 
 calendar <- read_csv("./schedule.csv") %>%
@@ -37,48 +38,48 @@ calendar <- read_csv("./schedule.csv") %>%
 
 # names(calendar) <- c("","","")
 
-kable(calendar,
-      # digits = 2,
-      align="cclr",
-      # format="latex",
-      # format="html",
-      row.names = FALSE,
-      escape= TRUE,
-      booktabs=T,
-      linesep = "",
-      # caption = "Semester Overview and Key Dates"
-) %>%
-  # kable_styling(font_size = 50) %>%
-  gsub("font-size: initial !important;",
-       "font-size: 50pt !important;",
-        .) %>%
-  column_spec(1, bold = F, border_right = T) %>%
-  row_spec(seq(2,32,by=2),hline_after = TRUE) %>%
-  # row_spec(seq(8,16,by=2),hline_after = TRUE) %>%
-  # column_spec(2, width = "5em", background = "white",border_right = T) %>%
-  pack_rows("WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?", 1, 6,label_row_css = "background-color: white; color: #1F691B") %>%
-  pack_rows("THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS",7,16,label_row_css = "background-color: white; color: #1F691B") %>%
-  pack_rows("THE DRIVERS AND IMPACTS OF DEFORESTATION", 17, 22,label_row_css = "background-color: white; color: #1F691B") %>%
-  pack_rows("THE FUTURE OF TROPICAL RAIN FORESTS", 23, 31,label_row_css = "background-color: white; color: #1F691B") %>%
-
-
-
-  # pack_rows("Finals Week", 49, 49) %>%
-  kable_styling(
-#     bootstrap_options = c("hover"),
-     # full_width = T,
-     latex_options= c("scale_down","HOLD_position"),
-     font_size = 9,
-position = "left") %>%
-column_spec(1, width = "8em") %>%
-# column_spec(2, width = "1em") %>%
-column_spec(2, width = "7em") %>%
-column_spec(3, width = "25em") %>%
-column_spec(4, width = "18em") %>%
-  column_spec(4, bold=T) %>%
-  column_spec(1, bold=T) %>%
-  # row_spec(49, bold=T) %>%
-  row_spec(0, bold = T, color = "white", background = "#1F691B")
+# kable(calendar,
+#       # digits = 2,
+#       align="cclr",
+#       # format="latex",
+#       # format="html",
+#       row.names = FALSE,
+#       escape= TRUE,
+#       booktabs=T,
+#       linesep = "",
+#       # caption = "Semester Overview and Key Dates"
+# ) %>%
+#   # kable_styling(font_size = 50) %>%
+#   gsub("font-size: initial !important;",
+#        "font-size: 50pt !important;",
+#         .) %>%
+#   column_spec(1, bold = F, border_right = T) %>%
+#   row_spec(seq(2,32,by=2),hline_after = TRUE) %>%
+#   # row_spec(seq(8,16,by=2),hline_after = TRUE) %>%
+#   # column_spec(2, width = "5em", background = "white",border_right = T) %>%
+#   pack_rows("WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?", 1, 6,label_row_css = "background-color: white; color: #1F691B") %>%
+#   pack_rows("THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS",7,16,label_row_css = "background-color: white; color: #1F691B") %>%
+#   pack_rows("THE DRIVERS AND IMPACTS OF DEFORESTATION", 17, 22,label_row_css = "background-color: white; color: #1F691B") %>%
+#   pack_rows("THE FUTURE OF TROPICAL RAIN FORESTS", 23, 31,label_row_css = "background-color: white; color: #1F691B") %>%
+# 
+# 
+# 
+#   # pack_rows("Finals Week", 49, 49) %>%
+#   kable_styling(
+# #     bootstrap_options = c("hover"),
+#      # full_width = T,
+#      latex_options= c("scale_down","HOLD_position"),
+#      font_size = 9,
+# position = "left") %>%
+# column_spec(1, width = "8em") %>%
+# # column_spec(2, width = "1em") %>%
+# column_spec(2, width = "7em") %>%
+# column_spec(3, width = "25em") %>%
+# column_spec(4, width = "18em") %>%
+#   column_spec(4, bold=T) %>%
+#   column_spec(1, bold=T) %>%
+#   # row_spec(49, bold=T) %>%
+#   row_spec(0, bold = T, color = "white", background = "#1F691B")
 
 ```
 
@@ -88,99 +89,158 @@ column_spec(4, width = "18em") %>%
 
 ```{r outline, echo=FALSE}
 # Week <- c(seq(1, 15, by = 1), "Finals Week")
-Week <- sort(c(seq(1, 15, by = 1),seq(2, 16, by = 1)))
-Day <- rep(c("Th","T"),15)
-Dates <- c(
-  "8/20",
-  "8/25",
-  "8/27",
-  "9/1",
-  "9/3",
-  "9/8",
-  "9/10",
-  "9/15",
-  "9/17",
-  "9/22",
-  "9/24",
-  "9/29",
-  "10/1",
-  "10/6",
-  "10/8",
-  "10/13",
-  "10/15",
-  "10/20",
-  "10/22",
-  "10/27",
-  "10/29",
-  "11/3",
-  "11/5",
-  "11/10",
-  "11/12",
-  "11/17",
-  "11/19",
-  "11/24",
-  "11/26",
-  "12/1")
-
-Topic <- c(
-"Course Welcome and Introduction",
-"Historical Narratives",
-"Historical Narratives, cont.",
-"Rain forests in Art & Lit",
-"The Rain Forest in Pop Culture",
-"What is a Rain Forest?",
-"What else is a Rain Forest? ",
-"Patterns of biodiversity 1",
-"Patterns of biodiversity 2",
-"Origins of tropical biodiversity",
-"Maintenance of tropical biodiversity ",
-"Humans in rain forests 1",
-"Humans in rain forests 2",
-"Paradox of Luxuriance & (Bio)Narratives Revisited",
-"JUNGLE FILM FESTIVAL",
-"How much rain forest is there?",
-"How much rain forest have we lost?",
-"Drivers of deforestation 1",
-"Drivers of deforestation 2",
-"Tropical forests and climate",
-"Tropical forests and climate change",
-"International conservation frameworks ",
-"Tropical Commodities & DURIAN FEST",
-"Consumer choices",
-"Protected Areas, Reforestation, Regeneration",
-"No class - Thanksgiving",
-"No class - Thanksgiving",
-"Community-based Conservation",
-"Media Coverage of Rain forest",
-"Tropical Rain Forests and Global Health"
-)
-
-
-# nrow(as.data.frame(Topic))
-outline <- data.frame(Week, Dates, Day, Topic)
-# outline <- data.frame(Dates, Day, Topic)
-# library(simplermarkdown)
-# cat(md_table(head(outline)))
+# Week <- sort(c(seq(1, 15, by = 1),seq(2, 16, by = 1)))
+# Day <- rep(c("Th","T"),15)
+# Dates <- c(
+#   "8/20",
+#   "8/25",
+#   "8/27",
+#   "9/1",
+#   "9/3",
+#   "9/8",
+#   "9/10",
+#   "9/15",
+#   "9/17",
+#   "9/22",
+#   "9/24",
+#   "9/29",
+#   "10/1",
+#   "10/6",
+#   "10/8",
+#   "10/13",
+#   "10/15",
+#   "10/20",
+#   "10/22",
+#   "10/27",
+#   "10/29",
+#   "11/3",
+#   "11/5",
+#   "11/10",
+#   "11/12",
+#   "11/17",
+#   "11/19",
+#   "11/24",
+#   "11/26",
+#   "12/1")
 # 
-# outline2 <- outline %>% 
-#   mutate(Week=if_else(as.numeric(Week)<16,paste0("**Week ",Week,"**"),"**Finals Week**")) %>% 
-#   mutate(Week=paste0(Week," (",Dates,"): ",Topic)) %>% 
-#   select(Week)
-
+# Topic <- c(
+# "Course Welcome and Introduction",
+# "Historical Narratives",
+# "Historical Narratives, cont.",
+# "Rain forests in Art & Lit",
+# "The Rain Forest in Pop Culture",
+# "What is a Rain Forest?",
+# "What else is a Rain Forest? ",
+# "Patterns of biodiversity 1",
+# "Patterns of biodiversity 2",
+# "Origins of tropical biodiversity",
+# "Maintenance of tropical biodiversity ",
+# "Humans in rain forests 1",
+# "Humans in rain forests 2",
+# "Paradox of Luxuriance & (Bio)Narratives Revisited",
+# "JUNGLE FILM FESTIVAL",
+# "How much rain forest is there?",
+# "How much rain forest have we lost?",
+# "Drivers of deforestation 1",
+# "Drivers of deforestation 2",
+# "Tropical forests and climate",
+# "Tropical forests and climate change",
+# "International conservation frameworks ",
+# "Tropical Commodities & DURIAN FEST",
+# "Consumer choices",
+# "Protected Areas, Reforestation, Regeneration",
+# "No class - Thanksgiving",
+# "No class - Thanksgiving",
+# "Community-based Conservation",
+# "Media Coverage of Rain forest",
+# "Tropical Rain Forests and Global Health"
+# )
 # 
-outline <- outline %>%
-  mutate(Week=as.character(Week)) %>%
-  mutate(Week=if_else(as.numeric(Week)>15,"16",Week))
 # 
-kable(outline,
-  align = "ccl",
-  format = "latex",
-  row.names = FALSE,
-  booktabs = T, # removes the blank line after every 5 lines)
-  linesep = "",
-  escape=T) %>%
-  kable_styling(position = "center",latex_options = "HOLD_position")
+# # nrow(as.data.frame(Topic))
+# outline <- data.frame(Week, Dates, Day, Topic)
+# # outline <- data.frame(Dates, Day, Topic)
+# # library(simplermarkdown)
+# # cat(md_table(head(outline)))
+# # 
+# # outline2 <- outline %>% 
+# #   mutate(Week=if_else(as.numeric(Week)<16,paste0("**Week ",Week,"**"),"**Finals Week**")) %>% 
+# #   mutate(Week=paste0(Week," (",Dates,"): ",Topic)) %>% 
+# #   select(Week)
+# 
+# # 
+# outline <- outline %>%
+#   mutate(Week=as.character(Week)) %>%
+#   mutate(Week=if_else(as.numeric(Week)>15,"16",Week))
+# # 
+# kable(outline,
+#   align = "ccl",
+#   format = "latex",
+#   row.names = FALSE,
+#   booktabs = T, # removes the blank line after every 5 lines)
+#   linesep = "",
+#   escape=T) %>%
+#   kable_styling(position = "center",latex_options = "HOLD_position")
+# 
+# 
+# 
+# 
+# calendar <- read_csv("./schedule.csv") %>%
+#   mutate(WEEK=paste(Week1,WEEK,sep=" ")) %>%
+#   select(-block,-Week1) %>%
+#   mutate(DATE=paste(Day,Month,sep="-")) %>%
+#   # mutate(SESSION=as.character(SESSION)) %>%
+#   select(WEEK,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+#   # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+#   replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT INFO`="")) %>%
+#   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
+#   mutate(WEEK = gsub("Finals Week NA","Finals Week", WEEK))
 
 
+calendar |>
+gt() |>
+  tab_header(
+    title = "**Course Topics and Key Dates**",
+    # subtitle = "===")
+  ) |>
+  # gt(rowname_col = "WEEK") |>
+  tab_row_group(
+  label = "WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?",
+    rows = 3:6,
+    id = "why") |>
+  tab_row_group(
+  label = "THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS",
+    rows = 7:16,
+  id = "ecology") |>
+  tab_row_group(
+  label = "THE DRIVERS AND IMPACTS OF DEFORESTATION",
+    rows = 17:22,
+  id = "drivers") |>
+  tab_row_group(
+  label = "THE FUTURE OF TROPICAL RAIN FORESTS",
+    rows = 23:33,
+  id = "future") |>
+    row_group_order(groups = c(NA,"why","ecology","drivers","future"))|>
+   tab_style(
+    style = cell_fill(color = "darkgreen"),
+    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
+  )|>
+  tab_style(
+    style = cell_text(color = "white", weight = "bold"),
+    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
+  )|>
+  tab_style(
+    style = cell_text(align = "center"),
+    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
+  )|>
+    tab_style(
+    style = cell_fill(color = "darkgreen"),
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+    )|> 
+  tab_style(
+    style = cell_text(color = "white", weight = "bold"),
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+  )
+  
 ```
 
