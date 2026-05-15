@@ -41,13 +41,9 @@ execute:
 <!-- 1. (Relative) Species Diversity in Different Groups -->
 <!-- 1. Palm Oil Stakeholder Analysis  (Y/N Grade) -->
 
-# Weekly Reading _(Subject to Change)_
+# Weekly Reading 
 
-
-
-<!-- https://brunalab.github.io/wis2323_syllabus/readings/historical_narratives.pdf -->
-
-<!-- # Weekly Assigned Reading {.unnumbered} -->
+## _Readings are subject to change based on student interests and current events_
 
 ::: {.callout-important}
 
@@ -57,19 +53,19 @@ Please review the assigned material ***before*** class. *Topics & readings are s
 
 ## Week 1  {.unnumbered}
 
-##### 1-2: Course Introduction  {.unnumbered}
+### 1-2: Course Introduction  {.unnumbered}
 
 - None
 
 ## Week 2    {.unnumbered}
 
-##### 2-1: Historical Narratives  {.unnumbered}
+### 2-1: Historical Narratives  {.unnumbered}
 
 *Goal: To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology*
 
 - Excerpts from Historical Narratives \[6 pages: [link](https://github.com/BrunaLab/wis2323_syllabus/blob/master/readings/historical_narratives.pdf){target="_blank"}]
 
-##### 2-2 Historical Narratives (cont.);  {.unnumbered}
+### 2-2 Historical Narratives (cont.);  {.unnumbered}
 
 - none
 
