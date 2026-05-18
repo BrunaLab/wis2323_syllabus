@@ -18,7 +18,7 @@ library(tidyverse)
 
 <!-- # Student Learning Objectives {.unnumbered} -->
 
-B = Biological Sciences, Q2 = Quest 2
+**B = Biological Sciences, Q2 = Quest 2**
 
 ## CONTENT {.unnumbered}  
 
@@ -35,7 +35,9 @@ B = Biological Sciences, Q2 = Quest 2
 
 (5) Analyze how narratives about rain forests are reflected in different types of contemporary cultural expression. _Assessments:_ In-class activities, Movie Reviews. (Q2).  
 
-(6) Distinguish between the primary drivers of forest loss and how they vary geographically. _Assessments:_ In-class activities, Analytic Essay. (B, Q2)  \n\n(7)  Critique different proposed mechanisms for rain forest conservation. _Assessments:_ In-class activities, Analytic Essay. (B, Q2). 
+(6) Distinguish between the primary drivers of forest loss and how they vary geographically. _Assessments:_ In-class activities, Analytic Essay. (B, Q2)  
+
+(7)  Critique different proposed mechanisms for rain forest conservation. _Assessments:_ In-class activities, Analytic Essay. (B, Q2). 
 
 ## CRITICAL THINKING {.unnumbered}  
 
