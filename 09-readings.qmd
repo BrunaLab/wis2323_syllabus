@@ -196,7 +196,7 @@ Topics & readings are subject to change based on student interests and current e
 
 #### Thursday: Jungle Film Festival
 
-### Week  9  {.unnumbered}  
+## Week  9  {.unnumbered}  
 
 #### Tuesday: How much tropical rain forest is there? {.unnumbered}  
 
@@ -365,7 +365,7 @@ Topics & readings are subject to change based on student interests and current e
 
 
 
-<!-- ### Week  15-2 Media coverage of Rain Forests  -->
+<!-- ## Week  15-2 Media coverage of Rain Forests  -->
 
 <!-- - *Goal: To learn how journalists based in different countries or different global audiences chose and cover stories about rain forests and deal with the risks of covering this beat*. -->
 
