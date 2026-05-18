@@ -30,6 +30,61 @@ calendar <- read_csv("./schedule.csv") %>%
   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
   mutate(WEEK = gsub("Finals Week NA","Finals Week", WEEK))
 
+
+
+
+calendar |>
+gt() |>
+  tab_header(
+    title = "Course Topics and Key Dates",
+    # subtitle = "===")
+  ) |>
+  # gt(rowname_col = "WEEK") |>
+  tab_row_group(
+  label = "WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?",
+    rows = 2:5,
+    id = "why") |>
+  tab_row_group(
+  label = "THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS",
+    rows = 6:15,
+  id = "ecology") |>
+  tab_row_group(
+  label = "THE DRIVERS AND IMPACTS OF DEFORESTATION",
+    rows = 16:21,
+  id = "drivers") |>
+  tab_row_group(
+  label = "THE FUTURE OF TROPICAL RAIN FORESTS",
+    rows = 22:31,
+  id = "future") |>
+    row_group_order(groups = c(NA,"why","ecology","drivers","future"))|>
+   tab_style(
+    style = cell_fill(color = "darkgreen"),
+    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
+  )|>
+  tab_style(
+    style = cell_text(color = "white", weight = "bold"),
+    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
+  )|>
+  tab_style(
+    style = cell_text(align = "center"),
+    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
+  )|>
+    tab_style(
+    style = cell_fill(color = "darkgreen"),
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+    )|> 
+  tab_style(
+    style = cell_text(color = "white", weight = "bold"),
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+  )|>
+   cols_width(
+    # num ~ px(150),
+    # ends_with("r") ~ px(100),
+    # starts_with("date") ~ px(200),
+    `ASSIGNMENT INFO` ~ px(125),
+    WEEK ~ px(20),
+    TOPIC ~ px(325)
+  )
 # %>%
 #   mutate(WEEK = gsub("NA Final Exam","", WEEK))
 #
@@ -196,59 +251,6 @@ calendar <- read_csv("./schedule.csv") %>%
 #   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
 #   mutate(WEEK = gsub("Finals Week NA","Finals Week", WEEK))
 
-
-calendar |>
-gt() |>
-  tab_header(
-    title = "Course Topics and Key Dates",
-    # subtitle = "===")
-  ) |>
-  # gt(rowname_col = "WEEK") |>
-  tab_row_group(
-  label = "WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?",
-    rows = 2:5,
-    id = "why") |>
-  tab_row_group(
-  label = "THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS",
-    rows = 6:15,
-  id = "ecology") |>
-  tab_row_group(
-  label = "THE DRIVERS AND IMPACTS OF DEFORESTATION",
-    rows = 16:21,
-  id = "drivers") |>
-  tab_row_group(
-  label = "THE FUTURE OF TROPICAL RAIN FORESTS",
-    rows = 22:31,
-  id = "future") |>
-    row_group_order(groups = c(NA,"why","ecology","drivers","future"))|>
-   tab_style(
-    style = cell_fill(color = "darkgreen"),
-    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
-  )|>
-  tab_style(
-    style = cell_text(color = "white", weight = "bold"),
-    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
-  )|>
-  tab_style(
-    style = cell_text(align = "center"),
-    locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
-  )|>
-    tab_style(
-    style = cell_fill(color = "darkgreen"),
-    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
-    )|> 
-  tab_style(
-    style = cell_text(color = "white", weight = "bold"),
-    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
-  )|>
-   cols_width(
-    # num ~ px(150),
-    # ends_with("r") ~ px(100),
-    # starts_with("date") ~ px(200),
-    `ASSIGNMENT INFO` ~ px(125),
-    WEEK ~ px(23),
-    TOPIC ~ px(325)
-  )
   
 ```
 
