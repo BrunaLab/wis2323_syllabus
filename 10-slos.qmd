@@ -1,16 +1,12 @@
 ---
 title-block-style: plain
-# date: 09/15/2024
-# date-modified: last-modified
 execute:
   echo: false
 ---
 
 
-
 # Student Learning Objectives
 
-<!-- # Student Learning Objectives {.unnumbered} -->
 
 **B = Biological Sciences, Q2 = Quest 2**
 
