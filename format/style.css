@@ -55,9 +55,14 @@ h3 {
    font-size: 1.2rem; 
  }
 
-h4 { font-size: 1.1rem; 
-margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+h4 { 
+  color: navy;
+  font-family: Arial;
+   font-weight: bold;
+   text-align: left;
+   font-size: 1.1rem; 
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
   
 }
 
