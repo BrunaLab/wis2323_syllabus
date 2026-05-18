@@ -40,7 +40,7 @@ book:
     - 06-faq.qmd
     - 07-policies.qmd
     - 08-resources.qmd
-    # - 09-readings.qmd
+    - 09-readings.qmd
     - 10-slos.qmd
     # - 11-posters.qmd
     
