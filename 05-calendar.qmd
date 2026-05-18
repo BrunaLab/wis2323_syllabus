@@ -246,7 +246,7 @@ gt() |>
     # ends_with("r") ~ px(100),
     # starts_with("date") ~ px(200),
     `ASSIGNMENT INFO` ~ px(125),
-    WEEK ~ px(20),
+    WEEK ~ px(23),
     TOPIC ~ px(325)
   )
   
