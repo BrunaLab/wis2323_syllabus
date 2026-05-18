@@ -43,11 +43,9 @@ execute:
 
 # Assigned Reading & Viewing
 
-## _Readings subject to change based on student interests & current events_   {.unnumbered}  
-
 ::: {.callout-important}
 
-Please review the assigned material ***before*** class. *Topics & readings are subject to change based on current events; changes will be announced via Canvas.*  
+Topics & readings are subject to change based on student interests and current events; changes will be announced via Canvas. *Please read or watch all assigned material before class.*
 
 :::
 
