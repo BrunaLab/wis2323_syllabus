@@ -33,15 +33,15 @@ book:
   
   chapters:
     - index.qmd
-    - 02-materials.qmd
-    - 03-office_hours.qmd
-    - 04-grades.qmd
-    - 05-calendar.qmd
-    - 06-faq.qmd
-    - 07-policies.qmd
-    - 08-resources.qmd
+    # - 02-materials.qmd
+    # - 03-office_hours.qmd
+    # - 04-grades.qmd
+    # - 05-calendar.qmd
+    # - 06-faq.qmd
+    # - 07-policies.qmd
+    # - 08-resources.qmd
     - 09-readings.qmd
-    - 10-slos.qmd
+    # - 10-slos.qmd
     # - 11-posters.qmd
     
     # 
