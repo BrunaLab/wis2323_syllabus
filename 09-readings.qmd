@@ -1,6 +1,10 @@
 ---
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
 title-block-style: plain
-date-modified: last-modified
 prefer-html: true
 ---
 

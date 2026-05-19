@@ -1,7 +1,11 @@
 ---
-title-block-style: plain
+format: pdf
 execute:
   echo: false
+  warning: false
+  message: false
+title-block-style: plain
+prefer-html: true
 ---
 
 
