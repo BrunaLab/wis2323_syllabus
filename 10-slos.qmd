@@ -7,8 +7,8 @@ execute:
 
 # Student Learning Objectives
 
+**B = Biological Sciences, Q2 = Quest 2**  
 
-**B = Biological Sciences, Q2 = Quest 2**
 
 ## CONTENT {.unnumbered}  
 
