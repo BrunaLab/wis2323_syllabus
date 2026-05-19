@@ -63,9 +63,9 @@ _**Goal:** To learn the different ways biologists define the "tropics" and how t
 
 - **Watch:** BBC Planet Earth: Jungles. 2006. [Watch online](https://video.alexanderstreet.com/watch/jungles) (access with your Gatorlink, 51 min).
 
-<!-- - Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. \[Video/DVD) BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/Jungles-2>.  OR
+<!-- - Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. \[Video/DVD) BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/Jungles-2>. -->
 
-<!-- >***Watch: *** We will be using the following videos for our in-class activity, you can get a head start by watching them before class. -->
+<!-- **Watch:** We will be using the following videos for our in-class activity, you can get a head start by watching them before class. -->
 
 <!-- [Longleaf Pine Forest] (3 minutes) -->
 
@@ -81,88 +81,88 @@ _**Goal:** To learn the different ways biologists define the "tropics" and how t
 
 _**Goal:** To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals._
 
-1. - **Read:** _No readings._
+- **Read:** _No readings._
 
 
-<!-- ## Week  5  {.unnumbered} -->
+## Week  5  {.unnumbered}
 
-<!-- #### Tuesday: Patterns of Biodiversity {.unnumbered} -->
+#### Tuesday: Patterns of Biodiversity {.unnumbered}
 
-<!-- _**Goal:** To observe and catalog the diversity of plant and animal life forms that can be found in rain forests, to quantify the local patterns of species richness and abundance in a tropical forest, and compare these patterns with those in the temperate zone._ -->
-
-
-<!-- - **Watch:** CBS News. Inside the Smithsonian's tropical forest lab.  ([link](https://www.youtube.com/watch?v=-p12cyHJZf4), watch 5:35) -->
-
-<!-- - **Read:** Butler, Rhett. 2015. How many tree species are found in the world’s rainforests? _Mongabay_ ([read online](https://news.mongabay.com/2015/06/how-many-tree-species-are-found-in-the-worlds-rainforests/), 5 min.) -->
-
-<!-- <!-- STRI “The queen of the forest” https://www.youtube.com/watch?v=XI2TO7fFGi0 --> -->
-<!-- <!-- - Ingrid Kvale, & British Broadcasting Corporation (Producers), & Kvale, I. (Director). (2021). Borneo: Sacred Forest. \[Video/DVD) BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/borneo-sacred-forest> --> -->
-
-<!-- <!-- ForestPlotsTVTaking the pulse of Earth’s tropical forests using networks of highly distributed plots https://www.youtube.com/watch?v=SFM1tVziIk0 --> -->
+_**Goal:** To observe and catalog the diversity of plant and animal life forms that can be found in rain forests, to quantify the local patterns of species richness and abundance in a tropical forest, and compare these patterns with those in the temperate zone._
 
 
-<!-- #### Thursday: Patterns of Biodiversity, continued {.unnumbered} -->
+- **Watch:** CBS News. Inside the Smithsonian's tropical forest lab.  ([link](https://www.youtube.com/watch?v=-p12cyHJZf4), watch 5:35)
 
-<!-- _**Goal:** To understand global patterns of species richness and how these vary from the tropics to the temperate zone._ -->
+- **Read:** Butler, Rhett. 2015. How many tree species are found in the world’s rainforests? _Mongabay_ ([read online](https://news.mongabay.com/2015/06/how-many-tree-species-are-found-in-the-worlds-rainforests/), 5 min.)
 
-<!-- - **Read:** Matthew Earl Boone and Mathieu Basille. Using iNaturalist to contribute your nature observations to science. UF EDIS Document WEC413: <https://journals.flvc.org/edis/article/view/107698/110114> (4 pages) and then familiarize yourself with the `iNaturalist` website: <https://www.inaturalist.org/> -->
+<!-- STRI “The queen of the forest” https://www.youtube.com/watch?v=XI2TO7fFGi0 -->
+<!-- - Ingrid Kvale, & British Broadcasting Corporation (Producers), & Kvale, I. (Director). (2021). Borneo: Sacred Forest. \[Video/DVD) BBC Worldwide. Retrieved from <https://video.alexanderstreet.com/watch/borneo-sacred-forest> -->
 
-
-<!-- ## Week  6  {.unnumbered} -->
-
-<!-- #### Tuesday: The Origins of Tropical Biodiversity {.unnumbered} -->
-
-<!-- _**Goal:** To review hypothesized mechanisms for the origins of tropical diversity and the role of interspecific interactions in the (co)evolution and diversification of tropical biodiversity_ -->
+<!-- ForestPlotsTVTaking the pulse of Earth’s tropical forests using networks of highly distributed plots https://www.youtube.com/watch?v=SFM1tVziIk0 -->
 
 
-<!-- #### Thursday: The maintenance of tropical biodiversity {.unnumbered} -->
+#### Thursday: Patterns of Biodiversity, continued {.unnumbered}
 
-<!-- _**Goal:** To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species_ -->
+_**Goal:** To understand global patterns of species richness and how these vary from the tropics to the temperate zone._
 
-
-<!-- ## Week  7  {.unnumbered} -->
-
-<!-- #### Tuesday: Humans in Rain Forests {.unnumbered} -->
-
-<!-- _**Goal:** To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity._ -->
-
-<!-- - **Watch:** Kristine Allington, Michael Amundson, Linithd Aparicio, & Caitlin Saks (Producers), & Townsley, G. (Director). (2023). Ancient Builders of the Amazon. \[Video/DVD) Public Broadcasting Service. Retrieved from <https://video.alexanderstreet.com/watch/ancient-builders-of-the-amazon> -->
-
-<!-- - **Read:** Hunt, Chris and Premathilake, Rathnasiri. 2018. "Prehistoric people started to spread domesticated bananas across the world 6,000 years ago." _The Conversation_. ([read online](https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547), 5 min). -->
+- **Read:** Matthew Earl Boone and Mathieu Basille. Using iNaturalist to contribute your nature observations to science. UF EDIS Document WEC413: <https://journals.flvc.org/edis/article/view/107698/110114> (4 pages) and then familiarize yourself with the `iNaturalist` website: <https://www.inaturalist.org/>
 
 
-<!-- <!-- MAKE NARRATIVES REVISTED PART OF THE MOVIE REVIEW ASSIGNMENT? --> -->
+## Week  6  {.unnumbered}
 
-<!-- #### Thursday: Humans in Rain Forests, continued {.unnumbered} -->
+#### Tuesday: The Origins of Tropical Biodiversity {.unnumbered}
 
-<!-- - **Read:** No readings -->
-
-
-<!-- ## Week  8  {.unnumbered} -->
-
-<!-- #### Tuesday: Paradox of Luxuriance {.unnumbered} -->
-
-<!-- <!-- & (Bio)Narratives Revisited {.unnumbered}   --> -->
-
-<!-- _**Goal:** To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this "Paradox of Luxuriance"._ -->
-
-<!-- <!-- - Langewiesche, William. 2022. "The War for the Rainforest." _NY Times_. ([read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)) --> -->
-
-<!-- - **Watch:** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](----), 50 min long]. -->
-
-<!-- <!-- https://play.hbomax.com/video/watch/09e513a5-4bdd-4dfc-80c2-4cbe9ddb2763/d747186e-04f5-4f7a-91e2-7d3ec37e6038 --> -->
-
-<!-- <!-- - **Read:** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read]. --> -->
-
-<!-- - **Read:** Brooks, David. 2010. The Messiah Complex. _The New York Times_. ([link to editorial](https://www.nytimes.com/2010/01/08/opinion/08brooks.html), 5 min. read)) -->
-
-<!-- <!-- - Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". The Guardian ([link](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)) (newspaper story, 5-10 min. read) --> -->
+_**Goal:** To review hypothesized mechanisms for the origins of tropical diversity and the role of interspecific interactions in the (co)evolution and diversification of tropical biodiversity_
 
 
-<!-- <!-- 1. ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon --> -->
+#### Thursday: The maintenance of tropical biodiversity {.unnumbered}
+
+_**Goal:** To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species_
 
 
-<!-- #### Thursday: Jungle Film Festival -->
+## Week  7  {.unnumbered}
+
+#### Tuesday: Humans in Rain Forests {.unnumbered}
+
+_**Goal:** To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity._
+
+- **Watch:** Kristine Allington, Michael Amundson, Linithd Aparicio, & Caitlin Saks (Producers), & Townsley, G. (Director). (2023). Ancient Builders of the Amazon. \[Video/DVD) Public Broadcasting Service. Retrieved from <https://video.alexanderstreet.com/watch/ancient-builders-of-the-amazon>
+
+- **Read:** Hunt, Chris and Premathilake, Rathnasiri. 2018. "Prehistoric people started to spread domesticated bananas across the world 6,000 years ago." _The Conversation_. ([read online](https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547), 5 min).
+
+
+<!-- MAKE NARRATIVES REVISTED PART OF THE MOVIE REVIEW ASSIGNMENT? -->
+
+#### Thursday: Humans in Rain Forests, continued {.unnumbered}
+
+- **Read:** No readings
+
+
+## Week  8  {.unnumbered}
+
+#### Tuesday: Paradox of Luxuriance {.unnumbered}  
+
+<!-- & (Bio)Narratives Revisited {.unnumbered}   -->
+
+_**Goal:** To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this "Paradox of Luxuriance"._
+
+<!-- - Langewiesche, William. 2022. "The War for the Rainforest." _NY Times_. ([read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)) -->
+
+- **Watch:** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](url needed), 50 min long].
+
+<!-- https://play.hbomax.com/video/watch/09e513a5-4bdd-4dfc-80c2-4cbe9ddb2763/d747186e-04f5-4f7a-91e2-7d3ec37e6038 -->
+
+<!-- - **Read:** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read]. -->
+
+- **Read:** Brooks, David. 2010. The Messiah Complex. _The New York Times_. ([link to editorial](https://www.nytimes.com/2010/01/08/opinion/08brooks.html), 5 min. read))
+
+<!-- - Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". The Guardian ([link](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)) (newspaper story, 5-10 min. read) -->
+
+
+<!-- 1. ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon -->
+
+
+#### Thursday: Jungle Film Festival  {.unnumbered}
 
 <!-- ## Week  9  {.unnumbered} -->
 
