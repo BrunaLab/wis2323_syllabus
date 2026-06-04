@@ -118,43 +118,30 @@ format:
     include-in-header:
     
       text: |
-          \usepackage{fontspec}
-          \setmainfont{Source Sans Pro}
-          \renewcommand{\familydefault}{\sfdefault}
-          \usepackage{xcolor}
-          \usepackage{sectsty}
-          \usepackage{titlesec}
-          \definecolor{customnavy}{RGB}{0, 0, 128}
-          \usepackage{amssymb}
-          \usepackage{pifont}
-          \usepackage{wasysym}
-          \usepackage{fontawesome5}
-          \usepackage{etoolbox}
-          \makeatletter
-          \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-          % Main headings - centered
-          \titleformat{\section}
-            {\normalfont\Large\bfseries\color{customnavy}\centering}
-            {}
-            {0pt}
-            {}
-          % Subsections - flush left
-          \titleformat{\subsection}
-            {\normalfont\large\bfseries\color{customnavy}\raggedright}
-            {}
-            {0pt}
-            {}
-          % Subsubsections - flush left
-          \titleformat{\subsubsection}
-            {\normalfont\bfseries\color{customnavy}\raggedright}
-            {}
-            {0pt}
-            {}
-          % Spacing
-          \titlespacing*{\section}{0pt}{0pt}{0pt}
-          \titlespacing*{\subsection}{0pt}{2pt}{2pt}
-          \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}
-         
+        \usepackage{xcolor}
+        \usepackage{sectsty}
+        \usepackage{titlesec}
+        \definecolor{customnavy}{RGB}{0, 0, 128}
+        \sectionfont{\color{customnavy}}
+        \subsectionfont{\color{customnavy}}   
+        \subsubsectionfont{\color{customnavy}}   
+        \usepackage{amssymb}
+        \usepackage{pifont}
+        \usepackage{wasysym}
+        \usepackage{fontawesome5}
+        \usepackage{etoolbox}
+        \makeatletter
+        \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+        % Adjust spacing before and after headings
+        \usepackage{titlesec}
+        \titleformat{\section}
+          {\normalfont\Large\bfseries\color{customnavy}\centering} % Format
+          {} % Label (empty = no number)
+          {0pt} % Separation between label and title
+          {} % Before-code
+        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex
