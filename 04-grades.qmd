@@ -17,13 +17,13 @@ Learning in our class is achieved with an diverse array of methods ranging from 
 We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. *Disrespectful or disruptive behavior will not be tolerated*. And always remember that as scholars we rely on critical thinking, data, prior scholarship, and expert opinion when interrogating assigned readings and discussing course content with classmates and instructors.
 :::
 
-## Assignments (1000 pts total) {.unnumbered} 
+## Assignments (1000 pts total) {.unnumbered}  
+
 
 <!-- ```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '100%',fig.align="center" } -->
 
 <!-- knitr::include_graphics("images/hw.png") -->
 <!-- ``` -->
-
 
 ```{r assignments,echo = FALSE ,message = FALSE,warning = FALSE}
 
