@@ -46,7 +46,7 @@ gt() |>
     # subtitle = "===")
   ) |>
   cols_width(
-    Assignment ~ px(200),
+    Assignment ~ px(100),
     Points ~ px(30),
     Percent ~ px(30)
   )|>
