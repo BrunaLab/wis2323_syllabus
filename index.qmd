@@ -18,17 +18,17 @@ This course investigates the fundamental issues addressed by scientists studying
 -   Identify rain forests in their daily lives & set personal goals for advancing their conservation
 -   Produce materials for communicating about tropical biology & conservation to family and peers
 
-### When & Where {.unnumbered}
+## When & Where {.unnumbered}
 
 **When:** Tuesdays 11:45 AM-12:35 PM (Period 5) & Thursdays 11:45 AM-1:40 PM (Periods 5-6)\
 **Where:** Larsen Hall 0310 (both days)\ 
 
-### Instructor & TA {.unnumbered}
+## Instructor & TA {.unnumbered}
 
 **Instructor:** Dr. Emilio M. Bruna (email: embruna@ufl.edu, phone: (352) 846-0634)
 <!-- **Teaching Assistant:** Priyanka Hari Haran [phariharan1\@ufl.edu, (352) 846-0527] -->
 
-### Credits & Prerequisites {.unnumbered}
+## Credits & Prerequisites {.unnumbered}
 
 <!-- # GenEd, Quest, & Credit Information {.unnumbered} -->
 
@@ -39,12 +39,12 @@ This course investigates the fundamental issues addressed by scientists studying
 
 A minimum grade of C is required for Quest and General Education credit. Courses intended to satisfy Quest and General Education requirements cannot be taken S-U. <!-- *This course fulfills the following Quest and GenEd requirements:* -->
 
-### Minors & Certificates {.unnumbered}
+## Minors & Certificates {.unnumbered}
 
 This course counts towards the Minor in Latin American Studies. See  <https://www.latam.ufl.edu/academics/undergraduate-programs> for more information.
 
 
-### University Policies and Resources {.unnumbered}
+## University Policies and Resources {.unnumbered}
 
 Information about grading policies, support for students with disabilities, course evaluations, the Honor Code, and other course policies and campus resources can be found on the [Syllabus Policies page](https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/).  
 

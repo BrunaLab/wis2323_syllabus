@@ -5,6 +5,7 @@ css: format/style.css
   
 book:
   output-file: "wis2323-syllabus"
+  title: "Course Syllabus"
   # author: "Emilio M. Bruna"
   # date: 07/31/2025
   # date: last-modified
@@ -58,7 +59,7 @@ csl: format/ecology.csl
 format:
   html:
     # title-block: false
-    title: Course Syllabus
+    title: "Course Syllabus"
     title-block-banner: images/banner.png
     theme: 
       - cosmo

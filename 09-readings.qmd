@@ -20,26 +20,26 @@ Topics & readings are subject to change based on student interests and current e
 
 ## Week  1  {.unnumbered}
 
-#### Thursday: Course Introduction  {.unnumbered}
+### Thursday: Course Introduction  {.unnumbered}
 
 ***Reading/Viewing:*** None
 
 ## Week  2    {.unnumbered}
 
-#### Tuesday: Historical Narratives  {.unnumbered}
+### Tuesday: Historical Narratives  {.unnumbered}
 
 _**Goal:** To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology_  
 
 (@) Excerpts from Historical Narratives ([read online](https://github.com/BrunaLab/wis2323_syllabus/blob/master/readings/historical_narratives.pdf){target="_blank"}, 6 pages)
 
-#### Thursday: Historical Narratives (cont.) {.unnumbered}
+### Thursday: Historical Narratives (cont.) {.unnumbered}
 
 - _No additional readings._  
 
 
 ## Week  3   {.unnumbered}
 
-#### Tuesday: Rain Forest Imagery in Art & Literature {.unnumbered}
+### Tuesday: Rain Forest Imagery in Art & Literature {.unnumbered}
 
 _**Goal:** To see how the different depictions of the tropics and tropical biodiversity from early European explorers are reflected in art and literature._
 
@@ -48,7 +48,7 @@ _**Goal:** To see how the different depictions of the tropics and tropical biodi
 (@) Images of artwork ([link](https://github.com/BrunaLab/wis2323_syllabus/blob/01e5e3e522b4add784b5b860240c1302ce60b09f/readings/tropical_paintings.pdf){target="_blank"},5 pages)
 
 
-#### Thursday: The Rain Forest in Pop Culture {.unnumbered}
+### Thursday: The Rain Forest in Pop Culture {.unnumbered}
 
 _**Goal:** To compare the use and presentation of rain forest images by the private sector and in different forms of popular culture, including the film and music industries, and to evaluate how these depictions influence perceptions of tropical countries & people._
 
@@ -58,7 +58,7 @@ _**Goal:** To compare the use and presentation of rain forest images by the priv
 
 ## Week  4  {.unnumbered}
 
-#### Tuesday: What is a Rain Forest?  {.unnumbered}
+### Tuesday: What is a Rain Forest?  {.unnumbered}
 
 _**Goal:** To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world._
 
@@ -80,7 +80,7 @@ _**Goal:** To learn the different ways biologists define the "tropics" and how t
 
 <!-- [Amazon video 3] (1 minutes)   -->
 
-#### Thursday: Where is a Rain Forest? {.unnumbered}
+### Thursday: Where is a Rain Forest? {.unnumbered}
 
 _**Goal:** To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals._
 
@@ -89,7 +89,7 @@ _**Goal:** To understand the geological history of tropical rain forests, how cl
 
 ## Week  5  {.unnumbered}
 
-#### Tuesday: Patterns of Biodiversity {.unnumbered}
+### Tuesday: Patterns of Biodiversity {.unnumbered}
 
 _**Goal:** To observe and catalog the diversity of plant and animal life forms that can be found in rain forests, to quantify the local patterns of species richness and abundance in a tropical forest, and compare these patterns with those in the temperate zone._
 
@@ -103,7 +103,7 @@ _**Goal:** To observe and catalog the diversity of plant and animal life forms t
 <!-- ForestPlotsTVTaking the pulse of Earth’s tropical forests using networks of highly distributed plots https://www.youtube.com/watch?v=SFM1tVziIk0 -->
 
 
-#### Thursday: Patterns of Biodiversity, continued {.unnumbered}
+### Thursday: Patterns of Biodiversity, continued {.unnumbered}
 
 _**Goal:** To understand global patterns of species richness and how these vary from the tropics to the temperate zone._
 
@@ -112,13 +112,13 @@ _**Goal:** To understand global patterns of species richness and how these vary 
 
 ## Week  6  {.unnumbered}
 
-#### Tuesday: The Origins of Tropical Biodiversity {.unnumbered}
+### Tuesday: The Origins of Tropical Biodiversity {.unnumbered}
 
 _**Goal:** To review hypothesized mechanisms for the origins of tropical diversity and the role of interspecific interactions in the (co)evolution and diversification of tropical biodiversity_
 
 - No readings for today's class 
 
-#### Thursday: The maintenance of tropical biodiversity {.unnumbered}
+### Thursday: The maintenance of tropical biodiversity {.unnumbered}
 
 _**Goal:** To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species_
 
@@ -126,7 +126,7 @@ _**Goal:** To review the biotic and abiotic mechanisms in tropical rain forests 
 
 ## Week  7  {.unnumbered}
 
-#### Tuesday: Humans in Rain Forests {.unnumbered}
+### Tuesday: Humans in Rain Forests {.unnumbered}
 
 _**Goal:** To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity._
 
@@ -137,13 +137,13 @@ _**Goal:** To understand the history of human occupation of rain forests includi
 
 <!-- MAKE NARRATIVES REVISTED PART OF THE MOVIE REVIEW ASSIGNMENT? -->
 
-#### Thursday: Humans in Rain Forests, continued {.unnumbered}
+### Thursday: Humans in Rain Forests, continued {.unnumbered}
 
 - No readings for today's class 
 
 ## Week  8  {.unnumbered}
 
-#### Tuesday: Paradox of Luxuriance {.unnumbered}  
+### Tuesday: Paradox of Luxuriance {.unnumbered}  
 
 <!-- & (Bio)Narratives Revisited {.unnumbered}   -->
 
@@ -165,7 +165,7 @@ _**Goal:** To understand how such a productive biome can be built on such low-qu
 <!-- (@) ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon -->
 
 
-#### Thursday: Jungle Film Festival  {.unnumbered}
+### Thursday: Jungle Film Festival  {.unnumbered}
 
 - No readings for today's class 
 
@@ -173,13 +173,13 @@ _**Goal:** To understand how such a productive biome can be built on such low-qu
 ## Week  9  {.unnumbered}
 
 
-#### Tuesday: How much tropical rain forest is there? {.unnumbered}
+### Tuesday: How much tropical rain forest is there? {.unnumbered}
 
 _**Goal:** To learn how forest cover is defined and estimated and how it varies globally._
 
 (@) Louis Lucero. (2013). New Interactive Tool Helps Track Earth’s Forests. _New York Times_. ([read online](https://www.nytimes.com/2013/11/15/science/earth/new-interactive-tool-helps-track-earths-forests.html), 10 min read).
 
-#### Thursday: How much tropical rain forest have we lost? {.unnumbered}  
+### Thursday: How much tropical rain forest have we lost? {.unnumbered}  
 
 _**Goal:** To use forest cover data to estimate rates of tropical forest loss over time._
 
@@ -193,7 +193,7 @@ _**Goal:** To use forest cover data to estimate rates of tropical forest loss ov
 
 ## Week  10  {.unnumbered}
 
-#### Tuesday: Drivers & Ecological Consequences of Deforestation {.unnumbered}  
+### Tuesday: Drivers & Ecological Consequences of Deforestation {.unnumbered}  
 
 _**Goal:** Learn (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics._
 
@@ -204,7 +204,7 @@ _**Goal:** Learn (a) how deforestation and other human activities alter the stru
 (@) Andreoni, Manuela, Blacki Migliozzi, Pablo Robles and Denise Lu with photographs by Victor Moriyama. (2022). The Illegal Airstrips Bringing Toxic Mining to Brazil's Indigenous Land. _New York Times_. ([read online](https://www.nytimes.com/interactive/2022/08/02/world/americas/brazil-airstrips-illegal-mining.html), 15 min read).
 
 
-#### Thursday: Drivers & Ecological Consequences of Deforestation, continued {.unnumbered}
+### Thursday: Drivers & Ecological Consequences of Deforestation, continued {.unnumbered}
 
 _**Goal:** Continue learning (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics._
 
@@ -219,7 +219,7 @@ _**Goal:** Continue learning (a) how deforestation and other human activities al
 ## Week  11  {.unnumbered}
 
 
-#### Tuesday: Tropical Forests & Global Climate {.unnumbered}
+### Tuesday: Tropical Forests & Global Climate {.unnumbered}
 
 _**Goal:** Climate change and Tropical Forests To understand the relationship between tropical forests, deforestation, and the global climate cycle._
 
@@ -229,7 +229,7 @@ _**Goal:** Climate change and Tropical Forests To understand the relationship be
 (@) Pearce, Fred. (2018). Rivers in the Sky: How Deforestation Is Affecting Global Water Cycles. _Yale360_. ([read online](https://e360.yale.edu/features/how-deforestation-affecting-global-water-cycles-climate-change), 10 min read).
 
 
-#### Thursday: Tropical Forests & Climate Change {.unnumbered}
+### Thursday: Tropical Forests & Climate Change {.unnumbered}
 
 (@) Henry Knight Lozano (2023) California and Florida grew quickly on the promise of perfect climates in the 1900s – today, they lead the country in climate change risks. _The Conversation_. [Link](https://theconversation.com/california-and-florida-grew-quickly-on-the-promise-of-perfect-climates-in-the-1900s-today-they-lead-the-country-in-climate-change-risks-207470)
 
@@ -237,7 +237,7 @@ _**Goal:** Climate change and Tropical Forests To understand the relationship be
 
 ## Week  12  {.unnumbered}
 
-#### Tuesday: International Conservation Frameworks {.unnumbered}
+### Tuesday: International Conservation Frameworks {.unnumbered}
 
 _**Goal:** To learn about the major local, national, and multi-national approaches to reducing deforestation by comparing their efficacy and socioeconomic impacts. REDD and Payment for Ecosystem Services._
 
@@ -257,7 +257,7 @@ _**Goal:** To learn about the major local, national, and multi-national approach
 <!-- The world’s new US$125 billion rainforest trust fund revives a 1990s idea – and shows its limits https://theconversation.com/the-worlds-new-us-125-billion-rainforest-trust-fund-revives-a-1990s-idea-and-shows-its-limits-270238 -->
 
 
-#### Thursday: Trade in tropical commodities & DURIAN FEST {.unnumbered}
+### Thursday: Trade in tropical commodities & DURIAN FEST {.unnumbered}
 
 _**Goal:** To learn about the global market in tropical fruit crops and the economic impact of tropical fruit production in Florida._
 
@@ -275,7 +275,7 @@ _**Goal:** To learn about the global market in tropical fruit crops and the econ
 
 ## Week  13  {.unnumbered}
 
-#### Tuesday: Consumer choices & rain forest conservation {.unnumbered}
+### Tuesday: Consumer choices & rain forest conservation {.unnumbered}
 
 _**Goal:** To understand how global production and chains and consumer demand in Europe and North America influence patterns of deforestation in tropical countries._
 
@@ -291,7 +291,7 @@ _**Goal:** To understand how global production and chains and consumer demand in
 (@) Mary Gagen. 2024. The world’s business and finance sectors can do much more to reverse deforestation – here’s the data to prove it. _The Conversation_. ([read online](https://theconversation.com/the-worlds-business-and-finance-sectors-can-do-much-more-to-reverse-deforestation-heres-the-data-to-prove-it-224392), 10 min).
 
 
-#### Thursday: Community based conservation {.unnumbered}
+### Thursday: Community based conservation {.unnumbered}
 
 _**Goal:** To learn about how local communities are engaged in rain forest conservation and sustainable development efforts in the tropics and beyond._
 
@@ -314,7 +314,7 @@ _**Goal:** To learn about how local communities are engaged in rain forest conse
 
 ## Week  15  {.unnumbered}
 
-#### Tuesday: Protected areas {.unnumbered}
+### Tuesday: Protected areas {.unnumbered}
 
 _**Goal:** To learn about different global categories of protected areas, the importance of protected areas in the tropics for conserving forest, and how the threats to protected areas vary regionally and globally._
 
@@ -325,7 +325,7 @@ _**Goal:** To learn about different global categories of protected areas, the im
 (@) Matti Barthel et al. (2025) DRC’s plan for the world’s largest tropical forest reserve would be good for the planet: can it succeed? _The Conversation_. ([read online](https://theconversation.com/drcs-plan-for-the-worlds-largest-tropical-forest-reserve-would-be-good-for-the-planet-can-it-succeed-254394), 10 min read).
 
 
-#### Thursday: Forest restoration & Regeneration {.unnumbered}
+### Thursday: Forest restoration & Regeneration {.unnumbered}
 
 _**Goal:** To learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation._
 
@@ -340,7 +340,7 @@ _**Goal:** To learn the difference between passive regeneration and active resto
 
 ## Week  16 {.unnumbered}
 
-#### Tuesday: Tropical rain forests & Global Health {.unnumbered}
+### Tuesday: Tropical rain forests & Global Health {.unnumbered}
 
 _**Goal:** To learn about the relationship between deforestation and the emergence and spread of tropical diseases like Zika and Malaria from the tropics to other regions of the globe._
 
