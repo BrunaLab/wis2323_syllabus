@@ -24,9 +24,13 @@ calendar <- read_csv("./schedule.csv") %>%
   select(-block,-Week1) %>%
   mutate(DATE=paste(Day,Month,sep="-")) %>%
   # mutate(SESSION=as.character(SESSION)) %>%
-  select(WEEK,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
-  # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
-  replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT INFO`="")) %>%
+  select(WEEK,
+         DATE,
+         TOPIC, 
+         READING=Reading,
+         `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+  # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+  replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT`="", READING="")) %>%
   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
   mutate(WEEK = gsub("Finals Week NA","Finals Week", WEEK))
 
@@ -71,20 +75,30 @@ gt() |>
   )|>
     tab_style(
     style = cell_fill(color = "darkgreen"),
-    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT","READING"))
     )|> 
   tab_style(
     style = cell_text(color = "white", weight = "bold"),
-    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT INFO"))
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT","READING"))
   )|>
    cols_width(
     # num ~ px(150),
     # ends_with("r") ~ px(100),
     # starts_with("date") ~ px(200),
-    `ASSIGNMENT INFO` ~ px(125),
+    `ASSIGNMENT` ~ px(125),
+    DATE ~ px(25),
     WEEK ~ px(20),
-    TOPIC ~ px(325)
-  )
+    TOPIC ~ px(325),
+    READING ~ px(18)
+   )|>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(columns = everything())
+  ) |>
+  cols_align(
+  align = c("center"),
+  columns = c("WEEK","READING")
+)
 # %>%
 #   mutate(WEEK = gsub("NA Final Exam","", WEEK))
 #
@@ -245,9 +259,9 @@ gt() |>
 #   select(-block,-Week1) %>%
 #   mutate(DATE=paste(Day,Month,sep="-")) %>%
 #   # mutate(SESSION=as.character(SESSION)) %>%
-#   select(WEEK,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
-#   # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT INFO`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
-#   replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT INFO`="")) %>%
+#   select(WEEK,DATE,TOPIC, `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+#   # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+#   replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT`="")) %>%
 #   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
 #   mutate(WEEK = gsub("Finals Week NA","Finals Week", WEEK))
 

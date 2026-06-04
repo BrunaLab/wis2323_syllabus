@@ -1,8 +1,8 @@
 
 <!-- ![](images/ridges.png) -->
-![](images/banner.png)
+![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}
 
-# Syllabus
+# Course Overview
 
 
 <!-- ## Course Overview {.unnumbered} -->
@@ -43,3 +43,13 @@ A minimum grade of C is required for Quest and General Education credit. Courses
 ### Minors & Certificates {.unnumbered}
 
 This course counts towards the Minor in Latin American Studies. See  <https://www.latam.ufl.edu/academics/undergraduate-programs> for more information.
+
+
+### University Policies and Resources
+
+Information about grading policies, support for students with disabilities, course evaluations, the Honor Code, and other course policies and campus resources can be found on the [Syllabus Policies page](https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/).  
+
+Information about university attendance policies, including policies regarding religious holidays, illness, and the twelve-day rule, can be found in the [Undergraduate Catalog](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/#absencestext). 
+
+
+

@@ -5,7 +5,6 @@ project:
 css: format/style.css
   
 book:
-  title: "Syllabus"
   output-file: "wis2323-syllabus"
   # author: "Emilio M. Bruna"
   # date: 07/31/2025

@@ -18,10 +18,50 @@ We will explore some challenging, important problems and increase our understand
 
 ### Assignments (1000 pts) {.unnumbered} 
 
-```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '100%',fig.align="center" }
+<!-- ```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '100%',fig.align="center" } -->
 
-knitr::include_graphics("images/hw.png")
+<!-- knitr::include_graphics("images/hw.png") -->
+<!-- ``` -->
+
+
+```{r assignments,echo = FALSE ,message = FALSE,warning = FALSE}
+
+library(kableExtra)
+library(gt)
+library(tidyverse)
+assignments <- data.frame(
+    Assignment = c("In-class activities","Analytic Essay","Reflective Essay","Movie Reviews"), 
+    Points = c(550,200,150,100),
+    stringsAsFactors = FALSE
+) %>% 
+  mutate(`Percent`=Points/sum(Points)*100) %>% 
+  mutate(`Percent`=paste0(`Percent`,"%"))
+
+
+
+assignments |>
+gt() |>
+  tab_header(
+    title = "Assignments for WIS 2323 and their point value.",
+    # subtitle = "===")
+  ) |>
+  cols_width(
+    Assignment ~ px(50),
+    Points ~ px(25),
+    Percent ~ px(25)
+  )|>
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels(columns = everything())
+  ) |>
+  cols_align(
+  align = c("center"),
+  columns = c("Points","Percent")
+)
+
 ```
+
+
 
 ### Grading {.unnumbered} 
 
