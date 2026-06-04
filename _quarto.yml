@@ -118,7 +118,10 @@ format:
     include-in-header:
     
       text: |
-        \usepackage{xcolor}
+          \usepackage{fontspec}
+          \setmainfont{Source Sans Pro}
+          \renewcommand{\familydefault}{\sfdefault}
+          \usepackage{xcolor}
           \usepackage{sectsty}
           \usepackage{titlesec}
           \definecolor{customnavy}{RGB}{0, 0, 128}
