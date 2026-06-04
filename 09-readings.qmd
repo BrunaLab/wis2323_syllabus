@@ -43,9 +43,9 @@ _**Goal:** To introduce and discuss how historical narratives by the first Europ
 
 _**Goal:** To see how the different depictions of the tropics and tropical biodiversity from early European explorers are reflected in art and literature._
 
-(@) Excerpts from Literature/Poetry ([link](https://brunalab.github.io/wis2323_syllabus/readings/trf_in_lit_and_poetry.pdf){target="_blank"}, 5 pages) 
+(@) Excerpts from Literature/Poetry ([link](https://github.com/BrunaLab/wis2323_syllabus/blob/01e5e3e522b4add784b5b860240c1302ce60b09f/readings/trf_in_lit_and_poetry.pdf){target="_blank"}, 5 pages) 
 
-(@) Images of artwork ([link](https://github.com/BrunaLab/wis2323_syllabus/blob/master/readings/tropical_paintings.pdf){target="_blank"},5 pages)
+(@) Images of artwork ([link](https://github.com/BrunaLab/wis2323_syllabus/blob/01e5e3e522b4add784b5b860240c1302ce60b09f/readings/tropical_paintings.pdf){target="_blank"},5 pages)
 
 
 #### Thursday: The Rain Forest in Pop Culture {.unnumbered}
@@ -151,7 +151,7 @@ _**Goal:** To understand how such a productive biome can be built on such low-qu
 
 <!-- - Langewiesche, William. (2022). The War for the Rainforest. _New York Times_. ([read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)) -->
 
-(@) Anthony Bourdain's Parts Unknown: Congo (S1E8) ([watch online](https://play.hbomax.com/video/watch/09e513a5-4bdd-4dfc-80c2-4cbe9ddb2763/d747186e-04f5-4f7a-91e2-7d3ec37e6038), 50 min).
+(@) Anthony Bourdain's Parts Unknown: Congo (S1E8) (_watch online free on_ [XUMO PLAY](https://play.xumo.com/tv-shows/anthony-bourdain-parts-unknown/XM0QBF448W7FI3) _or_ [PLEX](https://watch.plex.tv/show/anthony-bourdain-parts-unknown/season/1/episode/8), 50 min).
 
 (@) Brooks, David. (2010). The Messiah Complex. _The New York Times_. ([read online](https://www.nytimes.com/2010/01/08/opinion/08brooks.html), 1 page)
 
