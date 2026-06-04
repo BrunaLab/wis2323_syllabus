@@ -4,7 +4,8 @@ title-block-style: plain
 # date-modified: last-modified
 ---
 
-# Grades & Attendance 
+# Grades & Attendance  
+
 
 <!-- # Assignments, Grades, & Attendance {.unnumbered} -->
 

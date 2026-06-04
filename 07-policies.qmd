@@ -1,15 +1,8 @@
 ---
 title-block-style: plain
 # date: 09/15/2024
-execute:
-  echo: false
-  warning: false
-  message: false
-# prefer-html: true
-# format: pdf
-extensions:
-  fontawesome
-  fontawesome5
+# date-modified: last-modified
+
 ---
 
 <!-- ```{r} -->

@@ -1,11 +1,7 @@
 ---
-format: pdf
-execute:
-  echo: false
-  warning: false
-  message: false
 title-block-style: plain
-prefer-html: true
+# date: 09/15/2024
+# date-modified: last-modified
 ---
 
 

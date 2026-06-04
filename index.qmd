@@ -1,7 +1,7 @@
 
-<!-- ![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."} -->
+![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}
 
-# Course Overview
+# Course Overview  
 <!-- ## Course Overview {.unnumbered} -->
 
 This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural and ecological stereotypes about the tropics, and different approaches to forest conservation and sustainability. ***By the end of the course students will be able to:***
