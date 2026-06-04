@@ -85,11 +85,11 @@ gt() |>
     # num ~ px(150),
     # ends_with("r") ~ px(100),
     # starts_with("date") ~ px(200),
-    WEEK ~ px(25),
-    DATE ~ px(30),
-    TOPIC ~ px(200),
-    READING ~ px(18),
-    `ASSIGNMENT` ~ px(50)
+    WEEK ~ px(40),
+    DATE ~ px(50),
+    TOPIC ~ px(600),
+    READING ~ px(40),
+    `ASSIGNMENT` ~ px(70)
    )|>
   tab_style(
     style = cell_text(weight = "bold"),
