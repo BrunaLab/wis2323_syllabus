@@ -1,7 +1,6 @@
 project:
   type: book
   output-dir: book
-
 css: format/style.css
   
 book:
@@ -57,9 +56,9 @@ book:
 # bibliography: HerbVar.bib
 csl: format/ecology.csl
 format:
-
   html:
     # title-block: false
+    title: Course Syllabus
     title-block-banner: images/banner.png
     theme: 
       - cosmo

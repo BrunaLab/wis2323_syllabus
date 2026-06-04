@@ -32,7 +32,7 @@ calendar <- read_csv("./schedule.csv") %>%
   # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
   replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT`="", READING="")) %>%
   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
-  mutate(WEEK = gsub("Finals Week NA","Finals Week", WEEK))
+  mutate(WEEK = gsub("Finals Wk NA","Finals Wk", WEEK))
 
 
 
@@ -85,11 +85,11 @@ gt() |>
     # num ~ px(150),
     # ends_with("r") ~ px(100),
     # starts_with("date") ~ px(200),
-    `ASSIGNMENT` ~ px(125),
-    DATE ~ px(25),
-    WEEK ~ px(20),
-    TOPIC ~ px(325),
-    READING ~ px(18)
+    WEEK ~ px(25),
+    DATE ~ px(30),
+    TOPIC ~ px(200),
+    READING ~ px(18),
+    `ASSIGNMENT` ~ px(50)
    )|>
   tab_style(
     style = cell_text(weight = "bold"),

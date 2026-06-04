@@ -13,7 +13,7 @@ extensions:
   fontawesome5
 ---
 
-# FAQ
+# FAQs
 
 <!-- # FAQ {.unnumbered} -->
 
