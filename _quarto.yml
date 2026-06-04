@@ -59,7 +59,8 @@ csl: format/ecology.csl
 format:
 
   html:
-    title-block: false
+    # title-block: false
+    title-block-banner: images/banner.png
     theme: 
       - cosmo
     filters: [format/remove_title.lua]
@@ -81,6 +82,7 @@ format:
     lof: false
     lot: false
     titlepage: false
+    title-block-banner: images/banner.png
     # Numbering
     number-sections: false
     # Fonts

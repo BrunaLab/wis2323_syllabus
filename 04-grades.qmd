@@ -16,7 +16,7 @@ Learning in our class is achieved with an diverse array of methods ranging from 
 We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. *Disrespectful or disruptive behavior will not be tolerated*. And always remember that as scholars we rely on critical thinking, data, prior scholarship, and expert opinion when interrogating assigned readings and discussing course content with classmates and instructors.
 :::
 
-### Assignments (1000 pts) {.unnumbered} 
+## Assignments (1000 pts total) {.unnumbered} 
 
 <!-- ```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '100%',fig.align="center" } -->
 
@@ -63,7 +63,7 @@ gt() |>
 
 
 
-### Grading {.unnumbered} 
+## Grading {.unnumbered} 
 
 **In-class Assignments are due by the following class session.** Late assignments will lose 10 pts.
 
@@ -73,13 +73,12 @@ gt() |>
 
 ***Grade Points:*** For information on how UF assigns grade points, visit: <https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/>
 
-### Attendance {.unnumbered} 
+## Attendance {.unnumbered} 
 
 Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Some these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. **Not all in-class activities can be completed independently.** That is why only a subset of the in-class assignments count towards your grade. We also offer some opportunities for extra credit. **_If you need to miss class for any reason, please let me know as soon as possible_**. We will try to make arrangements for you to complete any assignments and go over any material you will be missing.
 
-### Participation {.unnumbered} 
+## Participation {.unnumbered} 
 
 Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). *If you have personal issues that prohibit you from joining freely in class discussion (e.g., shyness, language barriers, medical condition): no problem.* let us know and we will discuss alternative modes of participation.
 
 
-------------------------------------------------------------------------

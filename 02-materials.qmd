@@ -13,13 +13,12 @@ title-block-style: plain
 
 ::: {.callout-important}
 
-All materials, including readings and videos, will be made available on the course Canvas page. *Students should sign up for free online access to the New York Times, Wall Street Journal, and The Economist by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist)* [^1]. 
+All materials, including readings and videos, will be made available on the course Canvas page. *Students should sign up for free online access to the New York Times, Wall Street Journal, and The Economist by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist)*.
 
 :::
 
-------------------------------------------------------------------------
 
- [^1]: Some of the assigned readings from these sources have dynamic multimedia data visualizations or video that can't be appreciated in the `.pdf` versions posted to canvas. 
+ 
 
 
 

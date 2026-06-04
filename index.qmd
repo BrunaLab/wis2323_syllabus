@@ -1,5 +1,4 @@
 
-<!-- ![](images/ridges.png) -->
 ![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}
 
 # Course Overview

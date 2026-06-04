@@ -53,4 +53,3 @@ library(kableExtra)
 
 **UF Student Success Initiative** Visit <https://studentsuccess.ufl.edu/> for resources that support your success as a UF student.  
 
-------------------------------------------------------------------------
