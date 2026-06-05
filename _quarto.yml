@@ -5,7 +5,7 @@ css: format/style.css
   
 book:
   output-file: "wis2323-syllabus"
-  title: "Course Syllabus"
+  title: "WIS 2323 Course Syllabus"
   # author: "Emilio M. Bruna"
   # date: 07/31/2025
   # date: last-modified
@@ -86,9 +86,9 @@ format:
     number-sections: false
     # Fonts
     # fontfamily: libertinus
-    # mainfont: Georgia
+    mainfont: Georgia
     # sansfont: Verdana
-    # monofont: Source Code Pro
+    monofont: Source Code Pro
     fontsize: 10pt
     microtypeoptions: ["final"]
     # Colors
@@ -116,15 +116,15 @@ format:
     # https://nrennie.rbind.io/blog/pdf-quarto/making-pretty-pdf-quarto/
     # https://github.com/nrennie/PrettyPDF
     include-in-header:
-    
       text: |
         \usepackage{xcolor}
         \usepackage{sectsty}
         \usepackage{titlesec}
         \definecolor{customnavy}{RGB}{0, 0, 128}
+        \definecolor{customcharcoal}{RGB}{54, 69, 79}
         \sectionfont{\color{customnavy}}
         \subsectionfont{\color{customnavy}}   
-        \subsubsectionfont{\color{customnavy}}   
+        \subsubsectionfont{\color{customcharcoal}}   
         \usepackage{amssymb}
         \usepackage{pifont}
         \usepackage{wasysym}
