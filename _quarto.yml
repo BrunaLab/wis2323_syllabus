@@ -124,7 +124,6 @@ format:
         \floatplacement{table}{H}
         \usepackage{xcolor}
         \usepackage{sectsty}
-        \usepackage{titlesec}
         \definecolor{customnavy}{RGB}{0, 0, 128}
         \definecolor{customcharcoal}{RGB}{54, 69, 79}
         \sectionfont{\color{customnavy}}
@@ -140,10 +139,10 @@ format:
         % Adjust spacing before and after headings
         \usepackage{titlesec}
         \titleformat{\section}
-        {\normalfont\large\bfseries\centering} % Format
-        {} % Label (empty = no number)
-        {0pt} % Separation between label and title
-        {} % Before-code
+          {\normalfont\large\bfseries\centering} % Format
+          {} % Label (empty = no number)
+          {0pt} % Separation between label and title
+          {} % Before-code
        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
        \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
        \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
