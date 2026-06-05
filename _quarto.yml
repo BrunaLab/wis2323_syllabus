@@ -143,9 +143,9 @@ format:
           {} % Label (empty = no number)
           {0pt} % Separation between label and title
           {} % Before-code
-       \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
-       \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
-       \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
+        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
+        \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
+        \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex
