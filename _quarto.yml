@@ -138,11 +138,7 @@ format:
         \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
         % Adjust spacing before and after headings
         \usepackage{titlesec}
-        \titleformat{\section}
-          {\normalfont\large\bfseries\centering} % Format
-          {} % Label (empty = no number)
-          {0pt} % Separation between label and title
-          {} % Before-code
+        
         \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
         \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
         \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
