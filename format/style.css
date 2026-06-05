@@ -10,7 +10,7 @@ img.quarto-cover-image {
 /* Headings ------------------------------------------------------ */
 
 #title-block-header.quarto-title-block.default .quarto-title h1.title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 
@@ -36,7 +36,7 @@ h1 {
 h2 {
   color: navy;
   font-family: Arial;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -46,10 +46,10 @@ h2 {
 
 /* Style for subsections (###) */
 h3 {
-  color: navy;
+  color: #36454F;
   font-family: Arial;
    font-weight: bold;
-   text-align: center;
+   text-align: left;
    margin-top: 1rem;
   margin-bottom: 0.5rem;
    font-size: 1.2rem; 
