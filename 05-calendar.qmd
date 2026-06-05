@@ -100,7 +100,8 @@ gt() |>
   cols_align(
   align = c("center"),
   columns = c("WEEK","READING")
-)
+)|>
+  tab_options(latex.use_longtable = TRUE, latex.tbl.pos = "h")
 ```
 
 

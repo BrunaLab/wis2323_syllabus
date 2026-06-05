@@ -48,9 +48,9 @@ gt() |>
     # subtitle = "===")
   ) |>
   cols_width(
-    Assignment ~ px(100),
-    Points ~ px(30),
-    Percent ~ px(30)
+    Assignment ~ "20%",
+    Points ~ "10%",
+    Percent ~ "10%"
   )|>
   tab_style(
     style = cell_text(weight = "bold"),
