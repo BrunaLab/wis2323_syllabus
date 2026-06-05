@@ -1,5 +1,8 @@
 ---
+# title-block-banner: false
 title-block-style: plain
+title: "Student Learning Objectives"
+# subtitle: "(B = Biological Sciences, Q2 = Quest 2)"
 # date: 09/15/2024
 # date-modified: last-modified
 ---
@@ -7,12 +10,10 @@ title-block-style: plain
 
 # Student Learning Objectives
 
-**B = Biological Sciences, Q2 = Quest 2**  
-
-
 ## CONTENT {.unnumbered}  
 
-***Students demonstrate competence in the terminology, concepts, theories, and methodologies used within the discipline(s)***
+
+***Students demonstrate competence in the terminology, concepts, theories, and methodologies used within the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
 
 (1) Describe the evolutionary and ecological factors underlying the distribution of biodiversity in tropical rain forests. _Assessments:_ In-class activities. (B). 
 
@@ -30,7 +31,7 @@ title-block-style: plain
 
 ## CRITICAL THINKING {.unnumbered}  
 
-***Students carefully and logically analyze information from multiple perspectives and develop reasoned solutions to problems within the discipline(s).***
+***Students carefully and logically analyze information from multiple perspectives and develop reasoned solutions to problems within the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
 
 
 (1) Test hypotheses regarding trends in deforestation and how forest regeneration varies geographically with quantitative data on forest cover and use news stories, primary literature, and other sources to propose mechanisms responsible for the patterns observed. _Assessments:_ In-class activities, Analytic Essay  (B, Q2). 
@@ -41,7 +42,7 @@ title-block-style: plain
 
 ## COMMUNICATION {.unnumbered}  
 
-***Students communicate knowledge, ideas and reasoning clearly and effectively in written and oral forms appropriate to the discipline(s)***
+***Students communicate knowledge, ideas and reasoning clearly and effectively in written and oral forms appropriate to the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
 
 (1) Generate graphical analyses of quantitative data used to study rain forest biology and conservation (Q2, B). _Assessments:_ In-class activities, Analytic Essay. 
 
@@ -51,7 +52,7 @@ title-block-style: plain
 
 ## CONNECTION {.unnumbered}  
 
-***Students connect course content with meaningful critical reflection on their intellectual, personal, and professional development at UF and beyond. ***
+***Students connect course content with meaningful critical reflection on their intellectual, personal, and professional development at UF and beyond. (B = Biological Sciences, Q2 = Quest 2)***
 
 (1) Examine the cultural, economic, and historical experiences of people in rain forest countries, how this compares with our preconceived notions of the same, and the consequences of this disparity for our scientific understanding of rain forests and their conservation. _Assessments:_ In-class activities, Movie Reviews, Final Project  (Q2). 
 

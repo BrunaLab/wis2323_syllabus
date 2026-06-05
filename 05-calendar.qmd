@@ -1,4 +1,5 @@
 ---
+title: "Course Calendar"
 # format: html
 format: pdf
 # format: docx
@@ -12,7 +13,7 @@ prefer-html: true
 date-modified: last-modified
 ---
 
-# Topic Calendar & Key Dates 
+# Course Calendar
 
 ```{r}
 

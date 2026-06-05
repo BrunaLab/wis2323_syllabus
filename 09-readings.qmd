@@ -1,4 +1,5 @@
 ---
+title: "Assigned Reading & Viewing"
 format: pdf
 execute:
   echo: false

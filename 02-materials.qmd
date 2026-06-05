@@ -1,10 +1,11 @@
 ---
+title: "Required Course Materials"
 title-block-style: plain
 # date: 09/15/2024
 # date-modified: last-modified
 ---
 
-# Required Materials  
+# Required Course Materials  
 <!-- # Required Course Materials {.unnumbered} -->
 
 All materials, including readings and videos, will be made available on the course Canvas page. 

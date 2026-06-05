@@ -5,7 +5,7 @@ css: format/style.css
   
 book:
   output-file: "wis2323-syllabus"
-  title: "WIS 2323 Course Syllabus"
+  title: "Syllabus - WIS 2323"
   # author: "Emilio M. Bruna"
   # date: 07/31/2025
   # date: last-modified
@@ -58,8 +58,8 @@ book:
 csl: format/ecology.csl
 format:
   html:
-    # title-block: false
-    title-block-banner: images/banner.png
+    title-block: false
+    # title-block-banner: images/banner.png
     theme: 
       - cosmo
     filters: [format/remove_title.lua]
