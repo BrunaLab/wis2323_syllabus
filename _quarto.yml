@@ -86,9 +86,9 @@ format:
     number-sections: false
     # Fonts
     # fontfamily: libertinus
-    mainfont: Georgia
+    # mainfont: Georgia
     # sansfont: Verdana
-    monofont: Source Code Pro
+    # monofont: Source Code Pro
     fontsize: 10pt
     microtypeoptions: ["final"]
     # Colors
@@ -117,6 +117,10 @@ format:
     # https://github.com/nrennie/PrettyPDF
     include-in-header:
       text: |
+        \usepackage{fontspec}
+        \setmainfont{Arial}
+        \setsansfont{Arial}
+        \renewcommand{\familydefault}{\sfdefault}
         \usepackage{xcolor}
         \usepackage{sectsty}
         \usepackage{titlesec}
