@@ -1,11 +1,11 @@
 ---
-title: "Assignments, Attendance, and Grades"
+title: "Assignments and Grades"
 title-block-style: plain
 # date: 09/15/2024
 # date-modified: last-modified
 ---
 
-# Assignments, Attendance, and Grades
+<!-- # Assignments, Attendance, and Grades -->
 
 
 <!-- # Assignments, Grades, & Attendance {.unnumbered} -->
@@ -41,7 +41,7 @@ assignments <- data.frame(
 
 
 
-assignments |>
+assignments_tbl<-assignments |>
 gt() |>
   tab_header(
     title = "Assignments for WIS 2323 and their point value.",
@@ -59,7 +59,11 @@ gt() |>
   cols_align(
   align = c("center"),
   columns = c("Points","Percent")
-)
+) 
+assignments_tbl
+
+assignments_tbl|>
+  as_latex()
 
 ```
 

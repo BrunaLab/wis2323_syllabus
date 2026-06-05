@@ -1,8 +1,11 @@
 
-![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}
+![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}  
 
-# Course Overview  
+
+<!-- ## Course Overview   -->
 <!-- ## Course Overview {.unnumbered} -->
+
+## Introduction {.unnumbered}
 
 This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural and ecological stereotypes about the tropics, and different approaches to forest conservation and sustainability. ***By the end of the course students will be able to:***
 
@@ -39,7 +42,13 @@ A minimum grade of C is required for Quest and General Education credit. Courses
 
 ## Minors & Certificates {.unnumbered}
 
-This course counts towards the Minor in Latin American Studies. See  <https://www.latam.ufl.edu/academics/undergraduate-programs> for more information.
+This course counts towards the following Majors and Minors:
+
+### Minors 
+
+- Latin American Studies (info [here](https://www.latam.ufl.edu/academics/undergraduate-programs)).
+
+Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_UMN/)).
 
 
 ## University Policies and Resources {.unnumbered}

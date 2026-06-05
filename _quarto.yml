@@ -115,7 +115,8 @@ format:
     # https://tex.stackexchange.com/questions/209993/how-to-customize-my-titlepage/210280#210280
     # https://nrennie.rbind.io/blog/pdf-quarto/making-pretty-pdf-quarto/
     # https://github.com/nrennie/PrettyPDF
-    include-in-header:
+    includes:
+      in-header: 'format/gt_packages.sty'
       text: |
         \usepackage{caption}  
         \captionsetup[table]{labelformat=empty}

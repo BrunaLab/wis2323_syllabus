@@ -6,11 +6,11 @@ title-block-style: plain
 ---
 
 
-# Office Hours  
+<!-- # Office Hours   -->
 
 <!-- # Office Hours {.unnumbered} -->
 
-## When and Where {.unnumbered}
+## Office Hours: When and Where {.unnumbered}
 
 - **Instructor:** Wednesday 1:30-3:30 (in-person in the TEC Lab (see below) and via Zoom. If you want to guarantee a specific time slot you can do so by signing up here: <https://embruna.youcanbook.me/>. If you can't make it during the regularly scheduled office hours, you can send a message via Canvas to set up an appointment.
 

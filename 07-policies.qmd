@@ -16,7 +16,6 @@ title: "UF Policies"
 <!-- ``` -->
 
 <!-- # University Policies {.unnumbered} -->
-# UF Policies
 
 <!-- <span style="color: #1F691B;"> {{< fa headphones >}} </span>  -->
 ## Student Accomodations  {.unnumbered} 

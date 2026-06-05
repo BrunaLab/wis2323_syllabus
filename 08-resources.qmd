@@ -12,7 +12,7 @@ library(kableExtra)
 ```
 
 <!-- # UF Resources for Students {.unnumbered} -->
-# UF Student Resources 
+<!-- # UF Student Resources  -->
 
 ### Health, Safety, & Wellness {.unnumbered}
 

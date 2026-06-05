@@ -8,7 +8,7 @@ title: "Student Learning Objectives"
 ---
 
 
-# Student Learning Objectives
+<!-- # Student Learning Objectives -->
 
 ## CONTENT {.unnumbered}  
 

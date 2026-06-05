@@ -13,7 +13,7 @@ prefer-html: true
 date-modified: last-modified
 ---
 
-# Course Calendar
+<!-- # Course Calendar -->
 
 ```{r}
 
