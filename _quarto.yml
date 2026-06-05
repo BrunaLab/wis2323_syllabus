@@ -140,17 +140,17 @@ format:
         % Adjust spacing before and after headings
         \usepackage{titlesec}
         \titleformat{\section}
-          {\normalfont\large\bfseries\color{customnavy}\centering} % Format
+          {\normalfont\large\bfseries\centering} % Format
           {} % Label (empty = no number)
           {0pt} % Separation between label and title
           {} % Before-code
         \titleformat{\subsection}
-          {\normalfont\normalsize\bfseries\color{customnavy}} % Format
+          {\normalfont\normalsize\bfseries} % Format
           {} % Label (empty = no number)
           {0pt} % Separation between label and title
           {} % Before-code
         \titleformat{\subsubsection}
-          {\normalfont\normalsize\bfseries\color{customcharcoal}} % Format
+          {\normalfont\normalsize\bfseries} % Format
           {} % Label (empty = no number)
           {0pt} % Separation between label and title
           {} % Before-code

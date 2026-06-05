@@ -1,4 +1,5 @@
 
+
 ![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}  
 
 
@@ -44,11 +45,17 @@ A minimum grade of C is required for Quest and General Education credit. Courses
 
 This course counts towards the following Majors and Minors:
 
+### Majors 
+
+- Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_BA/#text)).
+
+
+
 ### Minors 
 
 - Latin American Studies (info [here](https://www.latam.ufl.edu/academics/undergraduate-programs)).
 
-Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_UMN/)).
+- Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_UMN/)).
 
 
 ## University Policies and Resources {.unnumbered}
