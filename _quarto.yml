@@ -117,10 +117,6 @@ format:
     # https://github.com/nrennie/PrettyPDF
     include-in-header:
       text: |
-        # \usepackage{fontspec}
-        # \setmainfont{Arial}
-        # \setsansfont{Arial}
-        # \renewcommand{\familydefault}{\sfdefault}
         \usepackage{xcolor}
         \usepackage{sectsty}
         \usepackage{titlesec}
