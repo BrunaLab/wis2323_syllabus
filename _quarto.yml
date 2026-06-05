@@ -144,16 +144,16 @@ format:
           {} % Label (empty = no number)
           {0pt} % Separation between label and title
           {} % Before-code
-        \titleformat{\subsection}
-          {\normalfont\normalsize\bfseries} % Format
-          {} % Label (empty = no number)
-          {0pt} % Separation between label and title
-          {} % Before-code
-        \titleformat{\subsubsection}
-          {\normalfont\normalsize\bfseries} % Format
-          {} % Label (empty = no number)
-          {0pt} % Separation between label and title
-          {} % Before-code
+      # \titleformat{\subsection}
+      #   {\normalfont\normalsize\bfseries} % Format
+      #   {} % Label (empty = no number)
+      #   {0pt} % Separation between label and title
+      #   {} % Before-code
+      # \titleformat{\subsubsection}
+      #   {\normalfont\normalsize\bfseries} % Format
+      #   {} % Label (empty = no number)
+      #   {0pt} % Separation between label and title
+      #   {} % Before-code
         \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
         \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
         \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
