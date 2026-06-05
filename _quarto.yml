@@ -135,13 +135,23 @@ format:
         % Adjust spacing before and after headings
         \usepackage{titlesec}
         \titleformat{\section}
-          {\normalfont\Large\bfseries\color{customnavy}\centering} % Format
+          {\normalfont\large\bfseries\color{customnavy}\centering} % Format
+          {} % Label (empty = no number)
+          {0pt} % Separation between label and title
+          {} % Before-code
+        \titleformat{\subsection}
+          {\normalfont\normalsize\bfseries\color{customcharcoal}} % Format
+          {} % Label (empty = no number)
+          {0pt} % Separation between label and title
+          {} % Before-code
+        \titleformat{\subsubsection}
+          {\normalfont\normalsize\bfseries\color{customcharcoal}} % Format
           {} % Label (empty = no number)
           {0pt} % Separation between label and title
           {} % Before-code
         \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
-        \titlespacing*{\subsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
-        \titlespacing*{\subsubsection}{0pt}{2pt}{2pt}   % {left}{before}{after}
+        \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
+        \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex
