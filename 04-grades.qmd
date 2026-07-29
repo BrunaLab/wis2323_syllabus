@@ -41,8 +41,8 @@ assignments <- data.frame(
 
 
 
-assignments_tbl<-assignments |>
-gt() |>
+assignments |>
+  gt() |>
   tab_header(
     title = "Assignments for WIS 2323 and their point value.",
     # subtitle = "===")
@@ -59,9 +59,9 @@ gt() |>
   cols_align(
   align = c("center"),
   columns = c("Points","Percent")
-) 
+) |>
+  tab_options(latex.use_longtable = TRUE, latex.tbl.pos = "h")
 
-assignments_tbl
 
 # assignments_tbl|>
 #   as_latex()
