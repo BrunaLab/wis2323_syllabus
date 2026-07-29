@@ -6,22 +6,10 @@ css: format/style.css
 book:
   output-file: "wis2323-syllabus"
   title: "Syllabus - WIS 2323"
-  # author: "Emilio M. Bruna"
-  # date: 07/31/2025
-  # date: last-modified
-  # original-date: 11/15/2024
-  # doi
-  # url: https://herbvar-network.github.io/herbvar_manual
-  # pdf-url: https://herbvar-network.github.io/herbvar_manual/herbvar-manual.pdf 
   date-format: long
-  # license: "This work is licensed under CC BY-NC-SA 4.0. //To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/"
-  # edition: "v4.0.0"
-  # cover-image: images/cover.png
   search: true
   repo-url: https://github.com/BrunaLab/wis2323_syllabus
-  # repo-actions: [edit]
   downloads: [pdf, epub]
-  # sharing: [twitter, facebook]
   reader-mode: false
   favicon: images/cover.png
   page-footer:
@@ -136,12 +124,17 @@ format:
         \usepackage{etoolbox}
         \makeatletter
         \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+        \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
         % Adjust spacing before and after headings
         \usepackage{titlesec}
-        
-        \titlespacing*{\section}{0pt}{0pt}{0pt}      % {left}{before}{after}
-        \titlespacing*{\subsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
-        \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}   % {left}{before}{after}
+        \titleformat{\section}
+          {\normalfont\large\bfseries\centering\customnavy} % Format
+          {} % Label (empty = no number)
+          {0pt} % Separation between label and title
+          {} % Before-code
+        \titlespacing*{\section}{0pt}{12pt}{6pt}
+        \titlespacing*{\subsection}{0pt}{6pt}{3pt}
+        \titlespacing*{\subsubsection}{0pt}{3pt}{3pt}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex
