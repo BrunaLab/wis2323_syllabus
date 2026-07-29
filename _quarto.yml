@@ -122,19 +122,42 @@ format:
         \usepackage{wasysym}
         \usepackage{fontawesome5}
         \usepackage{etoolbox}
+        % Completely remove page breaks for chapters
         \makeatletter
+        % Patch KOMA-Script chapter commands
+        \renewcommand*{\chapterpagestyle}{plain}
         \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+        \patchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}
+        \patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}
+        % Patch standard LaTeX chapter commands as backup
         \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-        % Adjust spacing before and after headings
+        \patchcmd{\chapter}{\clearpage}{}{}{}
+        % Redefine chapter entirely to remove page breaks
+        \renewcommand\chapter{%
+          \global\@topnum\z@
+          \@afterindentfalse
+          \secdef\@chapter\@schapter
+        }
+        \makeatother
+        % Adjust spacing for continuous flow
         \usepackage{titlesec}
+        \titleformat{\chapter}[block]
+          {\normalfont\Large\bfseries\color{customnavy}}
+          {}
+          {0pt}
+          {}
+        \titlespacing*{\chapter}{0pt}{20pt}{10pt}
         \titleformat{\section}
-          {\normalfont\large\bfseries\centering\customnavy} % Format
-          {} % Label (empty = no number)
-          {0pt} % Separation between label and title
-          {} % Before-code
+          {\normalfont\large\bfseries\centering\color{customnavy}}
+          {}
+          {0pt}
+          {}
         \titlespacing*{\section}{0pt}{12pt}{6pt}
         \titlespacing*{\subsection}{0pt}{6pt}{3pt}
         \titlespacing*{\subsubsection}{0pt}{3pt}{3pt}
+        % Force no page breaks before chapters
+        \let\cleardoublepage\relax
+        \let\clearpage\relax
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex
