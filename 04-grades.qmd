@@ -60,10 +60,11 @@ gt() |>
   align = c("center"),
   columns = c("Points","Percent")
 ) 
+
 assignments_tbl
 
-assignments_tbl|>
-  as_latex()
+# assignments_tbl|>
+#   as_latex()
 
 ```
 

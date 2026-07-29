@@ -88,8 +88,8 @@ gt() |>
     # ends_with("r") ~ px(100),
     # starts_with("date") ~ px(200),
     WEEK ~ "12%",
-    DATE ~ "10%",
-    TOPIC ~ "48%",
+    DATE ~ "12%",
+    TOPIC ~ "46%",
     READING ~ "10%",
     `ASSIGNMENT` ~ "23%"
    )|>
