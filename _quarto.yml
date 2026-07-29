@@ -158,6 +158,7 @@ format:
         % Force no page breaks before chapters
         \let\cleardoublepage\relax
         \let\clearpage\relax
+        \AtBeginDocument{\let\clearpage\relax\let\cleardoublepage\relax}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
       # - macros.tex
