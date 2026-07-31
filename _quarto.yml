@@ -46,6 +46,7 @@ book:
 csl: format/ecology.csl
 format:
   html:
+    toc: false
     title-block: false
     # title-block-banner: images/banner.png
     theme: 
@@ -152,9 +153,9 @@ format:
           {}
           {0pt}
           {}
-        \titlespacing*{\section}{0pt}{12pt}{6pt}
-        \titlespacing*{\subsection}{0pt}{6pt}{3pt}
-        \titlespacing*{\subsubsection}{0pt}{3pt}{3pt}
+        \titlespacing*{\section}{0pt}{0pt}{0pt}
+        \titlespacing*{\subsection}{0pt}{0pt}{0pt}
+        \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
         % Force no page breaks before chapters
         \let\cleardoublepage\relax
         \let\clearpage\relax
