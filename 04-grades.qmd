@@ -8,7 +8,7 @@ title-block-style: plain
 <!-- # Assignments, Attendance, and Grades -->
 
 
-<!-- # Assignments, Grades, & Attendance {.unnumbered} -->
+## Assignments & Grades {.unnumbered} 
 
 Learning in our class is achieved with an diverse array of methods ranging from data analysis to essays to projects. In most class sessions you will also be working with small groups of students to complete an in-class assignment that reinforces the major themes of the day's topic. In keeping with the philosophy of the Quest program, this course also has *Experiential Learning and Self-Reflection Components*. 
 

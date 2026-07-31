@@ -10,7 +10,7 @@ prefer-html: true
 ---
 
 
-<!-- # Assigned Reading & Viewing -->
+## Assigned Reading & Viewing   {.unnumbered}
 
 ::: {.callout-important}
 
