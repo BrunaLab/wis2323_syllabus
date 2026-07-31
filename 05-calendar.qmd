@@ -66,15 +66,15 @@ gt() |>
   id = "future") |>
     row_group_order(groups = c(NA,"why","ecology","drivers","future"))|>
    tab_style(
-    style = cell_fill(color = "darkgreen"),
+    style = cell_fill(color = "white"),
     locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
   )|>
   tab_style(
-    style = cell_text(color = "white", weight = "bold"),
+    style = cell_text(color = "darkgreen", weight = "bold"),
     locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
   )|>
   tab_style(
-    style = cell_text(align = "center"),
+    style = cell_text(align = "left"),
     locations = cells_row_groups(groups = c("why","ecology","drivers","future"))
   )|>
     tab_style(
