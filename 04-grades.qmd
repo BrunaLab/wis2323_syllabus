@@ -43,7 +43,7 @@ assignments<-rowid_to_column(assignments) |>
   mutate(Final=paste0(rowid,") ",Assignment,": ",Points," (",Percent,")")) |> 
   summarise(Final = paste(Final, collapse = "\n"))
 
-assignments
+# assignments
 
 # 
 # assignments |>
@@ -73,7 +73,7 @@ assignments
 
 ```
 
-
+`r as.character(assignments$Final)`
 
 ## Grading {.unnumbered} 
 
