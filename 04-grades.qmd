@@ -70,7 +70,7 @@ assignments<-rowid_to_column(assignments) |>
 
 # assignments_tbl|>
 #   as_latex()
-
+as.character(assignments$Final)
 ```
 
 `r as.character(assignments$Final)`
