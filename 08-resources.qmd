@@ -12,7 +12,8 @@ library(kableExtra)
 ```
 
 <!-- # UF Resources for Students {.unnumbered} -->
-## UF Student Resources  {.unnumbered}
+## UF Student Resources  {.unnumbered}  
+
 
 ### Health, Safety, & Wellness {.unnumbered}
 
