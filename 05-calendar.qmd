@@ -14,7 +14,7 @@ date-modified: last-modified
 ---
 
 <!-- # Course Calendar -->
-
+<!-- \scriptsize -->
 ```{r}
 
 library(kableExtra)
@@ -29,12 +29,12 @@ calendar <- read_csv("./schedule.csv") %>%
   select(WEEK,
          DATE,
          TOPIC, 
-         READING=Reading,
-         `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
-  # select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
-  replace_na(list(DATE="",WEEK="", TOPIC="", `ASSIGNMENT`="", READING="")) %>%
+         READ=Reading,
+         `KEY DATE`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+  # select(WEEK,SESSION,DATE,TOPIC, `KEY DATE`=`ASSIGNMENT DISTRIBUTED or DUE`) %>%
+  replace_na(list(DATE="",WEEK="", TOPIC="", `KEY DATE`="", READ="")) %>%
   mutate(WEEK = gsub("NA NA","", WEEK)) %>%
-  mutate(WEEK = gsub("Finals Wk NA","Finals Wk", WEEK))
+  mutate(WEEK = gsub("Finals NA","Finals", WEEK))
 
 
 
@@ -77,11 +77,11 @@ gt() |>
   )|>
     tab_style(
     style = cell_fill(color = "darkgreen"),
-    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT","READING"))
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","KEY DATE","READ"))
     )|> 
   tab_style(
     style = cell_text(color = "white", weight = "bold"),
-    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","ASSIGNMENT","READING"))
+    locations = cells_column_labels(columns = c("WEEK","DATE","TOPIC","KEY DATE","READ"))
   )|>
    cols_width(
     # num ~ px(150),
@@ -90,8 +90,8 @@ gt() |>
     WEEK ~ "12%",
     DATE ~ "12%",
     TOPIC ~ "46%",
-    READING ~ "10%",
-    `ASSIGNMENT` ~ "23%"
+    READ ~ "10%",
+    `KEY DATE` ~ "23%"
    )|>
   tab_style(
     style = cell_text(weight = "bold"),
@@ -99,9 +99,10 @@ gt() |>
   ) |>
   cols_align(
   align = c("center"),
-  columns = c("WEEK","READING")
+  columns = c("WEEK","READ")
 )|>
+  opt_table_font(size = px(14)) |> 
   tab_options(latex.use_longtable = TRUE, latex.tbl.pos = "h")
 ```
-
+<!-- \normalsize -->
 

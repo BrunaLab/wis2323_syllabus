@@ -39,28 +39,33 @@ assignments <- data.frame(
   mutate(`Percent`=Points/sum(Points)*100) %>% 
   mutate(`Percent`=paste0(`Percent`,"%"))
 
+assignments<-rowid_to_column(assignments) |> 
+  mutate(Final=paste0(rowid,") ",Assignment,": ",Points," (",Percent,")")) |> 
+  summarise(Final = paste(Final, collapse = "\n"))
 
+assignments
 
-assignments |>
-  gt() |>
-  tab_header(
-    title = "Assignments for WIS 2323 and their point value.",
-    # subtitle = "===")
-  ) |>
-  cols_width(
-    Assignment ~ "20%",
-    Points ~ "10%",
-    Percent ~ "10%"
-  )|>
-  tab_style(
-    style = cell_text(weight = "bold"),
-    locations = cells_column_labels(columns = everything())
-  ) |>
-  cols_align(
-  align = c("center"),
-  columns = c("Points","Percent")
-) |>
-  tab_options(latex.use_longtable = TRUE, latex.tbl.pos = "h")
+# 
+# assignments |>
+#   gt() |>
+#   tab_header(
+#     title = "Assignments for WIS 2323 and their point value.",
+#     # subtitle = "===")
+#   ) |>
+#   cols_width(
+#     Assignment ~ "20%",
+#     Points ~ "10%",
+#     Percent ~ "10%"
+#   )|>
+#   tab_style(
+#     style = cell_text(weight = "bold"),
+#     locations = cells_column_labels(columns = everything())
+#   ) |>
+#   cols_align(
+#   align = c("center"),
+#   columns = c("Points","Percent")
+# ) |>
+#   tab_options(latex.use_longtable = TRUE, latex.tbl.pos = "h")
 
 
 # assignments_tbl|>
