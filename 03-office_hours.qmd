@@ -18,7 +18,7 @@ title-block-style: plain
 
 - **How to meet Online:** To join Office Hours virtually use the Zoom Conferences link on the main menu of the course Canvas page. We are online the entire session.
 
-## **Teaching Assistant Affice Hours** 
+## **Teaching Assistant Affice Hours**  {.unnumbered}  
 
 **Day / Time:** Tuesday 4:00-5:30 pm or by appointment.  
 
