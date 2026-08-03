@@ -8,19 +8,19 @@ title-block-style: plain
 
 <!-- # Office Hours   -->
 
-<!-- # Office Hours {.unnumbered} -->
+# Office Hours {.unnumbered}  
 
-## Instructor Office Hours {.unnumbered}  
+## Instructor {.unnumbered}  
 
-**Day / Time:** Wednesday 1:30-3:30 or by appointment. To guarantee a specific time slot you can sign up here: <https://embruna.youcanbook.me/>. If you can't make it during the regularly scheduled office hours, you can send a message via Canvas to set up an appointment.
+- **When:** Wednesday 1:30-3:30 or by appointment. To guarantee a specific time slot you can sign up here: <https://embruna.youcanbook.me/>. If you can't make it during the regularly scheduled office hours, you can send a message via Canvas to set up an appointment.
 
-- **Where to meet In-person:** The Tropical Ecology & Conservation Lab is located at 711 Newell Drive next to Rawlings Hall (between the bus stop and the parking garage). The location and directions are on [Google Maps](https://maps.app.goo.gl/xo13vJmj8WXAivpZ9).
+- **In-person:** The Tropical Ecology & Conservation Lab is located at 711 Newell Drive next to Rawlings Hall (between the bus stop and the parking garage). The location and directions are on [Google Maps](https://maps.app.goo.gl/xo13vJmj8WXAivpZ9).
 
-- **How to meet Online:** To join Office Hours virtually use the Zoom Conferences link on the main menu of the course Canvas page. We are online the entire session.
+- **Online:** To join Office Hours virtually use the Zoom Conferences link on the main menu of the course Canvas page. We are online the entire session.
 
-## **Teaching Assistant Affice Hours**  {.unnumbered}  
+## Teaching Assistant  {.unnumbered}  
 
-**Day / Time:** Tuesday 4:00-5:30 pm or by appointment.  
+**When:** Tuesday 4:00-5:30 pm or by appointment.  
 
 
 ::: {.callout-tip}
