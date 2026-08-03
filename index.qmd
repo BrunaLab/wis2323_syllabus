@@ -44,18 +44,15 @@ and different approaches to forest conservation and sustainability.
 <!-- -   GenEd Biological Sciences\ -->
 **GenEd Designation:** International   
 
-A minimum grade of C is required for Quest and General Education credit. Courses intended to satisfy Quest and General Education requirements cannot be taken S-U. <!-- *This course fulfills the following Quest and GenEd requirements:* -->
+A minimum grade of C is required for Quest and General Education credit. Courses intended to satisfy Quest and General Education requirements cannot be taken S-U. <!-- *This course fulfills the following Quest and GenEd requirements:* -->  
 
-## Majors, Minors, & Certificates {.unnumbered} 
+**This course also counts towards the graduation requirements for several UF Majors, Minors, and Certificates:**  
 
-This course counts towards the following Majors, Minors, and Certificates:
-
-### Majors  {.unnumbered} 
+**Majors:**  
 - Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_BA/#text))
 - International Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/INS_BA/))
 
-### Minors  {.unnumbered} 
-
+**Minors:**  
 - Latin American Studies (info [here](https://www.latam.ufl.edu/academics/undergraduate-programs))
 - Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_UMN/))
 
