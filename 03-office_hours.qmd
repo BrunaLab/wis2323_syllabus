@@ -12,7 +12,7 @@ title-block-style: plain
 
 ## Office Hours: When and Where {.unnumbered}  
 
-### **Instructor:** Wednesday 1:30-3:30 (in-person in the TEC Lab (see below) and via Zoom.  
+**Instructor:** Wednesday 1:30-3:30 (in-person or via Zoom).  
 
 If you want to guarantee a specific time slot you can do so by signing up here: <https://embruna.youcanbook.me/>. If you can't make it during the regularly scheduled office hours, you can send a message via Canvas to set up an appointment.
 
@@ -23,7 +23,6 @@ If you want to guarantee a specific time slot you can do so by signing up here: 
 ### **Teaching Assistant:** Tuesday 4:00-5:30 pm (in-person in the TEC Lab & online) or by appointment.
 
 ::: {.callout-tip}
-
 
 ## Can you give me **one good reason** why I should go to Office Hours?
 
