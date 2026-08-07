@@ -7,12 +7,9 @@ title-block-style: plain
 
 ## Required Course Materials  {.unnumbered} 
 
-
-All materials, including readings and videos, will be made available on the course Canvas page. 
-
 **Materials and Supplies Fees**: None.
 
-**Textbooks to purchase:** None. 
+**Textbooks to purchase:** None. All materials, including readings and videos, will be made available on the course Canvas page. 
 
 ::: {.callout-important}
 

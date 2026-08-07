@@ -87,7 +87,7 @@ assignments<-rowid_to_column(assignments) |>
 
 ## Attendance {.unnumbered} 
 
-Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Some these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. **Not all in-class activities can be completed independently.** That is why only a subset of the in-class assignments count towards your grade. We also offer some opportunities for extra credit. **_If you need to miss class for any reason, please let me know as soon as possible_**. We will try to make arrangements for you to complete any assignments and go over any material you will be missing.
+Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Some these can be completed independently outside of the class session, but by doing them in class you will benefit from working collaboratively with the other students. **Not all in-class activities can be completed independently - if you aren't in class that day you won't be able to complete the assignment.** However, there are opportunities for extra credit to offset this, and only a subset of assignments will count towards the final class grade. **_If you need to miss class for any reason, please let me know as soon as possible_**. We will try to make arrangements for you to complete any assignments and go over any material you will be missing.
 
 ## Participation {.unnumbered} 
 
