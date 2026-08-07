@@ -26,10 +26,14 @@ header-includes:
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# output: 
+#   word_document:
+  # html_document:
+  #   df_print: paged
 output:
   pdf_document: default
   # html_document:
-  #   df_print: paged
+  df_print: paged
   rmdformats::robobook: default
 editor_options: 
   markdown: 
