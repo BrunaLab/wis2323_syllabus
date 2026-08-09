@@ -26,10 +26,10 @@ book:
               05-calendar.qmd
               06-faq.qmd
               07-policies.qmd
-    #           08-resources.qmd
               09-readings.qmd
               10-slos.qmd
-    #           11-posters.qmd
+              # 08-resources.qmd
+              # 11-posters.qmd
     
     # 
     #           part: "Course Introduction"
