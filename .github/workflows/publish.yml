@@ -36,30 +36,72 @@ jobs:
         with:
           tinytex: true
 
-      # Render the standalone syllabus file to PDF
+      # Debug: List files to see what's available
+      - name: List files
+        run: |
+          echo "Files in root directory:"
+          ls -la
+          echo "Looking for .qmd files:"
+          find . -name "*.qmd" -type f
+
+      # Check if the file exists and render it
       - name: Render Syllabus to PDF
-        uses: quarto-dev/quarto-actions/render@v2
-        with:
-          path: syllabus_wis2323.qmd
-          to: pdf
+        run: |
+          if [ -f "syllabus_wis2323.qmd" ]; then
+            echo "Found syllabus_wis2323.qmd, rendering to PDF..."
+            quarto render syllabus_wis2323.qmd --to pdf
+          else
+            echo "syllabus_wis2323.qmd not found in current directory"
+            echo "Available .qmd files:"
+            find . -name "*.qmd" -type f
+            exit 1
+          fi
 
-      # Render the entire book project
-      - name: Render Quarto Book Project
-        uses: quarto-dev/quarto-actions/render@v2
+      # Commit ONLY the syllabus PDF to main branch
+      - name: Commit syllabus PDF to main branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add only the specific syllabus PDF file
+          if [ -f "syllabus_wis2323.pdf" ]; then
+            git add syllabus_wis2323.pdf
+            
+            # Check if there are changes to commit
+            if git diff --staged --quiet; then
+              echo "No changes to syllabus PDF"
+            else
+              git commit -m "Auto-update syllabus PDF [skip ci]"
+              git push
+              echo "Syllabus PDF committed and pushed to main branch"
+            fi
+          else
+            echo "syllabus_wis2323.pdf not found - render may have failed"
+          fi
 
-      # Upload both PDFs as artifacts
-      - name: Upload PDF artifacts
+      # Render the book project (if _quarto.yml exists)
+      - name: Render Quarto Book Project  
+        run: |
+          if [ -f "_quarto.yml" ]; then
+            echo "Found _quarto.yml, rendering book project..."
+            quarto render
+          else
+            echo "No _quarto.yml found, skipping book render"
+          fi
+
+      # Upload syllabus PDF as artifact (backup)
+      - name: Upload syllabus PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          name: syllabus-pdfs
-          path: |
-            syllabus_wis2323.pdf
-            book/*.pdf
+          name: syllabus-pdf
+          path: "syllabus_wis2323.pdf"
+        if: always()
 
-      # Publish the book to GitHub Pages
-      - name: Publish to GitHub Pages
+      # Publish book to GitHub Pages (gh-pages branch)
+      - name: Publish Book to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: hashFiles('_quarto.yml') != ''
