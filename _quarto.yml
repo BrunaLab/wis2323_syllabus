@@ -5,7 +5,7 @@ css: format/style.css
   
 book:
   output-file: "wis2323-syllabus"
-  title: "Syllabus           WIS 2323"
+  title: "Syllabus - WIS 2323"
   date-format: long
   search: true
   repo-url: https://github.com/BrunaLab/wis2323_syllabus
@@ -19,26 +19,26 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   
   chapters:
-              index.qmd
-              02-materials.qmd
-              03-office_hours.qmd
-              04-grades.qmd
-              05-calendar.qmd
-              06-faq.qmd
-              07-policies.qmd
-              09-readings.qmd
-              10-slos.qmd
-              # 08-resources.qmd
-              # 11-posters.qmd
+    - index.qmd
+    - 02-materials.qmd
+    - 03-office_hours.qmd
+    - 04-grades.qmd
+    - 05-calendar.qmd
+    - 06-faq.qmd
+    - 07-policies.qmd
+    # - 08-resources.qmd
+    - 09-readings.qmd
+    - 10-slos.qmd
+    # - 11-posters.qmd
     
     # 
-    #           part: "Course Introduction"
+    # - part: "Course Introduction"
     #   chapters: 
-    #     #           introduction/intro.qmd
-    #     #           introduction/getting_involved.qmd
-    #     #           introduction/Network_Structure.qmd
-    #     #           introduction/data_overview.qmd
-    #     #           introduction/herbvar_products.qmd
+    #     # - introduction/intro.qmd
+    #     # - introduction/getting_involved.qmd
+    #     # - introduction/Network_Structure.qmd
+    #     # - introduction/data_overview.qmd
+    #     # - introduction/herbvar_products.qmd
   
 
     
@@ -50,7 +50,7 @@ format:
     title-block: false
     # title-block-banner: images/banner.png
     theme: 
-                cosmo
+      - cosmo
     filters: [format/remove_title.lua]
   # docx:
   #   toc: true
@@ -84,15 +84,15 @@ format:
     colorlinks: true
     # Layout
     geometry:
-      #           margin=0.75in
-                bindingoffset=0.0in
-                left=24mm
-                top=24mm
-                bottom=24mm
-                right=24mm
-      #           heightrounded
-      #           footskip=0.475in
-      #           showframe
+      # - margin=0.75in
+      - bindingoffset=0.0in
+      - left=24mm
+      - top=24mm
+      - bottom=24mm
+      - right=24mm
+      # - heightrounded
+      # - footskip=0.475in
+      # - showframe
     # pagestyle: plain
     # Rendering
     keep-tex: true
@@ -107,47 +107,47 @@ format:
     includes:
       in-header: 'format/gt_packages.sty'
       text: |
-          \AtBeginDocument{\let\maketitle\relax} # this removes default title section
-#           \usepackage[default]{sourcesanspro}
-          \usepackage{fancyhdr} # modify header into left, center, right
-          \pagestyle{fancy} # cues the use of fancy headers
-          \fancyfoot{} # cues the use of fancy footer
-          \fancyhead[L]{WIS2323           Future of Rain Forests}  # header left 
-          \fancyhead[R]{Syllabus, p. \thepage} # header right
-          \fancyfoot[R]{}
-#           \usepackage{setspace}{singlespace} # manipulate line spacing 
-          \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
-          \usepackage{xcolor} # changes colors of text
-# # to center to top level (#) headings (my name) and change color of font
-# # more info # https://www.ctan.org/pkg/sectsty
-          \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-# # to center to sub-sub-headings (###) and change color of font
-          \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
-          \usepackage{sectsty} \subsubsectionfont{\raggedright\color{darkmidnightblue}}
-# http://latexcolor.com/ to choose colors
-# define the colors used above with rgb codes
-          \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
-          \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-#           \usepackage{indentfirst}
-#           \setlength{\parindent}{4em}
-          \usepackage{caption}  
-          \captionsetup[table]{labelformat=empty}
-          \usepackage{float}
-          \floatplacement{table}{H}
-          \usepackage{xcolor}
-          \usepackage{sectsty}
-#           \definecolor{customnavy}{RGB}{0, 0, 128}
-#           \definecolor{customcharcoal}{RGB}{54, 69, 79}
-#           \sectionfont{\color{customnavy}}
-#           \subsectionfont{\color{customnavy}}   
-#           \subsubsectionfont{\color{customcharcoal}}   
-          \usepackage{amssymb}
-          \usepackage{pifont}
-          \usepackage{wasysym}
-          \usepackage{fontawesome5}
-          \usepackage{etoolbox}
-        # 
-        # \usepackage{caption}  
+        \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+        # \usepackage[default]{sourcesanspro}
+        \usepackage{fancyhdr} # modify header into left, center, right
+        \pagestyle{fancy} # cues the use of fancy headers
+        \fancyfoot{} # cues the use of fancy footer
+        \fancyhead[L]{WIS2323, Future of Rain Forests}  # header left 
+        \fancyhead[R]{Syllabus, p. \thepage} # header right
+        \fancyfoot[R]{}
+        # \usepackage{setspace}{singlespace} # manipulate line spacing 
+        \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+        \usepackage{xcolor} # changes colors of text
+        # # to center to top level (#) headings (my name) and change color of font
+        # # more info # https://www.ctan.org/pkg/sectsty
+        \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+        # # to center to sub-sub-headings (###) and change color of font
+        \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+        \usepackage{sectsty} \subsubsectionfont{\raggedright\color{darkmidnightblue}}
+        # http://latexcolor.com/ to choose colors
+        # define the colors used above with rgb codes
+        \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        # \usepackage{indentfirst}
+        # \setlength{\parindent}{4em}
+        \usepackage{caption}  
+        \captionsetup[table]{labelformat=empty}
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \usepackage{xcolor}
+        \usepackage{sectsty}
+        # \definecolor{customnavy}{RGB}{0, 0, 128}
+        # \definecolor{customcharcoal}{RGB}{54, 69, 79}
+        # \sectionfont{\color{customnavy}}
+        # \subsectionfont{\color{customnavy}}   
+        # \subsubsectionfont{\color{customcharcoal}}   
+        \usepackage{amssymb}
+        \usepackage{pifont}
+        \usepackage{wasysym}
+        \usepackage{fontawesome5}
+        \usepackage{etoolbox}    
+        
+# \usepackage{caption}  
         # \captionsetup[table]{labelformat=empty}
         # \usepackage{float}
         # \floatplacement{table}{H}
@@ -202,12 +202,12 @@ format:
         # \AtBeginDocument{\let\clearpage\relax\let\cleardoublepage\relax}
     # the previous three lines let a new chapter start on the same page as the ending chapter
     
-      #           macros.tex
+      # - macros.tex
     # include-in-header: 
-    #            "format/PrettyPDF.tex"
+    #  - "format/PrettyPDF.tex"
     # include-before-body:
-    #            "format/pagestyle.tex
-    #             "format/_titlepage.tex" 
+    #  - "format/pagestyle.tex
+    #   - "format/_titlepage.tex" 
           
       
   epub:
