@@ -5,14 +5,15 @@ title-block-style: plain
 # date-modified: last-modified
 ---
 
-## Required Course Materials  {.unnumbered} 
+# Required Course Materials
 
 **Materials and Supplies Fees**: None.
 
-**Textbooks to purchase:** None. All materials, including readings and videos, will be made available on the course Canvas page. 
+**Textbooks to purchase:** None. All materials, including readings and videos, will be made available on the course Canvas page. *Students must sign up for free online access to the New York Times, Wall Street Journal, and The Economist by following the instructions at [this UF Libraries Website: https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist](https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist)*.
 
-::: {.callout-important}
+<!-- ::: {.callout-important} -->
 
-*Students should sign up for free online access to the New York Times, Wall Street Journal, and The Economist by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist)*.
 
-:::
+<!-- *Students must sign up for free online access to the New York Times, Wall Street Journal, and The Economist by following the instructions at [this UF Libraries Website: https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist](https://businesslibrary.uflib.ufl.edu/wsj-nyt-economist)*. -->
+
+<!-- ::: -->

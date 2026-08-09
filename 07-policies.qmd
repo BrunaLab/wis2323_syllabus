@@ -15,7 +15,7 @@ title: "UF Policies"
 
 <!-- ``` -->
 
-# University Policies and Resources {.unnumbered}
+# UF Policies and Resources 
 
 Complete information about grading policies, support for students with disabilities, course evaluations, the Honor Code, Software Use, and other course policies and campus resources can be found on the [Syllabus Policies page](https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/). Information about university attendance policies, including policies regarding religious holidays, illness, and the twelve-day rule, can be found in the [Undergraduate Catalog](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/#absencestext). 
 

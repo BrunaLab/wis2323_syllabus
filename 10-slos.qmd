@@ -8,9 +8,9 @@ title: "Student Learning Objectives"
 ---
 
 
-## Student Learning Objectives {.unnumbered}  
+# Student Learning Objectives 
 
-## CONTENT {.unnumbered}  
+## Content {.unnumbered}  
 
 
 ***Students demonstrate competence in the terminology, concepts, theories, and methodologies used within the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
@@ -29,7 +29,7 @@ title: "Student Learning Objectives"
 
 (7)  Critique different proposed mechanisms for rain forest conservation. _Assessments:_ In-class activities, Analytic Essay. (B, Q2). 
 
-## CRITICAL THINKING {.unnumbered}  
+## Critical Thinking {.unnumbered}  
 
 ***Students carefully and logically analyze information from multiple perspectives and develop reasoned solutions to problems within the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
 
@@ -40,7 +40,7 @@ title: "Student Learning Objectives"
 
 (3) Explain the relationship between deforestation and the global climate cycle. Compare alternative policy pathways for reducing CO2 emissions using the En-ROADS global climate simulator. _Assessments:_ In-class activities, Reflective Essay (B, Q2).
 
-## COMMUNICATION {.unnumbered}  
+## Communication {.unnumbered}  
 
 ***Students communicate knowledge, ideas and reasoning clearly and effectively in written and oral forms appropriate to the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
 
@@ -50,7 +50,7 @@ title: "Student Learning Objectives"
 
 (3) Develop audience-specific content and materials with which to communicate an important issue related to tropical forest biology and conservation. _Assessments:_ In-class activities,  Reflective Essay, Movie Reviews, Analytic Essay, Final Project (Q2).
 
-## CONNECTION {.unnumbered}  
+## Connection {.unnumbered}  
 
 ***Students connect course content with meaningful critical reflection on their intellectual, personal, and professional development at UF and beyond. (B = Biological Sciences, Q2 = Quest 2)***
 

@@ -108,39 +108,24 @@ format:
       in-header: 'format/gt_packages.sty'
       text: |
         \AtBeginDocument{\let\maketitle\relax} # this removes default title section
-        # \usepackage[default]{sourcesanspro}
-        \usepackage{fancyhdr} # modify header into left, center, right
-        \pagestyle{fancy} # cues the use of fancy headers
-        \fancyfoot{} # cues the use of fancy footer
-        \fancyhead[L]{WIS2323, Future of Rain Forests}  # header left 
-        \fancyhead[R]{Syllabus, p. \thepage} # header right
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{}
+        \fancyhead[L]{WIS2323, Future of Rain Forests}
+        \fancyhead[R]{Syllabus, p. \thepage}
         \fancyfoot[R]{}
-        # \usepackage{setspace}{singlespace} # manipulate line spacing 
-        \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
-        \usepackage{xcolor} # changes colors of text
-        # # to center to top level (#) headings (my name) and change color of font
-        # # more info # https://www.ctan.org/pkg/sectsty
+        \usepackage{setspace}{singlespace} # manipulate line spacing 
         \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-        # # to center to sub-sub-headings (###) and change color of font
         \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
         \usepackage{sectsty} \subsubsectionfont{\raggedright\color{darkmidnightblue}}
-        # http://latexcolor.com/ to choose colors
-        # define the colors used above with rgb codes
         \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
         \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-        # \usepackage{indentfirst}
-        # \setlength{\parindent}{4em}
         \usepackage{caption}  
         \captionsetup[table]{labelformat=empty}
         \usepackage{float}
         \floatplacement{table}{H}
         \usepackage{xcolor}
         \usepackage{sectsty}
-        # \definecolor{customnavy}{RGB}{0, 0, 128}
-        # \definecolor{customcharcoal}{RGB}{54, 69, 79}
-        # \sectionfont{\color{customnavy}}
-        # \subsectionfont{\color{customnavy}}   
-        # \subsubsectionfont{\color{customcharcoal}}   
         \usepackage{amssymb}
         \usepackage{pifont}
         \usepackage{wasysym}
