@@ -15,28 +15,31 @@ title: "UF Policies"
 
 <!-- ``` -->
 
-## University Policies {.unnumbered}
+# University Policies and Resources {.unnumbered}
 
-<!-- <span style="color: #1F691B;"> {{< fa headphones >}} </span>  -->
-## Student Accomodations  {.unnumbered} 
-Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting [https://disability.ufl.edu/students/get-started/](https://disability.ufl.edu/students/get-started/). Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.  
+Complete information about grading policies, support for students with disabilities, course evaluations, the Honor Code, Software Use, and other course policies and campus resources can be found on the [Syllabus Policies page](https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/). Information about university attendance policies, including policies regarding religious holidays, illness, and the twelve-day rule, can be found in the [Undergraduate Catalog](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/#absencestext). 
 
-<!-- <span style="color: #1F691B;"> {{< fa thumbs-up >}} </span> -->
-## Course Evaluations  {.unnumbered} 
-Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations. Guidance on how to provide constructive feedback is available at [https://gatorevals.aa.ufl.edu/students/](https://gatorevals.aa.ufl.edu/students/). Students will be notified when the evaluation period opens. Summaries of course evaluation results are available to students at [https://gatorevals.aa.ufl.edu/public-results/](https://gatorevals.aa.ufl.edu/public-results/). Students can complete evaluations in three ways: (1) The email they receive from GatorEvals, (2) Their Canvas course menu under GatorEvals, and (3) The central portal at [https://my-ufl.bluera.com](https://my-ufl.bluera.com).
 
-<!-- <span style="color: #1F691B;"> {{< fa scale-balanced >}} </span> -->
-## University Honesty Policy  {.unnumbered} 
-UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: On my honor, I have neither given nor received unauthorized aid in doing this assignment. The Honor Code ([https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code](https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code)) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.
+<!-- <!-- <span style="color: #1F691B;"> {{< fa headphones >}} </span>  --> 
+<!-- ## Student Accomodations  {.unnumbered}  -->
+<!-- Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting [https://disability.ufl.edu/students/get-started/](https://disability.ufl.edu/students/get-started/). Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.   -->
 
-<!-- <span style="color: #1F691B;"> {{< fa computer >}} </span>  -->
-## Software Use  {.unnumbered} 
-All faculty, staff & students are required & expected to obey laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against UF policies & rules, disciplinary action will be taken as appropriate.
+<!-- <!-- <span style="color: #1F691B;"> {{< fa thumbs-up >}} </span> --> 
+<!-- ## Course Evaluations  {.unnumbered}  -->
+<!-- Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations. Guidance on how to provide constructive feedback is available at [https://gatorevals.aa.ufl.edu/students/](https://gatorevals.aa.ufl.edu/students/). Students will be notified when the evaluation period opens. Summaries of course evaluation results are available to students at [https://gatorevals.aa.ufl.edu/public-results/](https://gatorevals.aa.ufl.edu/public-results/). Students can complete evaluations in three ways: (1) The email they receive from GatorEvals, (2) Their Canvas course menu under GatorEvals, and (3) The central portal at [https://my-ufl.bluera.com](https://my-ufl.bluera.com). -->
 
-<!-- <span style="color: #1F691B;"> {{< fa check >}} </span>  -->
+<!-- <!-- <span style="color: #1F691B;"> {{< fa scale-balanced >}} </span> --> 
+<!-- ## University Honesty Policy  {.unnumbered}  -->
+<!-- UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: On my honor, I have neither given nor received unauthorized aid in doing this assignment. The Honor Code ([https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code](https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code)) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs. -->
 
-## Attendance  {.unnumbered} 
-Requirements for class attendance & make-up exams, assignments, and other work are consistent with UF policies found at: [https://catalog.ufl.edu/ugrad/current/regulations/info/attendance.aspx](https://catalog.ufl.edu/ugrad/current/regulations/info/attendance.aspx).
+<!-- <!-- <span style="color: #1F691B;"> {{< fa computer >}} </span>  --> 
+<!-- ## Software Use  {.unnumbered}  -->
+<!-- All faculty, staff & students are required & expected to obey laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against UF policies & rules, disciplinary action will be taken as appropriate. -->
+
+<!-- <!-- <span style="color: #1F691B;"> {{< fa check >}} </span>  --> 
+
+<!-- ## Attendance  {.unnumbered}  -->
+<!-- Requirements for class attendance & make-up exams, assignments, and other work are consistent with UF policies found at: [https://catalog.ufl.edu/ugrad/current/regulations/info/attendance.aspx](https://catalog.ufl.edu/ugrad/current/regulations/info/attendance.aspx). -->
 
 <!-- <span style="color: #1F691B;"> {{< fa microphone >}} </span>  -->
 

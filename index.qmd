@@ -2,7 +2,7 @@
 
 ![](images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}  
 
-
+# Syllabus {.unnumbered}
 <!-- ## Course Overview   -->
 <!-- ## Course Overview {.unnumbered} -->
 
@@ -21,18 +21,18 @@ and different approaches to forest conservation and sustainability.
 -   Review contemporary threats to rain forests
 -   Analyze and visualize data on deforestation
 -   Review and contrast strategies for rain forest conservation & restoration
--   Identify rain forests in their daily lives & set personal goals for advancing their conservation
--   Produce materials for communicating about tropical biology & conservation to family and peers
+-   Identify the presence of rain forests in their daily lives & set personal goals for advancing rain forest conservation
+-   Produce materials for communicating about tropical biology & the conservation of tropical rain forests to family and peers
 
 ## When & Where {.unnumbered}
 
-**When:** Tuesdays 11:45 AM-12:35 PM (Period 5) _and_ Thursdays 11:45 AM-1:40 PM (Periods 5-6)\
+**When:** Tuesdays 11:45 AM-12:35 PM & Thursdays 11:45 AM-1:40 PM\
 **Where:** Larsen Hall 0310\ 
 
 ## Instructor & TA {.unnumbered}
 
-**Instructor:** Dr. Emilio M. Bruna (email: embruna@ufl.edu, phone: (352) 846-0634)\    
-**Teaching Assistant:** Ashra Kunwar (email: kunwarashra@ufl.edu)  
+**Instructor:** Dr. Emilio M. Bruna, [embruna@ufl.edu](mailto:embruna@ufl.edu), (352) 846-0634)\    
+**Teaching Assistant:** Ashra Kunwar, [kunwarashra@ufl.edu](mailto:kunwarashra@ufl.edu) 
 
 ## Credits & Prerequisites {.unnumbered}
 
@@ -40,26 +40,25 @@ and different approaches to forest conservation and sustainability.
 
 **Credits:** 3  
 **Prerequisites:** None   
-**Quest Program:** Quest 2   
+**Quest Designation:** Quest 2   
 <!-- -   GenEd Biological Sciences\ -->
 **GenEd Designation:** International   
 
-- A minimum grade of C is required for Quest and General Education credit.   
-- Courses intended to satisfy Quest and General Education requirements cannot be taken S-U. 
+- A minimum grade of C is required for Quest and General Education credit.
+- Courses intended to satisfy Quest and GenEd requirements _cannot_ be taken S-U.
 
-**Credit towards Majors, Minors, and Certificates:**  This course counts towards the graduation requirements of several UF Majors, Minors, and Certificates.
+## Credit towards Majors, Minors, and Certificates {.unnumbered}
 
-**Majors:**  
-- Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_BA/#text))  
-- International Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/INS_BA/))  
+This course counts towards the graduation requirements of the following UF Majors, Minors, and Certificates:
 
-**Minors:**  
-- Latin American Studies (info [here](https://www.latam.ufl.edu/academics/undergraduate-programs))  
-- Sustainability Studies (info [here](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_UMN/))  
+- **Majors:**  
+-- Sustainability Studies ([info](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_BA/#text))  
+-- International Studies ([info](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/INS_BA/))  
 
-## University Policies and Resources {.unnumbered}
+- **Minors:**  
+-- Latin American Studies ([info](https://www.latam.ufl.edu/academics/undergraduate-programs))  
+-- Sustainability Studies ([info](https://catalog.ufl.edu/UGRD/colleges-schools/UGLAS/SST_UMN/))  
 
-Information about grading policies, support for students with disabilities, course evaluations, the Honor Code, and other course policies and campus resources can be found on the [Syllabus Policies page](https://syllabus.ufl.edu/syllabus-policy/uf-syllabus-policy-links/). Information about university attendance policies, including policies regarding religious holidays, illness, and the twelve-day rule, can be found in the [Undergraduate Catalog](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/#absencestext). 
 
 
 
