@@ -36,15 +36,27 @@ jobs:
         with:
           tinytex: true
 
-      - name: Render Quarto project
+      # Render the standalone syllabus file to PDF
+      - name: Render Syllabus to PDF
         uses: quarto-dev/quarto-actions/render@v2
-        
-      - name: Upload PDF artifact
+        with:
+          path: syllabus_wis2323.qmd
+          to: pdf
+
+      # Render the entire book project
+      - name: Render Quarto Book Project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      # Upload both PDFs as artifacts
+      - name: Upload PDF artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: syllabus-pdf
-          path: "*.pdf"
+          name: syllabus-pdfs
+          path: |
+            syllabus_wis2323.pdf
+            book/*.pdf
 
+      # Publish the book to GitHub Pages
       - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
