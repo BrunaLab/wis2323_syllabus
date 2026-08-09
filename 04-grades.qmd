@@ -76,7 +76,7 @@ assignments<-rowid_to_column(assignments) |>
 
 ## Grading {.unnumbered} 
 
-Due dates: Due dates of Essays are Movie Reviews are posted on the course calendar. **Submissions of in-class assignments are due by the following class session.** Late assignments will lose 10 pts.
+***Due dates:*** Due dates of Essays are Movie Reviews are posted on the course calendar. **Submissions of in-class assignments are due by the following class session.** Late assignments will lose 10 pts.
 
 ***Regrades:*** Requests for re-evaluation of assignments must be accompanied by an explanation for why you think you deserve additional credit and the number of additional points you think you deserve. The deadline for submission is one week after the work was returned.
 
