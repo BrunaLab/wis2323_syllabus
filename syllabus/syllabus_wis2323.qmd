@@ -73,8 +73,13 @@ format:
         \usepackage{sectsty}\sectionfont{\color{darkmidnightblue}}
         \usepackage{sectsty}\subsectionfont{\color{customcharcoal}}
         \usepackage{sectsty}\subsubsectionfont{\raggedright\color{customcharcoal}}
+        <!-- \usepackage{scrlayer-scrpage} -->
+        <!-- \clearpairofpagestyles -->
+        <!-- \cohead[\includegraphics[width=3cm]{../images/banner.png}]{../images/banner.png} -->
 
 ---
+
+![](../images/banner.png){fig-alt="Banner for the syllabus with an image of a primate next to the course name and number."}  
 
 {{< include ../index.qmd >}}
 

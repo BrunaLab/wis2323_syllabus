@@ -8,6 +8,8 @@ book:
   title: "Syllabus - WIS 2323"
   date-format: long
   search: true
+  image: /images/banner.png
+  # alt-text: "Banner for the syllabus with an image of a primate next to the course name and number."
   repo-url: https://github.com/BrunaLab/wis2323_syllabus
   downloads: [pdf, epub]
   reader-mode: false
@@ -59,7 +61,8 @@ format:
   pdf:
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
-    # cover-image: images/cover.png
+    cover-image: images/banner.png
+    image-alt: "Banner for the syllabus with an image of a primate next to the course name and number."
     filters: [format/remove_title.lua]
     pdf-standard: [a-4f, ua-2]
     # header-includes: |
