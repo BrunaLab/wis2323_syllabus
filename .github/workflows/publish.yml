@@ -45,11 +45,11 @@ jobs:
             ls -la syllabus/
             echo "Looking for .qmd files in syllabus folder:"
             find syllabus/ -name "*.qmd" -type f
-         else
-           echo "ERROR: syllabus directory not found!"
-           echo "Available directories:"
-           find . -type d -maxdepth 2
-           exit 1
+          else
+            echo "ERROR: syllabus directory not found!"
+            echo "Available directories:"
+            find . -type d -maxdepth 2
+            exit 1
 
       # Check if the file exists and render it
       - name: Render Syllabus to PDF
