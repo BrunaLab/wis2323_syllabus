@@ -20,16 +20,16 @@ book:
   
   chapters:
     - index.qmd
-    - 02-materials.qmd
-    - 03-office_hours.qmd
-    - 04-grades.qmd
-    - 05-calendar.qmd
-    - 06-faq.qmd
-    - 07-policies.qmd
-    # - 08-resources.qmd
-    - 09-readings.qmd
-    - 10-slos.qmd
-    # - 11-posters.qmd
+    - syllabus/02-materials.qmd
+    - syllabus/03-office_hours.qmd
+    - syllabus/04-assignments_grades.qmd
+    - syllabus/05-calendar.qmd
+    - syllabus/06-faq.qmd
+    - syllabus/07-policies.qmd
+    # - syllabus/08-resources.qmd
+    - syllabus/09-readings.qmd
+    - syllabus/10-slos.qmd
+    # - syllabus/11-posters.qmd
     
     # 
     # - part: "Course Introduction"

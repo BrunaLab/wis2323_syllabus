@@ -3,6 +3,7 @@ title: "Office Hours"
 title-block-style: none
 # date: 09/15/2024
 # date-modified: last-modified
+fig-alt: "light bulb to indicate imporant information."
 ---
 
 

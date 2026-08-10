@@ -1,6 +1,7 @@
 ---
 title: "Assignments and Grades"
 title-block-style: none
+fig-alt: "light bulb to indicate imporant information."
 ---
 
 <!-- # Assignments, Attendance, and Grades -->
