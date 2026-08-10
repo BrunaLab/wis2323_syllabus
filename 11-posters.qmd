@@ -1,5 +1,5 @@
 ---
-title-block-style: plain
+title-block-style: none
 title: WIS2323 Posters
 lightbox: true
 format: html

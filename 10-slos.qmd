@@ -1,14 +1,14 @@
 ---
 # title-block-banner: false
-title-block-style: plain
-title: "Student Learning Objectives"
+title-block-style: none
+title: "SLOs"
 # subtitle: "(B = Biological Sciences, Q2 = Quest 2)"
 # date: 09/15/2024
 # date-modified: last-modified
 ---
 
 
-# Student Learning Objectives 
+# Student Learning Objectives  
 
 ## Content {.unnumbered}  
 

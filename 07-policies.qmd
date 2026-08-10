@@ -1,5 +1,5 @@
 ---
-title-block-style: plain
+title-block-style: none
 # date: 09/15/2024
 # date-modified: last-modified
 title: "UF Policies"

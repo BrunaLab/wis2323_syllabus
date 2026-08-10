@@ -5,7 +5,7 @@ execute:
   echo: false
   warning: false
   message: false
-title-block-style: plain
+title-block-style: none
 prefer-html: true
 ---
 
@@ -24,7 +24,8 @@ Topics & readings are subject to change based on student interests and current e
 
 ### Thursday: Course Introduction  {.unnumbered}
 
- - _No readings for the first day of class._
+- _No readings (first day of class)._ 
+ 
 
 ## Week  2    {.unnumbered}
 
@@ -85,7 +86,7 @@ _**Goal:** To learn the different ways biologists define the "tropics" and how t
 
 _**Goal:** To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals._
 
-- No readings for today's class 
+- _No readings for today's class_ 
 
 
 ## Week  5  {.unnumbered}
@@ -117,13 +118,13 @@ _**Goal:** To understand global patterns of species richness and how these vary 
 
 _**Goal:** To review hypothesized mechanisms for the origins of tropical diversity and the role of interspecific interactions in the (co)evolution and diversification of tropical biodiversity_
 
-- No readings for today's class 
+- _No readings for today's class_ 
 
 ### Thursday: The maintenance of tropical biodiversity {.unnumbered}
 
 _**Goal:** To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species_
 
-- No readings for today's class 
+- _No readings for today's class_ 
 
 ## Week  7  {.unnumbered}
 
@@ -140,7 +141,7 @@ _**Goal:** To understand the history of human occupation of rain forests includi
 
 ### Thursday: Humans in Rain Forests, continued {.unnumbered}
 
-- No readings for today's class 
+- _No readings for today's class_ 
 
 ## Week  8  {.unnumbered}
 
@@ -168,7 +169,7 @@ _**Goal:** To understand how such a productive biome can be built on such low-qu
 
 ### Thursday: Jungle Film Festival  {.unnumbered}
 
-- No readings for today's class 
+- _No readings for today's class_ 
 
 
 ## Week  9  {.unnumbered}

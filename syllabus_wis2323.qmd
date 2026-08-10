@@ -2,72 +2,100 @@
 title: "Syllabus-WIS232"
 author: "Emilio M. Bruna"
 format: 
-  # docx: 
-  #   reference-doc: "syllabus/EBwordtemplate.dotx"
-  pdf: 
+  # docx:
+  #   reference-doc: format/eb_accessible.docx
+  pdf:
     documentclass: scrreprt
     papersize: letter
-    mainfont: "Carlito"
-    monofont: "Courier New"
+    # mainfont: "Carlito"
+    # monofont: "Courier New"
     pdf-standard: [a-4f, ua-2]
+    keep-tex: true
+    # first part overides latex inserting page break after each chapter (denoted by #) 
+    include-in-header:
+      text: |
+        \makeatletter
+        \renewcommand{\chapter}{%
+        \global\@topnum\z@
+        \@afterindentfalse
+        \secdef\@chapter\@schapter
+        }
+        \makeatother
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{}
+        \fancyhead[L]{WIS2323 - The Future of Rain Forests}
+        \fancyhead[R]{Syllabus, p. \thepage}
+        \usepackage{datetime2}
+        \fancyfoot[R]{Updated \today}
+        \usepackage{parskip}
+        \usepackage{xcolor}
+        \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        \definecolor{customcharcoal}{RGB}{86, 86, 86}
+        
+        \usepackage{caption}
+        \captionsetup[table]{labelformat=empty}
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \usepackage{xcolor}
+        \usepackage{sectsty}
+        \captionsetup[table]{labelformat=empty}
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \usepackage{titlesec}
+        % 1. Redefine the chapter layout (required by titlesec for chapters)
+        \titleformat{\chapter}[display]
+          {\sffamily\color{customcharcoal}\LARGE\bfseries\filcenter}
+          {\chaptertitlename\ \thechapter}
+          {10pt} % Space between "Chapter X" label and the Title Text
+          {\LARGE}
+          
+        % 2. Adjust the margins around the chapter header
+        % \titlespacing*{\command}{left-margin}{before-sep}{after-sep}
+        \titlespacing*{\chapter}{1pt}{5pt}{5pt}
+        \titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+        \titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1ex plus .1ex}
+        <!-- \titlespacing: -->
+        <!-- \section: target heading level. -->
+        <!-- 0pt: The left margin indent. -->
+        <!-- 3.5ex plus 1ex minus .2ex: The space before the heading. -->
+        <!-- 1.5ex plus .2ex: The space after the heading. Make this smaller (e.g., 0.5ex or 3pt) to tighten your layout. -->
+
+        \usepackage{sectsty}\chapterfont{\centering\color{customcharcoal}}
+        \usepackage{sectsty}\sectionfont{\color{darkmidnightblue}}
+        \usepackage{sectsty}\subsectionfont{\color{customcharcoal}}
+        \usepackage{sectsty}\subsubsectionfont{\raggedright\color{customcharcoal}}
 date: last-modified
 date-format: MMMM DD, YYYY
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-header-includes:
-- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
-# - \usepackage[default]{sourcesanspro}
-- \usepackage{fancyhdr} # modify header into left, center, right
-- \pagestyle{fancy} # cues the use of fancy headers
-- \fancyfoot{} # cues the use of fancy footer
-- \fancyhead[L]{WIS2323 - Future of Rain Forests}  # header left 
-- \fancyhead[R]{Syllabus, p. \thepage} # header right
-- \usepackage{datetime2}
-- \fancyfoot[R]{Updated \today}
-# - \usepackage{setspace}{singlespace} # manipulate line spacing 
-- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
-- \usepackage{xcolor} # changes colors of text
-# # to center to top level (#) headings (my name) and change color of font
-# # more info # https://www.ctan.org/pkg/sectsty
-- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
-- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-- \definecolor{customcharcoal}{RGB}{86, 86, 86}
-- \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
-# # to center to sub-sub-headings (###) and change color of font
-- \usepackage{sectsty}\subsectionfont{\color{customcharcoal}}
-- \usepackage{sectsty}\subsubsectionfont{\raggedright\color{customcharcoal}}
-# http://latexcolor.com/ to choose colors
-# define the colors used above with rgb codes
-# - \usepackage{indentfirst}
-# - \setlength{\parindent}{4em}
-- \usepackage{caption}  
-- \captionsetup[table]{labelformat=empty}
-- \usepackage{float}
-- \floatplacement{table}{H}
-- \usepackage{xcolor}
-- \usepackage{sectsty}
-# - \definecolor{customnavy}{RGB}{0, 0, 128}
-# - \definecolor{customcharcoal}{RGB}{54, 69, 79}
-# - \sectionfont{\color{customnavy}}
-# - \subsectionfont{\color{customnavy}}   
-# - \subsubsectionfont{\color{customcharcoal}}   
-- \usepackage{amssymb}
-- \usepackage{pifont}
-- \usepackage{wasysym}
-- \usepackage{fontawesome5}
-- \usepackage{etoolbox}
+title-block-style: none
+
 ---
 
+<!-- {{< include blank.qmd >}}  -->
 
 {{< include index.qmd >}}
+
 {{< include 02-materials.qmd >}}
+
 {{< include 03-office_hours.qmd >}}
+
 {{< include 04-grades.qmd >}}
-\newpage
+
+<!-- \newpage -->
+
 {{< include 05-calendar.qmd >}}
-\newpage
+
+<!-- \newpage -->
+
 {{< include 06-faq.qmd >}}
+
 {{< include 07-policies.qmd >}}
+
 {{< include 10-slos.qmd >}}
+

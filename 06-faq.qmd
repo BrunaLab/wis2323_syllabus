@@ -1,11 +1,13 @@
 ---
-title-block-style: plain
+title-block-style: none
 # date: 09/15/2024
 # date-modified: last-modified
 title: "FAQ"
 ---
 
-# Frequently Asked Questions 
+
+# Frequently Asked Questions  
+
 
 
 <!-- # FAQ  -->
@@ -48,5 +50,5 @@ title: "FAQ"
 
 <!-- <span style="color: #1F691B;"> {{< fa person-breastfeeding >}} </span>  -->
 
-(@) **I unexpectedly have no child care today...what can I do?**  UF does not have a policy on children in the classroom, so here is mine: I never want students to feel they have to choose between their responsibilities as parents and their education. Bringing your child to class because of a gap in child care is totally fine (and that includes babies). If you do so, please try and sit close to the exit so that you can more easily step outside if you need to care for them and so other students can continue learning.
+(@) **I unexpectedly have no child care today...what can I do?**  UF does not have a policy on children in the classroom, so here is mine: I never want students to feel they have to choose between their responsibilities as parents and their education. Bringing your child to class because of a gap in child care is totally fine (and that includes babies). If you do so, please try and sit close to the exit so that you can more easily step outside if you need to care for them and so other students can continue learning.  
 

@@ -1,8 +1,6 @@
 ---
 title: "Assignments and Grades"
-title-block-style: plain
-# date: 09/15/2024
-# date-modified: last-modified
+title-block-style: none
 ---
 
 <!-- # Assignments, Attendance, and Grades -->
@@ -90,6 +88,6 @@ Though attendance is not required, many of the sessions we will be completing ac
 
 ## Participation {.unnumbered} 
 
-Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). *If you have personal issues that prohibit you from joining freely in class discussion (e.g., shyness, language barriers, medical condition): no problem.* let us know and we will discuss alternative modes of participation.
+Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). *If you have personal issues that prohibit you from joining freely in class discussion (e.g., shyness, language barriers, medical condition): no problem.* let us know and we will discuss alternative modes of participation.  
 
 

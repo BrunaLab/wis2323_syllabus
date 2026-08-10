@@ -1,16 +1,17 @@
 ---
 title: "Course Calendar"
 # format: html
-format: pdf
-# format: docx
-execute:
-  echo: false
-  warning: false
-  message: false
-title-block-banner: false
-prefer-html: true
-# date: 09/15/2024
-date-modified: last-modified
+# format: pdf
+# # format: docx
+# execute:
+#   echo: false
+#   warning: false
+#   message: false
+# title-block-banner: false
+title-block-style: none
+# prefer-html: true
+# # date: 09/15/2024
+# date-modified: last-modified
 ---
 
 # Course Calendar 
@@ -18,7 +19,9 @@ date-modified: last-modified
 
 <!-- \scriptsize -->
 ```{r}
-
+#| warning: false
+#| echo: false
+#| error: false
 library(kableExtra)
 library(gt)
 library(tidyverse)
@@ -47,6 +50,9 @@ gt() |>
     title = "Course Topics and Key Dates",
     # subtitle = "===")
   ) |>
+  tab_options(
+    heading.title.font.size=16
+  ) |> 
   # gt(rowname_col = "WEEK") |>
   tab_row_group(
   label = "WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?",
