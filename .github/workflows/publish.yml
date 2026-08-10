@@ -55,7 +55,7 @@ jobs:
       # Check if the file exists and render it
       - name: Render Syllabus to PDF
         run: |
-          if [ -f "/syllabus_wis2323.qmd" ]; then
+          if [ -f "./syllabus/syllabus_wis2323.qmd" ]; then
             echo "Found syllabus_wis2323.qmd, rendering to PDF..."
             quarto render syllabus_wis2323.qmd --to pdf
           else
