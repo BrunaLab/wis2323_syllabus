@@ -47,13 +47,13 @@ calendar <- read_csv("./schedule.csv") %>%
 calendar |>
 gt() |>
   tab_header(
-    title = "Course Topics and Key Dates",
+    title = "Course Topics and Key Dates"
     # subtitle = "===")
   ) |>
   tab_options(
-    heading.title.font.size=16,
-    heading.align="left"
-  ) |> 
+  heading.title.font.size=16
+  ) |>
+  opt_align_table_header(align = "left") |> 
   # gt(rowname_col = "WEEK") |>
   tab_row_group(
   label = "WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?",
