@@ -38,16 +38,23 @@ jobs:
 
       # Debug: List files to see what's available
       - name: List files
-        run: |
-          echo "Files in root directory:"
-          ls -la
-          echo "Looking for .qmd files:"
-          find . -name "*.qmd" -type f
+      run: |
+         echo "Checking for syllabus directory:"
+         if [ -d "syllabus" ]; then
+           echo "Files in syllabus directory:"
+           ls -la syllabus/
+           echo "Looking for .qmd files in syllabus folder:"
+           find syllabus/ -name "*.qmd" -type f
+         else
+           echo "ERROR: syllabus directory not found!"
+           echo "Available directories:"
+           find . -type d -maxdepth 2
+           exit 1
 
       # Check if the file exists and render it
       - name: Render Syllabus to PDF
         run: |
-          if [ -f "syllabus_wis2323.qmd" ]; then
+          if [ -f "/syllabus_wis2323.qmd" ]; then
             echo "Found syllabus_wis2323.qmd, rendering to PDF..."
             quarto render syllabus_wis2323.qmd --to pdf
           else
