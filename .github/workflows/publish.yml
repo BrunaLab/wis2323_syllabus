@@ -50,6 +50,7 @@ jobs:
             echo "Available directories:"
             find . -type d -maxdepth 2
             exit 1
+          fi
 
       # Check if the file exists and render it
       - name: Render Syllabus to PDF
