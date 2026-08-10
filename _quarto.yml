@@ -61,7 +61,7 @@ format:
     classoption: ["oneside", "open=any"]
     # cover-image: images/cover.png
     filters: [format/remove_title.lua]
-    pdf-standard: ua-2
+    pdf-standard: [a-4f, ua-2]
     # header-includes: |
     #   # \titlehead{\includegraphics[height=7in]{images/cover.png}}
     toc: false
@@ -104,14 +104,10 @@ format:
     # https://tex.stackexchange.com/questions/209993/how-to-customize-my-titlepage/210280#210280
     # https://nrennie.rbind.io/blog/pdf-quarto/making-pretty-pdf-quarto/
     # https://github.com/nrennie/PrettyPDF
-    includes:
-      
-    documentclass: scrreprt
     papersize: letter
     # mainfont: "Carlito"
     # monofont: "Courier New"
-    pdf-standard: [a-4f, ua-2]
-    keep-tex: true
+    
     # first part overides latex inserting page break after each chapter (denoted by #) 
     in-header: 'format/gt_packages.sty'
     header-includes:
