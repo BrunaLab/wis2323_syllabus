@@ -1,8 +1,8 @@
 ---
 title-block-style: none
 title: "Syllabus"
-# fig-alt: "Banner for the syllabus with an image of a primate next to the course name and number."
 image: ../images/banner.png
+fig-alt: "Banner for the syllabus with an image of a primate next to the course name and number."
 ---
 
 
