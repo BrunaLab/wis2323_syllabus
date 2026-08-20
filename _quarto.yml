@@ -2,11 +2,6 @@ project:
   type: book
   output-dir: book
 css: format/style.css
-
-profile:
-  default: book
-  group:
-    - [book, slides]
   
 book:
   output-file: "wis2323-syllabus"
