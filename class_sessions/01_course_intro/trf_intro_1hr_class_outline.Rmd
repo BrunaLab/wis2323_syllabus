@@ -62,7 +62,7 @@ opts_knit$set(width=75)
 
 ## Pre-class Preparation - Instructor
 - [ ] Prepare survey and post as Assignment 1
-- [ ] Email students introduction and reminder to fill out survey 
+- [ ] Email students introduction and how to find classroom 
 
 <!-- Hi Everyone, I’m your instructor for "WIS 2323: The Future of Rain Forests". -->
 <!-- This is just a reminder that the first class session is tomorrow (Thursday) from >3:00-3:50 pm in LIT 0237. -->
@@ -80,7 +80,6 @@ opts_knit$set(width=75)
 > - [ ] Name cards & Markers
 > - [ ] Syllabi
 > - [ ] Chocolates
-> - [ ] PDF of class outline
 > - [ ] HW 1 (survey) published 
 
 <!-- **<<Revision for v 2.0: have 1/2 the class do the survey for "tropical rain forest" and the other half do the words that come to mind with "jungle" - would be really interesteing to compare the differences that come to mind, and is a good lead-in to Jungle being defined by the British officers.">>**  -->
@@ -96,7 +95,7 @@ opts_knit$set(width=75)
 
 ## Pre-class Preparation - Students
 
-1. **Assignments:** Complete the survey if they have an opportunity to do so
+1. **Assignments:** None
 2. **Readings & Videos:** None
 
 
@@ -135,7 +134,7 @@ time_remain <- 50 - total_time
 1. **Review the answers**  (*NB: Update numbers [here.](https://www.statista.com/topics/1638/chocolate-industry/#topicOverview)*)
 
 > - Main Ingredient: Cacao
-> - Primary producers 3 countries produce ~66% of world's Cacao; 4 countries produce ~72%
+> - Primary producers 3 countries produce ~60% of world's Cacao; 4 countries produce ~68%
 > - World's leading consumer of cacao products: USA (797,000 tons in 2021).
 
 2. **Why Cacao?** 
