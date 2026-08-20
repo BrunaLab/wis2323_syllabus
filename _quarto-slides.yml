@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: book/slides
+  output-dir: docs/slides
 format:
   revealjs:
     lib-dir: site_libs
