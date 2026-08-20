@@ -1,6 +1,6 @@
 ---
 title: "Course Calendar"
-# format: html
+format: html
 # format: pdf
 # # format: docx
 # execute:

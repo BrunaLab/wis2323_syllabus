@@ -1,5 +1,6 @@
 ---
 title: "Assigned Reading & Viewing"
+# format: html
 format: pdf
 execute:
   echo: false
@@ -8,10 +9,6 @@ execute:
 title-block-style: none
 prefer-html: true
 ---
-
-
-# Reading & Viewing List
-
 
 <!-- ::: {.callout-important}  -->
 
