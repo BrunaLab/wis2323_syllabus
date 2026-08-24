@@ -12,8 +12,11 @@ brazil_loss<- read.csv(here("course_projects","analytical_essay_deforestation","
          loss=umd_tree_cover_loss__ha) %>% 
   mutate('tree_cover_start' = ifelse(year=="2001",brazil_2000[1,2] ,NA)) %>% 
   relocate(tree_cover_start, .after="iso") %>% 
-  mutate(tree_cover_final = tree_cover_start-loss) %>% 
-  relocate(tree_cover_final, .after='loss')  
+  select(-gfw_gross_emissions_co2e_all_gases__Mg) %>% 
+  mutate(tree_cover_start=tree_cover_start/100,
+         loss=loss/100,
+         tree_cover_final = tree_cover_start-loss) %>%
+  relocate(tree_cover_start, .after='year')
 
 for (i in seq(2002,2024)) {
     brazil_loss$tree_cover_start[brazil_loss$year==i]=brazil_loss$tree_cover_final[brazil_loss$year==(i-1)] 
@@ -36,8 +39,11 @@ indonesia_loss<- read.csv(here("course_projects","analytical_essay_deforestation
          loss=umd_tree_cover_loss__ha) %>% 
   mutate('tree_cover_start' = ifelse(year=="2001",indonesia_2000[1,2] ,NA)) %>% 
   relocate(tree_cover_start, .after="iso") %>% 
-  mutate(tree_cover_final = tree_cover_start-loss) %>% 
-  relocate(tree_cover_final, .after='loss')  
+  select(-gfw_gross_emissions_co2e_all_gases__Mg) %>% 
+  mutate(tree_cover_start=tree_cover_start/100,
+         loss=loss/100,
+         tree_cover_final = tree_cover_start-loss) %>%
+  relocate(tree_cover_start, .after='year')
 
 for (i in seq(2002,2024)) {
   indonesia_loss$tree_cover_start[indonesia_loss$year==i]=indonesia_loss$tree_cover_final[indonesia_loss$year==(i-1)] 
@@ -74,8 +80,8 @@ annual_rate_plot<-ggplot(forest_data,
     x = "Year",
     y = "rate (%)")+
   ggtitle("Annual rate of forest loss")+
-  scale_x_continuous(breaks = seq(from = 2002, to = 2022, by = 1))+
-  scale_y_continuous(breaks = seq(from = 0, to = 2.1, by = 0.1), expand = c(0, 0))+
+  scale_x_continuous(breaks = seq(from = 2002, to = 2024, by = 1))+
+  scale_y_continuous(breaks = seq(from = 0, to = 1.1, by = 0.1), expand = c(0, 0))+
   scale_color_manual(values=cols,
                      name="Country",
                      labels = c("IDN" = "Indonesia", 
@@ -97,7 +103,7 @@ annual_rate_plot
 
 
 cols <- c("IDN" = "darkred", "BRA" = "darkblue")
-annual_loss_plot<-ggplot(forest_data, 
+annual_loss_plot1<-ggplot(forest_data, 
                          aes(x=year, 
                              y=loss, 
                              # group=iso, 
@@ -110,51 +116,51 @@ annual_loss_plot<-ggplot(forest_data,
     x = "Year",
     y = "loss (ha)")+
   ggtitle("Annual forest loss")+
-  scale_x_continuous(breaks = seq(from = 2002, to = 2022, by = 1))+
-  scale_y_continuous(breaks = seq(from = 0, to = 3000000, by = 500000), expand = c(0, 0))+
+  scale_x_continuous(breaks = seq(from = 2002, to = 2024, by = 1))+
+  scale_y_continuous(breaks = seq(from = 0, to = 34000, by = 2000), expand = c(0, 0))+
   scale_color_manual(values=cols,
                      name="Country",
                      labels = c("IDN" = "Indonesia", 
                                 "BRA" = "Brazil"))
-annual_loss_plot<-annual_loss_plot + 
+annual_loss_plot1<-annual_loss_plot1 + 
   theme_classic()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   theme(legend.title = element_text(face="bold"))+
   theme(plot.title = element_text(face="bold"))
 # +
 #   theme(legend.position="top")
-annual_loss_plot
+annual_loss_plot1
 
-
-
-
-annual_loss_plot<-ggplot(forest_data, 
-                         aes(x=year, 
-                             y=loss, 
-                             fill=iso
-                         )) +
-  geom_bar(stat="identity", width=.75, position = "dodge")+
-  labs(
-    x = "Year",
-    y = "hectares")+
-  ggtitle("Annual Forest loss, 2001-2021")+
-  scale_x_continuous(breaks = seq(from = 2001, to = 2021, by = 1))+
-  scale_y_continuous(expand = c(0, 0))+
-  scale_fill_manual(values=c("darkred", "darkblue"), 
-                    name="Country",
-                    breaks=c("IDN", "BRA"),
-                    labels=c("Indonesia", "Brazil"))
-  
-  
-annual_loss_plot<-annual_loss_plot + 
-  theme_classic()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  theme(legend.title = element_text(face="bold"))+
-  theme(plot.title = element_text(face="bold"))
-# +
-#   theme(legend.position="top")
-annual_loss_plot
-
+# 
+# 
+# 
+# annual_loss_plot2<-ggplot(forest_data, 
+#                          aes(x=year, 
+#                              y=loss, 
+#                              fill=iso
+#                          )) +
+#   geom_bar(stat="identity", width=.75, position = "dodge")+
+#   labs(
+#     x = "Year",
+#     y = "hectares")+
+#   ggtitle("Annual Forest loss, 2001-2021")+
+#   scale_x_continuous(breaks = seq(from = 2001, to = 2021, by = 1))+
+#   scale_y_continuous(expand = c(0, 0))+
+#   scale_fill_manual(values=c("darkred", "darkblue"), 
+#                     name="Country",
+#                     breaks=c("IDN", "BRA"),
+#                     labels=c("Indonesia", "Brazil"))
+#   
+#   
+# annual_loss_plot2<-annual_loss_plot2 + 
+#   theme_classic()+
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+#   theme(legend.title = element_text(face="bold"))+
+#   theme(plot.title = element_text(face="bold"))
+# # +
+# #   theme(legend.position="top")
+# annual_loss_plot2
+# 
 
 
 # total forest loss -------------------------------------------------------
@@ -197,14 +203,14 @@ total_loss_plot
 
 
 # Step 1: Call the pdf command to start the plot
-pdf(file = "./class_sessions/16_1_climate_change/analytical_essay_deforestation/forest_loss_plots.pdf",   # The directory you want to save the file in
+pdf(file = "./course_projects/analytical_essay_deforestation/forest_loss_plots.pdf",   # The directory you want to save the file in
     width = 5, # The width of the plot in inches
     height = 10) # The height of the plot in inches
 
 # Step 2: Create the plot with R code
 plot_grid(total_loss_plot,
           annual_rate_plot,
-          annual_loss_plot,
+          annual_loss_plot1,
           ncol=1)
 
 
