@@ -5,8 +5,200 @@ library(openxlsx)
 library(googledrive)
 library(here)
 
+
+
+# 2025 --------------------------------------------------------------------
+
+tropes25 <- read_xlsx("tropes_2025.xlsx") %>% 
+  rename(ufid=`Your UFID`,
+         last_name=`your LAST name`) %>% 
+  filter(
+    !(ufid==14507763 & 
+      `For what movie are these data?`=="Aguirre, Wrath of God" & 
+      is.na(`If this is for your choice or the extra credit, enter the name of the movie here`)
+    )) %>% 
+  mutate(movie=coalesce(`If this is for your choice or the extra credit, enter the name of the movie here`,
+                        `For what movie are these data?`)) %>% 
+  relocate(movie,.after=ufid) %>% 
+  select(-`If this is for your choice or the extra credit, enter the name of the movie here`,
+         -`For what movie are these data?`,
+         -Timestamp
+         # -`your LAST name`
+         ) %>% 
+  relocate(ufid,.before=1) %>% 
+  relocate(last_name,.before=1) %>% 
+  rename(cat1=`Which of these tropes related to PLOT & ACTION did you observe?`,
+chase_by_angry_natives= `Chased by Angry Natives`,
+deadly_road_trip= `Deadly Road Trip`,
+chase_with_angry_natives=`Give Chase with Angry Natives`,
+inevitable_waterfall=`Inevitable Waterfall`,
+ridiculously_difficult_route= `Ridiculously Difficult Route`,
+tarantula=`Tarantula on your shoulder`,
+vine_swing=`Vine Swing`,
+cat2=`Which of these tropes related to CHARACTERS did you observe?`,
+bold_explorer= `Bold Explorer`,
+damsel_in_distress= `Damsel in Distress`,
+egomaniac_hunter= `Egomaniac Hunter`,
+evil_colonialist= `Evil Colonialist`,
+evil_poacher= `Evil Poacher`,
+great_white_hunter= `Great White Hunter`,
+hollywood_natives= `Hollywood Natives`,
+jungle_princess= `Jungle Princess`,
+native_guide= `Native Guide`,
+nature_hero= `Nature Hero`,
+noble_savage= `Noble Savage`,
+nubile_savage= `Nubile Savage`,
+science_hero= `Science Hero`,
+tarzan_boy= `Tarzan Boy`,
+chiefs_daughter= `The Chief's Daughter`,
+missionary= `The Missionary`,
+cat3= `Which of these tropes related to COSTUMES did you observe?`,
+Adventurer_Outfit=`Adventurer Outfit`,
+Fur_Bikini=`Fur Bikini`,
+Loincloth=`\nLoincloth`,
+cat4=`Which of these tropes related to FLORA AND FAUNA did you observe?`,
+Angry_Hippos=`Angry, Angry Hippos`,
+Big_CreepyCrawlies=`Big Creepy-Crawlies`,
+Killer_Gorilla=`\nKiller Gorilla`,
+Maniac_Monkeys=`\nManiac Monkeys`,
+MischiefMaking_Monkey=`\nMischief-Making Monkey\n`,
+Sinister_snakes=`Snakes Are Sinister`,
+cat5=`Which of these tropes related to LOCATIONS did you observe?`,
+Banana_Republic=`Banana Republic`,
+Bulungi=`\nBulungi`,
+River_of_Insanity=`\nRiver of Insanity`,
+Temple_Doom=`\nTemple of Doom`,
+Tropical_Island_Adventure=`\nTropical Island Adventure`,
+cat6=`Which of these tropes related to DIALOGUE AND SOUND did you observe?`,
+Everything_wants_to_kill_you=`Everything here wants to kill you\n`,
+Too_Quiet=`It’s Quiet. . . Too Quiet\n`,
+never_alive=`We’re never going to make it (out alive)\n`,
+Jungle_Drums=`Jungle Drums`,
+others=`Did you see any that were't on the list above? You can enter them below!`
+) %>% 
+  mutate(cat1="plot_action") %>% 
+  mutate(cat2="characters") %>% 
+  mutate(cat3="costumes") %>% 
+  mutate(cat4="flora_fauna") %>% 
+  mutate(cat5="locations") %>% 
+  mutate(cat6="dialogue_sound") 
+  
+colnames<-names(tropes25)
+colnames<-tolower(colnames)
+names(tropes25)<-colnames
+
+tropes25<-tropes25 %>% 
+  select(-c(cat1,cat2,cat3,cat4,cat5,cat6)) %>% 
+  pivot_longer(cols=chase_by_angry_natives:others,
+               names_to = "trope", 
+               values_to = "time") %>% 
+  mutate(cat=case_when(
+    trope=="chase_by_angry_natives"~"plot",
+    trope=="deadly_road_trip"~"plot",
+    trope=="chase_with_angry_natives"~"plot",
+    trope=="inevitable_waterfall"~"plot",
+    trope=="ridiculously_difficult_route"~"plot",
+    trope=="tarantula"~"plot",
+    trope=="vine_swing"~"plot",
+    trope=="bold_explorer"~"characters",
+    trope=="damsel_in_distress"~"characters",
+    trope=="egomaniac_hunter"~"characters",
+    trope=="evil_colonialist"~"characters",
+    trope=="evil_poacher"~"characters",
+    trope=="great_white_hunter"~"characters",
+    trope=="hollywood_natives"~"characters",
+    trope=="jungle_princess"~"characters",
+    trope=="native_guide"~"characters",
+    trope=="nature_hero"~"characters",
+    trope=="noble_savage"~"characters",
+    trope=="nubile_savage"~"characters",
+    trope=="science_hero"~"characters",
+    trope=="tarzan_boy"~"characters",
+    trope=="chiefs_daughter"~"characters",
+    trope=="missionary"~"characters",
+    trope=="adventurer_outfit"~"costumes",
+    trope=="fur_bikini"~"costumes",
+    trope=="loincloth"~"costumes",
+    trope=="angry_hippos"~"flora_fauna",
+    trope=="big_creepycrawlies"~"flora_fauna",
+    trope=="killer_gorilla"~"flora_fauna",
+    trope=="maniac_monkeys"~"flora_fauna",
+    trope=="mischiefmaking_monkey"~"flora_fauna",
+    trope=="sinister_snakes"~"flora_fauna",
+    trope=="banana_republic"~"location",
+    trope=="bulungi"~"location",
+    trope=="river_of_insanity"~"location",
+    trope=="temple_doom"~"location",
+    trope=="tropical_island_adventure"~"location",
+    trope=="everything_wants_to_kill_you"~"dialogue_sound",
+    trope=="too_quiet"~"dialogue_sound",
+    trope=="never_alive"~"dialogue_sound",
+    trope=="jungle_drums"~"dialogue_sound",
+    trope=="others"~"dialogue_sound"
+    
+  )) %>% 
+  drop_na(time) %>% 
+  mutate_all(tolower) 
+
+tropes25<-tropes25 %>% 
+  mutate(movie=case_when(
+    movie=="jumaji"~"jumanji",
+    str_detect(movie, "submitted previous form")~"aguirre wrath of god",
+    movie=="jungle book 2016"~"jungle book",
+    movie=="piranhaconda (2012)"~"piranhaconda",
+    movie=="six days, seven nights"~"six days seven nights",
+    movie=="pirahnaconda"~"piranhaconda",
+    movie=="rio 2"~"rio2",
+    movie=="tarzan (animated)"~"tarzan",
+    .default = as.character(movie)
+  )) %>% 
+  mutate(movie=if_else(str_detect(movie,"jumanji"),"jumanji",movie)) %>% 
+  mutate(movie=gsub("the ","",movie)) %>% 
+  mutate(movie=gsub("[,]","",movie)) %>% 
+  mutate(movie=gsub("[:]","",movie))
+  
+no_students_movie<-tropes25 %>% 
+  group_by(movie) %>% 
+  summarize(n_students=n_distinct(ufid)) %>% 
+  arrange(desc(n_students))
+
+trope_count<-tropes25 %>% 
+  group_by(movie,cat,trope) %>% 
+  tally() %>% 
+  arrange(desc(n)) %>% 
+  left_join(no_students_movie,by="movie") %>% 
+  mutate(perc_of_viewers=n/n_students*100)
+
+movies_per_student<-tropes25 %>% 
+  group_by(ufid,last_name) %>% 
+  tally(n_distinct(movie)) %>% 
+  arrange(last_name)
+
+tropes_per_student<-tropes25 %>% 
+  group_by(ufid,last_name) %>% 
+  tally() %>% 
+  rename(total_tropes=n) %>% 
+  left_join(movies_per_student) %>% 
+  rename(movies_watched=n) %>% 
+  mutate(tropes_per_movie=total_tropes/movies_watched)
+  
+
+tropes_per_movie<-tropes25 %>% 
+  group_by(movie,trope) %>% 
+  summarize(n=n_distinct(trope)) %>% 
+  filter(trope!="others") %>% 
+  select(-n) %>% 
+  group_by(movie) %>% 
+  tally() %>% 
+  arrange(desc(n))
+
+hist(tropes_per_student$tropes_per_movie)
+
+
+ 
 # 2023 --------------------------------------------------------------------
 x<-drive_find(n_max = 30)
+drive_find()
 x$id[1]
 
 x$id

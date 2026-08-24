@@ -7,7 +7,7 @@ github: embruna
 twitter: https://twitter.com/BrunaLab
 phone: (352) 514-3935
 email: embruna@ufl.edu
-geometry: margin=1in
+geometry: margin=0.75in
 fontsize: 12pt
 linkcolor: darkmidnightblue
 urlcolor: darkmidnightblue
@@ -59,7 +59,8 @@ library(here)
 
 # movies <- readxl::read_excel("~/Dropbox (UFL)/Teaching/WIS 2323 - Future of Rain Forests/IDS2935_RainForests/class_materials/projects_and_code/movies/movies.xlsx") %>% 
 
-movies <- readxl::read_excel("./course_projects/movie_reviews/movies.xlsx") %>%
+# movies <- readxl::read_excel("./course_projects/movie_reviews/movies.xlsx") %>%
+  movies <- read_csv(here("course_projects","movie_reviews","movies_with_rt_scores.csv")) |> 
   unite("subscription", paramount:apple, remove = TRUE, sep = ",") %>%
   unite("free", kanopy:other_free, remove = TRUE, sep = ",") %>%
   arrange(year,movie) %>%
@@ -68,14 +69,19 @@ movies <- readxl::read_excel("./course_projects/movie_reviews/movies.xlsx") %>%
   select(-cat,
          -Notes) %>% 
   mutate(`Extra Credit` = replace_na(`Extra Credit`,"")) %>% 
-  mutate(`RT Score` = as.character(`RT Score`)) %>% 
-  mutate(`RT Score` = replace_na(`RT Score`,""))
-
+  rename(RT=rotten_tomatoes_score,
+         IMDB=imdb_score,
+         MC=metacritic_score
+         ) |> 
+  replace_na(list(RT = "", IMDB = "",MC="", summary=""))
 
   
 movies$subscription <- gsub("NA,", "", movies$subscription)
 movies$subscription <- gsub(",NA", "", movies$subscription)
 movies$subscription <- gsub(",", ", ", movies$subscription)
+
+movies$IMDB <- gsub("/10", "", movies$IMDB)
+movies$MC <- gsub("/100", "", movies$MC)
 
 
 
@@ -113,7 +119,7 @@ movies$Free <- gsub("Imdb2", "IMDB", movies$Free)
 movies$Paid <- gsub("Hbo", "HBO", movies$Paid)
 
 movies<-movies %>% 
-  arrange(`Extra Cred.`, Year,desc(`RT Score`)) %>% 
+  arrange(`Extra Cred.`, Year,desc(`RT`)) %>% 
   mutate(`ID No.` = row_number(), .before=Title) 
 
 ec_first_row<-movies %>% filter(`Extra Cred.`=="yes") %>% slice_head() %>% select(`ID No.`)
@@ -138,7 +144,7 @@ movies<-movies %>% select(-`Extra Cred.`)
 kable(booktabs = TRUE,
       # movies, "html",
       movies, "latex",
-      align="clcclccc",
+      align="clclccc",
   # caption = "Test",
   longtable = TRUE
 ) %>%
@@ -159,11 +165,14 @@ kable(booktabs = TRUE,
   # pack_rows("Extra Credit", 43, 52, label_row_css = "background-color: #483D8B; color: #fff;") %>%
   column_spec(1, width = "3em") %>%
   column_spec(2, width = "14em") %>%
-  column_spec(3, width = "3em") %>%
-  column_spec(4, width = "4em") %>%
-  column_spec(5, width = "27em") %>%
+  # column_spec(3, width = "3em") %>%
+  column_spec(3, width = "4em") %>%
+  column_spec(4, width = "25em") %>%
+  column_spec(5, width = "5em") %>%
   column_spec(6, width = "5em") %>%
-  column_spec(7, width = "5em") %>%
+  column_spec(7, width = "2em") %>%
+  column_spec(8, width = "2em") %>%
+  column_spec(9, width = "2em") %>%
   # column_spec(8, width = "6em") %>%
   #   # column_spec(4:6, width = "4em") %>%
   # #   column_spec(4, width = "3em")
