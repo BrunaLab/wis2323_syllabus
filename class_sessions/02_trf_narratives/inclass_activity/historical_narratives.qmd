@@ -1,85 +1,82 @@
 ---
-title: 'WIS 2323 - Historical Narratives'
+title: "WIS 2323 - Historical Narratives"
 author: "Emilio M. Bruna"
-date: "`r format(Sys.time(), '%Y')`"
-mainfont: SourceSansPro
+date: last-modified
+date-format: MMMM DD, YYYY
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: darkmidnightblue
 urlcolor: darkmidnightblue
-header-includes:
-- \usepackage{fancyhdr}
-- \pagestyle{fancy}
-- \fancyfoot{}
-- \fancyhead[R]{Historical Narratives, p. \thepage}
-- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
-- \usepackage[default]{sourcesanspro}
-- \usepackage{parskip}
-- \usepackage{xcolor}
-- \AtBeginDocument{\let\maketitle\relax}
-- \usepackage{sectsty} \sectionfont{\centering}
-- \usepackage{titlesec}
-- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
-- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
-- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-# output: 
-#   word_document:
-  # html_document:
-  #   df_print: paged
-output:
-  pdf_document: default
-  # html_document:
-  df_print: paged
-  rmdformats::robobook: default
-editor_options: 
-  markdown: 
-    wrap: 72
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./book")
-  })
+title-block-style: none
+format: 
+#   docx:
+#     reference-doc: ../format/eb_accessible.docx
+  pdf:
+    documentclass: scrreprt
+    papersize: letter
+    colorlinks: true
+    linkcolor: darkmidnightblue
+    # mainfont: "Carlito"
+    # monofont: "Courier New"
+    # pdf-standard: 1.7 
+    # pdf-standard: [a-4f, ua-2]
+    keep-tex: true
+    # first part overides latex inserting page break after each chapter (denoted by #)
+    include-in-header:
+      
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{}
+        \usepackage{datetime2}
+        \fancyfoot[R]{Updated \today}
+        \fancyhead[R]{Historical Narratives, p. \thepage}
+        \fancyhead[L]{WIS 2323 - The Future of Rain Forests}
+        \usepackage[default]{sourcesanspro}
+        \usepackage{parskip}
+        \usepackage{xcolor}
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{titlesec}
+        \usepackage{sectsty} \sectionfont{\centering\color{customcharcoal}}
+        \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+        \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+        \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+        \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+        \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        \definecolor{customcharcoal}{RGB}{86, 86, 86}
+        \setlength{\parindent}{0pt}
 ---
+## Historical Narratives & Travelogues
+\vspace{0.3cm}
 
-<!-- UPDATES TO MAKE: Add links to the public repositories of these texts on google books, etc. so people can find the original texts and images -->
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-<!-- # The Broader Context -->
+### The Broader Context
 
 <!-- \vspace{0.3cm} -->
 
-<!-- ### The King James Bible (Revelations 21:1 & 22:1-2) -->
+**The King James Bible (Revelations 21:1 & 22:1-2)**
 
-<!-- > And I saw a new heaven and a new earth: for the first heaven and the -->
-<!-- > first earth were passed away; and there was no more sea. -->
+> And I saw a new heaven and a new earth: for the first heaven and the
+> first earth were passed away; and there was no more sea.
 
-<!-- > And he shewed me a pure river of water of life, clear as crystal, -->
-<!-- > proceeding out of the throne of God and of the Lamb.In the midst of -->
-<!-- > the street of it, and on either side of the river, was there the tree -->
-<!-- > of life, which bare twelve manner of fruits, and yielded her fruit -->
-<!-- > every month: and the leaves of the tree were for the healing of the -->
-<!-- > nations. -->
-
-# Historical Narratives & Travelogues (Text & Images)
-
-\vspace{0.3cm}
+> And he shewed me a pure river of water of life, clear as crystal,
+> proceeding out of the throne of God and of the Lamb.In the midst of
+> the street of it, and on either side of the river, was there the tree
+> of life, which bare twelve manner of fruits, and yielded her fruit
+> every month: and the leaves of the tree were for the healing of the
+> nations.
 
 --- 
 
-### TEXT 1: Passage from *The Travels of Marco Polo* by Rustichello da Pisa (c. 1300)  
-\vspace{0.2cm}  
+### TEXT 1  
+
+**Excerpts from *The Travels of Marco Polo* by Rustichello da Pisa (c. 1300)^[Read the complete text at Project Gutenberg: [Volume 1](https://www.gutenberg.org/ebooks/10636) & [Volume 2](https://www.gutenberg.org/ebooks/12410)]**
+
 _Marco Polo (September 15, 1254 -- January 8, 1324) was a Venetian merchant who
 traveled through Asia between 1271 and 1295. The published account of his 
 travels gave Europeans their first look into China, Japan, and 
-other parts of Asia._  
+other parts of Asia._   
+
 
 > CHAPTER IX. CONCERNING THE ISLAND OF JAVA THE LESS. THE KINGDOMS OF 
 FERLEC AND BASMA: 
@@ -245,8 +242,12 @@ described, there being many adepts at this craft in the city. -->
 
 --- 
 
-### TEXT 2: Passage from Walter Raleigh's [*"The discovery of the large, rich, and beautiful Empire of Guiana, with a relation of the great and golden city of Manoa (which the Spaniards call El Dorado)"*; written c. 1620.](https://www.gutenberg.org/files/2272/2272-h/2272-h.htm). 
+### TEXT 2
+
+**Excerpt from Walter Raleigh's _The discovery of the large, rich, and beautiful Empire of Guiana, with a relation of the great and golden city of Manoa (which the Spaniards call El Dorado)_ (c. 1620)^[Read the complete text at [Project Gutenberg](www.gutenberg.org/files/2272/2272-h/2272-h.htm)]**  
+
 \vspace{0.2cm}
+
 _Sir Walter Raleigh (c. 1552–1618) was one of the most important 
 figures of the Elizabethan era and played a key role in English 
 colonization of North America._
@@ -290,7 +291,9 @@ regions, and so near the equinoctial line.
 
 --- 
 
-### TEXT 3: Passage from: [*CAPTAIN COOK'S JOURNAL DURING HIS FIRST VOYAGE ROUND THE WORLD MADE IN H.M. BARK "ENDEAVOUR" (1768-71): A Literal Transcription of the Original MSS. with notes and introduction edited by Capt. W.J.L. Wharton, R.N., F.R.S. Hydrographer of the Admiralty.*](https://www.gutenberg.org/files/8106/8106-h/8106-h.htm).
+### TEXT 3
+
+**Excerpt from: *Captain Cook's journal during his first voyage round the world made in H.M. Bark "Endeavour" (1768-71): A Literal Transcription of the Original MSS. with notes and introduction edited by Capt. W.J.L. Wharton, R.N., F.R.S. Hydrographer of the Admiralty. (1893)*^[Read the complete text at [Project Gutenberg](https://www.gutenberg.org/files/8106/8106-h/8106-h.htm)]**  
 
 \vspace{0.2cm}
 
@@ -345,7 +348,10 @@ rapidly disappearing.)
 
 --- 
 
-### TEXT 4: Passage from Henry Morton Stanley's [*Through the Dark Continent Or The Sources of the Nile Around the Great Lakes of Equatorial Africa and Down the Livingstone River to the Atlantic Ocean.*, published 1879.]((https://www.google.com/books/edition/Through_the_Dark_Continent_Or_The_Source/UMHjwSzNAJsC?hl=en&gbpv=1))
+### TEXT 4
+
+**Excerpt from Henry Morton Stanley's *Through the Dark Continent Or The Sources of the Nile Around the Great Lakes of Equatorial Africa and Down the Livingstone River to the Atlantic Ocean.* (1879)^[Read the complete text at [Google Books](https://www.google.com/books/edition/Through_the_Dark_Continent_Or_The_Source/UMHjwSzNAJsC?hl=en&gbpv=1)].** 
+
 \vspace{0.2cm}
 
 _Stanley was a Welsh-American explorer and journalist famous for exploring 
@@ -416,7 +422,7 @@ our sleeping or our waking hours.
 
 <!-- ![Stanley](./texts_images/stanley/stanley4.png){height=50%}   -->
 
-<!-- ### [John Augustine Zahm](https://en.wikipedia.org/wiki/John_Augustine_Zahm)
+<!-- **[John Augustine Zahm](https://en.wikipedia.org/wiki/John_Augustine_Zahm)
 [*Following the Conquistadores: Up the Orinoco and Down the Magdalena*]
 (https://www.google.com/books/edition/Following_the_Conquistadores_Up_the_Orin/J1wzAQAAIAAJ?hl=en&gbpv=1) (1910) -->
 
@@ -527,40 +533,50 @@ Indians." Op. cit. , Vol. I, p. 361 . 117
 
 \newpage
 
-### IMAGE 1: Hans Burgkmair
-\vspace{0.2cm}
+### IMAGE 1
+
+**From Hans Burgkmair's _Set of Exotic Races_ (1508): _Left Side of King Cochin_.
+\vspace{0.2cm}**
 
 _Hans Burgkmair the Elder (1473-1531) was a German painter. The Kingdom of 
 Cochin was a late medieval coastal kingdom in Southern India. King Unni 
 Goda Varma of Cochin welcomed Pedro Álvares Cabral on 24 December 1500 and 
 negotiated a treaty of alliance with Portugal._
 
-```{r Burgkmair, echo=FALSE, fig.cap="\\textit{Left Side of King Cochin} by Hans Burgkmair (from his \\textit{Set of Exotic Races}, 1508)", out.width = '100%', fig.align="center"}
-knitr::include_graphics("./texts_images/paintings/burgkmair.jpeg")
-```
 
-<!-- ![](./texts_images/paintings/burgkmair.jpeg){height=70%} -->
+![_Left Side of King Cochin_ by Hans Burgkmair (from his _Set of Exotic Races_, 1508)](./texts_images/paintings/burgkmair.jpeg){fig-align="center" fig-alt="the engraving 'Left Side of King Cochin' by Hans Burgkmair from his 'Set of Exotic Races', published in 1508"}
+
+
+<!-- `{r Burgkmair, echo=FALSE, fig.cap="\\textit{Left Side of King Cochin} by Hans Burgkmair (from his \\textit{Set of Exotic Races}, 1508)", out.width = '100%', fig.align="center"} -->
+<!-- knitr::include_graphics("./texts_images/paintings/burgkmair.jpeg") -->
+
+
+
 
 \newpage
 
-### IMAGE 2: Theodore de Bry
-\vspace{0.2cm}  
+
+### IMAGE 2
+
+**From Theodor de Bry's _Collected travels in the east Indies and west Indies_ (1594).
+\vspace{0.2cm}**  
 *Theodor de Bry (1528 – 1598) was an engraver, goldsmith, editor and 
 publisher, famous for his depictions of early European expeditions to the 
 Americas. Most of his [illustrations] were based on first-hand observations 
 by explorers, even if De Bry himself, acting as a recorder of information, 
 never visited the Americas.* 
 
-<!-- ![](./texts_images/paintings/debry2.jpeg){height=70%} -->
+![Illustration from Theodor de Bry's _Collected travels in the east Indies and west Indies_, 1594](./texts_images/paintings/debry3.jpeg){fig-align="center" fig-alt="Illustration from Theodor de Bry's _Collected travels in the east Indies and west Indies_, 1594" height=70%} 
 
-```{r deBry, echo=FALSE, fig.cap="Illustration from Theodor de Bry's \\textit{Collected travels in the east Indies and west Indies} (1594).", out.width = '60%', fig.align="center"}
-knitr::include_graphics("./texts_images/paintings/debry3.jpeg")
-```
-<!-- > ![](./texts_images/paintings/debry3.jpeg){width=70%} -->
+
+<!-- ```{r deBry, echo=FALSE, fig.cap="Illustration from Theodor de Bry's \\textit{Collected travels in the east Indies and west Indies} (1594).", out.width = '60%', fig.align="center"} -->
+<!-- knitr::include_graphics("./texts_images/paintings/debry3.jpeg") -->
+<!-- ``` -->
+
 
 
 <!-- \newpage -->
-<!-- ### ITEM 3: General and Natural History of the Indies Gonzalo Fernández de Oviedo y Valdés (1526)   -->
+<!-- **ITEM 3: General and Natural History of the Indies Gonzalo Fernández de Oviedo y Valdés (1526)   -->
 
 <!-- \vspace{0.2cm}  -->
 
@@ -583,7 +599,7 @@ a lack of things to notice to all those who are alive or come after us" -->
 <!-- More on de Bry [here](https://smarthistory.org/engravings-theodore-de-bry/) -->
 
 <!-- \newpage -->
-<!-- ### ITEM 4: Cristóbal de Acuña, [*A relation of the great river of 
+<!-- **ITEM 4: Cristóbal de Acuña, [*A relation of the great river of 
 Amazons in South-America. : Containing all the particulars of Father 
 Christopher d'Acugna's voyage, made at the command of the king of Spain.*]
 (https://www.loc.gov/resource/rbc0001.2019gen09583/?sp=77&clip=135,64,1441,2203&ciw=296&rot=0) (1597). -->
@@ -601,7 +617,7 @@ for the Spanish government. * -->
 [Acuna Text No 5](./texts_images/acuna/acuna4.png){height=70%} -->
 
 
-<!-- ### ITEM 5: Walter Raleigh, [*History of the World*]
+<!-- **ITEM 5: Walter Raleigh, [*History of the World*]
 (https://www.google.com/books/edition/The_history_of_the_world/FwUMAQAAMAAJ?hl=en&gbpv=0) (1614) -->
 
 <!-- > SECT. VIII: Of their opinion that seat paradise under the equinoctial: 
@@ -688,7 +704,7 @@ ABOVE OR DELETE THE ONES BELOW>> -->
 
 
 
-<!-- ### ITEM 6: Text and Images from Prince Maximilian zu Wied's *Travels to Brazil, 1820* -->
+<!-- **ITEM 6: Text and Images from Prince Maximilian zu Wied's *Travels to Brazil, 1820* -->
 <!-- \vspace{0.2cm} -->
 <!-- *Prince Alexander Philipp Maximilian zu Wied-Neuwied (1782–1867) was a
 German explorer and naturalist. From 1815–1817 he led an expedition to the
@@ -720,4 +736,5 @@ large wings down to their shoulders. -->
 <!-- ![A Family of Botocudos on a Journey](./texts_images/paintings/maximillian3.jpeg){height=40%}   -->
 
 <!-- \newpage -->
+
 

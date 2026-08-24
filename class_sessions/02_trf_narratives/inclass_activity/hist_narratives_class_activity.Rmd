@@ -57,6 +57,9 @@ As readers we usually do this *"Text Analysis"* subconsciously, but we can also 
 
 1. Now look at the examples of some of the drawings that were included in these texts. What sentiment do they evoke? Do they reinforce the conclusions drawn from the text? Assign each of these images a score from '-5' (strongly negative) to '+5' (strongly positive).
 
+\vspace{0.3cm}
+
+
 **BRING YOUR ANNOTATED TEXTS TO CLASS**. In class you will have the opportunity to compare your conclusions with those of other students, so _bring your marked texts and come prepared to discuss them with your group._ 
 
 ***Note***: *you can annotate either a paper copy or the pdf, but you may find it easier to discuss with your group if you did the annotations on a printed copy.*
