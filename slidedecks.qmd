@@ -1,0 +1,35 @@
+---
+title: "Class Slides"
+---
+
+
+The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting "PDF Export Mode" under the "Tools" Option.
+
+ 1. [Introduction](slides/01_slides/01_slides_intro.html)  
+ 1. [Data Organization and Backups](slides/02_slides/02_slides_filenames.html)  
+ 1. ['Reproducible' Data Management](slides/04_slides/04_slides_reproducibility.html)   
+ 1. [QA/QC 1 - Error Minimization](slides/05_slides/qaqc_slides_quarto.html) 
+ 1. [Data Management Plans](slides/09_slides/dmp_slides.html)
+ 1. [Efficient Data Collection & Form Design](slides/11_slides/efficient_slides.html) 
+ 1. [Transcription & Translation](slides/12_slides/tt_slides.html) 
+<!-- ::: {.content-visible when-profile="book"} -->
+
+<!-- - <a href="slides/01_slides/01_slides_intro.html">Slides - Introduction</a> -->
+<!-- <div class="slides-embed"> -->
+<!--   <iframe src="slides/01_slides/01_slides_intro.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe> -->
+<!-- </div> -->
+
+
+
+<!-- - <a href="slides/02_slides/02_slides_filenames.html">Slides - File Names</a> -->
+<!-- <div class="slides-embed"> -->
+<!--   <iframe src="slides/02_slides/02_slides_filenames.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe> -->
+<!-- </div> -->
+
+
+<!-- - <a href="slides/04_slides/04_slides_reproducibility.html">Slides - 'Reproducible' Data Management</a> -->
+<!-- <div class="slides-embed"> -->
+<!--   <iframe src="slides/04_slides/04_slides_reproducibility.html" width="100%" height="320" loading="lazy" style="border:1px solid #ddd;border-radius:8px"></iframe> -->
+<!-- </div> -->
+
+<!-- ::: -->

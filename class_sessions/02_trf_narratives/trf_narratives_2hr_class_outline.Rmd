@@ -113,8 +113,14 @@ total_time <-
 
 time_remain <- 130 - total_time
 ```
+
 # Class Outline (Total Time: `r total_time` min)
+
 \vspace{0.5cm}
+
+
+_**Goal:** To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology._
+
 
 ### **Intro: ** (`r Block1_intro` min)   
 
@@ -146,7 +152,7 @@ time_remain <- 130 - total_time
 1. Next time we are going to actually take the texts you read, analyzed, and do something with them.
 <!-- ### Free Time -->
 
-There are `r time_remain` min remaining that can be used to answer questions.
+<!-- There are `r time_remain` min remaining that can be used to answer questions. -->
 
 \vspace{1.5cm}
 
@@ -158,5 +164,10 @@ There are `r time_remain` min remaining that can be used to answer questions.
 1. [The Age of Discovery](https://en.wikipedia.org/wiki/Age_of_Discovery)
 1. [Timeline of European Exploration](https://en.wikipedia.org/wiki/Timeline_of_European_exploration)
 1. [El Dorado](https://en.wikipedia.org/wiki/El_Dorado)
-1. [Antonio de León Pinelo](Antonio de León Pinelo)  and the debate about the location of Eden: [Link_1](https://journals.sagepub.com/doi/abs/10.1177/1474474009350000?journalCode=cgjb), [Link2](http://sergio-vega-art.squarespace.com/introduction), [Link3](https://catedraltomada.pitt.edu/ojs/index.php/catedraltomada/article/view/202)
+1. [Antonio de León Pinelo](Antonio de León Pinelo)  and the debate about the location of Eden 
+(
+[Link 1](https://journals.sagepub.com/doi/abs/10.1177/1474474009350000?journalCode=cgjb),
+[Link 2](http://sergio-vega-art.squarespace.com/introduction),
+[Link 3](https://catedraltomada.pitt.edu/ojs/index.php/catedraltomada/article/view/202)
+)
 
