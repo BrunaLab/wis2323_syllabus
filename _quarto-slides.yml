@@ -1,8 +1,8 @@
 project:
   type: website
-  output-dir: book/slides
+  output-dir: slides
 render:
-  - class_sessions/02_trf_narratives/slides/narratives_slides.qmd
+  - class_sessions/02_trf_narratives/slides/02_narratives.qmd
 format:
   revealjs:
     lib-dir: site_libs
