@@ -1,6 +1,6 @@
 project:
-- type: website # or separate output folder
-  output-dir: _slides
+  type: website
+  output-dir: book/slides
 render:
   - class_sessions/02_trf_narratives/slides/narratives_slides.qmd
 format:
