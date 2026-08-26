@@ -1,0 +1,24 @@
+SHELL := /usr/bin/env bash
+Q      ?= quarto
+BOOK   ?= book
+CHAPTERS = class_sessions/02_trf_narratives/slides/02_narratives.qmd
+SLIDE_HTMLS = $(patsubst %.qmd,$(BOOK)/%_slides.html,$(CHAPTERS))
+
+.PHONY: all book slides clean
+
+all: book slides
+
+book:
+	mkdir -p $(BOOK)
+	$(Q) render --no-clean
+
+slides: $(SLIDE_HTMLS)
+
+$(BOOK)/%_slides.html: %.qmd
+	mkdir -p $(BOOK)
+	# Render slides with profile 'slides'. Quarto puts output into $(BOOK).
+	$(Q) render --profile slides $< -t revealjs
+	@test -f $@ || { echo "Slide deck not found: $@"; exit 1; }
+
+clean:
+	rm -rf $(BOOK)

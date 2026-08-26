@@ -12,7 +12,8 @@ format:
     # reveal-js-url: 
     # theme: white
 # editor: source
-# output-dir: "./static/uploads"
+    output-file: 02_narratives_slides.html
+editor: source
 # output: revealjs::revealjs_presentation
 include-in-header:
       text: |
@@ -31,7 +32,7 @@ include-in-header:
         </style>
 ---
 
-
+::: {.content-visible when-profile="slides"}
 
 
 ---
@@ -528,3 +529,4 @@ SIR WALTER RALEIGH: The discovery of the large, rich, and beautiful Empire of Gu
 
 
 
+:::

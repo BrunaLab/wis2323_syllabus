@@ -1,4 +1,15 @@
-# project:
+project:
+  type: website
+  output-dir: book
+format:
+  revealjs:
+    lib-dir: site_libs
+    slide-number: true
+    hash: true
+    incremental: true
+    mathjax: true
+    
+  # project:
 #   type: website
 #   output-dir: book/slides
 # render:
@@ -10,14 +21,3 @@
 #     hash: true
 #     incremental: true
 #     mathjax: true
-    
-project:
-  type: website
-  output-dir: book/slides
-format:
-  revealjs:
-    lib-dir: site_libs
-    slide-number: true
-    hash: true
-    incremental: true
-    mathjax: true
