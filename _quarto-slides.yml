@@ -1,6 +1,8 @@
 project:
-  type: website
-  output-dir: book/slides
+- type: website # or separate output folder
+  output-dir: _slides
+render:
+  - class_sessions/02_trf_narratives/slides/narratives_slides.qmd
 format:
   revealjs:
     lib-dir: site_libs
@@ -8,3 +10,14 @@ format:
     hash: true
     incremental: true
     mathjax: true
+    
+# project:
+#   type: website
+#   output-dir: book/slides
+# format:
+#   revealjs:
+#     lib-dir: site_libs
+#     slide-number: true
+#     hash: true
+#     incremental: true
+#     mathjax: true
