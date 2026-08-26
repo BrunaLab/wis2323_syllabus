@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: book
+  # post-render: quarto render --profile slides
 css: format/style.css
 
 profile:
