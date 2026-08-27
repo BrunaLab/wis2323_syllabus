@@ -1,45 +1,54 @@
 ---
-title: 'IDS 2935 - Historical Narratives: In-class Activity'
+title: "WIS 2323 - Fine Art"
 author: "Emilio M. Bruna"
-date: "`r format(Sys.time(), '%Y')`"
-mainfont: SourceSansPro
+date: last-modified
+date-format: MMMM DD, YYYY
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: darkmidnightblue
 urlcolor: darkmidnightblue
-header-includes:
-- \usepackage{fancyhdr}
-- \pagestyle{fancy}
-- \fancyfoot{}
-- \fancyhead[R]{In-Class: Paintings, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
-- \usepackage[default]{sourcesanspro}
-- \usepackage{parskip}
-- \usepackage{xcolor}
-- \AtBeginDocument{\let\maketitle\relax}
-- \usepackage{sectsty} \sectionfont{\centering}
-- \usepackage{titlesec}
-- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
-- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
-- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-output: html_document
-# output:
-#   pdf_document: default
-#   html_document:
-#     df_print: paged
-#   rmdformats::robobook: default
-# editor_options: 
-#   markdown: 
-#     wrap: 72
+title-block-style: none
+format:
+   # docx:
+   #   reference-doc: eb_accessible.docx
+  pdf:
+    documentclass: scrreprt
+    papersize: letter
+    colorlinks: true
+    linkcolor: darkmidnightblue
+    # mainfont: "Carlito"
+    # monofont: "Courier New"
+    # pdf-standard: 1.7
+    # pdf-standard: [a-4f, ua-2]
+    keep-tex: true
+    # first part overides latex inserting page break after each chapter (denoted by #)
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{}
+        \usepackage{datetime2}
+        \fancyfoot[R]{Updated \today}
+        \fancyhead[R]{Tropics in 'High' Art and Cultire, p. \thepage}
+        \fancyhead[L]{WIS 2323 - The Future of Rain Forests}
+        \usepackage[default]{sourcesanspro}
+        \usepackage{parskip}
+        \usepackage{xcolor}
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{titlesec}
+        \usepackage{sectsty} \sectionfont{\centering\color{customcharcoal}}
+        \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+        \usepackage{sectsty} \subsubsectionfont{\centering\color{black}}
+        \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+        \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+        \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+        \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        \definecolor{customcharcoal}{RGB}{86, 86, 86}
+        \setlength{\parindent}{0pt}
+  # #       
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## The Depiction of Tropical Rain Forests and People in Art
 \vspace{0.3cm}
@@ -64,8 +73,8 @@ Below are the primary narratives about tropical rain forests we came up with as 
 **Conquerable**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 **Mystical**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 **Dangerous**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**Defenseless**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-**Primitive**  
+<!-- **Defenseless**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- **Primitive**   -->
 
 With your group, identify the paintings or elements of individual paintings that reinforce the theme you've been assigned. Be prepared to share your list with the class and tell us why you assigned particular paintings or images to that theme. I have provided some numbered space for you below; you may not need all of it or you may need more...
 

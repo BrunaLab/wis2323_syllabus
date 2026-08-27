@@ -1,0 +1,4 @@
+project:
+  title: "02_narratives"
+  type: website
+  output-dir: '02_narratives_slides'
