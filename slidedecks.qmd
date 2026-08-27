@@ -6,8 +6,9 @@ title: "Class Slides"
 The following slides are available in HTML format You can export them as PDFs by clicking on the three bars in the bottom left corner and selecting "PDF Export Mode" under the "Tools" Option.
 
  
- 1. [02 - Historical Narratives](slides/02_narratives/02_narratives.html)  
- !-- ::: {.content-visible when-profile="book"} -->
+ 1. [02 - Historical Narratives](slides/02_narratives_slides/02_narratives_slides.html)  
+
+<!-- ::: {.content-visible when-profile="book"} -->
 
 <!-- - <a href="slides/01_slides/01_slides_intro.html">Slides - Introduction</a> -->
 <!-- <div class="slides-embed"> -->
