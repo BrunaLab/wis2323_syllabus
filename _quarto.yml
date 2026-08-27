@@ -37,6 +37,7 @@ book:
     # - syllabus/08-resources.qmd
     - syllabus/09-readings.qmd
     - syllabus/10-slos.qmd
+    - slidedecks.qmd
     # - syllabus/11-posters.qmd
     
     # 
