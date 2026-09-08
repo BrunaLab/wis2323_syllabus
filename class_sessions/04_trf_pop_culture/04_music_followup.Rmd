@@ -1,0 +1,64 @@
+---
+title: 'WIS 2323 - Music - Follow-up'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Music, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+#   html_document:
+#     df_print: paged
+#   rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
+---
+Hi all, a few things for you after our recent pop-culture class:
+
+1. For those that missed the viewing, here is Michael Jackson's ["Earth Song"]((https://www.youtube.com/watch?v=XAi3VTSdTxU) video and his [motivation](https://www.smoothradio.com/features/the-story-of/michael-jackson-earth-song-lyrics-meaning-video/) for recording it.
+
+2. And lest you think I'm picking on MJ, Moby's video for ["My Only Love"](https://www.youtube.com/watch?v=UbsPrMEzfWM) also treats indigenous people - in the few moments they appear - as passive victims with limited agency and in need external help.
+
+I apologize for making you listen to Moby, despite the educational value of making you do so.
+
+3. Finally, here is the ["Quest 2 Jungle Songs" Spotify Playlist](https://open.spotify.com/playlist/4dgqd1wAic4d58ruu4qJSY?si=4a1244b7c2c64910&nd=1), which includes...
+
+["Amazing"](https://www.youtube.com/watch?v=PH4JPgVD2SM), in which Kanye goes to the rain forest of Hawai'i (with Young Jeezy) to remind himself he's amazing (or rather, he's "so amazing, so amazing, so amazing, it's amazing"), and...
+
+...Perhaps the most well-known Jungle song of all time: [Welcome to the Jungle](https://www.youtube.com/watch?v=o1tj2zJ2Wvg) by Guns N Roses. Axl Rose claimed the lyrics "were inspired by an encounter he and a friend had with a homeless man while they were coming out of a bus into New York. Trying to put a scare into the young runaways, the man yelled at them, "You know where you are? You're in the jungle baby; you're gonna die!" "It was a very telling lyric – just the stark honesty of it," said Slash. "If you lived in Los Angeles – and lived in the trenches, so to speak – you could relate to it." ([source](https://en.wikipedia.org/wiki/Welcome_to_the_Jungle#cite_note-Elliott_28-12)).
+
+Sound familiar? Trying to make it as a musician in LA, staring down a monkey trying to steal your sunglasses in a park in Bali...that's the modern-day equivalent of Marlow going up the Congo to find Kurtz in ["Heart of Darkness"](https://en.wikipedia.org/wiki/Heart_of_Darkness), [Francisco de Orellana in 1542](https://www.thoughtco.com/biography-of-francisco-de-orellana-2136568) somehow managing to survive a journey from what is today Peru down the Amazon River all the way to the Atlantic, or ornithologist [Emilie Snethlage](https://en.wikipedia.org/wiki/Emilie_Snethlage) (1868-1929), who in 1919 was on an expedition to collect birds in a remote part of the Amazon for the Museu Paraense Emílio Goeldi and had to _amputate her own finger with her machete_ after a piranha bit her and gangrene started to set in. 
+
+OK maybe not quite the same, but you get the idea. The jungle, urban or otherwise, is where you prove yourself. 
+
+
+EB
+
+
+

@@ -1,0 +1,245 @@
+---
+title: What is a Tropical Rain Forest?
+slide-level: 0 
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+# editor: source
+# output-dir: "./static/uploads"
+# output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+        <style>
+        .v-center-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90%;
+        }
+        </style>
+---
+
+
+
+
+![](05_images/Slide1.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+---
+
+![](05_images/Slide2.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+--- 
+
+![](05_images/Slide3.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+--- 
+
+![](05_images/Slide4.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+
+::: {.notes}
+
+:::
+
+--- 
+
+![](05_images/Slide5.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+--- 
+
+![](05_images/Slide6.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+--- 
+
+![](05_images/Slide7.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+--- 
+
+![](05_images/Slide8.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+![](05_images/Slide9.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+--- 
+
+
+
+![](05_images/Slide10.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+---  
+
+![](05_images/Slide11.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+--- 
+
+![](05_images/Slide12.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+--- 
+
+![](05_images/Slide13.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+![](05_images/Slide14.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+![](05_images/Slide15.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+
+--- 
+
+![](05_images/Slide16.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+
+--- 
+
+![](05_images/Slide17.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+:::
+
+---
+
+
+![](05_images/Slide18.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+![](05_images/Slide19.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+
+
+--- 
+
+
+
+![](05_images/Slide21.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+
+
+![](05_images/Slide22.png){fig-alt="alt text to be filled" fig-align="center" height=500%} 
+
+
+
+::: {.notes}
+
+
+:::
+
+---  
+
+
+
+
+![](05_images/Slide23.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+
+![](05_images/Slide24.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+::: {.notes}
+
+
+:::
+
+--- 
+
+
+![](05_images/Slide25.png){fig-alt="alt text to be filled" fig-align="center" width=100%}
+
+
+::: {.notes}
+
+:::
+
+--- 
