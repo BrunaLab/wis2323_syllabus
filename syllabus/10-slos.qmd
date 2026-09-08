@@ -1,0 +1,63 @@
+---
+# title-block-banner: false
+title-block-style: none
+title: "SLOs"
+# subtitle: "(B = Biological Sciences, Q2 = Quest 2)"
+# date: 09/15/2024
+# date-modified: last-modified
+---
+
+
+# Student Learning Objectives  
+
+## Content {.unnumbered}  
+
+
+***Students demonstrate competence in the terminology, concepts, theories, and methodologies used within the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
+
+(1) Describe the evolutionary and ecological factors underlying the distribution of biodiversity in tropical rain forests. _Assessments:_ In-class activities. (B). 
+
+(2) Distinguish (a) the different ways humans use and alter rain forests, and (b) the social, economic, and biological consequences of these activities. _Assessments:_ In-class activities, Reflective Essay. (B, Q2)  
+
+(3) Explain how genetics, remote sensing, computational tools, and other scientific developments have advanced research on the ecology and evolution of rain forest biota. _Assessments:_ In-class activities, Analytic Essay. (B). 
+
+(4) Examine the historical factors that have shaped cultural perceptions of rain forests. _Assessments:_ In-class activities, Movie Reviews. (Q2).  
+
+(5) Analyze how narratives about rain forests are reflected in different types of contemporary cultural expression. _Assessments:_ In-class activities, Movie Reviews. (Q2).  
+
+(6) Distinguish between the primary drivers of forest loss and how they vary geographically. _Assessments:_ In-class activities, Analytic Essay. (B, Q2)  
+
+(7)  Critique different proposed mechanisms for rain forest conservation. _Assessments:_ In-class activities, Analytic Essay. (B, Q2). 
+
+## Critical Thinking {.unnumbered}  
+
+***Students carefully and logically analyze information from multiple perspectives and develop reasoned solutions to problems within the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
+
+
+(1) Test hypotheses regarding trends in deforestation and how forest regeneration varies geographically with quantitative data on forest cover and use news stories, primary literature, and other sources to propose mechanisms responsible for the patterns observed. _Assessments:_ In-class activities, Analytic Essay  (B, Q2). 
+
+(2) Analyze qualitative data on rural-urban migration and human demographic shifts in tropical countries and assess the potential implications of the results for conservation and broader societal issues. _Assessments:_ In-class activities, Analytic Essay (B, Q2). 
+
+(3) Explain the relationship between deforestation and the global climate cycle. Compare alternative policy pathways for reducing CO2 emissions using the En-ROADS global climate simulator. _Assessments:_ In-class activities, Reflective Essay (B, Q2).
+
+## Communication {.unnumbered}  
+
+***Students communicate knowledge, ideas and reasoning clearly and effectively in written and oral forms appropriate to the discipline(s). (B = Biological Sciences, Q2 = Quest 2)***
+
+(1) Generate graphical analyses of quantitative data used to study rain forest biology and conservation (Q2, B). _Assessments:_ In-class activities, Analytic Essay. 
+
+(2) Compose summaries of  research on multidisciplinary questions relevant to tropical forest biology and conservation based on logical arguments (Q2, B). _Assessments:_ In-class activities, Analytic Essay. 
+
+(3) Develop audience-specific content and materials with which to communicate an important issue related to tropical forest biology and conservation. _Assessments:_ In-class activities,  Reflective Essay, Movie Reviews, Analytic Essay, Final Project (Q2).
+
+## Connection {.unnumbered}  
+
+***Students connect course content with meaningful critical reflection on their intellectual, personal, and professional development at UF and beyond. (B = Biological Sciences, Q2 = Quest 2)***
+
+(1) Examine the cultural, economic, and historical experiences of people in rain forest countries, how this compares with our preconceived notions of the same, and the consequences of this disparity for our scientific understanding of rain forests and their conservation. _Assessments:_ In-class activities, Movie Reviews, Final Project  (Q2). 
+
+(2) Assess the feedbacks between (a) the actions of individuals, governments, and the private sector, (b) global economic, social, and political conditions, and (c) the status rain forests and the global climate cycle. _Assessments:_ In-class activities, Reflective Essay, Analytic Essay (Q2). 
+
+(3) Appraise the ubiquity of tropical forest products in daily life, the role and impact of the global commodity chains that make this possible, and the consequences of consumer behavior for forest conservation and socioeconomic sustainability. _Assessments:_ In-class activities, Final Project (Q2). 
+
+(4) Analyze the local, regional, and global ecosystem services provided by tropical rain forests, how these vary geographically, and some of the cultural and ecological factors responsible for these differences. _Assessments:_ In-class activities, Reflective Essay, Analytic Essay, Final Project (Q2) 

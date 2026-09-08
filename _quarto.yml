@@ -1,0 +1,232 @@
+project:
+  type: book
+  output-dir: docs
+  # post-render: quarto render --profile slides
+css: format/style.css
+
+profile:
+  default: book
+  group:
+    - [book, slides]
+  
+book:
+  output-file: "wis2323-syllabus"
+  title: "Syllabus - WIS 2323"
+  date-format: long
+  search: true
+  image: /images/banner.png
+  # alt-text: "Banner for the syllabus with an image of a primate next to the course name and number."
+  repo-url: https://github.com/BrunaLab/wis2323_syllabus
+  downloads: [pdf, epub]
+  reader-mode: false
+  favicon: images/cover.png
+  page-footer:
+    left: |
+      WIS 2323 The Future of Rain Forests Course Syllabus
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  
+  chapters:
+    - index.qmd
+    - syllabus/02-materials.qmd
+    - syllabus/03-office_hours.qmd
+    - syllabus/04-assignments_grades.qmd
+    - syllabus/05-calendar.qmd
+    - syllabus/06-faq.qmd
+    - syllabus/07-policies.qmd
+    # - syllabus/08-resources.qmd
+    - syllabus/09-readings.qmd
+    - syllabus/10-slos.qmd
+    - slidedecks.qmd
+    # - syllabus/11-posters.qmd
+    
+    # 
+    # - part: "Course Introduction"
+    #   chapters: 
+    #     # - introduction/intro.qmd
+    #     # - introduction/getting_involved.qmd
+    #     # - introduction/Network_Structure.qmd
+    #     # - introduction/data_overview.qmd
+    #     # - introduction/herbvar_products.qmd
+  
+
+    
+# bibliography: HerbVar.bib
+csl: format/ecology.csl
+format:
+  html:
+    toc: false
+    title-block: false
+    # title-block-banner: images/banner.png
+    theme: 
+      - cosmo
+    filters: [format/remove_title.lua]
+  # docx:
+  #   toc: true
+  #   number-sections: true
+  #   highlight-style: github
+  pdf:
+    documentclass: scrbook
+    classoption: ["oneside", "open=any"]
+    cover-image: images/banner.png
+    image-alt: "Banner for the syllabus with an image of a primate next to the course name and number."
+    filters: [format/remove_title.lua]
+    pdf-standard: [a-4f, ua-2]
+    # header-includes: |
+    #   # \titlehead{\includegraphics[height=7in]{images/cover.png}}
+    toc: false
+    toc-depth: 1
+    toc-title: Sections
+    lof: false
+    lot: false
+    titlepage: false
+    title-block-banner: images/banner.png
+    # Numbering
+    number-sections: false
+    # Fonts
+    # fontfamily: libertinus
+    mainfont: "DejaVu Sans"
+    # sansfont: Verdana
+    # monofont: Source Code Pro
+    fontsize: 10pt
+    microtypeoptions: ["final"]
+    # Colors
+    colorlinks: true
+    # Layout
+    geometry:
+      # - margin=0.75in
+      - bindingoffset=0.0in
+      - left=24mm
+      - top=24mm
+      - bottom=24mm
+      - right=24mm
+      # - heightrounded
+      # - footskip=0.475in
+      # - showframe
+    # pagestyle: plain
+    # Rendering
+    keep-tex: true
+    # https://quarto.org/docs/journals/templates.html#template-partials
+    # https://github.com/quarto-dev/quarto-cli/discussions/1941
+    # https://tex.stackexchange.com/questions/209993/how-to-customize-my-titlepage/210280#210280
+    # https://github.com/nmfs-opensci/quarto_titlepages_v1
+    # https://nmfs-opensci.github.io/quarto_titlepages_v1/03-how-to-use.html
+    # https://tex.stackexchange.com/questions/209993/how-to-customize-my-titlepage/210280#210280
+    # https://nrennie.rbind.io/blog/pdf-quarto/making-pretty-pdf-quarto/
+    # https://github.com/nrennie/PrettyPDF
+    papersize: letter
+    # mainfont: "Carlito"
+    # monofont: "Courier New"
+    
+    # first part overides latex inserting page break after each chapter (denoted by #) 
+    in-header: 'format/gt_packages.sty'
+    header-includes:
+      - |
+        \makeatletter
+        \renewcommand{\chapter}{%
+        \global\@topnum\z@
+        \@afterindentfalse
+        \secdef\@chapter\@schapter
+        }
+        \makeatother
+        \AtBeginDocument{\let\maketitle\relax}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyfoot{}
+        \fancyhead[L]{WIS2323 - The Future of Rain Forests}
+        \fancyhead[R]{Syllabus, p. \thepage}
+        \usepackage{datetime2}
+        \fancyfoot[R]{Updated \today}
+        \usepackage{parskip}
+        \usepackage{xcolor}
+        \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+        \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+        \definecolor{customcharcoal}{RGB}{86, 86, 86}
+        \usepackage{sectsty}\chapterfont{\centering\color{customcharcoal}}
+        \usepackage{sectsty}\sectionfont{\color{darkmidnightblue}}
+        \usepackage{sectsty}\subsectionfont{\color{customcharcoal}}
+        \usepackage{sectsty}\subsubsectionfont{\raggedright\color{customcharcoal}}
+        \usepackage{caption}
+        \captionsetup[table]{labelformat=empty}
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \usepackage{xcolor}
+        \usepackage{sectsty}
+        \usepackage{pifont}
+        \usepackage{wasysym}
+        \usepackage{fontawesome5}
+        \usepackage{etoolbox}    
+        
+# \usepackage{caption}  
+        # \captionsetup[table]{labelformat=empty}
+        # \usepackage{float}
+        # \floatplacement{table}{H}
+        # \usepackage{xcolor}
+        # \usepackage{sectsty}
+        # \definecolor{customnavy}{RGB}{0, 0, 128}
+        # \definecolor{customcharcoal}{RGB}{54, 69, 79}
+        # \sectionfont{\color{customnavy}}
+        # \subsectionfont{\color{customnavy}}   
+        # \subsubsectionfont{\color{customcharcoal}}   
+        # \usepackage{amssymb}
+        # \usepackage{pifont}
+        # \usepackage{wasysym}
+        # \usepackage{fontawesome5}
+        # \usepackage{etoolbox}
+        # % Completely remove page breaks for chapters
+        # \makeatletter
+        # % Patch KOMA-Script chapter commands
+        # \renewcommand*{\chapterpagestyle}{plain}
+        # \patchcmd{\scr@startchapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+        # \patchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}
+        # \patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}
+        # % Patch standard LaTeX chapter commands as backup
+        # \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+        # \patchcmd{\chapter}{\clearpage}{}{}{}
+        # % Redefine chapter entirely to remove page breaks
+        # \renewcommand\chapter{%
+        #   \global\@topnum\z@
+        #   \@afterindentfalse
+        #   \secdef\@chapter\@schapter
+        # }
+        # \makeatother
+        # % Adjust spacing for continuous flow
+        # \usepackage{titlesec}
+        # \titleformat{\chapter}[block]
+        #   {\normalfont\Large\bfseries\color{customnavy}}
+        #   {}
+        #   {0pt}
+        #   {}
+        # \titlespacing*{\chapter}{0pt}{20pt}{10pt}
+        # \titleformat{\section}
+        #   {\normalfont\large\bfseries\centering\color{customnavy}}
+        #   {}
+        #   {0pt}
+        #   {}
+        # \titlespacing*{\section}{0pt}{0pt}{0pt}
+        # \titlespacing*{\subsection}{0pt}{0pt}{0pt}
+        # \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+        # % Force no page breaks before chapters
+        # \let\cleardoublepage\relax
+        # \let\clearpage\relax
+        # \AtBeginDocument{\let\clearpage\relax\let\cleardoublepage\relax}
+    # the previous three lines let a new chapter start on the same page as the ending chapter
+    
+      # - macros.tex
+    # include-in-header: 
+    #  - "format/PrettyPDF.tex"
+    # include-before-body:
+    #  - "format/pagestyle.tex
+    #   - "format/_titlepage.tex" 
+          
+      
+  epub:
+      epub-cover-image: images/cover.png
+
+# pdf-engine: xelatex
+# see fpr engine-opt: https://stackoverflow.com/questions/74261557/quarto-rendering-pdf-running-xelatex-faster-in-rstudio    
+editor: source
+
+execute:
+  # freeze: auto
+  freeze: false

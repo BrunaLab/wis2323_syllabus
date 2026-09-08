@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.RData
+.httr-oauth
+.DS_Store
+/.quarto/
+.DS_Store
+schedule_original.csv
+original_class_webpage
+to_delete-class_sessions
+**/*.quarto_ipynb
+.positai
