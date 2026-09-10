@@ -1,0 +1,149 @@
+---
+title: "TRF Culture"
+author: "Emilio M. Bruna"
+date: "8/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Sports
+
+### NFL
+1. [Cincinnati Bengals](https://en.wikipedia.org/wiki/Cincinnati_Bengals)
+2. [Jacksonville Jaguars](https://en.wikipedia.org/wiki/Jacksonville_Jaguars)
+3. [Carolina Panthers](https://en.wikipedia.org/wiki/Carolina_Panthers)
+
+### NHL
+1. [Nashville Predators](https://en.wikipedia.org/wiki/Nashville_Predators)
+2. [Arizona Coyotes](https://en.wikipedia.org/wiki/Coyote)
+
+### MLS
+1. [Vancouver Whitecaps](https://www.whitecapsfc.com/news/get-know-spike) (Mascot: Belted Kingfisher)
+
+### NBA
+1. [New Orleans Pelicans](https://en.wikipedia.org/wiki/New_Orleans_Pelicans)
+
+### NCAA
+1. University of South Dakota Coyotes
+1. Auburn Tigers
+1. Clemson Tigers
+1. Univ. of Memphis Tigers
+1. Univ. of Missouri Tigers
+1. Univ. of the Pacific Tigers
+1. Princeton University Tigers
+1. Towson University Tigers
+1. Grambling State University Tigers
+1. Jackson State University Tigers
+1. Louisiana State University Tigers
+1. Tennessee State University Tigers
+1. Texas Southern University Tigers
+1. UC Irvine Anteaters
+1. Idaho State Bengals
+1. Indiana University – Purdue University Indianapolis (IUPUI) Jaguars
+1. University South Alabama Jaguars
+1. Southern University Jaguars
+1. Lafayette College Leopards
+1. Eastern Illinois University Panthers
+1. Florida International University Panthers
+1. Georgia State University Panthers
+1. High Point University Panthers
+1. University of Northern Iowa Panthers
+1. University of Pittsburgh Panthers
+1. University of Wisconsin–Milwaukee	Milwaukee Panthers
+1. Prairie View A&M University Panthers
+1. Florida Gators(?)
+
+### Liga MX
+1. UNAM Pumas (goooooya!)
+2. UANL Tigres
+
+# Company Names, Logos, or Products
+
+1. Crocs
+1. Banana Republic
+1. Kipling
+1. Lacoste
+1. Jaguar
+1. Lotus
+1. Tiger Balm
+1. Puma
+1. Bacardi
+1. Slazenger
+1. Ecko Unlimited
+1. NBC
+1. [Gorilla](https://www.gorillatough.com/) 
+1. MailChimp
+1. Amazon
+1. Tony the Tiger
+1. Dodge Viper
+1. Porsche Cayman
+1. Shelby Cobra
+1. Geico Gecko
+
+
+# Fashion
+1. Alligators and Crocodilians
+2. Pythons
+3. Peacocks
+4. Egrets
+5. [Giselle Bundchen](https://www.vogue.com/article/gisele-bundchen-vogue-cover-july-2018-issue)
+6. [Hermes](https://www.bragmybag.com/hermes-spring-summer-2014-ad-campaign-featuring-the-maxibox-bag/)
+7. [Vera Wang](https://www.trendhunter.com/trends/vera-wang-fall-2013-campaign)
+8. [Gucci (in Sri Lanka)](https://making-pictures.com/news/sole-magazine-gucci/)
+9. [American Vogue](https://models.com/work/american-vogue-welcome-to-the-jungle/502015)
+10. [Vogue Spain](https://anneofcarversville.com/style-photos/2019/7/25/mayowa-nicholas-txema-yeste-vogue-spain-august)
+11. [Animal Prints](https://editorialist.com/fashion/animal-prints/)
+12. [Evolution of Leopard Print](https://www.harpersbazaar.com/fashion/trends/g5971/leopard-print-style-evolution/)
+13. [compare this to painted faces PNG](https://vmagazine.com/article/jungle-beat-2/)
+14. [Balenciaga Tank Top](https://poshmark.com/listing/BALENCIAGA-JUNGLE-TANK-2003-60b27b2d284e995628195ab6)
+15. [Gucci Print Dress](https://www.therealreal.com/products/women/clothing/dresses/gucci-2019-long-dress-w-tags-a1hns?sid=pxogmz&utm_source=Google&utm_medium=shopping&cvosrc=cse.google.google&cvo_crid=453344066284&gclid=Cj0KCQjwsZKJBhC0ARIsAJ96n3W_UbZlj_WU4O0TgShudvZQtHXAzUPXWgbm9sSbhVVo36LjGrc1licaApXwEALw_wcB)
+16. [Cara Cara Dress with cacao](https://www.bergdorfgoodman.com/p/cara-cara-sydney-floral-print-off-the-shoulder-midi-dress-prod164100138)
+17. [Jason Wu 2021 NY Fashion Week](https://www.youtube.com/watch?v=l2mfOEIYioU) 
+18. [Victoria Rivera Cape](https://victoriarivera.gt/producto/quetzal-cape/) and [the Inspiration](https://en.wikipedia.org/wiki/Montezuma%27s_headdress#/media/File:Feather_headdress_Moctezuma_II.JPG) for it
+19. [Eduardian Bird Hat](https://commons.wikimedia.org/wiki/File:Edwardian_bird_hat_-_Pacific_Grove_Museum_of_Natural_History_-_DSC06608.JPG) and [Story to Assign](https://thesocietypages.org/socimages/2014/12/27/how-the-bird-hat-craze-almost-killed-the-dinosaurs/)
+20. Collections of [Tropical Fashion](https://www.trendhunter.com/slideshow/calescent-tropical-fashions)
+21. High end male [fashion shoot in the jungle](https://fashionablymale.net/2019/03/21/jungle-at-vogue-hommes-ss19-by-ethan-james-green/)
+22. Women in the [jungle photo shoot](https://fashioneditorials.com/vogue-brazil-may-2017-josephine-skriver-by-giampaolo-sgura/)
+23. Another one with a [completely different tone](http://www.mikaeljansson.com/album/vogue-paris-may-2019/18628/)
+24. [beauty brands taking action for the amazon](https://www.vogue.com/article/beauty-brands-taking-action-for-the-amazon)
+25. [To Circulate](https://www.cnn.com/style/article/india-photography-19th-century/index.html) 
+26. [To read](https://www.smithsonianmag.com/history/migratory-bird-act-anniversary-keeping-feathers-off-hats-180969077/)
+27. [HOW FASHION BRINGS AWARENESS TO ENDANGERED SPECIES](http://www.drsharondeem.com/blog//how-fashion-brings-awareness-to-endangered-species)
+28. [Biodiversity: The next frontier in sustainable fashion](https://www.mckinsey.com/industries/retail/our-insights/biodiversity-the-next-frontier-in-sustainable-fashion)
+29. [Banning exotic leather in fashion hurts snakes and crocodiles in the long run](https://theconversation.com/banning-exotic-leather-in-fashion-hurts-snakes-and-crocodiles-in-the-long-run-114173)
+30. [vogue brazil](https://vogue.globo.com/moda/noticia/2020/09/vogue-hope-esperanca-esta-na-preservacao-das-florestas-e-de-quem-vive-nelas.html)
+31. [check this out!](https://cases.open.ubc.ca/alligator-skin-handbags/)
+32. [CASE STUDIES!](https://cases.open.ubc.ca/case-studies/)
+33. [Cochnial insects](https://en.wikipedia.org/wiki/Cochineal)
+34. [BBC Article on Cochineal](https://www.bbc.com/culture/article/20180202-the-insect-that-painted-europe-red )
+35. [Vogue - indigenous activists](https://www.vogue.com/article/indigenous-activists-amazon)
+
+## TV
+
+Dora the Explorer / Go Diego Go
+Lost
+
+## Movies
+
+[The Telegraph: Who was Carmen Miranda?](https://www.telegraph.co.uk/technology/0/carmen-miranda-did-famous-headwear-come/ )
+
+## Video Games 
+
+[Jungle Hunt](https://en.wikipedia.org/wiki/Jungle_Hunt)
+
+## Music
+
+Musical Artists - Jungle [Spotify]()https://open.spotify.com/search/jungle/artists)  
+Tracks - Jungle [Spotify](https://open.spotify.com/search/jungle/tracks)  
+Tracks: Jaguar [Spotify](https://open.spotify.com/search/jaguar)  
+[HuffPo: Why Sting And I Set Up The Rainforest Foundation Fund](https://www.huffpost.com/entry/why-sting-and-i-set-up-th_b_98252)  
+
+## Comics 
+
+[Tin-Tin in the Congo](https://en.wikipedia.org/wiki/Tintin_in_the_Congo#/media/File:Angry_King_in_Tintin.JPG)  
+[The Guardian From She to Sheena: can modern audiences ignore the jungle queen's racist roots?](https://www.theguardian.com/books/2017/jul/06/she-sheena-jungle-queens-enduring-ambiguous-allure-h-rider-haggard)  
+[Exploring the Hidden Racist Past of the Looney Tunes](https://www.vulture.com/2014/09/exploring-the-hidden-racist-past-of-the-looney-toons.html)  
+[A Good Little Monkey: Curious George’s Undercurrent of White Dominance and the Series’ Continued Popularity](https://www.bu.edu/writingprogram/journal/past-issues/issue-7/terhune/)  

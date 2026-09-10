@@ -1,0 +1,143 @@
+---
+title: "Quiz Score Tracker"
+format: dashboard
+    
+server: shiny
+---
+
+```{r}
+#| context: setup
+library(ggplot2)
+library(shiny)
+
+
+
+Groups <- c("Group 1", "Group 2", "Group 3", "Group 4", "Group 5","Group 6", "Group 7", "Group 8", "Group 9", "Group 10", "Group 11", "Group 12")
+n_questions <- 15
+max_points_per_question <- 10
+scores_file <- "quiz_scores.csv"
+```
+
+```{r}
+#| panel: sidebar
+
+uiOutput("question_label")
+
+lapply(Groups, function(s) {
+  numericInput(
+    inputId = paste0("score_", gsub(" ", "_", s)),
+    label = s,
+    value = 0,
+    min = 0,
+    max = max_points_per_question
+  )
+})
+
+actionButton("submit_question", "Submit Question", class = "btn-primary")
+actionButton("reset", "Reset All", class = "btn-danger")
+uiOutput("progress_text")
+```
+
+```{r}
+#| panel: fill
+
+plotOutput("score_plot")
+tableOutput("score_table")
+```
+
+```{r}
+#| context: server
+
+current_q <- reactiveVal({
+  if (file.exists(scores_file)) {
+    mat <- as.matrix(read.csv(scores_file, row.names = 1))
+    answered <- which(apply(mat, 2, function(col) any(col != 0)))
+    if (length(answered) == 0) 1 else max(answered) + 1
+  } else { 1 }
+})
+
+scores <- reactiveVal({
+  if (file.exists(scores_file)) {
+    mat <- as.matrix(read.csv(scores_file, row.names = 1))
+    colnames(mat) <- paste0("Q", 1:n_questions)
+    mat
+  } else {
+    mat <- matrix(0, nrow = length(Groups), ncol = n_questions)
+    rownames(mat) <- Groups
+    colnames(mat) <- paste0("Q", 1:n_questions)
+    mat
+  }
+})
+
+output$question_label <- renderUI({
+  if (current_q() <= n_questions)
+    h4(paste("Enter points for Question", current_q()))
+  else
+    h4("All questions complete!")
+})
+
+output$progress_text <- renderUI({
+  q <- current_q()
+  if (q <= n_questions) {
+    tagList(
+      p(paste("Question", q, "of", n_questions)),
+      div(style = "background:#ddd; border-radius:4px;",
+        div(style = paste0("width:", round((q-1)/n_questions*100), "%;",
+          "background:#0021A5; height:12px; border-radius:4px;"))
+      )
+    )
+  } else {
+    p(strong("Quiz complete! 🎉"), style = "color:green;")
+  }
+})
+
+observeEvent(input$submit_question, {
+  q <- current_q()
+  if (q > n_questions) return()
+  mat <- scores()
+  for (s in Groups) {
+    id <- paste0("score_", gsub(" ", "_", s))
+    mat[s, q] <- input[[id]]
+  }
+  scores(mat)
+  write.csv(mat, scores_file)
+  for (s in Groups) {
+    updateNumericInput(session, paste0("score_", gsub(" ", "_", s)), value = 0)
+  }
+  current_q(q + 1)
+})
+
+observeEvent(input$reset, {
+  mat <- matrix(0, nrow = length(Groups), ncol = n_questions)
+  rownames(mat) <- Groups
+  colnames(mat) <- paste0("Q", 1:n_questions)
+  scores(mat)
+  current_q(1)
+  if (file.exists(scores_file)) file.remove(scores_file)
+  for (s in Groups) {
+    updateNumericInput(session, paste0("score_", gsub(" ", "_", s)), value = 0)
+  }
+})
+
+output$score_plot <- renderPlot({
+  mat <- scores()
+  df <- data.frame(Group = Groups, Total = rowSums(mat))
+  ggplot(df, aes(x = Group, y = Total, fill = Group)) +
+    geom_bar(stat = "identity", show.legend = FALSE) +
+    geom_text(aes(label = Total), vjust = -0.5, size = 5) +
+    ylim(0, n_questions * max_points_per_question * 1.1) +
+    labs(title = paste("Scores after", max(0, current_q()-1), "of", n_questions, "questions"),
+         x = NULL, y = "Total Points") +
+    scale_fill_brewer(palette = "Set2") +
+    theme_minimal(base_size = 14)
+})
+
+output$score_table <- renderTable({
+  mat <- scores()
+  df <- as.data.frame(mat)
+  colnames(df) <- paste0("Q", 1:n_questions)
+  df$Total <- rowSums(mat)
+  df$Group <- Groups
+  df[, c("Group", paste0("Q", 1:n_questions), "Total")]
+})
+```

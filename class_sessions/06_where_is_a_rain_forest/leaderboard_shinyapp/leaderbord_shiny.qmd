@@ -1,0 +1,83 @@
+---
+title: "WIS 2323 TRIVIA"
+author: ""
+format: 
+  dashboard:
+    theme: lux
+    orientation: columns
+    # logo: images/penguins.png
+    # nav-buttons: 
+    #   - github: github
+    #     href: https://github.com/HerbVar-Network
+    output-dir: docs
+---
+
+```{r}
+
+# library(readr)
+library(tidyverse)
+library(here)
+library(forcats)
+# library(fontawesome)
+# library(kableExtra)
+# to get the URL that goes below click the "raw" button on the github page for the csv file
+
+
+
+```
+## Column {width=100%}
+
+
+```{r scoreboard} 
+#| content: valuebox
+#| title: "Leaderboard"
+#| fig-width: 8
+#| fig-height: 4
+# 
+# trivia_data<-read_csv("./class_sessions/06_where_is_a_rain_forest/leaderboard_shinyapp/data/total_points.csv") %>%
+# mutate(teamID=paste(team_name," (gp",group_no,")",sep= "")) %>% 
+#     # arrange(desc(total_points)) %>% 
+#   # slice_head(n=15) %>% 
+#   mutate(teamID = fct_reorder(teamID, total_points))
+
+
+
+trivia_data<-read_csv("data/total_points.csv") %>% 
+  mutate(teamID=paste(team_name," (gp",group_no,")",sep= "")) %>% 
+    # arrange(desc(total_points)) %>% 
+  # slice_head(n=15) %>% 
+  mutate(total_points=sum(c(q1:bonus))) %>% 
+  mutate(teamID = fct_reorder(teamID, total_points)) 
+
+# Reorder following the value of another column:
+trivia_data %>%
+  ggplot( aes(x=teamID, y=total_points)) +
+    geom_bar(stat="identity", fill="darkgreen", alpha=.6, width=.8) +
+  geom_text(aes(label= total_points), position=position_dodge(width=6), hjust=-0.5,vjust=0.5)+
+  scale_y_continuous(n.breaks = 20, limits = c(0, 100))+
+  coord_flip() +
+    xlab("") +
+    ylab("Points") +
+    theme_bw()
+    
+```
+<!-- ## Column {width=20%} -->
+<!-- ```{r 'top-team'}  -->
+<!-- #| content: valuebox -->
+<!-- #| title: "TOP TEAM" -->
+
+
+<!-- top_team<-trivia_data %>%  -->
+<!-- filter(total_points==max(total_points)) %>%  -->
+<!-- select(TEAM=teamID,POINTS=total_points) -->
+
+<!-- top_team %>%  -->
+<!--   kbl("html") %>% -->
+<!--   kable_styling(font_size=30) %>%  -->
+<!--   column_spec(1:2,bold=TRUE) -->
+
+
+
+<!-- ``` -->
+
+
